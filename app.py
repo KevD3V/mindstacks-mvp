@@ -2,66 +2,84 @@ import streamlit as st
 import pandas as pd
 import os
 
-# --- ► LEVEL SELECTOR (Subject → Chapter → Optional Sub-topic) ---
+# ─── Sidebar: Deck Selection & Email Signup ────────────────────
+
 BASE = "decks"
 
-# 1️⃣ Subject
-subjects = [d for d in os.listdir(BASE) if os.path.isdir(os.path.join(BASE, d))]
-subject = st.sidebar.selectbox("Subject", subjects, key="sel_subject")
+# 1️⃣ Subject picker (only subjects with at least one CSV anywhere below)
+def subject_has_decks(subject):
+    path = os.path.join(BASE, subject)
+    # any CSV at root?
+    if any(f.lower().endswith(".csv") for f in os.listdir(path)):
+        return True
+    # any CSV in subfolders?
+    for sub in os.listdir(path):
+        subp = os.path.join(path, sub)
+        if os.path.isdir(subp) and any(f.lower().endswith(".csv") for f in os.listdir(subp)):
+            return True
+    return False
 
+subjects = sorted(
+    s for s in os.listdir(BASE)
+    if os.path.isdir(os.path.join(BASE, s)) and subject_has_decks(s)
+)
+subject = st.sidebar.selectbox("Subject", subjects, key="sel_subject")
 subject_path = os.path.join(BASE, subject)
 
-# 2️⃣ Chapters & Subfolders
-flat_chapters = [f for f in os.listdir(subject_path)
-                 if f.lower().endswith(".csv")]
-subfolders     = [d for d in os.listdir(subject_path)
-                  if os.path.isdir(os.path.join(subject_path, d))]
-
-chapter_choice = st.sidebar.selectbox(
-    "Chapter",
-    flat_chapters + subfolders,
-    key="sel_chapter"
+# 2️⃣ Chapter picker (only CSVs and non-empty subfolders)
+flat_chapters = sorted(
+    f for f in os.listdir(subject_path)
+    if f.lower().endswith(".csv")
 )
+subfolders = sorted(
+    d for d in os.listdir(subject_path)
+    if os.path.isdir(os.path.join(subject_path, d))
+    and any(f.lower().endswith(".csv") for f in os.listdir(os.path.join(subject_path, d)))
+)
+chapter_options = flat_chapters + subfolders
+chapter = st.sidebar.selectbox("Chapter", chapter_options, key="sel_chapter")
 
-# 3️⃣ Drill-down into subfolder if chosen
-if chapter_choice.lower().endswith(".csv"):
+# 3️⃣ Sub-topic picker
+if chapter.lower().endswith(".csv"):
     deck_folder = subject_path
-    deck_files  = [chapter_choice]
+    deck_files = [chapter]
 else:
-    deck_folder = os.path.join(subject_path, chapter_choice)
-    deck_files  = [f for f in os.listdir(deck_folder)
-                   if f.lower().endswith(".csv")]
+    deck_folder = os.path.join(subject_path, chapter)
+    deck_files = sorted(
+        f for f in os.listdir(deck_folder)
+        if f.lower().endswith(".csv")
+    )
 
-#  ◼ Guard against empty folder
+# Guard against totally empty deck folder (shouldn't happen now)
 if not deck_files:
-    st.sidebar.error(f"No .csv decks found under:\n  {deck_folder}")
+    st.sidebar.error(f"No .csv files under:\n  {deck_folder}")
     st.stop()
 
-# 4️⃣ Optional sub-topic picker
-if len(deck_files) > 1:
-    deck_file = st.sidebar.selectbox("Sub-topic (optional)", deck_files, key="sel_subtopic")
-else:
-    deck_file = deck_files[0]
+subtopic = st.sidebar.selectbox("Sub-topic (optional)", deck_files, key="sel_subtopic")
+deck_path = os.path.join(deck_folder, subtopic)
 
-# Build the full path
-deck_path = os.path.join(deck_folder, deck_file)
-
-# --- ► RESET STATE ON DECK CHANGE --------------------------------
+# ─── Reset flashcard state on deck change ──────────────────────
 prev = st.session_state.get("current_deck", None)
 if prev != deck_path:
-    # User picked a new deck – reset flashcard state
     st.session_state.idx = 0
     st.session_state.show_answer = False
     st.session_state.current_deck = deck_path
 
-# --- Load deck -------------------------------------------------
-df = pd.read_csv(deck_path)
+# 4️⃣ Email capture form
+with st.sidebar.form("email_signup", clear_on_submit=True):
+    st.markdown("### 📬 Join the MindStacks List")
+    email = st.text_input("Enter your email to get new decks:")
+    if st.form_submit_button("Sign Up"):
+        with open("emails.csv", "a") as f:
+            f.write(email.strip() + "\n")
+        st.success("Thanks! We'll send you new decks soon.")
 
-# --- Initialize other session state if missing ----------------
+# ─── Load deck & init state ────────────────────────────────────
+df = pd.read_csv(deck_path)
 st.session_state.setdefault("idx", 0)
 st.session_state.setdefault("show_answer", False)
 
-# --- Buttons & logic ------------------------------------------
+# ─── Flashcard Controls & Logic ────────────────────────────────
 col1, col2 = st.columns(2)
 with col1:
     if st.button("Show Answer", key="show_btn"):
@@ -71,36 +89,20 @@ with col2:
         st.session_state.idx = (st.session_state.idx + 1) % len(df)
         st.session_state.show_answer = False
 
-# --- Display card ------------------------------------------------
+# ─── Render the Flashcard ──────────────────────────────────────
 card = df.iloc[st.session_state.idx]
 st.title("MindStacks MVP")
-st.subheader(f"Deck: {deck_file.replace('_',' ').rsplit('.',1)[0].title()}")
+deck_title = subtopic.replace("_", " ").rsplit(".", 1)[0].title()
+st.subheader(f"{subject} → {chapter.replace('_',' ').title()} → {deck_title}")
 
 st.markdown(f"**Q:** {card.Q}")
 if st.session_state.show_answer:
     st.markdown(f"**A:** {card.A}")
     rating = st.radio(
         "How well did you recall this card?",
-        options=[0,1,2,3,4,5],
+        options=[0, 1, 2, 3, 4, 5],
         index=3,
         horizontal=True,
         key="rating_widget"
     )
     st.write(f"Your rating: **{rating}**")
-
-
-
-# --- Email Signup Form (Sidebar) -----------------------------
-with st.sidebar.form("email_signup", clear_on_submit=True):
-    st.markdown("### 📬 Join the MindStacks List")
-    email = st.text_input("Enter your email to get new decks:")
-    submitted = st.form_submit_button("Sign Up")
-    if submitted:
-        # Append to local file (will create if missing)
-        with open("emails.csv", "a") as f:
-            f.write(email.strip() + "\n")
-        st.success("Thanks! We'll send you new decks soon.")
-
-
-
-### This is a test comment f
