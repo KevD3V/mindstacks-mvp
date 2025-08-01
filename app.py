@@ -1,6 +1,20 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 import os
+
+
+# ─── Sidebar Branding ────────────────────────────────────────────
+logo_path = os.path.join("assets", "card_back.png")  # ensure this points to your saved icon
+logo = Image.open(logo_path)
+st.sidebar.image(logo, use_container_width=True)
+
+# Tagline under the logo
+st.sidebar.markdown("### MindStacks")
+st.sidebar.markdown("#### Solve the Stack, Master Your Mind")
+st.sidebar.write("---")  # horizontal divider
+
+
 
 # ─── Sidebar: Deck Selection & Email Signup ────────────────────
 
