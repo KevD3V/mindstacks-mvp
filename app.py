@@ -4,6 +4,14 @@ from PIL import Image
 import os
 
 
+
+# Simple password check—set SECRET in Streamlit secrets  
+if st.sidebar.text_input("Admin password:", type="password") == st.secrets["ADMIN_PW"]:
+    st.sidebar.markdown("#### 📧 Subscribers")
+    df = pd.read_csv("emails.csv", header=None, names=["Email"])
+    st.sidebar.dataframe(df)
+
+
 # ─── Sidebar Branding ────────────────────────────────────────────
 logo_path = os.path.join("assets", "card_back.png")  # ensure this points to your saved icon
 logo = Image.open(logo_path)
