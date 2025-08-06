@@ -5,13 +5,15 @@ import os
 # test comment from mobile. 
 
 
-
-
-# Simple password check—set SECRET in Streamlit secrets  
-if st.sidebar.text_input("Admin password:", type="password") == st.secrets["ADMIN_PW"]:
+admin_pw_input = st.sidebar.text_input(
+    "Admin password:", 
+    type="password",
+    key="admin_pw"
+)
+if admin_pw_input and admin_pw_input == st.secrets["ADMIN_PW"]:
     st.sidebar.markdown("#### 📧 Subscribers")
-    df = pd.read_csv("emails.csv", header=None, names=["Email"])
-    st.sidebar.dataframe(df)
+    df_emails = pd.read_csv("emails.csv", header=None, names=["Email"])
+    st.sidebar.dataframe(df_emails)
 
 
 # ─── Sidebar Branding ────────────────────────────────────────────
