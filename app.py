@@ -2,43 +2,22 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import os
-# test comment from mobile. 
-
-
-admin_pw_input = st.sidebar.text_input(
-    "Admin password:", 
-    type="password",
-    key="admin_pw"
-)
-if admin_pw_input and admin_pw_input == st.secrets["ADMIN_PW"]:
-    st.sidebar.markdown("#### 📧 Subscribers")
-    df_emails = pd.read_csv("emails.csv", header=None, names=["Email"])
-    st.sidebar.dataframe(df_emails)
-
+import random
 
 # ─── Sidebar Branding ────────────────────────────────────────────
-logo_path = os.path.join("assets", "card_back.png")  # ensure this points to your saved icon
+logo_path = os.path.join("assets", "card_back.png")
 logo = Image.open(logo_path)
 st.sidebar.image(logo, use_container_width=True)
-
-# Tagline under the logo
 st.sidebar.markdown("### MindStacks")
 st.sidebar.markdown("#### Solve the Stack, Master Your Mind")
-st.sidebar.write("---")  # horizontal divider
-
-
+st.sidebar.write("---")
 
 # ─── Sidebar: Deck Selection & Email Signup ────────────────────
-
 BASE = "decks"
-
-# 1️⃣ Subject picker (only subjects with at least one CSV anywhere below)
 def subject_has_decks(subject):
     path = os.path.join(BASE, subject)
-    # any CSV at root?
     if any(f.lower().endswith(".csv") for f in os.listdir(path)):
         return True
-    # any CSV in subfolders?
     for sub in os.listdir(path):
         subp = os.path.join(path, sub)
         if os.path.isdir(subp) and any(f.lower().endswith(".csv") for f in os.listdir(subp)):
@@ -52,7 +31,6 @@ subjects = sorted(
 subject = st.sidebar.selectbox("Subject", subjects, key="sel_subject")
 subject_path = os.path.join(BASE, subject)
 
-# 2️⃣ Chapter picker (only CSVs and non-empty subfolders)
 flat_chapters = sorted(
     f for f in os.listdir(subject_path)
     if f.lower().endswith(".csv")
@@ -62,21 +40,15 @@ subfolders = sorted(
     if os.path.isdir(os.path.join(subject_path, d))
     and any(f.lower().endswith(".csv") for f in os.listdir(os.path.join(subject_path, d)))
 )
-chapter_options = flat_chapters + subfolders
-chapter = st.sidebar.selectbox("Chapter", chapter_options, key="sel_chapter")
+chapter = st.sidebar.selectbox("Chapter", flat_chapters + subfolders, key="sel_chapter")
 
-# 3️⃣ Sub-topic picker
 if chapter.lower().endswith(".csv"):
     deck_folder = subject_path
     deck_files = [chapter]
 else:
     deck_folder = os.path.join(subject_path, chapter)
-    deck_files = sorted(
-        f for f in os.listdir(deck_folder)
-        if f.lower().endswith(".csv")
-    )
+    deck_files = sorted(f for f in os.listdir(deck_folder) if f.lower().endswith(".csv"))
 
-# Guard against totally empty deck folder (shouldn't happen now)
 if not deck_files:
     st.sidebar.error(f"No .csv files under:\n  {deck_folder}")
     st.stop()
@@ -84,12 +56,13 @@ if not deck_files:
 subtopic = st.sidebar.selectbox("Sub-topic (optional)", deck_files, key="sel_subtopic")
 deck_path = os.path.join(deck_folder, subtopic)
 
-# ─── Reset flashcard state on deck change ──────────────────────
-prev = st.session_state.get("current_deck", None)
-if prev != deck_path:
+# ─── Reset state on deck change ─────────────────────────────────
+if st.session_state.get("current_deck") != deck_path:
+    st.session_state.current_deck = deck_path
     st.session_state.idx = 0
     st.session_state.show_answer = False
-    st.session_state.current_deck = deck_path
+    st.session_state.submitted = False
+    st.session_state.shuffled_map = {}
 
 # 4️⃣ Email capture form
 with st.sidebar.form("email_signup", clear_on_submit=True):
@@ -100,35 +73,78 @@ with st.sidebar.form("email_signup", clear_on_submit=True):
             f.write(email.strip() + "\n")
         st.success("Thanks! We'll send you new decks soon.")
 
-# ─── Load deck & init state ────────────────────────────────────
+# ─── Load deck & initialize session state ──────────────────────
 df = pd.read_csv(deck_path)
 st.session_state.setdefault("idx", 0)
 st.session_state.setdefault("show_answer", False)
+st.session_state.setdefault("submitted", False)
+st.session_state.setdefault("shuffled_map", {})
 
-# ─── Flashcard Controls & Logic ────────────────────────────────
-col1, col2 = st.columns(2)
-with col1:
-    if st.button("Show Answer", key="show_btn"):
-        st.session_state.show_answer = True
-with col2:
-    if st.button("Next Card", key="next_btn"):
-        st.session_state.idx = (st.session_state.idx + 1) % len(df)
-        st.session_state.show_answer = False
+# ─── Callback definitions ──────────────────────────────────────
+def next_card():
+    st.session_state.idx = (st.session_state.idx + 1) % len(df)
+    st.session_state.show_answer = False
+    st.session_state.submitted = False
 
-# ─── Render the Flashcard ──────────────────────────────────────
+def reveal_answer():
+    st.session_state.show_answer = True
+
+def submit_mcq():
+    st.session_state.submitted = True
+
+# ─── Render the Header & Deck Title ────────────────────────────
 card = df.iloc[st.session_state.idx]
 st.title("MindStacks MVP")
 deck_title = subtopic.replace("_", " ").rsplit(".", 1)[0].title()
 st.subheader(f"{subject} → {chapter.replace('_',' ').title()} → {deck_title}")
 
-st.markdown(f"**Q:** {card.Q}")
-if st.session_state.show_answer:
-    st.markdown(f"**A:** {card.A}")
-    rating = st.radio(
-        "How well did you recall this card?",
-        options=[0, 1, 2, 3, 4, 5],
-        index=3,
-        horizontal=True,
-        key="rating_widget"
-    )
-    st.write(f"Your rating: **{rating}**")
+# ─── Detect MCQ vs. Open Flashcard ──────────────────────────────
+is_mcq = all(col in df.columns for col in ["Option1","Option2","Option3","Option4","Correct"])
+
+if is_mcq:
+    # Prepare MCQ options and shuffle if needed
+    orig_opts = [card[f"Option{i}"] for i in range(1,5)]
+    correct_orig = int(card["Correct"]) - 1
+    idx = st.session_state.idx
+
+    if idx not in st.session_state.shuffled_map:
+        opts_with_idx = list(enumerate(orig_opts))
+        random.shuffle(opts_with_idx)
+        st.session_state.shuffled_map[idx] = opts_with_idx
+    opts_with_idx = st.session_state.shuffled_map[idx]
+    opts = [opt for (_,opt) in opts_with_idx]
+    correct_new = next(i for i,(orig_i,_) in enumerate(opts_with_idx) if orig_i==correct_orig)
+
+    # MCQ UI
+    st.markdown(f"**Q:** {card.Q}")
+    choice = st.radio("Choose one:", opts, key=f"mcq_choice_{idx}")
+
+    st.button("Submit Answer", on_click=submit_mcq, key=f"submit_{idx}")
+    if st.session_state.submitted:
+        if choice == opts[correct_new]:
+            st.success("✅ Correct!")
+        else:
+            st.error(f"❌ Incorrect. Right answer: **{opts[correct_new]}**.")
+
+    st.button("Next Card", on_click=next_card, key=f"next_{idx}")
+
+else:
+    # Open‐ended flashcard UI
+    st.markdown(f"**Q:** {card.Q}")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.button("Show Answer", on_click=reveal_answer, key="show_btn")
+    with col2:
+        st.button("Next Card", on_click=next_card, key="next_btn")
+
+    if st.session_state.show_answer:
+        st.markdown(f"**A:** {card.A}")
+        rating = st.radio(
+            "How well did you recall this card?",
+            options=[0,1,2,3,4,5],
+            index=3,
+            horizontal=True,
+            key="rating_widget"
+        )
+        st.write(f"Your rating: **{rating}**")
