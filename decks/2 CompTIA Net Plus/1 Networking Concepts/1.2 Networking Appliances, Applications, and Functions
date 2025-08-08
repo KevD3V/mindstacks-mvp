@@ -1,0 +1,16 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which device forwards packets between networks based on logical addressing?","Switch","Router","Firewall","Access Point",2
+"Which device connects multiple devices within a LAN using MAC addresses?","Router","Firewall","Switch","Proxy",3
+"Which device filters traffic based on security rules and can block unauthorized access?","Firewall","Load Balancer","Router","NAS",1
+"Which system monitors network traffic for malicious activity but does not block it?","IPS","IDS","Proxy","QoS",2
+"Which system can actively stop malicious traffic as it is detected?","IDS","NAS","IPS","QoS",3
+"Which device distributes client requests across multiple servers for performance and reliability?","Proxy","Load Balancer","Firewall","Switch",2
+"Which device intermediates client requests, providing caching and content filtering?","Proxy","Load Balancer","Router","Firewall",1
+"Which storage solution provides file-level access to data over a network?","SAN","NAS","QoS","CDN",2
+"Which storage solution provides block-level access for high-performance storage needs?","NAS","SAN","CDN","QoS",2
+"Which device allows wireless devices to connect to a wired network at Layer 2?","Router","Switch","Access Point","Firewall",3
+"Which device centrally manages and monitors multiple wireless access points?","NAS","Wireless LAN Controller","QoS","IDS",2
+"Which system distributes content from servers located worldwide to improve delivery speed?","QoS","CDN","SAN","Proxy",2
+"Which function creates secure, encrypted connections over public networks?","QoS","VPN","CDN","TTL",2
+"Which function prioritizes certain types of traffic to ensure performance?","QoS","TTL","VPN","CDN",1
+"What does TTL in networking control?","Traffic encryption","Packet lifetime","Traffic prioritization","Data compression",2
