@@ -1,16 +1,19 @@
 Q,Option1,Option2,Option3,Option4,Correct
-"Which device forwards packets between networks based on logical addressing?","Switch","Router","Firewall","Access Point",2
-"Which device connects multiple devices within a LAN using MAC addresses?","Router","Firewall","Switch","Proxy",3
-"Which device filters traffic based on security rules and can block unauthorized access?","Firewall","Load Balancer","Router","NAS",1
-"Which system monitors network traffic for malicious activity but does not block it?","IPS","IDS","Proxy","QoS",2
-"Which system can actively stop malicious traffic as it is detected?","IDS","NAS","IPS","QoS",3
-"Which device distributes client requests across multiple servers for performance and reliability?","Proxy","Load Balancer","Firewall","Switch",2
-"Which device intermediates client requests, providing caching and content filtering?","Proxy","Load Balancer","Router","Firewall",1
-"Which storage solution provides file-level access to data over a network?","SAN","NAS","QoS","CDN",2
-"Which storage solution provides block-level access for high-performance storage needs?","NAS","SAN","CDN","QoS",2
-"Which device allows wireless devices to connect to a wired network at Layer 2?","Router","Switch","Access Point","Firewall",3
-"Which device centrally manages and monitors multiple wireless access points?","NAS","Wireless LAN Controller","QoS","IDS",2
-"Which system distributes content from servers located worldwide to improve delivery speed?","QoS","CDN","SAN","Proxy",2
-"Which function creates secure, encrypted connections over public networks?","QoS","VPN","CDN","TTL",2
-"Which function prioritizes certain types of traffic to ensure performance?","QoS","TTL","VPN","CDN",1
-"What does TTL in networking control?","Traffic encryption","Packet lifetime","Traffic prioritization","Data compression",2
+"What is the primary role of a router in a network?","To forward data between different networks based on logical addresses","To broadcast all network traffic to every connected device","To store and retrieve files","To convert digital signals to analog",1
+"What is a network switch?","A device that connects devices within a network and forwards traffic based on physical hardware addresses","A device that provides internet access over phone lines","A device that encrypts data for security","A server that stores domain name records",1
+"What is the main difference between a router and a switch?","A router connects different networks, while a switch connects devices within the same network","A router forwards frames, while a switch forwards packets","A router is wireless, while a switch is always wired","A router always includes a modem, while a switch does not",1
+"What is a firewall in networking?","A device or software that monitors and filters network traffic based on security rules","A device that stores encryption keys","A tool for assigning IP addresses","A device for converting fiber optic signals to copper",1
+"What is an intrusion detection system?","A system that monitors network traffic for suspicious activity and alerts administrators","A device that physically blocks network cables","A method of encrypting email messages","A tool for balancing network traffic across servers",1
+"What is an intrusion prevention system?","A system that monitors network traffic for suspicious activity and automatically blocks or stops the threat","A type of load balancer","A wireless access point","A system that stores logs of all network activity",1
+"What is the difference between intrusion detection and intrusion prevention?","Detection alerts administrators but does not block traffic; prevention can block malicious traffic automatically","Detection is hardware, prevention is software","Detection works only on wired networks, prevention works only on wireless","Detection is slower than prevention",1
+"What is the role of a load balancer?","To distribute network or application traffic across multiple servers to improve performance and reliability","To encrypt network traffic","To convert copper signals to fiber","To store files for a network",1
+"What is a proxy in networking?","A device or server that acts as an intermediary between a client and the internet, often for filtering, security, or caching","A device that converts IPv4 addresses to IPv6","A switch that stores MAC addresses","A firewall that blocks all incoming traffic",1
+"What is network-attached storage?","A storage device that connects to a network and provides file-level access to multiple users","A dedicated device for converting network media","A backup power supply for network devices","A system that assigns IP addresses automatically",1
+"What is a storage area network?","A specialized high-speed network that provides block-level storage to servers","A network used for delivering video content","A system for monitoring intrusion attempts","A network dedicated to wireless connections",1
+"What is the main difference between network-attached storage and a storage area network?","NAS provides file-level access over a standard network; SAN provides block-level access over a dedicated high-speed network","NAS is always wireless, SAN is always wired","NAS is for backups only, SAN is for active storage","NAS uses fiber, SAN uses copper",1
+"What is a wireless access point?","A device that allows wireless devices to connect to a wired network","A device that converts analog signals to digital","A type of firewall","A server that provides IP addresses",1
+"What is a wireless controller?","A device that manages and configures multiple wireless access points in a network","A device that balances network traffic","A type of load balancer","A device for detecting intrusions",1
+"What is a content delivery network?","A system of distributed servers that delivers content to users based on geographic location to improve speed and availability","A private network used for internal communications","A high-speed storage network","A load balancer for email servers",1
+"What is a virtual private network?","A secure connection over a public network that encrypts data between the client and the destination","A physical network segment isolated from others","A network for delivering video content","A backup network connection",1
+"What is quality of service in networking?","The ability to prioritize certain types of network traffic to ensure performance for critical applications","The process of encrypting network data","The conversion of network protocols","The blocking of malicious IP addresses",1
+"What is time to live in networking?","A value in a packet's header that limits how many hops it can take before being discarded","The time it takes for a packet to travel from source to destination","The maximum duration of a TCP connection","The lifespan of a network cable",1
