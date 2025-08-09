@@ -1,6 +1,0 @@
-Q,Option1,Option2,Option3,Option4,Correct
-"What OSI layer deals with routing?","Data Link","Network","Transport","Application",2
-"Which protocol is connectionless?","TCP","UDP","HTTP","SSH",2
-"SSL/TLS operates at which layer?","Transport","Session","Presentation","Application",3
-"What is the port number for HTTPS?","80","21","443","25",3
-"Which layer provides end-to-end error recovery?","Data Link","Network","Transport","Physical",3
