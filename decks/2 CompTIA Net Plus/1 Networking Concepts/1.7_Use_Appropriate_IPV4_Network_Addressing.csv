@@ -1,0 +1,32 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is Automatic Private IP Addressing (APIPA)?","A feature that assigns an IP in the 169.254.x.x range when DHCP is unavailable","A method of assigning static IP addresses","A reserved address range for multicast traffic","An IPv6 automatic configuration feature",1
+"What is the address range used by APIPA?","169.254.0.0 to 169.254.255.255","192.168.0.0 to 192.168.255.255","10.0.0.0 to 10.255.255.255","172.16.0.0 to 172.31.255.255",1
+"What is RFC1918?","The standard that defines private IPv4 address ranges","A protocol for assigning multicast addresses","The document that defines IPv6 addressing","A routing protocol specification",1
+"Which IPv4 Class A range is reserved for private networks under RFC1918?","10.0.0.0 to 10.255.255.255","172.16.0.0 to 172.31.255.255","192.168.0.0 to 192.168.255.255","169.254.0.0 to 169.254.255.255",1
+"Which IPv4 Class B range is reserved for private networks under RFC1918?","172.16.0.0 to 172.31.255.255","10.0.0.0 to 10.255.255.255","192.168.0.0 to 192.168.255.255","169.254.0.0 to 169.254.255.255",1
+"Which IPv4 Class C range is reserved for private networks under RFC1918?","192.168.0.0 to 192.168.255.255","172.16.0.0 to 172.31.255.255","10.0.0.0 to 10.255.255.255","169.254.0.0 to 169.254.255.255",1
+"What is a loopback address used for?","Testing the local network interface","Routing traffic between networks","Connecting two devices directly","Broadcasting to all devices on a subnet",1
+"What is the IPv4 loopback address range?","127.0.0.0 to 127.255.255.255","169.254.0.0 to 169.254.255.255","192.168.0.0 to 192.168.255.255","172.16.0.0 to 172.31.255.255",1
+"What is the primary IPv4 loopback address?","127.0.0.1","192.168.1.1","10.0.0.1","0.0.0.0",1
+"What does Variable Length Subnet Masking (VLSM) allow?","Creating subnets of different sizes from the same network","Assigning only one subnet size per network","Automatically configuring IP addresses","Using only private IP ranges",1
+"What is the main advantage of VLSM?","Efficient IP address usage by customizing subnet sizes","Always faster than fixed-length subnetting","Works only with IPv6","It eliminates routing tables",1
+"What is Classless Inter-Domain Routing (CIDR)?","An addressing method that uses prefixes to replace traditional classes","A protocol for assigning multicast addresses","A method for assigning static IPs","A VPN encryption standard",1
+"What is the benefit of CIDR over classful addressing?","Allows more flexible subnetting and aggregation of routes","Always increases available IP addresses","Requires no subnet masks","Eliminates routing protocols",1
+"Which class is intended for very large networks with up to 16 million hosts?","Class A","Class B","Class C","Class D",1
+"Which class is intended for medium-sized networks with up to 65,534 hosts?","Class B","Class A","Class C","Class D",1
+"Which class is intended for small networks with up to 254 hosts?","Class C","Class B","Class A","Class E",1
+"Which class is reserved for multicast traffic?","Class D","Class C","Class E","Class B",1
+"Which class is reserved for experimental use?","Class E","Class D","Class C","Class A",1
+"Which class range includes 192.0.0.0 to 223.255.255.255?","Class C","Class B","Class D","Class E",1
+"Which class range includes 128.0.0.0 to 191.255.255.255?","Class B","Class A","Class C","Class E",1
+"Which class range includes 224.0.0.0 to 239.255.255.255?","Class D","Class C","Class E","Class A",1
+"A small office wants to set up a network with fewer than 200 devices using private IPs. Which range fits best?","192.168.0.0 to 192.168.255.255","172.16.0.0 to 172.31.255.255","10.0.0.0 to 10.255.255.255","169.254.0.0 to 169.254.255.255",1
+"A corporation with multiple departments wants a private IP range for 10,000 devices. Which RFC1918 range fits best?","172.16.0.0 to 172.31.255.255","192.168.0.0 to 192.168.255.255","10.0.0.0 to 10.255.255.255","169.254.0.0 to 169.254.255.255",1
+"A home user configures an IP address 192.168.1.50/24. What type of IP is this?","Private IPv4 address","Public IPv4 address","Loopback address","APIPA address",1
+"An IP of 169.254.12.5 was assigned. What does this indicate?","The device could not contact a DHCP server","It is a loopback address","It is a public IP","It is a multicast address",1
+"A server is assigned 127.0.0.1. What is this used for?","Testing TCP/IP on the local machine","Communicating with other devices","Broadcasting to all devices","Providing DHCP services",1
+"Which method uses prefix notation like /24 instead of class labels?","CIDR","VLSM","APIPA","RFC1918",1
+"An engineer designs a network using 10.0.0.0/8, 172.16.0.0/16, and 192.168.0.0/24 for different departments. What is this an example of?","VLSM","CIDR","Public addressing","Loopback usage",1
+"In CIDR notation, what does /16 mean?","The subnet mask has 16 bits set to 1","The network has 16 hosts","The network uses Class C","The network uses APIPA",1
+"Which addressing method is most efficient for allocating IPs to subnets of varying sizes?","VLSM","CIDR","Static addressing","APIPA",1
+"An organization uses 192.0.2.0/24 for testing. What is this range considered?","Publicly routable but reserved for documentation","Private","Loopback","APIPA",1
