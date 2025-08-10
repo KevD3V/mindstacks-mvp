@@ -1,0 +1,62 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the primary function of File Transfer Protocol (FTP)?","To transfer files between systems over a network","To send email","To resolve domain names","To provide remote desktop access",1
+"Which ports does FTP commonly use?","20 for data, 21 for control","22 for secure file transfer","25 for email","53 for DNS",1
+"What is the primary function of Secure File Transfer Protocol (SFTP)?","To securely transfer files over SSH","To send encrypted email","To manage DNS records","To synchronize time",1
+"Which port does SFTP use?","22","21","443","80",1
+"What is the function of Secure Shell (SSH)?","To securely access and manage devices over an encrypted connection","To send web traffic securely","To transfer files without encryption","To monitor network traffic",1
+"Which port does SSH use?","22","23","443","80",1
+"What is Telnet used for?","To remotely access devices using plaintext communication","To send encrypted email","To transfer files securely","To stream media",1
+"Which port does Telnet use?","23","22","25","443",1
+"What is Simple Mail Transfer Protocol (SMTP) used for?","To send email between servers","To retrieve email from a server","To encrypt email","To transfer files",1
+"Which port does SMTP use?","25","110","443","53",1
+"What is the function of the Domain Name System (DNS)?","To resolve human-readable names into IP addresses","To encrypt data","To transfer files","To authenticate users",1
+"Which port does DNS use?","53","80","25","22",1
+"What does Dynamic Host Configuration Protocol (DHCP) do?","Automatically assigns IP addresses to devices","Resolves domain names","Sends email","Encrypts network traffic",1
+"Which ports does DHCP use?","67 for server, 68 for client","53 for DNS","80 for HTTP","443 for HTTPS",1
+"What is Trivial File Transfer Protocol (TFTP) used for?","To transfer small files with minimal overhead","To send encrypted emails","To manage databases","To stream video",1
+"Which port does TFTP use?","69","21","443","53",1
+"What is Hypertext Transfer Protocol (HTTP) used for?","To transfer web pages over the internet","To securely connect to devices","To send email","To manage networks",1
+"Which port does HTTP use?","80","443","8080","53",1
+"What is Network Time Protocol (NTP) used for?","To synchronize clocks between devices","To manage DNS","To send email","To compress files",1
+"Which port does NTP use?","123","443","25","110",1
+"What is Simple Network Management Protocol (SNMP) used for?","To monitor and manage network devices","To transfer files","To send email","To resolve domain names",1
+"Which ports does SNMP use?","161 for queries, 162 for traps","80 and 443","25 and 110","67 and 68",1
+"What is Lightweight Directory Access Protocol (LDAP) used for?","To access and manage directory information","To encrypt traffic","To send email","To sync time",1
+"Which port does LDAP use?","389","443","25","53",1
+"What is HTTPS used for?","To transfer web pages securely with encryption","To monitor devices","To send files without encryption","To manage IP addresses",1
+"Which port does HTTPS use?","443","80","53","22",1
+"What is Server Message Block (SMB) used for?","To provide shared access to files, printers, and serial ports","To send email","To monitor devices","To resolve names",1
+"Which port does SMB use?","445","80","443","53",1
+"What is Syslog used for?","To send log messages to a central server","To transfer small files","To send email","To synchronize time",1
+"Which port does Syslog use by default?","UDP 514","TCP 23","UDP 69","UDP 123",1
+"What is Secure SMTP (SMTPS) used for?","To send email securely with encryption","To send unencrypted email","To transfer files","To manage DNS",1
+"Which port does SMTPS use?","587","25","443","53",1
+"What is LDAP Secure (LDAPS) used for?","To encrypt LDAP traffic using SSL/TLS","To manage networks","To send secure email","To transfer files",1
+"Which port does LDAPS use?","636","389","443","53",1
+"What is SQL Server protocol used for?","To communicate with Microsoft SQL Server databases","To transfer files","To send email","To sync time",1
+"Which port does SQL Server use?","1433","80","443","53",1
+"What is Remote Desktop Protocol (RDP) used for?","To remotely control a computer with a graphical interface","To manage databases","To send email","To transfer files",1
+"Which port does RDP use?","3389","80","443","23",1
+"What is Session Initiation Protocol (SIP) used for?","To initiate and manage real-time communications like VoIP","To send email","To transfer files","To manage DNS",1
+"Which ports does SIP use?","5060 for unencrypted, 5061 for encrypted","25 for email","53 for DNS","443 for HTTPS",1
+"What is Internet Control Message Protocol (ICMP) used for?","To send error messages and operational information in IP networks","To send files","To send email","To assign IPs",1
+"Does ICMP use ports?","No, it operates at the network layer","Yes, port 80","Yes, port 443","Yes, port 53",1
+"What is Transmission Control Protocol (TCP)?","A connection-oriented protocol that ensures reliable data delivery","A protocol for sending email","A method for name resolution","A type of encryption",1
+"What is User Datagram Protocol (UDP)?","A connectionless protocol that prioritizes speed over reliability","A protocol for managing directories","A type of encryption","A protocol for sending email",1
+"What is Generic Routing Encapsulation (GRE) used for?","To encapsulate a variety of network layer protocols","To encrypt web traffic","To send secure email","To sync clocks",1
+"What is Internet Protocol Security (IPSec) used for?","To secure IP communications through authentication and encryption","To assign IP addresses","To manage DNS","To send log files",1
+"What is the function of Authentication Header (AH) in IPSec?","To provide integrity and authentication of IP packets","To encrypt payloads","To compress files","To resolve names",1
+"What is the function of Encapsulating Security Payload (ESP) in IPSec?","To provide confidentiality, authentication, and integrity by encrypting payloads","To assign IPs","To send DNS queries","To route packets",1
+"What is the role of Internet Key Exchange (IKE) in IPSec?","To negotiate and establish secure communication channels","To send email","To assign IPs","To monitor devices",1
+"What is unicast traffic?","Traffic sent from one sender to one receiver","Traffic sent from one sender to all devices","Traffic sent from one sender to multiple specific devices","Traffic sent to the nearest device",1
+"What is multicast traffic?","Traffic sent from one sender to multiple specific receivers","Traffic sent to all devices","Traffic sent to the nearest device","Traffic sent between two devices",1
+"What is anycast traffic?","Traffic sent from one sender to the nearest receiver in a group","Traffic sent to all devices","Traffic sent to multiple devices","Traffic sent to one device only",1
+"What is broadcast traffic?","Traffic sent from one sender to all devices on a network segment","Traffic sent from one sender to one device","Traffic sent to multiple devices","Traffic sent to the nearest receiver",1
+"Which protocol would you use to manage a switch securely?","Secure Shell","Telnet","HTTP","FTP",1
+"Which protocol should be avoided for remote management due to lack of encryption?","Telnet","Secure Shell","HTTPS","SFTP",1
+"Which two protocols can be used to transfer files?","FTP and SFTP","HTTP and HTTPS","SMTP and SMTPS","SNMP and NTP",1
+"Which protocol is most appropriate for sending email securely?","SMTPS","FTP","HTTP","SFTP",1
+"Which two traffic types are most efficient for sending data to multiple receivers without sending a copy to each individually?","Multicast and Anycast","Broadcast and Unicast","Unicast and Multicast","Broadcast and Anycast",1
+"A company needs to synchronize its server clocks across the network. Which protocol should they use?","Network Time Protocol","Simple Network Management Protocol","Internet Control Message Protocol","Simple Mail Transfer Protocol",1
+"Which transport protocol is used by HTTP, HTTPS, and FTP?","Transmission Control Protocol","User Datagram Protocol","Generic Routing Encapsulation","Internet Control Message Protocol",1
+"A video streaming service prioritizes speed over reliability. Which transport protocol should they use?","User Datagram Protocol","Transmission Control Protocol","Internet Protocol Security","Generic Routing Encapsulation",1
