@@ -1,0 +1,46 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the IEEE standard for wireless local area networks?","802.11","802.3","802.15","802.16",1
+"Which 802.11 standard operates only on the 2.4 GHz frequency and supports up to 11 Mbps?","802.11b","802.11g","802.11a","802.11n",1
+"Which 802.11 standard operates on 5 GHz and supports up to 54 Mbps?","802.11a","802.11b","802.11g","802.11n",1
+"Which 802.11 standard operates on 2.4 GHz and supports up to 54 Mbps?","802.11g","802.11a","802.11b","802.11n",1
+"Which 802.11 standard can use both 2.4 GHz and 5 GHz and supports up to 600 Mbps?","802.11n","802.11ac","802.11ax","802.11g",1
+"Which 802.11 standard operates on 5 GHz and supports up to several Gbps using MU-MIMO?","802.11ac","802.11n","802.11g","802.11b",1
+"Which 802.11 standard operates on both 2.4 GHz and 5 GHz with improved efficiency (OFDMA) and supports up to 9.6 Gbps?","802.11ax","802.11ac","802.11n","802.11g",1
+"What type of network uses cellular technology for connectivity?","A wide area network provided by mobile carriers","A wired Ethernet LAN","A personal area network","A local wireless mesh network",1
+"What type of connectivity uses geostationary or low Earth orbit satellites to provide network access?","Satellite","Cellular","Fiber optic","Microwave",1
+"What is the IEEE standard for Ethernet networks?","802.3","802.11","802.15","802.16",1
+"Which Ethernet cable category supports 100 Mbps up to 100 meters?","Cat5","Cat5e","Cat6","Cat6a",1
+"Which Ethernet cable category supports 1 Gbps up to 100 meters and has improved crosstalk performance?","Cat5e","Cat5","Cat6","Cat6a",1
+"Which Ethernet cable category supports 10 Gbps up to 55 meters on unshielded cable and 100 meters on shielded cable?","Cat6","Cat5e","Cat5","Cat6a",1
+"Which Ethernet cable category supports 10 Gbps up to 100 meters with better shielding and performance?","Cat6a","Cat6","Cat5e","Cat7",1
+"Which Ethernet cable category can support up to 40 Gbps for short distances and has extensive shielding?","Cat8","Cat7","Cat6a","Cat6",1
+"What is the difference between single-mode and multimode fiber?","Single-mode uses a single light path for long distances; multimode uses multiple light paths for shorter distances","Single-mode is cheaper","Multimode supports longer distances","Single-mode has thicker core",1
+"What type of fiber is best for distances over 10 km?","Single-mode","Multimode","Twinax","Coaxial",1
+"What is Direct Attach Copper (DAC) cable typically used for?","Short-distance high-speed connections between network devices","Long-haul fiber backbone","Wireless backhaul","Consumer Ethernet cabling",1
+"What is twinaxial cable often used for?","High-speed, short-distance data connections","Long-distance fiber","Cable television","Telephone lines",1
+"What type of cable has a single central conductor surrounded by shielding and is used for broadband and cable TV?","Coaxial","Twisted pair","Fiber optic","Twinaxial",1
+"What is the main difference between plenum-rated and non-plenum cable?","Plenum cable has a fire-resistant jacket for use in air-handling spaces","Non-plenum cable is faster","Plenum cable is cheaper","Plenum cable is only for fiber",1
+"What protocol do Ethernet transceivers commonly use?","Ethernet","Fibre Channel","Token Ring","Wi-Fi",1
+"What protocol do Fibre Channel (FC) transceivers use?","Fibre Channel","Ethernet","DSL","Wi-Fi",1
+"What is a Small Form-factor Pluggable (SFP) transceiver?","A compact hot-swappable transceiver for network equipment","A fixed fiber optic connector","A type of Ethernet cable","A coaxial connector",1
+"What is a Quad Small Form-factor Pluggable (QSFP) transceiver?","A transceiver that supports four channels of data","A single-channel fiber transceiver","A type of coax connector","A wireless antenna",1
+"What type of fiber connector uses a push-pull locking mechanism and is square-shaped?","Subscriber Connector (SC)","Local Connector (LC)","Straight Tip (ST)","Multi-fiber Push On (MPO)",1
+"What type of fiber connector is small form-factor and uses a latch mechanism?","Local Connector (LC)","Subscriber Connector (SC)","Straight Tip (ST)","Multi-fiber Push On (MPO)",1
+"What type of fiber connector uses a bayonet-style twist-lock coupling?","Straight Tip (ST)","Local Connector (LC)","Subscriber Connector (SC)","Multi-fiber Push On (MPO)",1
+"What type of fiber connector is used for high-density connections and can connect multiple fibers at once?","Multi-fiber Push On (MPO)","Straight Tip (ST)","Subscriber Connector (SC)","Local Connector (LC)",1
+"What connector type is commonly used for telephone lines?","Registered Jack 11 (RJ11)","Registered Jack 45 (RJ45)","F-type","BNC",1
+"What connector type is used for Ethernet networks?","Registered Jack 45 (RJ45)","Registered Jack 11 (RJ11)","F-type","BNC",1
+"What connector type is threaded and used for cable television and broadband internet?","F-type","BNC","RJ45","RJ11",1
+"What connector type uses a bayonet locking mechanism and is often used for coaxial in radio and CCTV?","Bayonet Neill–Concelman (BNC)","F-type","RJ45","RJ11",1
+"Which fiber type supports longer distances, single-mode or multimode?","Single-mode","Multimode","They are equal","Depends on connector",1
+"Which fiber connector is smaller, LC or SC?","LC","SC","They are equal","Depends on cable type",1
+"Which Ethernet cable category supports the highest speed over the longest distance?","Cat8","Cat6a","Cat7","Cat5e",1
+"Which 802.11 standard introduced MU-MIMO for better multi-device performance?","802.11ac","802.11n","802.11ax","802.11g",1
+"A network closet requires cables that meet fire codes for air ducts. Which should be used?","Plenum-rated","Non-plenum","Coaxial","Twinax",1
+"A data center needs short high-speed links between switches. Which cable type is best?","Direct Attach Copper (DAC)","Cat5e","Single-mode fiber","Plenum Cat6",1
+"A technician is connecting a desktop to a DSL modem. Which connector type will be used on the telephone line?","RJ11","RJ45","F-type","BNC",1
+"A building-to-building link of 15 km is required. Which media is most appropriate?","Single-mode fiber","Multimode fiber","Twinaxial","Cat6a",1
+"A coaxial connection for security cameras needs a quick-connect/disconnect. Which connector is ideal?","BNC","F-type","RJ45","LC",1
+"A high-speed fiber patch panel requires 24-fiber connectors. Which connector type is best?","MPO","LC","SC","ST",1
+"A wireless network must support both 2.4 GHz and 5 GHz frequencies with high efficiency. Which standard is best?","802.11ax","802.11ac","802.11n","802.11g",1
+"A wired network must support 10 Gbps over 100 meters in an office. Which cable category should be used?","Cat6a","Cat6","Cat5e","Cat8",1
