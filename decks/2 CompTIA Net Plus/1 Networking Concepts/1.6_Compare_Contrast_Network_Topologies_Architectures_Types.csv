@@ -1,0 +1,35 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is a mesh topology?","A network where each node connects directly to every other node","A network with a single central hub","A linear chain of nodes","A layered core and access design",1
+"What is a full mesh topology?","Every node is directly connected to every other node","Some nodes have direct connections, others rely on intermediaries","A central hub connects all devices","Two layers of switches connect end devices",1
+"What is a partial mesh topology?","Only some nodes have direct links to others","Every node has a direct connection to every other","A single backbone links all devices","A network using coaxial cable",1
+"Which is an advantage of a full mesh topology?","High redundancy and fault tolerance","Low cost to implement","Simple cable management","Requires minimal cabling",1
+"Which is a disadvantage of a full mesh topology?","High cabling and hardware costs","Single point of failure","Limited scalability","High latency",1
+"What is a hybrid topology?","A network combining features of two or more topologies","A wireless network with mixed frequencies","A topology using only fiber connections","A topology limited to star and bus layouts",1
+"What is the main benefit of a hybrid topology?","Flexibility to optimize for performance and cost","Requires no switches","Eliminates all latency","Guaranteed lowest cost",1
+"What is a star topology?","All devices connect to a central hub or switch","Each device connects to all others","Devices form a closed loop","Devices are connected in a straight line",1
+"What is a hub-and-spoke design?","A central hub connects to multiple branch nodes","All nodes connect in a ring","All nodes connect to each other","Nodes are connected in a mesh",1
+"Which is a major disadvantage of a star topology?","Central device failure affects all nodes","High cabling cost for short distances","Limited performance","Requires redundant hubs",1
+"What is a spine-and-leaf topology?","A data center design where each leaf switch connects to every spine switch","A layered model with three tiers","A wireless mesh network","A ring of interconnected routers",1
+"What is the main advantage of a spine-and-leaf topology?","Predictable low-latency paths between any two endpoints","Requires only one switch","Eliminates all cabling needs","Operates without redundancy",1
+"What is a point-to-point connection?","A direct link between two devices","A network with one hub and many spokes","A topology where all nodes are connected","A wireless mesh network",1
+"What is a three-tier hierarchical model?","A network design with core, distribution, and access layers","A design with three mesh nodes","A wireless design with three APs","A topology with three points of connection",1
+"What is the core layer in the three-tier model responsible for?","Fast transport of large amounts of data between distribution layers","Connecting end devices directly","Providing wireless connectivity","Physical cabling installation",1
+"What is the distribution layer in the three-tier model responsible for?","Routing and policy-based connectivity between core and access layers","Housing the core routers","Direct connection to the internet","Providing wireless to end users",1
+"What is the access layer in the three-tier model responsible for?","Connecting end devices to the network","Aggregating core connections","Enforcing firewall rules","Managing virtual machines",1
+"What is a collapsed core architecture?","Combining core and distribution functions into a single layer","Eliminating the access layer","Replacing fiber with copper","Using only wireless connectivity",1
+"What is north-south traffic flow?","Data moving between clients and servers, often crossing network boundaries","Traffic between devices in the same rack","Traffic moving within a single VLAN","Control traffic for network management",1
+"What is east-west traffic flow?","Data moving between devices within the same data center or layer","Traffic between client and server","Traffic going to the internet","Traffic between distribution and access",1
+"Which topology provides the highest redundancy?","Full mesh","Star","Hub-and-spoke","Ring",1
+"Which topology is typically most cost-effective for small branch offices?","Hub-and-spoke","Full mesh","Spine-and-leaf","Collapsed core",1
+"In a data center, which topology is preferred for predictable low latency between any two servers?","Spine-and-leaf","Star","Full mesh","Hub-and-spoke",1
+"Which design collapses core and distribution layers into one?","Collapsed core","Three-tier hierarchical","Mesh","Star",1
+"Which traffic flow is most likely between two servers in the same rack?","East-west","North-south","Full mesh","Hub-and-spoke",1
+"A company needs a topology that mixes wireless mesh for one department and star topology for another. What is this called?","Hybrid","Mesh","Spine-and-leaf","Collapsed core",1
+"A small office with one switch and all PCs connected to it is using which topology?","Star","Mesh","Spine-and-leaf","Hybrid",1
+"A wide-area network connecting several branch offices to a central HQ uses which design?","Hub-and-spoke","Full mesh","Point-to-point","Collapsed core",1
+"A direct fiber link between two data centers is an example of which topology?","Point-to-point","Mesh","Star","Hybrid",1
+"In a partial mesh, why might some devices not connect directly to all others?","To reduce cost while maintaining some redundancy","Because it's always wireless","To increase complexity","Due to outdated standards",1
+"Which layer of the three-tier model connects directly to end devices?","Access","Core","Distribution","Spine",1
+"Which type of traffic is most impacted by firewall inspection at the network edge?","North-south","East-west","Point-to-point","Full mesh",1
+"Which topology can be either full or partial depending on redundancy needs?","Mesh","Star","Hybrid","Spine-and-leaf",1
+"Which design is especially popular in modern leaf-spine data centers?","Spine-and-leaf","Hub-and-spoke","Collapsed core","Full mesh",1
