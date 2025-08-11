@@ -38,4 +38,4 @@ Q,Option1,Option2,Option3,Option4,Correct
 "Which statement about loopback 127.0.0.1 is true?","It never leaves the host; it tests the local TCP/IP stack","It is used to discover the default gateway","It broadcasts to all hosts on the subnet","It is a private address under RFC1918",1
 "Which statement about 0.0.0.0 is correct?","It represents an unspecified address, often used as a default route source in configurations","It is the broadcast address for all subnets","It is a private address used by Automatic Private IP Addressing","It is always the gateway address",1
 "CALCULATION: How many usable host addresses are in a /27 IPv4 subnet?","30","32","29","62",1
-"CALCULATION: Which prefix provides at least 500 usable hosts on one subnet?","/23 (510 usable)","/24 (254 usable)","/25 (126 usable)","/26 (62 usable)",1
+
