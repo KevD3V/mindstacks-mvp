@@ -1,0 +1,23 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is Simple Network Management Protocol (SNMP)?","A file transfer protocol","A protocol for monitoring and managing devices by reading and writing managed objects","A routing protocol","A time synchronization protocol",2
+"In SNMP, what is a trap?","A scheduled speed test","An unsolicited alert from a device to the manager","A firewall rule","A backup configuration",2
+"What is the Management Information Base (MIB) in SNMP?","A table of access lists","A hierarchical database that defines managed objects and object identifiers for devices","A log file of Simple Mail Transfer Protocol","A list of Domain Name System records",2
+"Which SNMP version adds authentication and optional encryption (privacy) with users?","Version 1","Version 2c","Version 3","All versions are identical",3
+"What are community strings used for in SNMP version 1 and version 2c?","Device hostnames","Shared tokens that act like passwords for read-only or read-write access","Transport Layer Security certificates","Routing tables",2
+"What is flow data in monitoring?","Full packet payloads for every frame","Summaries of conversations (such as five-tuple, bytes, and packets) used for traffic analysis and trend visibility","Only Domain Name System queries","Only multicast streams",2
+"What is packet capture used for?","Measuring room temperature","Collecting and analyzing full frames/packets for deep troubleshooting","Scheduling backups","Assigning Domain Name System names",2
+"What are baseline metrics used for?","Replacing traps","Establishing normal performance to support capacity planning and anomaly detection","Documenting serial numbers","Resetting passwords",2
+"What is log aggregation?","Deleting logs nightly","Centralizing logs from multiple systems for analysis and retention","Disabling alerting","Printing log books",2
+"What is a Syslog collector?","A wireless controller","A server that receives and stores system log messages from devices","A power supply","A routing daemon",2
+"What is Security Information and Event Management (SIEM)?","A power management system","A platform that ingests logs and events, correlates them, and produces alerts and dashboards","A replacement for Domain Name System","A wireless mesh controller",2
+"What is application programming interface (API) integration in monitoring?","Manual copy/paste of statistics","Programmatic retrieval or push of telemetry between tools and systems","Only command-line access","License activation",2
+"What is port mirroring on a switch?","Aggregating links for more bandwidth","Copying selected traffic to a designated monitor port for analysis","Blocking ports","Enabling Power over Ethernet",2
+"What is ad hoc network discovery?","Discovery on a fixed schedule","One-time or on-demand scanning to identify devices and topology","Only manual drawing of diagrams","A captive portal function",2
+"What is scheduled network discovery used for?","Continuous power cycling","Recurring scans to update inventory and topology over time","Blocking Domain Name System queries","Resetting Simple Network Management Protocol users",2
+"What is traffic analysis in this context?","Counting wall outlets","Examining who talks to whom, volumes, and patterns to detect issues or capacity needs","Only reading configuration files","Testing generators",2
+"What is performance monitoring?","Only checking if a device is alive","Measuring key indicators such as latency, loss, throughput, and utilization over time","Verifying label colors","Only saving backups",2
+"What is availability monitoring?","Tracking temperatures only","Monitoring up/down status and reachability of devices and services","Managing licenses only","Mirroring ports",2
+"What is configuration monitoring?","Watching for power spikes","Detecting and recording device configuration changes (drift) against a baseline","Measuring antenna patterns","Testing uninterruptible power supplies",2
+"Which pairing is most secure for SNMP?","Version 2c with public/private defaults","Version 3 with authentication and privacy enabled","Version 1 with no community string","Any version is equally secure",2
+"Which tool best helps confirm whether a spike in utilization is specific to one pair of endpoints without packet payloads?","Packet capture","Flow data analysis","Syslog only","Internet Protocol Address Management",2
+"Which step helps reduce false positives in anomaly alerting?","Never establishing baselines","Basing thresholds on observed baselines and seasonality","Disabling alerts","Limiting logs to one device",2

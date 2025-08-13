@@ -1,0 +1,17 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is recovery point objective (RPO)?","Maximum tolerable downtime","Maximum acceptable data loss measured as time between last good backup and the incident","Average time to repair a failure","Average time between inherent failures",2
+"What is recovery time objective (RTO)?","Average time to repair","Target time to restore service after a disruption","Expected time between failures","Backup duration",2
+"What is mean time to repair (MTTR)?","Average time between failures","Average time to diagnose and fix a failure and restore normal operation","Target time to restore service after disaster","Maximum acceptable data loss",2
+"What is mean time between failures (MTBF)?","Average time a device is down","Statistical average of uptime between inherent failures for a device or system","Target test window","Backup schedule",2
+"What is a cold site?","A fully redundant mirror site with real-time data","A site with space and power but little or no pre-staged hardware or data","A site that operates only at night","A site used for security audits only",2
+"What is a warm site?","A site with no hardware","A partially equipped site with some systems and data that require additional steps to become operational","A site with only generators","A site where backups are stored offsite only",2
+"What is a hot site?","A site that stores tapes","A fully equipped, near real-time replicated site ready to take over operations quickly","A site used only for developers","A site for training",2
+"What does active-active high availability mean?","Only one node serves at a time","Multiple nodes serve live traffic simultaneously, sharing load and failover","Standby is powered off","Backups are not required",2
+"What does active-passive high availability mean?","All nodes are active","One node serves live traffic while another waits to take over on failure","Both nodes are permanently off","Nodes are for logging only",2
+"What is a tabletop exercise?","Physically failing devices in production","A discussion-based walkthrough of plans and roles without operational impact","A rack layout review","A daily stand-up",2
+"What is a validation test in DR?","Only reviewing documents","Executing technical failover or restore steps to prove plans actually work","Asking vendors for quotes","Measuring Wi-Fi signal",2
+"Which metric best guides how frequently to back up a rapidly changing database?","Mean time between failures","Recovery point objective","Mean time to repair","Rack unit count",2
+"Which site type typically has the highest ongoing cost but fastest recovery?","Cold site","Warm site","Hot site","None—they are equal",3
+"Which pairing is correct for metrics?","Recovery time objective = data loss tolerance","Recovery point objective = time to restore service","Mean time to repair = average fix/restore duration","Mean time between failures = targeted restoration time",3
+"Why perform DR testing regularly?","To void warranties","To identify gaps and ensure people, processes, and technology can meet objectives before real incidents","To reduce device temperature","To disable change management",2
+"Which is most aligned with meeting a very low recovery time objective?","Relying on manual rebuilds at a cold site","Using an active-active cluster across sites with automated failover","Storing weekly tapes offsite","Using only paper runbooks",2
