@@ -1,0 +1,20 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is Spanning Tree Protocol (STP) used for?","Speeding up routing","Preventing Layer 2 loops by blocking redundant paths","Encrypting traffic","Assigning IP addresses",2
+"What is a 'network loop' at Layer 2?","A routing table entry","A switching topology that forwards frames endlessly due to redundant paths without proper control","A default route","A DHCP reservation",2
+"What is 'root bridge selection' in Spanning Tree?","Choosing the best router","Selecting the central bridge based on priority and MAC address to compute the spanning tree","Picking the fastest access point","Assigning a default gateway",2
+"What are Spanning Tree port roles?","Root, designated, and alternate/backup roles that determine which ports forward or block","Active and passive","Primary and secondary","Reader and writer",1
+"What are Spanning Tree port states?","Only forwarding","States such as disabled, blocking, listening/learning, and forwarding used during convergence","Only learning","Only blocked",2
+"What is an 'incorrect virtual local area network assignment'?","Using strong encryption","Placing a device on the wrong VLAN causing isolation or wrong policy","Using static routing","Having too many cables",2
+"What are access control lists (ACLs) in troubleshooting services?","Wireless channel plans","Rule sets that permit or deny traffic by criteria; misconfigurations can block required services","Backup schedules","Port mirrors only",2
+"What is a routing table used for?","Power budgets","Determining next hops for destinations; errors cause reachability problems","Device licensing","Cable labeling",2
+"What is a 'default route'?","A rule to deny all traffic","A catch-all route used when no more specific route exists","A loopback interface","A VLAN ID",2
+"What does 'address pool exhaustion' describe?","Too many firewall rules","A Dynamic Host Configuration Protocol scope with no free addresses to lease","A full Domain Name System zone","A congested uplink",2
+"What is an 'incorrect default gateway' symptom?","Local subnet unreachable","Hosts can reach local devices but fail to reach remote networks","Every ping succeeds","Duplex mismatch only",2
+"What is an 'incorrect IP address' issue?","Correct static assignment","Wrong or duplicate address set on a host causing conflicts or isolation","Correct subnet mask","Correct default gateway",2
+"What is a 'duplicate IP address' result?","Two hosts share the same address causing intermittent or lost connectivity","A faster network","Automatic load balancing","More bandwidth",1
+"What is an 'incorrect subnet mask' effect?","Only affects wireless","Host believes some destinations are local when they are not (or vice versa), breaking routing/ARP","Only increases jitter","Only reduces speed to 10 Mb/s",2
+"A new switch causes intermittent outages when a second uplink is added without Spanning Tree. Root cause?","Insufficient bandwidth","A Layer 2 loop; enable Spanning Tree Protocol or aggregate properly","Wrong default route","Address pool exhaustion",2
+"Clients receive 'address already in use' after a manual static change. Best first check?","Firewall rules","Look for duplicate IP addresses and review Dynamic Host Configuration Protocol leases","Upgrade optics","Change channel width",2
+"Hosts in VLAN 20 can’t reach the internet; all pings to default gateway fail. Likely cause?","Incorrect default gateway configured on the hosts or router interface for VLAN 20","Address pool exhaustion","Packet capture disabled","Port security",1
+"New users cannot obtain addresses even though the server is up and reachable. Most likely cause?","Dynamic Host Configuration Protocol address pool exhaustion in the scope","Spanning Tree root mismatch","Wrong static route on core","Duplex mismatch",1
+"Traceroute shows the first hop as the local gateway but nothing beyond; other subnets work. Most likely cause?","Access control list blocking at the perimeter or missing default route upstream","A cable is too long","Loopback plugged in","Dynamic Host Configuration Protocol is offline",2

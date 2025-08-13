@@ -1,0 +1,19 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is congestion or contention?","Reserved bandwidth for voice only","Competition for limited resources (links, CPU, radio) that reduces performance","A security policy","A redundant link",2
+"What is bottlenecking?","Having too many switches","A single constrained component (for example, a 1 Gb/s uplink) limiting end-to-end throughput","Backup success","Spanning Tree convergence",2
+"What is bandwidth in this context?","The color of cables","The theoretical capacity of a link, often measured in bits per second","Only the number of users","Only the size of frames",2
+"What is throughput capacity?","Theoretical rate only","The actual achievable data rate after overhead and conditions","A power metric","A licensing metric",2
+"What is latency?","Packet loss rate","Time it takes for data to travel from source to destination","Amount of bandwidth","Number of hops only",2
+"What is packet loss?","Normal keepalives","Dropped packets due to errors or congestion that reduce quality or require retransmissions","Increasing cache hits","Zero-touch provisioning",2
+"What is jitter?","Average latency","Variation in packet delay over time that impacts real-time traffic like voice and video","Wireless coverage area","Routing policy only",2
+"In wireless, what is 'interference'?","Stronger encryption","Competing or non-Wi-Fi signals that disrupt transmissions","Layer 3 routing","Cable labeling",2
+"What is 'channel overlap' in Wi-Fi?","Using adjacent non-overlapping channels","Using partially overlapping channels that cause co-channel or adjacent-channel interference","Using only 5 GHz","Enabling beamforming",2
+"What is 'signal degradation or loss' in Wi-Fi?","Always a router issue","Reduced received power or quality causing retries or disconnects","Improved modulation","A VLAN problem",2
+"What is 'insufficient wireless coverage'?","Too many access points","Areas with too little signal strength or capacity for clients","A routing loop","A server outage",2
+"What are 'client disassociation issues'?","Clients prefer higher data rates","Clients are dropped by the access point due to policy, quality, or power-save interactions","Clients gain faster roaming","Access points add radios",2
+"What is 'roaming misconfiguration'?","Clients move too quickly","Network settings (for example, basic service set identifier alignment, power, or controller thresholds) that hinder seamless handoff between access points","Incorrect subnet mask on a router","Too many patch panels",2
+"A voice over Internet Protocol call sounds choppy while throughput tests look fine. Which metric is most suspect?","Bandwidth","Jitter and packet loss on the path","Disk speed","Number of virtual local area networks",2
+"Users report slow uploads only on one floor. Switch ports show high output queue drops on the uplink. Likely issue?","Bottleneck on the uplink causing congestion","Wrong Domain Name System","Duplicate Media Access Control","Incorrect Simple Network Management Protocol",1
+"Clients frequently disconnect near the cafeteria microwave. Likely cause?","Good roaming","Interference in the 2.4 GHz band","Excess VLANs","Wrong default gateway",2
+"Wi-Fi is slow in a dense open office with many access points using the same channel. What’s the problem?","Proper reuse plan","Channel overlap causing contention; redesign channel plan and transmit power","Insufficient cable quality","Incorrect time protocol",2
+"Video buffers when moving from one end of the building to the other. Which is the most likely cause?","Perfect coverage","Roaming misconfiguration or insufficient overlap between cells","Firewall block","Too many Dynamic Host Configuration Protocol scopes",2

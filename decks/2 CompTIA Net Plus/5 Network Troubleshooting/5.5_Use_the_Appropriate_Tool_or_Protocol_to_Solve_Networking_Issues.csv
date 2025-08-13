@@ -1,0 +1,29 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is a protocol analyzer?","A password vault","A tool that captures and inspects packets/frames for deep analysis","A cable tester","A backup scheduler",2
+"What is the purpose of the command line in troubleshooting?","Replacing diagrams","Executing diagnostic utilities and device commands efficiently","Encrypting emails","Measuring humidity",2
+"What does 'ping' test?","Port speed","Basic Internet Protocol reachability and round-trip time using Internet Control Message Protocol echo","Power budgets","Disk speed",2
+"What does 'traceroute' or 'tracert' reveal?","Wireless signal strength","The path and per-hop latency a packet takes to a destination","Only Domain Name System records","Only Media Access Control addresses",2
+"What is 'nslookup' used for?","Discovering neighbors","Querying Domain Name System records to resolve names","Capturing packets","Configuring spanning tree",2
+"What does 'tcpdump' do?","Shows interface errors only","Captures and prints packets on an interface for analysis","Changes routing","Performs backups",2
+"What is 'dig' commonly used for?","Measuring jitter","Querying Domain Name System with flexible options and detailed output","Configuring VLANs","Testing power",2
+"What does 'netstat' show?","Only CPU usage","Active network connections, listeners, and interface statistics","Firewall rules only","Cable lengths",2
+"What do 'ip/ifconfig/ipconfig' help with?","Time synchronization","Viewing and configuring local IP addressing and interfaces","SIEM correlation","Power provisioning",2
+"What does the 'arp' tool display?","Wi-Fi channels","Address Resolution Protocol mappings between IP and Media Access Control addresses on a host","Routing table on a router","Device uptime",2
+"What is 'nmap' used for?","Switch stacking","Scanning hosts for open ports/services and network discovery","Power budgeting","Cable testing",2
+"What are Link Layer Discovery Protocol (LLDP) and Cisco Discovery Protocol (CDP) used for?","Encrypting wireless","Neighbor discovery to learn directly connected device identities and port information","Routing multicast","Time sync",2
+"What is a speed tester used for?","Measuring CPU","Estimating throughput between endpoints under current conditions","Configuring VLANs","Calculating subnets",2
+"What is a toner (tone generator and probe) used for?","Labeling racks","Tracing a cable path through patch panels and walls by sound","Testing Wi-Fi","Encrypting disks",2
+"What does a cable tester validate?","Only VLANs","Continuity, pinout, length, and sometimes performance characteristics of copper cabling","Firewall rules","Hostnames",2
+"What is a network tap used for?","Increasing bandwidth","Providing a copy of traffic for monitoring without interrupting the link","Powering phones","Changing duplex",2
+"What does a Wi-Fi analyzer help with?","Finding loopbacks","Surveying channels, signal strength, and interference for wireless troubleshooting","Configuring IPv6","Verifying encryption certificates",2
+"What does a visual fault locator help with?","Finding copper breaks","Shining visible light through fiber to identify breaks, bends, or wrong patching","Measuring router CPU","Auditing users",2
+"Which command on a switch lists learned Media Access Control addresses per port?","show route","show mac-address-table","show power","show vlan",2
+"Which command displays the routing table on a router?","show interface","show route","show arp","show config",2
+"Which command summarizes interface operational status and errors useful for finding CRCs, runts, and giants?","show interface","show power","show mac-address-table","show vlan",1
+"Which command shows startup or running configuration for audit or rollback?","show config","show power","show arp","show route",1
+"Which command lists Address Resolution Protocol entries on a device?","show arp","show vlan","show mac-address-table","show interface",1
+"Which command shows VLAN membership on a switch?","show vlan","show route","show config","show power",1
+"Which command helps check Power over Ethernet allocation per port on a switch?","show power","show route","show arp","show vlan",1
+"A host resolves a name but cannot connect; other hosts can. Which tool first?","ipconfig to view address and gateway then ping the target","nmap only","visual fault locator","toner",1
+"Users in one room lose Wi-Fi at lunchtime daily. Best tool to start with?","Protocol analyzer on the core","Wi-Fi analyzer to check interference and channel overlap","show route","dig",2
+"Two switches connected back-to-back show the wrong neighbor information. Which protocol helps verify physical neighbors and ports?","Domain Name System","Link Layer Discovery Protocol or Cisco Discovery Protocol","Address Resolution Protocol","Precision Time Protocol",2
