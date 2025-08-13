@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is a Virtual Local Area Network (VLAN)?","A physical switch used to connect devices","A method of segmenting a network logically within the same physical switch","A type of network cable","A device that boosts wireless signal strength",2
+"What is stored in a VLAN database?","All device IP addresses","Configuration details for VLANs on a switch","MAC addresses of all connected devices","Routing tables for external networks",2
+"What is a Switch Virtual Interface (SVI)?","A physical port on a switch","A virtual interface used for managing the switch and enabling Layer 3 communication","A protocol for encrypting VLAN traffic","A dedicated voice communication channel",2
+"What is a Native VLAN?","A VLAN configured for carrying management traffic","The default VLAN for untagged traffic on a trunk port","A VLAN used for secure voice traffic","A VLAN assigned to wireless devices only",2
+"What is a Voice VLAN?","A VLAN dedicated to carrying voice over IP (VoIP) traffic","A VLAN that encrypts all network data","A VLAN used only for video conferencing","A VLAN for storing audio files",1
+"What is 802.1Q tagging?","A protocol for dynamically assigning IP addresses","A method for identifying VLAN membership in Ethernet frames","A system for encrypting VLAN traffic","A network topology design",2
+"What is link aggregation?","The process of combining multiple network connections for increased throughput and redundancy","A method for encrypting trunk links","A VLAN configuration technique","A routing protocol for aggregating networks",1
+"What does network speed refer to in switch configuration?","The total amount of data the switch can store","The rate at which data is transmitted over a network connection","The number of VLANs supported","The time taken for spanning tree to converge",2
+"What does duplex refer to in network communication?","The amount of data a switch can store","The ability for devices to send and receive data simultaneously","The encryption strength of a network","The number of VLANs supported",2
+"What is the purpose of spanning tree in networking?","To encrypt VLAN traffic","To prevent network loops in a Layer 2 topology","To store VLAN configuration","To increase the number of VLANs supported",2
+"What does Maximum Transmission Unit (MTU) define?","The maximum number of VLANs a switch can support","The maximum size of a packet that can be transmitted without fragmentation","The maximum speed of a network connection","The largest number of devices in a VLAN",2
+"What are jumbo frames?","Frames larger than the standard Ethernet size, used to improve efficiency in large data transfers","Frames that contain multiple VLAN tags","Frames with encrypted payloads","Frames used exclusively for voice traffic",1
+"Which configuration allows multiple VLANs to share a single physical link between switches?","Switch Virtual Interface","Link aggregation","802.1Q tagging","Native VLAN",3
+"Which VLAN type is used by default for untagged traffic on a trunk port?","Voice VLAN","Native VLAN","Management VLAN","Private VLAN",2
+"Why might an organization use a Voice VLAN instead of mixing voice and data traffic?","To simplify IP addressing","To improve audio quality and prioritize VoIP traffic","To encrypt all network traffic","To allow untagged traffic to pass freely",2
+"Which feature combines two or more Ethernet links to act as a single logical connection?","Link aggregation","Spanning tree","Switch Virtual Interface","Native VLAN",1
+"Why is spanning tree important when using redundant network links?","It increases VLAN capacity","It prevents network loops that can cause broadcast storms","It encrypts all Layer 2 traffic","It reduces MTU size",2
+"If a network is experiencing fragmentation due to large data transfers, which parameter might need adjusting?","VLAN ID","MTU size","Native VLAN","Duplex mode",2
+"In a scenario where multiple VLANs must communicate, which component is necessary?","Switch Virtual Interface","Voice VLAN","Native VLAN","Jumbo frames",1
+"An administrator wants to connect two switches using two cables for redundancy and increased bandwidth. Which feature should be enabled?","Spanning tree","Link aggregation","Voice VLAN","Native VLAN",2
