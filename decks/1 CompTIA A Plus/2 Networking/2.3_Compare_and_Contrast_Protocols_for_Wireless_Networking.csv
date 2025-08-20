@@ -1,0 +1,22 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What are the common Wi-Fi frequency bands?","900 MHz and 60 GHz","2.4 GHz and 5 GHz","1.2 GHz and 7 GHz","3.5 GHz and 24 GHz",2
+"What is a key characteristic of the 2.4 GHz band?","Many non-overlapping channels with low interference","Longer range and better wall penetration but fewer non-overlapping channels","Only supports Wi-Fi 6","Always requires licenses",2
+"What is a key characteristic of the 5 GHz band?","Fewer non-overlapping channels","Shorter range but many non-overlapping channels and typically less interference","Only supports 802.11b","Cannot use modern encryption",2
+"What is the main purpose of channel planning?","Increase device storage","Reduce co-channel/adjacent-channel interference by placing access points on non-overlapping channels","Change internet service provider","Improve battery chemistry",2
+"Which statement about regulations is true in Wi-Fi channel selection?","All countries use identical channels/power","Regulatory domains define allowed channels and transmit power; devices must obey local rules","Users can freely transmit at any power","Only 2.4 GHz is regulated",2
+"Which statement compares 2.4 GHz vs 5 GHz channels?","2.4 GHz has more non-overlapping channels","5 GHz typically offers many more non-overlapping channels than 2.4 GHz, allowing denser deployments","They are identical","5 GHz cannot do channel bonding",2
+"What is Bluetooth used for?","Long-range fixed wireless backhaul","Short-range personal area networking for accessories like headsets and keyboards","Satellite communications","Cellular voice calls",2
+"Which 802.11 standard originally used 5 GHz with Orthogonal Frequency-Division Multiplexing and up to 54 Mb/s?","802.11a","802.11b","802.11g","802.11n",1
+"Which 802.11 standard used 2.4 GHz with up to 11 Mb/s and legacy Direct-Sequence Spread Spectrum?","802.11a","802.11b","802.11ac","802.11ax",2
+"Which 802.11 standard improved 2.4 GHz to 54 Mb/s by adopting Orthogonal Frequency-Division Multiplexing?","802.11g","802.11b","802.11a","802.11ax",1
+"Which 802.11 standard (Wi-Fi 4) introduced Multiple-Input Multiple-Output and supports 2.4 GHz and/or 5 GHz?","802.11ax","802.11n","802.11ac","802.11a",2
+"Which 802.11 standard is Wi-Fi 5 with wide channel bonding and Multi-User Multiple-Input Multiple-Output on 5 GHz only?","802.11ac","802.11n","802.11b","802.11ax",1
+"Which 802.11 standard is Wi-Fi 6 that improves efficiency with Orthogonal Frequency-Division Multiple Access and Multi-User Multiple-Input Multiple-Output?","802.11g","802.11ax","802.11a","802.11b",2
+"What is long-range fixed wireless (licensed) typically used for?","Indoor Bluetooth","Point-to-point/point-to-multipoint links using licensed spectrum for interference management and service-provider backhaul","Short-range Near-field communication","Only home Wi-Fi",2
+"What is long-range fixed wireless (unlicensed)?","Satellite only","Outdoor links using unlicensed bands (for example, 5 GHz, 60 GHz) subject to local power/antenna regulations","Indoor Ethernet","Cellular-only networks",2
+"What do power limits in regulations accomplish for wireless?","Increase interference","Control maximum transmit strength and antenna gain to minimize interference and ensure safety","Disable encryption","Force only 2.4 GHz use",2
+"What is Near-field communication (NFC)?","Long-range broadband","Very short-range (a few centimeters) contactless communication used for pairing and payments","A fixed wireless standard for miles","A satellite protocol",2
+"What is Radio-frequency identification (RFID)?","A Wi-Fi encryption scheme","Tag/reader system where small tags are powered (passive) or self-powered (active) and identified by radio","A fiber connector","A cellular modem",2
+"Which wireless band is typically preferred for dense apartment deployments to avoid interference?","2.4 GHz everywhere","5 GHz with careful channel planning","Only 900 MHz","60 GHz always",2
+"A device needs long range and wall penetration rather than peak throughput. Which band is usually better?","5 GHz","2.4 GHz","60 GHz","Either—bands have identical propagation",2
+"An office experiences poor Wi-Fi due to overlapping channels on every access point. Best first fix?","Increase transmit power on all access points","Reassign access points to non-overlapping channels and adjust power","Disable 5 GHz","Use hubs instead of switches",2

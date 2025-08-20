@@ -1,0 +1,23 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which default ports are used by File Transfer Protocol (FTP) control and data?","21 control, 20 data","20 control, 21 data","22 control, 20 data","23 control, 21 data",1
+"Which default port does Secure Shell (SSH) use?","23","22","25","443",2
+"Which protocol uses port 23 by default and is considered insecure for remote terminal access?","Secure Shell","Telnet","Remote Desktop Protocol","Simple Network Management Protocol",2
+"Which protocol uses port 25 to send email between servers?","Post Office Protocol 3","Internet Message Access Protocol","Simple Mail Transfer Protocol","Lightweight Directory Access Protocol",3
+"Which service typically uses port 53?","Domain Name System (name resolution)","Dynamic Host Configuration Protocol (addressing)","Hypertext Transfer Protocol","Server Message Block file sharing",1
+"Which two ports are used by Dynamic Host Configuration Protocol (DHCP)?","67/68","69/70","80/110","161/162",1
+"Which default port does Hypertext Transfer Protocol (HTTP) use?","443","80","110","3389",2
+"Which default port does Post Office Protocol 3 (POP3) use?","110","143","25","389",1
+"Which ports are commonly associated with Network Basic Input/Output System/NetBIOS over Transmission Control Protocol/Internet Protocol (NetBT)?","137/139","161/162","20/21","69/123",1
+"Which default port does Internet Message Access Protocol (IMAP) use?","110","143","25","389",2
+"Which two ports are used by Simple Network Management Protocol (SNMP) manager/agent and traps?","161/162","80/443","67/68","20/21",1
+"Which default port does Lightweight Directory Access Protocol (LDAP) use (unencrypted)?","389","636","445","23",1
+"Which default port does Hypertext Transfer Protocol Secure (HTTPS) use?","80","443","587","143",2
+"Which protocol uses port 445 for file and printer sharing on modern networks?","Trivial File Transfer Protocol","Server Message Block/Common Internet File System","Telnet","Post Office Protocol 3",2
+"Which default port does Remote Desktop Protocol (RDP) use?","3389","5900","389","25",1
+"Which statement best describes User Datagram Protocol (UDP)?","Connection-oriented with guaranteed delivery","Connectionless with best-effort delivery and lower overhead","Encrypted by default","Used only for web browsing",2
+"Which statement best describes Transmission Control Protocol (TCP)?","Connectionless and unordered","Connection-oriented with reliable, ordered delivery and error recovery","Only multicast","Wireless only",2
+"Which service commonly relies on UDP broadcasts to obtain an address?","Domain Name System","Dynamic Host Configuration Protocol","Secure Shell","Remote Desktop Protocol",2
+"Which simple file transfer protocol runs over UDP port 69 and lacks authentication?","File Transfer Protocol","Trivial File Transfer Protocol","Hypertext Transfer Protocol","Secure File Transfer Protocol",2
+"Which of the following typically requires TCP for secure sessions?","Hypertext Transfer Protocol Secure and Secure Shell","Dynamic Host Configuration Protocol and Trivial File Transfer Protocol","Simple Network Management Protocol traps","NetBIOS name service",1
+"A web server is reachable on port 80 but not 443. What service is likely misconfigured?","Hypertext Transfer Protocol Secure (TLS certificate/site binding)","Dynamic Host Configuration Protocol","Server Message Block","Telnet",1
+"Name resolution works intermittently; large responses fail. Which behavior explains using TCP instead of UDP for Domain Name System in some cases?","TCP is faster for small queries","UDP cannot traverse routers","TCP is used when responses don’t fit in a single UDP datagram or for zone transfers","Only TCP is secure",3

@@ -1,0 +1,20 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What does a Domain Name System (DNS) server do?","Provides email storage","Translates human-readable names to Internet Protocol addresses","Prints documents to network printers","Caches web pages only",2
+"What is the function of Dynamic Host Configuration Protocol (DHCP)?","Encrypts wireless networks","Automatically assigns Internet Protocol addresses and other settings to clients","Provides file indexing","Performs content filtering",2
+"What does a file share server provide?","Remote terminal sessions","Centralized network folders for users to store and access files","Firewall rule management","Dynamic routing",2
+"What is a print server?","A device that stores emails","A host that queues jobs and manages access to network printers","A wireless access point","A web caching proxy",2
+"What does a mail server do?","Resolves hostnames","Sends, receives, and stores email for users and domains","Manages switch ports","Authenticates wireless clients",2
+"What is the role of a syslog server?","Block malicious emails","Collect and store log messages from devices for analysis and alerting","Act as a default gateway","Provide time synchronization",2
+"What does a web server host?","Only printer drivers","Websites and web applications over Hypertext Transfer Protocol or Hypertext Transfer Protocol Secure","Only software updates","Voice calls",2
+"What does 'authentication, authorization, and accounting (AAA)' describe?","A single encryption method","A framework for verifying identity, granting permissions, and logging usage","A wireless modulation scheme","A file system type",2
+"What is a spam gateway primarily used for?","Improving Wi-Fi roaming","Filtering unsolicited or malicious email before it reaches users","Assigning Internet Protocol addresses","Balancing web traffic",2
+"What is a unified threat management (UTM) appliance?","A device focused only on switching","A security appliance that combines multiple functions such as firewall, intrusion prevention, web filtering, and virtual private network","A cable modem","A power injector",2
+"What does a load balancer do?","Assigns Domain Name System names","Distributes client traffic across multiple servers to improve availability and performance","Prints large jobs faster","Converts fiber to copper",2
+"What is a proxy server?","A device that translates names to addresses","An intermediary that forwards client requests to servers, often providing caching, filtering, or access control","A wireless repeater","A storage array",2
+"What are Supervisory Control and Data Acquisition (SCADA) systems?","Consumer social media apps","Industrial control and monitoring systems for processes like power, water, and manufacturing","Home Wi-Fi routers","Web analytics platforms",2
+"What are Internet of Things (IoT) devices in a network context?","Only smartphones","Embedded networked devices such as sensors, cameras, and smart appliances that communicate with services","Traditional servers only","Non-networked peripherals",2
+"A company wants to reduce web bandwidth by reusing previously fetched pages for many users. Which host service helps?","Mail server","Proxy server with caching","Dynamic Host Configuration Protocol","Simple Network Management Protocol",2
+"Web traffic spikes overwhelm a single application server. Which host service mitigates this?","Load balancer in front of multiple application servers","Simple Mail Transfer Protocol relay","Print server","Spam gateway",1
+"Users report that printers disappear and jobs stall across the office. Which host role should you examine first?","Web server","Print server","Domain Name System","Unified threat management device",2
+"Employees cannot reach sites by name but can by Internet Protocol address. Which host role is most likely at fault?","File share server","Domain Name System server","Mail server","Proxy server",2
+"Administrators need to enforce who can access which network resources and maintain usage logs. Which concept applies?","Network Address Translation","Authentication, authorization, and accounting","Channel bonding","Power over Ethernet",2

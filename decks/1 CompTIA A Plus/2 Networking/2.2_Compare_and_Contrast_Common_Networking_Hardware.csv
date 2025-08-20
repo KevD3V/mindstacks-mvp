@@ -1,0 +1,20 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the primary function of a router?","Forward frames within a broadcast domain","Forward packets between networks and make path decisions","Provide power to phones","Terminate fiber to copper",2
+"What does a switch do at Layer 2?","Repeats all signals to every port","Learns Media Access Control addresses and forwards frames only to the correct port","Routes between subnets","Encrypts wireless",2
+"What distinguishes a managed switch from an unmanaged switch?","Managed supports configuration/monitoring (for example, virtual local area networks, Simple Network Management Protocol); unmanaged is plug-and-play with no management interface","Managed is smaller","Unmanaged is faster","Unmanaged supports virtual local area networks",1
+"What is a wireless access point (AP)?","A router with no ports","A device that provides Wi-Fi connectivity bridging wireless clients to the wired network","A power injector","A firewall",2
+"What is the purpose of a patch panel?","Terminate and organize cabling runs with punch-down blocks and present them as ports for flexible patching","Boost wireless coverage","Provide internet routing","Encrypt emails",1
+"What is a firewall’s primary role?","Improve Wi-Fi speed","Filter and control traffic based on rules; may perform network address translation and stateful inspection","Provide Power over Ethernet only","Act as a switch only",2
+"What is Power over Ethernet (PoE)?","Using batteries in switches","Delivering electrical power over Ethernet cabling to powered devices","Charging laptops over HDMI","Providing fiber connectivity",2
+"What is a PoE injector?","A device that strips power from Ethernet","A midspan device that adds power onto an Ethernet run for a single cable segment","A fiber coupler","A 10GBASE-T transceiver",2
+"What is a PoE switch?","A switch that disables power","A switch with built-in power sourcing equipment to power multiple devices over Ethernet","A wireless controller","A modem",2
+"What do PoE standards primarily define?","Email formats","Voltage/power levels and negotiation (for example, IEEE 802.3af/at/bt) for safe delivery","Fiber wavelengths only","RJ11 pinouts",2
+"What is a hub and why is it rare today?","A multiport repeater that floods all traffic; replaced by switches due to collisions and poor performance","A modern secure router","A wireless bridge","A PoE injector",1
+"What does a cable modem connect to?","Optical network terminal only","Hybrid fiber-coaxial provider network for broadband internet","Public switched telephone network directly","Only satellite links",2
+"What does a digital subscriber line (DSL) modem use for access?","Cable TV coax","Twisted-pair telephone lines with frequency division for data","Fiber only","Wi-Fi spectrum",2
+"What is an optical network terminal (ONT)?","A Wi-Fi access point","Customer-premises fiber terminator that converts passive optical network signals to Ethernet/telephony","A layer-3 switch","A PoE injector",2
+"What is a network interface card (NIC)?","A graphics processor","Hardware interface that provides network connectivity at the host (wired or wireless)","A firewall module","A patch panel",2
+"What is software-defined networking (SDN) in simple terms?","A way to label cables","Separating control plane from data plane, enabling centralized policy and programmatic network control","A wireless band","A type of Ethernet cable",2
+"Which device would you deploy to power ceiling-mounted access points without new power lines?","Unmanaged switch","PoE injector or PoE switch","Hub","ONT",2
+"Which statement correctly contrasts cable modem and ONT?","Both terminate coax","Cable modem terminates coax; ONT terminates fiber for passive optical networks","ONT handles telephone lines only","Cable modem is only wireless",2
+"Which component most directly increases cable management flexibility in racks?","PoE injector","Patch panel","Firewall","NIC",2

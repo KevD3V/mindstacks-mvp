@@ -1,0 +1,20 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is a typical characteristic of satellite internet?","Very low latency and short range","High latency due to long signal distance with wide coverage, useful in remote areas","Requires existing cable television service","Only works indoors",2
+"What is a key benefit of fiber internet?","Very high bandwidth and low latency using optical fiber","Shared coaxial bandwidth only","Dial-up speeds","Requires line-of-sight to a satellite",1
+"What describes cable internet?","Runs over coaxial cable from the provider’s hybrid fiber-coax network and bandwidth is often shared in the local segment","Uses only twisted pair telephone lines","Satellite only","Fiber-to-the-home exclusively",1
+"What is digital subscriber line (DSL)?","Wireless broadband","Data service over telephone twisted pair with speed limited by distance to the provider’s equipment","Cable television over coax","Only cellular",2
+"What is cellular internet access?","A fixed wired connection","Mobile broadband using the carrier’s radio access network (for example, Long-Term Evolution or 5G) via hotspots or modems","Satellite dish only","Fiber to each desk",2
+"What is a Wireless Internet Service Provider (WISP)?","A cable company","A provider offering fixed wireless access, often using unlicensed spectrum and directional antennas to deliver service to homes or businesses","A dial-up provider","A cloud storage vendor",2
+"What is a Local Area Network (LAN)?","A storage network for disks","A network covering a limited area such as a home, office, or campus building","A city-wide fiber ring only","A personal Bluetooth connection",2
+"What is a Wide Area Network (WAN)?","A network confined to a single room","A network that spans large geographic areas and interconnects Local Area Networks","A storage protocol","A wireless hotspot only",2
+"What is a Personal Area Network (PAN)?","A data center network for disks","A very short-range network for personal devices such as Bluetooth peripherals","A campus fiber ring","A satellite link",2
+"What is a Metropolitan Area Network (MAN)?","A network for one home","A network that spans a city or large campus using high-speed links","A storage network","A Virtual Local Area Network",2
+"What is a Storage Area Network (SAN)?","A personal Bluetooth network","A high-speed specialized network providing block-level storage access to servers","A public hotspot","A home router feature",2
+"What is a Wireless Local Area Network (WLAN)?","A Wide Area Network with fiber links","A Local Area Network using Wi-Fi radio instead of or alongside cables","A satellite service","A storage protocol",2
+"A rural site lacks cable and fiber. Which connection type is often most practical?","Digital subscriber line at any distance","Satellite internet or Wireless Internet Service Provider if line-of-sight is available","Only cellular is possible","Metropolitan Area Network",2
+"A company needs very consistent low latency and gigabit speeds for many users. Best fit?","Satellite","Fiber","Dial-up","Long-range fixed wireless only",2
+"Bluetooth headphones paired to a phone are an example of which network type?","Personal Area Network","Local Area Network","Metropolitan Area Network","Wide Area Network",1
+"A business links branch offices across regions through a provider’s backbone. Which network type best describes this?","Local Area Network","Wide Area Network","Wireless Local Area Network","Personal Area Network",2
+"A team sets up Wi-Fi across a single office floor. Which network type is that?","Wireless Local Area Network","Wide Area Network","Storage Area Network","Metropolitan Area Network",1
+"Which connection type most commonly shares neighborhood bandwidth and can slow at peak times?","Cable internet","Fiber to the premises only","Satellite only","Dial-up",1
+"Which network type focuses on block-level disk access for servers rather than user connectivity?","Storage Area Network","Local Area Network","Personal Area Network","Wireless Local Area Network",1
