@@ -1,0 +1,24 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"In a laser printer, what is the imaging drum?","A paper storage tube","A photoconductive cylinder that holds the electrostatic image before toner is applied","A fuser heater","An ink reservoir",2
+"What does the fuser assembly do in a laser printer?","Transfers charge to the drum","Heats and presses toner onto paper to make the image permanent","Cleans excess toner","Feeds sheets into the tray",2
+"What is a transfer belt/transfer roller used for?","Move paper to the output tray only","Carry or apply toner from the drum(s) to the paper during the transfer step","Store used toner","Measure paper size",2
+"What do pickup rollers and separation pads do?","Heat toner","Feed a single sheet and prevent doubles from entering the path","Charge the drum","Apply oil to the fuser",2
+"What is the duplexing assembly?","Print head for inkjets","Mechanism that turns paper to allow two-sided printing in the device","A wireless module","A memory card slot",2
+"Which list shows the laser imaging process in order?","Charging → exposing → developing → transferring → fusing → cleaning → processing","Processing → charging → exposing → developing → transferring → fusing → cleaning","Developing → charging → exposing → fusing → transferring → cleaning","Processing → developing → charging → exposing → fusing → cleaning → transferring",2
+"What does a typical laser maintenance kit include?","Only ink cartridges","Fuser, rollers, separation pads, and feed components to restore reliability","Motherboard and CPU","Network cards",2
+"What is the correct ongoing maintenance for a laser device?","Replace ink daily","Replace toner as needed, apply maintenance kits per page count, calibrate, and clean","Replace the drum weekly","Disable duplex",2
+"Inkjet printers use which consumables?","Toner cartridges and drums","Ink cartridges and sometimes user-replaceable print heads","Fuser oil","Developer powder only",2
+"What does inkjet 'calibration' usually adjust?","CPU clock speed","Print head alignment and color accuracy","Wi-Fi channel","Duplex speed",2
+"A user reports streaking on an inkjet. First action?","Replace the fuser","Run the built-in print head cleaning routine and alignment; inspect/replace cartridges if needed","Replace the transfer belt","Disable color",2
+"What is the carriage belt in an inkjet?","Paper belt in the tray","Belt that moves the print head carriage across the page","Fuser belt","ADF belt",2
+"What is thermal printing media?","Any paper","Special heat-sensitive paper used by thermal printers","Photo paper only","Cardstock only",2
+"What component creates images in a direct-thermal printer?","Ink ribbon","Heating element that darkens the thermal paper","Laser beam","Toner coil",2
+"What is typical maintenance for thermal printers?","Replace toner and drum","Replace paper, clean the heating element, and remove debris","Replace ink carts weekly","Lubricate tractor feeds",2
+"Why does thermal paper need careful storage?","It is waterproof","Heat and light can darken the coating and fade prints over time","It harms the fuser","It jams inkjets",2
+"What are the main consumables for impact (dot-matrix) printers?","Toner and drum","Print head, ribbon, and tractor-feed paper","Ink tanks and print heads","Fuser and belt",2
+"What maintenance resolves light characters on an impact printer?","Replace the toner","Replace the ribbon and check head alignment","Clean the fuser","Run head cleaning",2
+"In a 3-D filament printer, what are common consumables?","Drum and toner","Filament spools (for example, PLA/ABS) and print bed surfaces/tape","Thermal paper","Ink tanks",2
+"What is a resin 3-D printer’s key consumable?","Filament","Photosensitive liquid resin","Thermal ribbon","Impact ribbon",2
+"Which scenario best matches a failing laser fuser?","Pages exit blank","Pages smear/rub off easily and feel warm","Printer will not power on","Wi-Fi drops",2
+"Which component replacement most likely fixes ghosting (faint repeated images) on laser prints?","Replace the fuser only","Replace or clean the imaging drum and ensure proper cleaning step; inspect fuser if repeating at its circumference","Change the Wi-Fi channel","Replace ink",2
+"A duplex print jams only when printing two-sided. Likely part to inspect first?","Imaging drum","Duplexing assembly rollers and sensors","Fuser heater","USB cable",2

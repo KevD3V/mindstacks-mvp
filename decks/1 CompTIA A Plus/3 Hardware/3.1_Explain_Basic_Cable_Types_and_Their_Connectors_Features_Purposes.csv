@@ -1,0 +1,43 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is Category 5 (Cat 5) cable commonly used for today?","High speed 10 Gigabit Ethernet for 100 meters","Older Fast Ethernet up to 100 Mb/s; largely replaced by newer categories","Fiber backbone links","Coaxial cable television distribution",2
+"What improvement does Category 5e (Cat 5e) add over Cat 5?","Supports up to 1 Gb/s Ethernet on typical runs with reduced crosstalk","Adds fiber strands to the cable","Increases conductor gauge to 18 AWG","Requires shield on every pair",1
+"Which statement about Category 6 (Cat 6) is accurate?","Only supports 100 Mb/s","Supports 1 Gb/s to 100 m and 10 Gb/s for shorter distances","Requires fiber connectors","Is wireless only",2
+"What distinguishes Category 6a (Cat 6a) from Cat 6?","Designed to support 10 Gb/s to 100 meters","Removes twisted pairs","Uses coaxial cores","Only for telephone service",1
+"What is coaxial cable most often used for in networks?","Short fiber jumpers","Cable internet and television distribution using F type connectors","Parallel SCSI chains","Mouse and keyboard cables",2
+"What is shielded twisted pair (STP)?","Twisted pair with additional shielding around pairs or bundle to reduce interference","A fiber optic cable type","A flat ribbon cable","Coaxial wire with braid only",1
+"What does 'direct burial' mean on copper cabling?","Cable designed for plenum spaces","Cable rated to be buried in the ground without conduit and with moisture protection","Cable for patch panels only","Cable used only indoors",2
+"What is unshielded twisted pair (UTP)?","Coaxial with no braid","Standard Ethernet cable with twisted pairs and no additional shielding","Fiber jumper","Wireless antenna cable",2
+"What is 'plenum rated' cable?","Cable designed for outdoor conduit only","Jacket that produces low smoke and toxic fumes when heated, required in air handling spaces","Cable with water blocking gel","Cable shielded with foil only",2
+"What is the primary advantage of optical fiber in networking?","Works only for short distances","Immunity to electromagnetic interference and very long distance, high bandwidth transmission using light","Requires no connectors","Uses telephone signaling",2
+"What are T568A and T568B?","Fiber polishing methods","Ethernet copper pinout standards defining pair order in 8P8C connectors","Coaxial shielding codes","Wireless security modes",2
+"For a straight through patch cable, which termination rule is correct?","Use T568A on one end and T568B on the other","Use the same standard on both ends, either T568A or T568B","Use no standard order","Cross power pairs only",2
+"Which video interface carries digital video and audio on a single cable and is common on TVs?","Video Graphics Array (VGA)","High Definition Multimedia Interface (HDMI)","Digital Visual Interface - A","Serial",2
+"Which interface supports packet based video, daisy chaining, and high resolutions on computers?","DisplayPort","RJ45","DB9","Lightning",1
+"Which legacy video interface is analog only and uses a 15 pin D sub connector?","Video Graphics Array (VGA)","High Definition Multimedia Interface","DisplayPort","Digital Visual Interface - D",1
+"What is Digital Visual Interface (DVI)?","Analog only signaling","A digital or analog video interface with variants such as DVI D and DVI I","A fiber audio cable","A storage connector",2
+"Which storage cable is most common for modern internal drives?","Integrated Drive Electronics (IDE or PATA) ribbon","Serial Advanced Technology Attachment (SATA) 7 pin data cable","Small Computer System Interface (SCSI) parallel cable","External SATA only",2
+"What is External SATA (eSATA) used for?","Internal motherboard to drive links only","Connecting external SATA storage with a shielded connector","Fiber channel networks","Wireless backups",2
+"What is Small Computer System Interface (SCSI) in this context?","A modern consumer video port","A legacy parallel or serial storage interface historically used in servers and workstations","A wireless printing protocol","A copper telephone connector",2
+"What is Integrated Drive Electronics (IDE or PATA)?","Parallel ribbon cable interface for older drives with 40 pin connectors","New serial interface for 10 Gb/s drives","A fiber standard","A coax connector",1
+"What is Universal Serial Bus (USB) 2.0 best described as?","Up to 480 Mb/s peripheral interface","10 Gb/s optical link","Wireless backhaul","Power only cable",1
+"What key change did USB 3.x introduce over USB 2.0?","Lower speed","Higher throughput in gigabits per second and additional pins on many connectors","Removal of data lines","Analog signaling only",2
+"What is 'serial' in the peripheral list referring to?","Parallel printer port","RS 232 communications commonly using a DB9 connector for legacy devices","Fiber jumper","Coaxial feed",2
+"What is Thunderbolt used for?","Low speed peripherals only","High speed external interface carrying PCI Express and DisplayPort over Mini DisplayPort or USB C connectors","Telephone handsets","Coax amplifiers",2
+"What is an adapter in this section?","A device that converts one physical interface to another or allows connection between different connector types","A cable tester","A wireless protocol","A file format",1
+"Which connector is 'RJ11' typically used with?","Ethernet","Telephone lines for analog or digital voice","Fiber","Coax cable TV",2
+"Which connector is 'RJ45' commonly associated with?","Ethernet 8 position 8 contact modular connector","Telephone handsets","Coax TV splitters","Fiber optic splicing",1
+"What is an F type connector used for?","USB cables","Coaxial connections such as cable TV and cable modems","Fiber patch cords","Old parallel printers",2
+"What is the Straight Tip (ST) connector?","A fiber optic bayonet style connector","A coax crimp connector","A copper punchdown block","A USB adapter",1
+"What is the Subscriber Connector (SC)?","A copper telephone plug","A square push pull fiber optic connector","A coax adapter","A serial DB9 connector",2
+"What is the Lucent Connector (LC)?","A small form factor fiber optic connector often used in duplex pairs","A coax TV connector","A copper terminal block","A memory slot",1
+"What is a punchdown block in this context?","A video adapter","A termination block (for example 66 or 110) where twisted pair conductors are seated with a punchdown tool","A fiber splice tray","A serial gender changer",2
+"What is a Molex connector used for?","Legacy 4 pin power connector for internal drives and fans","Modern SATA data connection","Fiber termination","RJ45 dust cover",1
+"What is Apple Lightning?","A fiber optic plug","A proprietary reversible power and data connector used on some Apple mobile devices","A type of coax","A server power supply",2
+"What is DB9?","Nine pin D sub connector commonly used for RS 232 serial connections","A fiber coupler","An HDMI variant","A PoE injector",1
+"What is microUSB used for in this context?","Legacy small USB connector for many phones and peripherals, supports data and power","Fiber optic jumper","Coaxial TV connector","Serial RS-232 only",1
+"What is miniUSB?","Smaller legacy USB connector used on older cameras/peripherals before microUSB","Modern reversible USB connector","Audio 3.5 mm plug","RJ11 telephone plug",1
+"What is USB-C?","Reversible USB connector that can carry data, power, and alternate modes (for example, DisplayPort/Thunderbolt)","A fiber SC connector","An RJ45 locking tab","A coax F-type barrel",1
+"Which statement compares UTP and STP correctly?","UTP has no additional shielding; STP adds foil/braid shielding to reduce interference","Both are fiber types","UTP is only for telephone lines","STP cannot carry Ethernet",1
+"Which situation calls for plenum-rated cable rather than riser or general-purpose?","In return-air spaces where low-smoke, low-toxicity jackets are required by code","Outdoor aerial spans only","Direct burial under soil","Inside a metal conduit only",1
+"Which situation calls for direct-burial cable?","Cabling laid underground without conduit with moisture protection","Cabling above drop ceilings","Short patch leads between a switch and a server","Fiber jumpers in a rack",1
+"When would a passive display adapter (for example, DisplayPort-to-HDMI) work without external power?","When the source port supports the required alternate mode and signal type natively","Only when converting analog VGA to digital","Never—adapters must be powered","Only over coax",1

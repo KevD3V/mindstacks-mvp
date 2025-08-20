@@ -1,0 +1,24 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the main goal when unboxing and placing a new printer?","Power it on anywhere","Consider space, ventilation, level surface, and access to power/network before setup","Install ink first and move it later","Disable all packaging locks",2
+"Why is using the appropriate driver for the operating system critical?","Drivers only affect the scanner","Wrong drivers may prevent printing or features such as duplex and color from working","It only changes the icon","It only affects Wi-Fi",2
+"What does Printer Control Language (PCL) emphasize compared to PostScript?","Page description for graphics","Faster device-handled rasterization; common for office text output","3-D rendering only","Wi-Fi security",2
+"What is Adobe PostScript known for on printers?","Device-only fonts","High-quality page description suitable for complex graphics and publishing","Only black-and-white printing","USB-only mode",2
+"Which connectivity is simplest for a single PC to a local printer?","Ethernet","Universal Serial Bus (USB) direct connection","Wireless mesh","Parallel port only",2
+"What is the primary benefit of Ethernet printing?","Only printing photos","Network accessibility and centralized management via print servers and Internet Protocol addresses","Battery operation","It uses less toner",2
+"What is a typical advantage of wireless printing?","Eliminates all drivers","Provides flexible placement and mobile printing via Wi-Fi","Higher page-per-minute always","No security needed",2
+"What does it mean to share a printer from a workstation?","The printer becomes a cloud service","The workstation acts as a host to offer the printer to others; the host must be on for access","It converts to Ethernet","It becomes wireless only",2
+"What does a dedicated print server provide over peer-to-peer sharing?","Less reliability","Centralized queueing, driver hosting, and availability independent of user PCs","Only local printing","USB only",2
+"What does 'duplex' mean in printer settings?","Two printers in one","Automatic two-sided printing","Two users printing at once","Double-wide paper",2
+"What does 'orientation' configure?","Toner density","Portrait vs. landscape page layout","Paper thickness","Network speed",2
+"What do 'tray settings' control?","Which NIC to use","Paper source, size, and type selection","Color profile only","Wi-Fi channel",2
+"What does 'quality' commonly affect?","Ethernet speed","Resolution/toner usage balancing output detail vs. cost","Paper size only","Security level",2
+"What is 'user authentication' on a printer?","Choosing a font","Requiring credentials or badges to use printing or release jobs","Selecting page size","Calibrating colors",2
+"What is 'badging' in printer security?","Installing logos","Using proximity or smart cards to authenticate users at the device","Selecting a tray","Changing toner",2
+"What is the purpose of 'audit logs' on enterprise printers?","Track usage and events for compliance and troubleshooting","Change toner color","Measure CPU temperature","Control Wi-Fi only",1
+"What are 'secured prints' (sometimes called 'secure release')?","Jobs that print immediately","Jobs held on the device until a user authenticates with a PIN/badge to release them","Jobs sent by email only","Jobs that cannot be deleted",2
+"Which network scan service sends scanned pages to a shared folder?","Email","Server Message Block (SMB) share","Cloud print","Bluetooth",2
+"Which network scan service would send directly to recipients without using a share?","Scan to email via Simple Mail Transfer Protocol settings","Scan to SMB","Scan to cloud only","Scan to fax",1
+"What is an Automatic Document Feeder (ADF)?","A Wi-Fi antenna","Mechanism that feeds multiple pages to the scanner automatically","A toner agitator","A duplex setting",2
+"When would a flatbed scanner be preferable to an Automatic Document Feeder?","For stacks of plain sheets only","For books, IDs, or delicate items that cannot pass through rollers","For high-volume jobs","For stapled sets",2
+"A user installs a generic driver and duplex is missing. Best fix?","Reinstall the operating system","Install the vendor-specific driver for that model and enable duplex in device settings","Change Wi-Fi channels","Replace the drum",2
+"A finance department needs confidential documents not to appear on trays unattended. Best setting?","Lower print quality","Enable secured prints with badge or PIN release","Disable Ethernet","Enable guest access",2

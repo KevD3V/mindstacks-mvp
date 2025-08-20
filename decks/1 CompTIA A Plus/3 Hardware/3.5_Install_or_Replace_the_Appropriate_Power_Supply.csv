@@ -1,0 +1,13 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What does 110–120 VAC vs. 220–240 VAC describe on a power supply?","Input alternating-current voltage ranges used by the wall outlet in different regions","Output direct-current rails to the motherboard","The CPU voltage needed","Battery capacity",1
+"On a manual-input power supply, what happens if the 115 V/230 V selector is set incorrectly for a 230 V region?","The system works normally","The power supply may be damaged immediately","The fans just spin faster","Only the GPU stops working",2
+"What do the 3.3 V, 5 V, and 12 V rails represent?","Input wall voltage choices","Separate direct-current output lines used by components","Wi-Fi frequencies","Power factor values",2
+"Which components primarily use the 12 V rail today?","Hard drives only","High-current devices such as CPU voltage regulators and graphics cards","Only case LEDs","The keyboard and mouse",2
+"What is the purpose of a 20-pin to 24-pin motherboard adapter?","Convert a 24-pin supply to 20-pin board","Allow an older 20-pin power supply to connect to a 24-pin ATX motherboard","Provide extra SATA power leads","Convert AC to DC",2
+"What is a redundant power supply in a server chassis?","Two or more hot-swappable supplies that share load; the system continues if one fails","A higher-watt single supply","A UPS battery","A modular cable kit",1
+"What is a modular power supply?","All cables are permanently attached","Cables can be connected only as needed to improve airflow and cable management","It runs on batteries","It powers only laptops",2
+"What does 'wattage rating' of a power supply indicate?","Maximum theoretical GPU speed","Total power the unit can safely deliver across all rails","Only the 12 V capacity","Fan speed control",2
+"Which choice best estimates a safe power supply for a build that measures ~420 W under full load?","350 W","450 W","550–650 W to allow headroom and future growth","1,200 W minimum",3
+"A system randomly shuts down under graphics load. Which power issue is most likely?","Insufficient wattage or 12 V amperage from the power supply","Bad Ethernet cable","Incorrect monitor refresh rate","Wrong printer driver",1
+"What is the advantage of an auto-switching universal-input power supply?","Accepts 100–240 VAC without a manual switch for worldwide use","Only works in North America","Provides higher CPU voltage","Eliminates the need for a UPS",1
+"Why would you add a second redundant module in a server?","To double the video outputs","To maintain uptime if one supply fails and to allow hot-swap replacement","To enable Bluetooth","To cool the CPU",2
