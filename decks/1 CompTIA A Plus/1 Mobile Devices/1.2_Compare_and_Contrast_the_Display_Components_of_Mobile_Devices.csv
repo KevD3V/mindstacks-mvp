@@ -1,0 +1,17 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is a liquid crystal display (LCD)?","Self-emissive pixels requiring no backlight","Display that uses liquid crystals to modulate a backlight","Projection screen technology","Cathode ray technology",2
+"What does In-plane switching (IPS) primarily improve compared with Twisted Nematic (TN)?","Battery life","Viewing angles and color accuracy","Speaker volume","Touch sensitivity only",2
+"What is a characteristic of Twisted Nematic (TN) panels?","Best color accuracy","Very slow response times","Fast response and lower cost compared to IPS","Self-emissive pixels",3
+"What does Vertical Alignment (VA) generally offer compared with TN?","Worse contrast","Better contrast and deeper blacks","Lower brightness always","Lower resolution only",2
+"What distinguishes Organic Light-Emitting Diode (OLED) from LCD?","Needs a separate backlight","Uses self-emissive pixels with excellent contrast and can suffer burn-in risk","Uses liquid crystals and inverters","Requires cold cathode tubes in all cases",2
+"What is the function of a mobile display's backlight?","Provide wireless reception","Illuminate the LCD panel from behind so pixels are visible","Store images in memory","Improve CPU speed",2
+"Where are Wi-Fi antenna connectors/placement typically found in laptops?","Inside the hard drive","Routed into the display bezel for better line-of-sight, with coax leads down to the wireless card","On the battery cells","In the trackpad",2
+"What is the role of a laptop webcam?","Provide haptic feedback","Capture video/images, often integrated into the display bezel","Increase storage capacity","Boost antenna gain",2
+"What is the common purpose of the built-in microphone in mobile devices?","Store encryption keys","Capture audio for calls, conferencing, and voice input","Provide system cooling","Control power delivery",2
+"What is a touch screen digitizer?","A speaker amplifier","A sensor layer that converts touch into input coordinates","A backlight power supply","A device driver only",2
+"Modern smartphones and tablets most often use which touch technology?","Resistive touch requiring pressure","Capacitive touch that detects changes in electrical fields","Infrared beam grid only","None; they use stylus only",2
+"What is the function of an 'inverter' in older LCD laptops?","Increase Wi-Fi range","Convert direct current to high-voltage alternating current for cold-cathode fluorescent backlights","Encrypt the display signal","Provide heat to the panel",2
+"A laptop LCD shows a very faint image only visible with a flashlight. Most likely cause?","CPU thermal throttling","Backlight or inverter failure","Disk fragmentation","Bluetooth interference",2
+"Which display type provides the deepest blacks and per-pixel lighting control?","Twisted Nematic (TN) LCD","Vertical Alignment (VA) LCD","In-plane switching (IPS) LCD","Organic Light-Emitting Diode (OLED)",4
+"Why are Wi-Fi antennas often placed around the screen bezel?","To protect against theft","To maximize signal by elevating and clearing obstructions compared to the palm rest area","To cool the chipset","To simplify keyboard removal",2
+"Which panel type is most likely chosen for color-critical mobile workstations?","Twisted Nematic (TN)","In-plane switching (IPS)","Vertical Alignment (VA)","Passive matrix LCD",2

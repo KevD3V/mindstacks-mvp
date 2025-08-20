@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What does Universal Serial Bus (USB) provide for mobile devices?","Only video output","Standardized data and power connections","Only wireless pairing","Only storage",2
+"Which connector is reversible and supports higher power/video alt-modes on many devices?","USB micro-B","USB mini-B","USB-C","RJ11",3
+"Which Apple mobile connector is proprietary and reversible?","Lightning","USB-C","USB-A","mini-USB",1
+"What are serial interfaces used for on mobile equipment?","High-power delivery to monitors","Legacy or specialty device communication (for example, RS-232 via adapters)","Only audio output","Only wireless charging",2
+"What is Near-field communication (NFC)?","Long-range Wi-Fi","Very short-range radio enabling tap-to-pair, authentication, or payments","Satellite link","Only wired charging",2
+"What is Bluetooth typically used for on mobile devices?","Connecting to fiber optics","Short-range wireless connection for accessories such as headsets, keyboards, and speakers","Wired Ethernet","Time synchronization only",2
+"What is a mobile hotspot?","A special USB cable","A feature where a device shares its internet connection with others via Wi-Fi or tethering","A new display type","A speaker mode",2
+"What is a touch pen (stylus)?","A voice recorder","An input tool for precise taps/drawing; can be passive (capacitive) or active (with power/pressure sensing)","A webcam cover","A SIM extractor",2
+"What is the primary function of a headset?","Manage storage","Provide integrated audio input/output for calls and media","Boost Wi-Fi coverage","Encrypt files",2
+"What do external speakers add to a mobile setup?","Improved graphics processing","Higher volume or fidelity compared with built-in speakers","More storage","More Bluetooth channels",2
+"What is an external webcam used for?","Cooling the CPU","Capturing higher-quality video or different positioning than the built-in camera","Providing cellular service","Reading barcodes only",2
+"What is a docking station?","A device that wirelessly charges phones only","A device that expands connectivity (power, video, networking, peripherals) often through a high-bandwidth connection for near-desktop experience","A battery tester","A privacy filter",2
+"What is a port replicator?","A portable projector","A simpler hub that provides additional ports (for example, USB, video) but usually less functionality than a full docking station","A firewall","A modem",2
+"How does a trackpad/drawing pad accessory differ from a mouse?","It stores files","It provides touch or pen input with pressure/gesture features for precision drawing or navigation","It replaces the CPU","It boosts battery life",2
+"Which connection method is best for pairing wireless earbuds to a tablet?","Universal Serial Bus (USB) cable","Bluetooth","Near-field communication (NFC) alone for audio streaming","Serial RS-232",2
+"A technician needs to connect many desktop peripherals and dual displays to a laptop with one plug. Best choice?","Port replicator with only USB 2.0","Docking station that supports power and multiple video outputs","Bluetooth headset","USB-C to RJ11 adapter",2
+"A field tech must transfer console logs from an old industrial controller with RS-232 to a laptop. Best method?","Bluetooth pairing","USB-to-serial adapter (serial interface)","Lightning cable","NFC tag",2
+"A user wants to share a phone’s cellular data with a laptop on the go without cables. Best feature?","Serial interface","Mobile hotspot (Wi-Fi tethering)","Port replicator","Inverter",2
+"Which statement compares docking stations and port replicators correctly?","Both always require Thunderbolt","Docking stations typically provide more power delivery and multiple video/network options; port replicators are simpler hubs","Port replicators always include dedicated GPUs","Docking stations are only wireless",2
+"Which connection is most appropriate for a modern Android phone to output video to a monitor (when supported)?","RJ45 to HDMI","USB-C with DisplayPort Alternate Mode or a compatible dock","micro-USB to VGA always","Lightning to serial",2

@@ -1,3 +1,22 @@
-Q,A
-This is a test for sub topic test 1,Yes
-This is another test for sub topic test 1,Yes
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the primary role of a laptop battery?","Store the operating system","Supply portable electrical power to the system when not connected to AC","Provide wired network access","Cool the CPU",2
+"Which battery chemistry is most common in modern laptops?","Nickel-cadmium","Lead-acid","Lithium-ion","Zinc-carbon",3
+"What safety symptom requires immediate battery replacement?","Slightly warm palm rest","Lower screen brightness","Swollen chassis or battery pack","Quiet fan noise",3
+"What is Random-access memory (RAM) used for in a laptop?","Long-term archival storage","Temporary working memory for active programs and data","Wireless communication","Display output",2
+"Which RAM form factor is typical for laptops?","Dual In-line Memory Module (DIMM)","Small Outline DIMM (SODIMM)","Single In-line Memory Module (SIMM)","RIMM",2
+"Before replacing RAM, what should you do first?","Update the BIOS mid-replacement","Disconnect AC and battery and observe electrostatic discharge precautions","Defragment the drive","Turn up screen brightness",2
+"What is a Hard Disk Drive (HDD)?","Optical storage using lasers","Flash storage with no moving parts","Magnetic storage with spinning platters and read/write heads","Network-only storage",3
+"What is a Solid-state Drive (SSD)?","Magnetic tape backup","Flash-based storage with no moving parts","Optical disc","Only a cloud service",2
+"Which is a key advantage of SSDs in laptops over HDDs?","Heavier weight","Higher shock resistance and lower latency","Unlimited write endurance","Zero power use",2
+"What does 'HDD/SSD migration' usually mean?","Changing screen resolution","Cloning or imaging an existing drive’s data/OS to a new drive","Formatting a USB stick","Switching Wi-Fi channels",2
+"Which tool is commonly used for drive migration?","Cable tester","Disk cloning/imaging software","Protocol analyzer","Loopback plug",2
+"Which internal SSD option typically provides the highest performance in laptops today?","2.5-inch Serial ATA (SATA) SSD","Universal Serial Bus (USB) 2.0 thumb drive","M.2 Non-Volatile Memory Express (NVMe) over PCI Express","Parallel ATA",3
+"What distinguishes a 2.5-inch SATA SSD from an M.2 card?","Both are identical in shape","2.5-inch is a cabled bay device; M.2 is a flat card that plugs into a slot","M.2 always uses spinning platters","2.5-inch is only for desktops",2
+"When replacing a laptop wireless card, which tiny connectors must be reattached correctly?","RJ45 and RJ11","HDMI and DisplayPort","Main and auxiliary antenna leads (snap-on u.FL-type)","SATA power and data",3
+"A wireless card is detected after replacement but cannot join networks. Best next step?","Lower screen brightness","Install the correct driver/firmware for the adapter","Replace the CPU","Disable the touchpad",2
+"What is 'biometrics' in laptop security?","Smart card readers only","Authenticating with a human trait such as fingerprint or face recognition","Using long usernames","Encrypting PDF files",2
+"What is Near-field communication (NFC) on a laptop commonly used for?","Long-range Wi-Fi","Short-range tap-to-pair, smart-card proximity, or payments","Satellite communication","Power over Ethernet",2
+"During keyboard replacement, how do you avoid damage?","Yank the ribbon cable out","Disconnect power, unlock the Zero Insertion Force (ZIF) latch, then seat the ribbon evenly","Use a heat gun on the ribbon","Bend the ribbon sharply",2
+"A new M.2 NVMe SSD is installed but not visible in the firmware. Most likely cause?","Battery not calibrated","Slot supports only SATA M.2 or is disabled in firmware; enable the slot or use a compatible drive","Keyboard driver missing","Webcam unplugged",2
+"After migrating to a new SSD, apps are missing. Likely oversight?","Forgot to change wallpaper","Only some partitions were cloned; redo imaging to include system and data partitions or reinstall apps","Battery too full","Wi-Fi disabled",2
+"A laptop shows rapid discharge and the bottom case is bulging. Correct action?","Continue using until empty","Replace the Lithium-ion battery immediately and handle as a safety issue","Run disk defragmentation","Disable Bluetooth",2
