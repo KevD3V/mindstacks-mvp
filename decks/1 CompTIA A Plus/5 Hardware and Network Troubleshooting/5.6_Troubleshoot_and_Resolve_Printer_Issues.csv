@@ -1,0 +1,17 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Vertical lines down printed pages on a laser device are most often caused by what?","Wrong paper size","Dirty or damaged imaging drum or contaminated roller - clean or replace","Ethernet duplex mismatch","Low battery",2
+"Garbled or unreadable print jobs usually indicate what?","Outdated lamp","Incorrect or corrupt printer driver or wrong page description language","Empty paper tray","Wrong input source",2
+"Which issue causes toner not fusing to paper?","Bad pickup roller","Fuser not heating or pressing correctly - reseat or replace fuser","Wrong IP address","Low PC memory",2
+"A device experiences frequent paper jams at the tray feed. Likely culprit?","Fuser assembly","Worn pickup rollers","Wrong driver","HDMI cable",2
+"Faded print on a laser printer most commonly means what?","Damaged VGA cable","Low toner or worn transfer components","Wrong DNS","Sleep mode",2
+"Wrong paper size messages occur repeatedly. Best fix?","Disable duplex","Match tray settings to loaded paper size and type; update driver settings","Lower brightness","Reboot router",2
+"Paper is not feeding at all from a tray. Likely cause?","New toner cartridge","Failed pickup roller or empty tray","Bad HDMI cable","Incorrect VLAN",2
+"Multiple pages feed at once. Which part is suspect?","Separation pad or retard roller worn","Imaging drum","Fuser oil","Wireless antenna",1
+"Printer queue shows multiple pending prints that never output. First step?","Replace the lamp","Clear and restart the print spooler service and test with a fresh job","Change DNS","Swap monitor",2
+"Speckling of toner across the page indicates what?","Jammed duplexer","Contaminated rollers or leaking toner cartridge - clean or replace","Wrong audio driver","Bad HDMI",2
+"Double or echo images repeating down the page most often point to what?","Correct fuser temperature","Worn imaging drum not fully cleaned or a slipping fuser causing repeating artifacts","Bad Ethernet cable","Wrong tray",2
+"Incorrect color output with color laser printers is commonly fixed by what?","Replacing the PCIe slot","Running color calibration, using correct profiles, and verifying cartridges are genuine and seated","Replacing CPU","Updating BIOS only",2
+"Grinding noise from inside a printer typically means what?","Normal operation","Gear wear or a foreign object in the paper path - inspect and replace as needed","Wrong print driver","Outdated operating system",2
+"Staple jams or hole-punch failures occur in the finisher. First action?","Reinstall operating system","Open the finisher, remove obstructions, and replace staples or the punch waste container","Change VLAN","Reset BIOS",2
+"Images appear mirrored or flipped by mistake. Likely setting?","Duplex","Mirror or transfer or orientation setting in the driver - correct the profile","Power saving","Wrong subnet",2
+"Pages exit wrinkled and scorched at the leading edge. Most likely cause?","Incorrect paper size","Fuser overheating or pressure problem - inspect fuser and paper type settings","Bad GPU","Queue paused",2

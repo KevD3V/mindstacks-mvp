@@ -1,0 +1,13 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"A phone reports poor battery health. Best remediation?","Disable screen lock","Replace the battery (if serviceable) or the device; reduce background drain","Lower Wi-Fi speed","Change wallpaper",2
+"What safety concern requires immediate action when a battery is swollen?","None","Stop using and replace the battery or device; do not puncture or apply pressure","Charge it fully","Put it in a freezer",2
+"A device has a broken screen but still responds to touch. First step?","Increase brightness","Back up data and arrange screen replacement","Change ringtone","Lower resolution",2
+"A user reports improper charging with any cable. Likely cause?","Low RAM","Debris or damage in the charging port; clean gently or replace the port","Old wallpaper","Router reboot needed",2
+"What should you do after liquid damage?","Keep using the device","Power off immediately, disconnect battery if possible, and seek professional cleaning and drying","Heat it while powered","Shake it",2
+"A phone frequently overheats during gaming. Effective mitigation?","Disable auto-lock","Reduce workload, close background apps, remove case temporarily, ensure ventilation, and check for rogue apps","Enable airplane mode permanently","Put it in direct sun",2
+"Touch input is erratic after a drop. Likely issue?","Bad Wi-Fi","Digitizer or touch calibration problem; run calibration and consider digitizer replacement","Wrong DNS","Low printer toner",2
+"USB-C feels loose and fails intermittently. Best fix?","Switch wallpaper","Inspect for bent pins or wear; replace cable and possibly the port module","Lower brightness","Change APN",2
+"Apps crash frequently after a major update. First response?","Factory reset only","Update or roll back apps or OS, clear cache, and check storage space","Replace battery","Replace screen",2
+"A user reports malware symptoms such as pop-ups or unknown apps. Correct action?","Ignore and continue","Disconnect, back up, remove malicious apps, update OS, and run a reputable mobile security scan","Increase brightness","Disable passcode",2
+"A stylus cursor drifts on a tablet. Likely fix?","Replace printer","Recalibrate or pair the stylus and clean the screen","Update router firmware","Swap SIM card",2
+"Photos will not upload on cellular but work on Wi-Fi. First check?","GPU speed","Carrier data limits or disabled background data for the photos app","CPU thermal paste","Display cable",2
