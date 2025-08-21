@@ -1,0 +1,19 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"An app fails to launch on Android. First step?",Force stop and clear cache/data for the app,Reflash the baseband,Disable the SIM PIN,Change display DPI,1
+"An app repeatedly crashes after opening. Best next step?",Update or reinstall the app from the official store,Increase ringtone volume,Turn off auto-brightness,Disable lock screen,1
+"App update fails every time. Likely cause?",Insufficient storage or network restrictions,Wrong wallpaper,Low screen refresh rate,Muted notification channel,1
+"A phone is very slow to respond. Which two checks come first?",Storage space and background apps,Replace SIM and IMEI,Enable USB tethering,Change APN,1
+"The OS will not update. Which prerequisite is most often missed?",Adequate storage,battery charge,and reliable Wi-Fi,Correct APIPA address,Wallpaper orientation,Static DNS on LAN,1
+"The battery drains unusually fast. First best step?",Review battery usage to find a rogue app or feature,Disable GPS globally forever,Replace the speaker,Lower ringtone,1
+"Device randomly reboots. What is the most probable cause?",Faulty or incompatible app or OS bug,Wrong screen protector,Airplane mode,Printer queue full,1
+"Bluetooth headset will not reconnect. What should you try first?",Forget and re-pair the device,Change display color profile,Increase font size,Disable Do Not Disturb,1
+"Wi-Fi connects but internet is slow only on this phone. Good fix?",Forget the SSID and reconnect then test without VPN,Replace router immediately,Change phone wallpaper,Disable camera,1
+"NFC tap-to-pay fails. Which check is best?",Ensure NFC is enabled and the antenna area is aligned,Turn on tethering,Change ringtone,Enable developer options,1
+"AirDrop transfer fails between two iPhones. What is required?",Both Bluetooth and Wi-Fi enabled and AirDrop set to Contacts or Everyone,Bluetooth only with mobile data,Wi-Fi only with Airplane Mode,NFC enabled only,1
+"The screen will not auto-rotate. Quick fix?",Disable rotation lock,Enable 120 Hz,Change font,Toggle grayscale,1
+"Apps fail to update for one user at work. Which policy could cause this?",MDM restrictions on app store access,SSID hidden,Pin disabled,Wallpaper policy,1
+"Android app cannot access camera after update. Likely cause?",Revoked or denied camera permission,Wrong ringtone,VPN split tunnel,Disabled NFC,1
+"iOS app will not close. Which action is correct?",Force close from the app switcher,Change Auto-Lock,Reset Face ID,Disable Spotlight,1
+"A user reports OS update is stuck at verifying. What should they try?",Restart and ensure strong Wi-Fi then retry,Reflash IMEI,Change APN to static,Disable WPA2,1
+"Persistent connectivity issues across Bluetooth,Wi-Fi,and cellular. Next step?",Reset network settings,Replace battery,Change theme,Turn off notifications,1
+"Android Play Store cannot download with error about date and time. Fix?",Correct time sync or set to automatic time,Change launcher,Enable HDR,Disable vibration,1

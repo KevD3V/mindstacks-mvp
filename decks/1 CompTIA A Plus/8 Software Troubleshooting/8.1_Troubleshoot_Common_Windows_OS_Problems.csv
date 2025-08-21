@@ -1,0 +1,23 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"A user reports repeated BSODs after a new video driver. First step?",Update BIOS,Rollback the display driver in Device Manager,Replace the PSU,Disable NIC,2
+"A desktop is very slow with disk at 100 percent in Task Manager. Best next step?",Run Disk Cleanup,Open Resource Monitor to find the process causing high I O,Swap the SATA cable,Disable IPv6,2
+"Services will not start and show dependency errors. What should you check first?",Windows Features,Services.msc for dependency services and their startup type,Task Scheduler,Startup folder,2
+"Apps crash only when opening large files. Most likely fix?",Replace GPU,Increase virtual memory size or add RAM,Disable Windows Defender,Change display color depth,2
+"Frequent unexpected shutdowns with Kernel Power 41 events. First check?",CPU temperature and cooling,Mouse driver,Monitor refresh rate,Remote Desktop settings,1
+"Low memory warnings appear during normal use. Which action is best?",Disable updates,Increase RAM or page file size,Replace NIC,Disable IPv6,2
+"USB controller resource warnings in Device Manager. What is the likely fix?",Change wallpaper,Update chipset or USB controller drivers,Change audio device,Disable touchpad,2
+"System instability after a recent update. First remediation?",Uninstall and reinstall the browser,Rol l back the problematic update via Settings or wusa,Replace CMOS battery,Disable DNS client,2
+"On boot you see No operating system found. What should you check first?",Printer queue,UEFI or BIOS boot order and drive detection,Wallpaper settings,Local group policy,2
+"User profile takes several minutes to load. What is the best next step?",Recreate or repair the user profile,Disable Wi Fi,Lower screen resolution,Change print spooler start type,1
+"System time drifts daily. Which Windows component to inspect?",W32Time service and NTP sync settings,Windows Fax and Scan,Work Folders,Telnet Client,1
+"Which tool verifies system files without reinstalling?",System Restore,DISM ScanHealth,CHKDSK,SFC,4
+"Windows boots to spinning dots then restarts. What step aligns with add resources?",Install more RAM,Change theme,Disable screen saver,Turn off notifications,1
+"A machine will not boot after a new app install. Which step is most appropriate?",Restore to a previous restore point,Install a new SSD,Change DPI settings,Disable printer discovery,1
+"Which action aligns with verify requirements?",Check app and OS hardware requirements against the device,Change desktop background,Enable ClickLock,Disable Windows Hello,1
+"Corrupt system files are suspected. What order is best?",SFC then DISM if needed,DISM then reinstall,Format then restore,Reset password then SFC,1
+"To repair Windows without removing files, choose:",Startup Settings,Reset this PC keep my files,Format and clean install,Safe Mode with Networking,2
+"Which situation warrants reimage?",Wide spread malware and system instability across many services,Single printer driver crash,Wrong wallpaper,One bad shortcut,1
+"An update caused app crashes. Which step aligns with roll back updates?",Uninstall the specific KB in Programs and Features View installed updates,Unplug Ethernet,Change mouse pointer,Disable Aero,1
+"Domain user profile corrupt after power loss. Best fix?",Delete and recreate the profile then copy needed data,Change power plan to High performance,Disable firewall,Install Hyper V,1
+"After sfc scannow reports it could not repair some files, what is the next non destructive step?",Run DISM Online Cleanup Image RestoreHealth,Delete the user profile,Disable Windows Update,Change power plan,1
+"A workstation hits BSOD with the same stop code weekly. Which tool best helps correlate drivers with the stop code?",Event Viewer and Reliability Monitor,Disk Cleanup,Paint,Task Scheduler Library only,1

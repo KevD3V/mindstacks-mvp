@@ -1,0 +1,18 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"A user cannot access the network. ipconfig shows 169.254.x.x. First step?",Replace RAM,Renew the IP or check DHCP availability,Change monitor cable,Disable antivirus,2
+"Desktop alerts say Antivirus disabled but the user never turned it off. What is likely?",Rogue or unwanted software tampering with security,Faulty HDMI cable,Bad DNS suffix,Stuck F1 key,1
+"Files are renamed with .locked and cannot be opened. First response?",Disconnect from network and start incident response for ransomware,Swap keyboard,Update display driver,Enable printer sharing,1
+"Multiple personal files are missing after pop up infections. What is the best step?",Run full anti malware scan and restore from known good backup,Rebuild search index,Change mouse speed,Install a new theme,1
+"Unwanted notifications appear from the browser even when not on that site. Cause?",Push notifications allowed for a malicious site,Defective GPU,Broken USB header,Wrong NTP server,1
+"Windows Update fails with insufficient storage. What is the fix?",Free disk space and retry,Change wallpaper,Disable Wi Fi,Lower screen brightness,1
+"Random frequent pop ups in the browser. First step?",Check and remove malicious extensions and reset the browser,Replace PSU,Enable HDR,Lower audio volume,1
+"When opening an HTTPS site you get a certificate name mismatch. Likely cause?",Man in the middle or captive portal,Wrong video codec,Bad RAM slot,Old monitor,1
+"Certificate warnings occur only on public Wi Fi. What is a safe step?",Open a non HTTPS site to trigger captive portal then connect securely,Disable all AV,Share files publicly,Turn off firewall,1
+"Browser search redirects to unknown sites. What to inspect first?",Proxy settings and extensions then hosts file and DNS,Screen refresh rate,Audio enhancements,Printer properties,1
+"OS update fails with 0x8024xxx. BITS service is stopped. Most likely cause?",Malware tampering with update services and policies,Wrong color profile,Keyboard repeat rate too high,Sleep timer too short,1
+"Unable to access network after VPN disconnect. ipconfig shows no default gateway. Fix?",Reset adapter or renew IP to restore default route,Replace CMOS battery,Disable touchpad,Change wallpaper,1
+"False antivirus warnings ask for payment. What should you do first?",Terminate the process and run trusted anti malware tools,Increase page file,Change font size,Defrag SSD,1
+"Browser redirection persists after extension cleanup. Next best step?",Check hosts file and DNS resolver cache then run malware scan,Replace GPU fan,Enable mouse trails,Lower resolution,1
+"A user sees certificate warnings on the internal web app only. What is most likely?",Missing enterprise root CA in Trusted Root store,Failed GPU thermal paste,Wrong USB mode,Faulty speaker,1
+"Updates fail and error says not connected to update service. What first?",Check Windows Update service state and service dependencies,Change wallpaper,Run Magnifier,Disable PIN,1
+"Search queries redirect and a mysterious proxy appears in LAN settings. First remediation step?",Remove proxy in Internet Options and check for malicious extensions,Lower browser zoom,Change monitor refresh rate,Disable mouse acceleration,1

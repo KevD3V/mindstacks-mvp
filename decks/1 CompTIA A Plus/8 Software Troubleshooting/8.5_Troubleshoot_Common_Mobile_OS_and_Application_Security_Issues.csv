@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"User sideloaded an APK from a website. Primary risk?",Malicious code bypassing store vetting,Screen burn-in,Bad APN profile,Low speaker volume,1
+"Which setting permits sideloading on Android and should be disabled for security?",Install unknown apps Unknown sources,USB tethering,Always-on display,Wi-Fi calling,1
+"iPhone shows a profile from an unknown source. Security action?",Remove untrusted configuration profiles,Increase brightness,Turn off Live Photos,Change ringtone,1
+"Device appears rooted jailbroken. Which is true?",Security controls and app sandboxing are weakened,The carrier signal improves,Only battery life is affected,It enables FIPS mode,1
+"Which symptom best indicates adware on a phone?",High number of intrusive ads across apps,Screen auto-rotates too slowly,Wallpaper blur,Low flashlight brightness,1
+"Fake security warnings pop up in the browser. Best safe response?",Do not click prompts,close the tab,and clear site data,Install the extension it recommends,Disable HTTPS,Email the link to others,1
+"Unexpected data-usage limit notifications and high network traffic. Likely cause?",Background malicious app communicating externally,Bad headphone jack,Wrong screen color space,Stuck volume key,1
+"A banking app will not run due to device unlock status. Why?",It detects root jailbreak and blocks execution,It requires AMOLED,The phone is in landscape mode,Airplane mode is on,1
+"An app requests excessive permissions unrelated to function. Action?",Deny permissions or uninstall the app,Enable high refresh rate,Turn on tethering,Disable Do Not Disturb,1
+"Which step should be taken first when compromise is suspected?",Disconnect from networks or enable Airplane Mode,Factory reset immediately without backup,Change wallpaper,Disable screen rotation,1
+"After isolating a suspected device,what next?",Back up needed data and run reputable mobile AV,Replace SIM card first,Change ringtone,Disable Bluetooth permanently,1
+"Android developer options left enabled on a user device. Risk?",Advanced settings like USB debugging could expose data,Lower speaker quality,Lower screen resolution,Shorter alarm tones,1
+"User reports leaked personal files and strange logins. Immediate action?",Revoke app permissions,change passwords,and enable MFA,Turn off vibration,Lower volume,Change clock format,1
+"Phone shows limited internet only when VPN is enabled. Cause?",Misconfigured or malicious VPN tunneling traffic,Low battery health,Bad charger,Muted notifications,1
+"Which store behavior helps avoid bootleg apps?",Download only from official stores with strong review and reputation checks,Install only APKs from email,Use third-party stores for speed,Disable store updates,1
+"Android app overlays a fake login on top of a real app. This is called:",Application spoofing overlay attack,Buffer underrun,Color shift,Screen tearing,1
+"Which MDM control helps prevent sideloading?",Block unknown sources and restrict developer mode,Force dark mode,Set ringtone library,Disable all Wi-Fi,1
+"User education item to reduce risk of mobile compromise?",Teach safe links,permission hygiene,and store-only installs,How to overclock CPU,How to change emoji set,How to mute keyboard clicks,1
+"After installing a 'free booster' app, the phone shows no Internet connectivity except when VPN is off. What’s the most likely cause?",Malicious or misconfigured VPN/profile hijacking traffic,Routers DHCP scope exhausted,Screen brightness too low,Auto-rotate is disabled,1
+"The phone is very sluggish even when idle and you see frequent data-usage limit notifications. Which security issue best fits?",Background malware/adware (possibly crypto-miner) consuming CPU and data,Underclocked CPU by power saver,Dark mode enabled,Low display refresh rate,1
