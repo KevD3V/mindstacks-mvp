@@ -1,0 +1,27 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the primary purpose of a ticketing system?",Track issues from intake to resolution,Store network diagrams only,Replace documentation entirely,Control user logon hours,1
+"Which item belongs in the User Information section of a ticket?",Contact details and department,Incident root cause,Patch approval ID,Asset depreciation schedule,1
+"Which ticket field is used to group similar problems for triage and routing?",Category,Resolution notes,Splash screen,Warranty code,1
+"What does Severity in a ticket usually describe?",Business impact and urgency,The technical root cause,The number of users in the company,The device purchase price,1
+"Why are escalation levels defined in a ticketing process?",To ensure issues move to the right expertise when needed,To track software license counts,To assign IP addresses,To record travel expenses,1
+"Which statement reflects clear, concise written communication in tickets?",Use objective facts and steps to reproduce,Use acronyms without expansion,Include opinions about the user,Skip timestamps to save time,1
+"What are Progress Notes primarily used for?",Time ordered updates and actions taken,Replacement of final resolution,Listing of VLAN IDs only,Storing antivirus signatures,1
+"What should a Problem Resolution entry include?",Fix applied and verification of success,Only the first attempted fix,Employee performance comments,Future project roadmap,1
+"Which best describes an Inventory List in asset management?",A catalog of hardware and software with key attributes,A list of user passwords,A calendar of staff vacations,A set of printer default settings,1
+"What is the role of Asset Tags and IDs?",Provide unique identifiers that tie devices to records,Indicate QoS class on switches,Store BIOS passwords,Encrypt hard drives by default,1
+"Why track the Procurement Life Cycle?",Plan from request to disposal for cost and compliance,To replace incident reports,To avoid documenting warranties,To set wireless channel plans,1
+"Warranty and Licensing records are critical because they help to:",Prove support eligibility and license compliance,Disable user accounts automatically,Encrypt outbound email,Configure NAT rules,1
+"Mapping Assigned Users to devices primarily supports:",Ownership, accountability, and faster support,SSID roaming,802.1X certificate renewal,Color calibration of monitors,1
+"Why use a centralized Asset Database System?",Single source of truth with query and reporting,To replace all SOPs,To host public web pages,To store video surveillance,1
+"What does an Acceptable Use Policy define?",Allowed and prohibited behavior on company systems,Firewall ACL syntax,Exact IP addressing scheme,Backup retention math,1
+"What is the purpose of a Network Topology Diagram?",Show device interconnections and paths,Track help desk KPIs,Display login banners,Store license keys,1
+"Regulatory Compliance Requirements documentation helps teams:",Meet legal obligations and pass audits,Choose monitor refresh rates,Design logos,Write marketing copy,1
+"What is a Splash Screen in this context?",Login or startup banner that can present notices or AUP,Full disk image used for deployment,Animated desktop wallpaper,BIOS POST code display,1
+"What should an Incident Report capture?",Timeline, actions taken, impact, and root cause,Only the final fix,Only user opinions,Future feature wish list,1
+"What is a Standard Operating Procedure used for?",Repeatable step by step tasks with roles and checks,Ad hoc experimentation,Chat transcripts storage,Printer driver download site,1
+"Why document a Custom Software Installation Procedure?",Ensure consistent installs and supportability,Block all installs silently,Remove change control,Bypass least privilege,1
+"What typically appears on a New User Setup Checklist?",Account creation, groups, MFA, baseline apps,Exit interview tasks,VPN account deprovisioning only,Overclocking settings,1
+"What typically appears on a Termination Checklist?",Disable accounts, collect assets, revoke access,Create admin accounts,Increase mailbox quotas,Add to privileged groups,1
+"What is the main benefit of a Knowledge Base?",Reusable solutions that reduce time to resolve,Automatic OS patch deployment,Physical server consolidation,User web filtering,1
+"A ticket is network related and marked Critical. What is the best immediate action?",Assign to network queue and follow escalation matrix,Close as duplicate without checking,Increase category to Security,Order new laptops,1
+"Which documentation pair best supports rapid incident response together?",Topology diagrams and asset inventory,Printer catalogs and wall paint codes,Splash screens and desktop themes,Holiday schedule and org chart colors,1

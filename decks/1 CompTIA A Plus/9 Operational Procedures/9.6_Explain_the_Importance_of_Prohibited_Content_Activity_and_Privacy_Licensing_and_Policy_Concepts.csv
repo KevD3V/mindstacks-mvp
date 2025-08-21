@@ -1,0 +1,23 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the main goal of chain of custody,Keep evidence integrity and track who handled it,Speed up repair,Delete illegal files,Let anyone access evidence,1
+First action when you find prohibited content on a work device,Stop work and notify management per policy,Delete the file and move on,Post about it on social media,Keep working as normal,1
+Why create a forensic image of a drive during an incident,Preserve original data unmodified,Free disk space,Speed up the system,Make files easier to share,1
+Good incident documentation should include,Times people actions and results,Personal opinions and jokes,Nothing if fixed quickly,Only device serial number,1
+When should law enforcement be contacted,When policy requires or illegal content is suspected,Never,Only after you repair the device,Whenever you feel like it,1
+Purpose of an End User License Agreement EULA,Set terms for using the software,Describe hardware temperatures,Show network layout,Define backup schedule,1
+What does Digital Rights Management DRM do,Controls use and copying of digital content,Removes malware,Speeds networks,Prints documents,1
+Risk of using unlicensed or expired software,Legal and audit risk,Free upgrades,No downside,Automatic warranty extension,1
+Personal license vs corporate site license,They differ in allowed users and use rights,They change CPU vendor,They change screen size,They change memory speed,1
+Common open source license expectation,Provide source or attribution per license,Keep code secret,Pay per device only,Ban redistribution always,1
+Which is regulated payment data,Credit card number,Public press release,Office seating chart,Weather report,1
+Which is regulated government issued information,Driver license or national ID number,Meeting agenda,Building street address,Office wifi nickname,1
+Which is personally identifiable information PII,Full name with date of birth,Server uptime,Printer IP address,Switch model,1
+Which is healthcare data,Patient diagnosis,Office snack list,Router config,Printer toner level,1
+What does a data retention requirement mean,Keep certain data for a required time by law,Delete all data as soon as possible,Keep all data forever,Move all data to USB drives,1
+Best way to handle a prohibited image discovered on a laptop,Do not open or share and secure evidence per policy,Open the file to verify,Forward to coworkers,Delete with no record,1
+Why avoid talking about incidents on social media,Breaks confidentiality and policy,It lowers your follower count,It increases file size,It speeds the case,1
+Which is an example of prohibited activity,Install file sharing to download copyrighted movies,Apply OS updates,Use company antivirus,Follow password policy,1
+Who approves access to collected evidence,Incident lead or management per policy,Any coworker,External friend,Nobody,1
+Before powering off a suspicious system what is best,Follow policy and capture needed data first,Shut down immediately without notes,Postpone action for a week,Give the device to a friend,1
+How do you preserve evidence integrity during analysis,Work only on a copy not the original,Edit the original then copy it,Share the original widely,Compress and email the original,1
+Best overall approach to privacy laws that vary by region,Follow company policy and applicable law and consult legal,Ignore them if busy,Apply the strictest law to none,Let customers choose any rule,1

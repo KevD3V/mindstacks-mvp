@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+Which tool gives full remote Windows desktop control with graphics,Remote Desktop Protocol,Risk management policy,Virtual Network Computing,Secure Shell,1
+Which method creates an encrypted tunnel from a device to a private network,Virtual Private Network,Remote Desktop Protocol,Virtual Network Computing,Secure Shell,1
+Which screen control shares pixels across many platforms,Virtual Network Computing,Secure Shell,Virtual Private Network,Video meeting only,1
+Which method provides encrypted command line login on Unix like systems,Secure Shell,Remote Desktop Protocol,Virtual Network Computing,Video meeting only,1
+Which platform manages large fleets with patching and monitoring,Remote monitoring and management,File transfer client,Music streaming service,Disk defragmenter,1
+Which Microsoft tool supports user consent and shared control,Microsoft Remote Assistance,Remote Desktop Protocol,Secure Shell,Virtual Private Network,1
+Best first step for remote work on public Wi Fi,Connect through a Virtual Private Network,Turn off encryption,Share the admin password,Disable the firewall,1
+How do you reduce data leakage during remote sessions,Disable clipboard and file transfer when not needed,Enable copy of all files by default,Use public paste sites,Send screenshots to social media,1
+What is a safe way to expose Remote Desktop,Place it behind a Virtual Private Network rather than open to the internet,Open it directly to the internet,Forward every port,Disable authentication,1
+Which tool is best for quick view only help with no install,Third party screen sharing tool,Secure Shell,Disk Manager,Print Spooler,1
+Which method is best for pushing patches to many computers,Remote monitoring and management,Video meeting,Manual sneaker net,Public email link,1
+Which control increases trust during assistance,Obtain user consent and show session notice,Hide the session,Record without notice,Take control without asking,1
+What should logs record for remote sessions,Who connected plus when plus actions taken,Only computer hostname,Only IP address,Nothing for privacy,1
+What reduces risk from forgotten sessions,Configure idle timeouts and session limits,Allow sessions to persist forever,Disable lock screen,Share the session code publicly,1
+Which factor matters when transferring files remotely,Use encrypted transfer in the tool or over a Virtual Private Network,Email files without protection,Turn off antivirus and send,Post to public cloud folder,1
+When a user cannot log in which Windows option can grant limited help,Microsoft Remote Assistance invitation,Remote Desktop without credentials,Unsecured file share,Video call only,1
+Which method is best for command line changes on a Linux server,Secure Shell,Remote Desktop Protocol,Video meeting,Third party screen share,1
+Which practice limits privilege during remote access,Use least privilege accounts and elevate only when needed,Use domain admin all the time,Share one root account,Disable passwords completely,1
+Which tool is best for live training with audio and video,Video conferencing software,Secure Shell,File transfer client,Disk cleanup,1
+Which tool type is best for mass software deployment at scale,Desktop management software,Music player,Calculator,Screen saver,1

@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+Which file extension is used for a Windows batch script,.bat,.ps1,.sh,.py,1
+.ps1 files are executed by which environment,Windows PowerShell,VBScript,Bash shell,JavaScript runtime,1
+.vbs files are written for which scripting language,VBScript,PowerShell,Python,Bash,1
+.sh scripts are most commonly used on which platforms,Linux and macOS shells,Windows only,iOS,Network switches only,1
+Which language is stored in a .js file,JavaScript,Java,JSON,Julia,1
+Which language is stored in a .py file,Python,Perl,PHP,Pascal,1
+Best automation for mapping a network drive at logon,Use a logon script to map the drive,Change screen resolution,Update system firmware,Format the disk,1
+On Windows which tool schedules a nightly backup script,Task Scheduler,Device Manager,Disk Management,Resource Monitor,1
+What is the safest action before running a new script in production,Test in a lab and review the code,Disable antivirus and run it,Run as local admin without review,Email the script to the team,1
+How can you verify the integrity of a script,Use code signing and verify the signature,Obfuscate all code,Store it in a temp folder,Remove all comments,1
+Which practice makes scripts safer and repeatable,Idempotent design with clear logging,Hard coded passwords,Random sleep waits,Silent failure on errors,1
+How do you run a .bat file,Open with cmd or double click,Run with powershell dash File,Run with python,Run with node,1
+How do you run a .ps1 file,Use PowerShell,Use Bash,Use Python,Use the VBScript host,1
+Which is a real risk of scripting,Unintended changes to system settings,Automatic stability increase,Hardware warranty extension,Longer battery life,1
+What does a shebang line in a .sh script do,Tells the system which interpreter to use,Grants admin rights,Encrypts the code,Schedules the job,1
+Best way to gather system info by script,Use built in commands or PowerShell cmdlets,Edit the registry blindly,Open Notepad and read logs,Defragment the drive,1
+Which file type can automate tasks inside a web page,.js,.bat,.ps1,.sh,1
+What can block a PowerShell script from running by default,Execution policy restrictions,Desktop wallpaper setting,Printer defaults,Screen resolution,1
+What is a common security risk of running scripts from unknown sources,Malware infection,Better battery life,CPU overclocking,Disk defragmentation,1
+What failure can occur if a script mishandles resources,Browser or system crash,Printer resets,Wallpaper change only,USB eject,1

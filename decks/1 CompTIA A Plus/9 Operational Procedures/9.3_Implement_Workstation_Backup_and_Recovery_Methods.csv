@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+Which backup captures all selected data every time it runs?,Full,Incremental,Differential,Synthetic,1
+Which backup type only copies files changed since the last backup of any type and then clears the change flag?,Incremental,Differential,Full,Synthetic,1
+Which backup copies all files changed since the last full backup and does not clear the change flag?,Incremental,Differential,Full,Mirror,2
+Which strategy states "three copies, on two different types of media, with one copy stored off site"?,Grandfather-Father-Son,3-2-1,Snapshots only,Cold spare,2
+What is the main purpose of backup testing?,Reduce recovery time,Verify that restores work,Lower failure rate,Encrypt archives,2
+Which option best describes a synthetic full backup?,A full created from the most recent full only,An incremental merged with previous backups to form a new full,A differential merged with previous backups to form a new full,A live mirror of the source at that moment,2
+Which backup location reduces risk from local disasters?,Same disk,Same computer case,Off-site or cloud storage,Small USB drive,3
+Which schedule matches the Grandfather-Father-Son method?,Quarterly then monthly then weekly,Monthly then weekly then daily,Weekly then daily then hourly,Yearly then quarterly then monthly,2
+You must minimize backup windows and network load. Which type is most efficient after the first full?,Incremental,Differential,Full,Mirror,1
+You want the fewest sets to restore. Which type helps most?,Incremental,Differential,Full,Synthetic,2
+Which metric defines how much data loss is acceptable between backups?,Recovery Time Objective,Recovery Point Objective,Mean Time To Repair,Mean Time Between Failures,2
+Which metric is the target maximum acceptable downtime after an outage?,Recovery Point Objective,Recovery Time Objective,Mean Time To Repair,Mean Time Between Failures,2
+Which media gives fast local recovery but poor protection from fire or theft?,Local network-attached storage device,Cloud object storage,Off-site tape vault,Remote data center,1
+What should always happen soon after a successful backup job?,Delete all logs,Test a sample restore,Disable the schedule,Defragment disks,2
+Which action most reduces the impact of ransomware?,Keep only local copies,Allow writable backup shares,Use immutable or versioned backups,Disable backup encryption,3
+You back up each night at 11 PM using incremental jobs. Failure happens at 4 PM. Maximum likely data loss equals...,Since last full,Since last differential,Since last incremental,Zero,3
+Restoring with last Sunday full and Monday through Thursday incrementals typically requires...,Full only,Full plus latest differential,Full plus all incrementals since the full,Latest incremental only,3
+What is the safest way to verify a full disaster-recovery plan?,Checksum the archives only,Restore a single table only,Perform a full bare-metal restore in a lab,Review job emails,3
+Which method creates a point-in-time copy on the same storage system?,Cold site,Snapshot,Hot site,Image tape,2
+Where should encryption be applied for backups?,Only at rest,Only in transit,At rest and in transit,Not needed,3

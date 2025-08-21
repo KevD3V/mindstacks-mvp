@@ -1,0 +1,20 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the goal of formal change management?",Control risk and impact while improving systems,Eliminate documentation,Allow emergency changes without records,Replace tickets with emails,1
+"Which item belongs on a Change Request form?",Purpose and business justification,Personal opinions about coworkers,Future product marketing slogans,CPU overclock values,1
+"What does Scope describe on a change?",Systems and boundaries affected,Only the maintenance window,Only who approved it,Which cabinet the switch is in,1
+"Why record the Date and Time of change?",Coordinate windows and comms to reduce impact,To calculate printer toner usage,To align with desktop wallpaper updates,To satisfy password length rules,1
+"Identifying Affected Systems is important primarily to:",Plan testing, comms, and backout for those systems,Pick a VLAN color,Choose help desk phone music,Update cafeteria menu,1
+"What is the aim of Risk Analysis?",Assess likelihood and impact to set risk level,Find the cheapest vendor,Count how many tickets are open,Decide which browser to use,1
+"Risk Level is best defined as:",Qualitative or quantitative rating from analysis,Number of devices in storage,Age of the requester,Amount of RAM installed,1
+"What is the role of a Change Advisory Board approval?",Independent review and authorization,Automatic scheduling only,Procurement of new chairs,Firewall NAT editing,1
+"End User Acceptance primarily verifies:",The change meets requirements in production,The change was cheap,The project team is available next month,That no tickets exist,1
+"What is a Rollback Plan?",Tested steps to restore service if the change fails,A list of people to email after success,A new SLA for printers,A static IP address table,1
+"What is Sandbox Testing used for?",Validate changes safely in an isolated environment,Test user patience with slow apps,Encrypt the help desk mailbox,Archive old tickets,1
+"Who is the Responsible Staff Member for a change?",The change owner accountable for execution,Any available intern,Only the CAB chair,Facilities security guard,1
+"Which step should occur first in a normal change flow?",Submit request with scope, risk, and rollback,Announce success to users,Close related problem records,Decommission affected systems,1
+"Which schedule reduces risk for user impact?",After hours with comms and backout ready,Peak business hours with no notice,During payroll processing,During security incident,1
+"Which detail most improves a communications plan?",Targeted list of affected users and systems,New company logo file,Weather forecast,Favorite team colors,1
+"Which is an example of out of scope for a specific change to Switch A firmware?",Updating Switch B in another site,Updating Switch A firmware,Testing Switch A after update,Rolling back Switch A if needed,1
+"A patch causes an outage during the window. What is the best next step?",Execute rollback and notify stakeholders,Wait and hope it recovers,Open a new unrelated ticket,Ignore until morning,1
+"When is Sandbox preferred over direct production change?",When the impact is uncertain or complex,When no rollback is needed,When business impact is zero and users insist,When CAB is on vacation,1
+"A change is denied due to high risk and weak rollback. What should you do next?",Strengthen rollback, add testing evidence, and resubmit,Implement in secret,Escalate to HR,Ship assets to another site,1
