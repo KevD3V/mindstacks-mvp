@@ -1,0 +1,27 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which desktop operating system is most commonly deployed in business domains and supports Group Policy and broad driver support?","Windows","Linux","macOS","Chrome OS",1
+"Which operating system is open source, highly customizable, and common on servers and developers workstations?","Windows","Linux","macOS","iPadOS",2
+"Which desktop operating system is Apple proprietary and ships on Apple laptops and desktops?","Chrome OS","macOS","Linux","Windows",2
+"Which desktop operating system is built around the Chrome browser and is popular for kiosks and education devices?","Chrome OS","Windows","macOS","Linux",1
+"Which mobile operating system runs on Apple tablets and adds tablet specific multitasking features?","iOS","Android","iPadOS","Chrome OS",3
+"Which mobile operating system runs on Apple phones?","Android","iOS","iPadOS","Windows Mobile",2
+"Which mobile operating system is used by a wide range of vendors and supports the Google Play ecosystem?","iOS","Android","iPadOS","HarmonyOS",2
+"Which file system is the default for modern Windows system drives and supports permissions, encryption, and large files?","FAT32","ext3","NTFS","exFAT",3
+"Which file system is commonly used on USB flash drives but has a 4 GB single file size limit?","exFAT","FAT32","APFS","NTFS",2
+"Which Linux file system adds journaling and is an older default on some distributions?","FAT32","ext3","APFS","exFAT",2
+"Which Linux file system improves on ext3 with larger limits and features and is a common modern default?","ext4","APFS","NTFS","HFS",1
+"Which Apple file system is optimized for solid state storage and supports snapshots and cloning?","APFS","HFS","NTFS","ext4",1
+"Which file system is designed for cross platform removable storage without the 4 GB file limit?","exFAT","FAT32","ext3","APFS",1
+"What does end of life mean in vendor life cycle terms?","Device is recalled for safety","Vendor ends security and feature updates for that version","Only beta users are affected","All devices are bricked remotely",2
+"What is an update limitation scenario?","Device can only be used on Wi Fi","Vendor or hardware blocks newer OS versions on older hardware","User forgot the PIN","Apps cannot be uninstalled",2
+"What is a compatibility concern between operating systems?","All apps run everywhere","File systems, apps, or drivers may not be supported across different OS types","Only wallpapers differ","Only power buttons change",2
+"Best OS choice for a locked down testing kiosk with web apps?","Windows Pro with Hyper V","Chrome OS","iPadOS","Android with developer mode",2
+"Best choice for Xcode based development and native iPhone simulator use?","Windows","Linux","macOS","Chrome OS",3
+"Best mobile OS for managed corporate phones with wide vendor hardware choice?","iOS","Android","iPadOS","Symbian",2
+"Which file system would you format for a Windows internal system drive during a clean install?","FAT32","NTFS","ext3","exFAT",2
+"Which file system is best for a portable drive to share large video files between Windows and macOS?","exFAT","FAT32","ext3","NTFS with dynamic disks",1
+"A user tries to copy a 6 GB file to a flash drive and gets an error. The drive is FAT32. Best fix?","Compress the file","Reformat the drive as exFAT (after backup)","Use a different USB port","Disable antivirus",2
+"A laptop is stuck on an old OS version because the vendor ended support. What is the primary risk?","Lower screen brightness","Loss of security updates and fixes","Keyboard layout resets","Only printer speed is reduced",2
+"A small studio needs open source tools and a customizable desktop. Most suitable workstation OS?","Chrome OS","Linux","iPadOS","macOS only on non Apple hardware",2
+"Which combination correctly matches OS to typical device class?","iPadOS to Apple tablets","iOS to Android phones","Android to Apple laptops","Chrome OS to iPhone",1
+"Which statement about NTFS vs exFAT is correct?","Both have a 4 GB file limit","exFAT supports permissions like NTFS","NTFS is preferred for Windows system volumes; exFAT is ideal for portable cross platform media","exFAT is required for Linux root partitions",3

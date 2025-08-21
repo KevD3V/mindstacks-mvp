@@ -1,0 +1,28 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which boot method uses a removable thumb drive prepared with installation media?","USB","Optical media","Network","Internet based",1
+"Which boot method uses a DVD or Blu ray disk to start the installer?","Optical media","USB","Network","External hot swappable drive",1
+"Which boot method starts from a server over the LAN to run an installer image?","Internet based","Network","Internal hard drive partition","Solid state flash drive only",2
+"Which boot method downloads install files from the vendor cloud to rebuild the OS?","USB","Optical media","Internet based","External hot swappable drive",3
+"Which option describes an external hot swappable drive boot?","Booting from a removable drive bay that can be attached or detached without opening the case","Only booting from CD","Only booting from NVMe","Only booting from tape",1
+"Which option describes an internal hard drive partition boot for recovery?","A special local partition launches the recovery environment","Only a DVD can start recovery","It always wipes user data","It requires a second computer",1
+"What is an in place upgrade?","Erase and install with no data migration","Install a new OS while keeping apps and user data when supported","Clone an image to many devices","Boot only to the recovery partition",2
+"What is a clean install?","Install over the top to keep apps","Install a fresh OS on a new or wiped volume and then add apps and data","Update drivers only","Replace only the boot loader",2
+"What is image deployment?","Manual install on every PC","Cloning a standardized, prebuilt OS image to target devices","Streaming apps only","Only restoring user files",2
+"What is a repair installation?","Hardware replacement only","Reinstall core OS files to fix problems while trying to keep data and settings","Factory reset that wipes everything","Updating firmware only",2
+"What is a remote network installation?","Technician travels with a USB","Installation is started from a network service to target machines","Install from optical disk only","Only mobile devices apply",2
+"Why are third party drivers an installation consideration?","They are optional wallpapers","Storage or network controllers may need vendor drivers during setup to access disks or network","They slow the CPU by design","They only affect dark mode",2
+"What does partitioning do during setup?","Creates user accounts","Divides a disk into logical sections where volumes can be created","Sets the screen resolution","Backs up user files",2
+"Which partition table supports large disks and many partitions and is standard on modern systems?","MBR","GPT","FAT32","LVM",2
+"Which partition table is older and limited to about 2 TB disks and four primary partitions?","GPT","MBR","APFS","Dynamic",2
+"What is drive format in the context of installation?","Physical sanding of platters","Creating a file system such as NTFS on a volume","Changing the power plug type","Only labeling the disk",2
+"What should be done before any major upgrade?","Disable backups","Back up user files and preferences","Disable antivirus only","Lower the screen brightness",2
+"Which factor is an application and driver support consideration?","Matching the case color","Confirming that critical apps and device drivers are supported on the target OS version","Number of USB ports in the case","Mouse DPI setting",2
+"Which factor is a hardware compatibility consideration?","Wallpaper format","CPU, RAM, storage, and graphics meet the new OS minimums","Default printer name","Desktop icon size",2
+"What are feature updates in this context?","Minor icon changes only","Vendor released OS updates that add features and fixes during the product life cycle","Only BIOS changes","User created themes",2
+"A company needs to deploy 100 identical laptops with the same corporate build quickly. Best method?","Clean install one by one","Image deployment with a standardized golden image","Repair install on each","Only Internet based reinstall",2
+"A PC with a 3 TB disk needs Windows installed using a single full size partition. Which option is required?","Use MBR and split the disk","Use GPT partitioning","Use FAT32 without partitions","Use dynamic disks with MBR only",2
+"Setup cannot see the internal NVMe drive on a new system. What is the likely fix?","Enable airplane mode","Load the storage controller driver from removable media during setup","Lower screen resolution","Disable all USB ports",2
+"A branch office with limited WAN bandwidth must be upgraded without congestion. Best approach?","Start all downloads at 9 AM","Use staged rollout and local image or peer caching to reduce repeated WAN downloads","Ship DVDs and install at lunch only","Ignore updates until next year",2
+"An end user chooses cloud download to reset Windows. Which boot or install type is this?","Internet based reinstall from vendor service","USB boot only","Optical media boot","Network boot from local LAN only",1
+"Which boot method explicitly refers to starting the installer from a solid-state/flash drive connected via USB?","Optical media","Solid-state/flash drive (USB) boot","Network boot","Internet-based reinstall",2
+"In Windows deployments, what is a Recovery partition used for during installation tasks?","Only to store user data","To launch a local recovery environment that can repair or reinstall the OS","To increase video performance","To replace the bootloader with GPT",2

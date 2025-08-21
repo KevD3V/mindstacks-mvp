@@ -1,0 +1,42 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which Control Panel applet configures proxy, security zones, and privacy for Internet Explorer engine apps?","Internet Options","Network and Sharing Center","Programs and Features","System",1
+"Where can you remove or change installed desktop applications?","Programs and Features","Apps and Features only","Administrative Tools","Device Manager",1
+"Which applet allows turning Windows features on or off such as .NET Framework?","Programs and Features","System","Administrative Tools","Device Manager",1
+"Where do you set a default printer and manage printers and scanners in classic view?","Devices and Printers","Printer Management MMC","Programs and Features","Mail",1
+"Which applet configures network adapters and advanced sharing settings?","Network and Sharing Center","Internet Options","System","Windows Defender Firewall",1
+"Where can you change computer name and domain membership?","System","User Accounts","Administrative Tools","Indexing Options",1
+"Which applet manages inbound and outbound rules and Allowed apps?","Windows Defender Firewall","Network and Sharing Center","Internet Options","System",1
+"Which applet configures Outlook profiles and data files?","Mail","User Accounts","Devices and Printers","Programs and Features",1
+"Which applet selects default playback and recording devices and levels?","Sound","Ease of Access","System","Devices and Printers",1
+"Which applet manages local user account types and credentials?","User Accounts","Mail","Internet Options","Power Options",1
+"Which applet rebuilds the Windows search index and chooses indexed locations?","Indexing Options","Administrative Tools","System","File Explorer Options",1
+"Which applet contains tools like Services, Event Viewer, and Task Scheduler?","Administrative Tools","System","Programs and Features","Device Manager",1
+"Which applet shows hidden files and file name extensions toggles?","File Explorer Options","Internet Options","Ease of Access","System",1
+"Which applet creates or selects power plans and sets sleep and hibernate timers?","Power Options","System","Ease of Access","Device Manager",1
+"Which applet configures what the power button and lid close do?","Power Options","User Accounts","Devices and Printers","System",1
+"Which option speeds startup by using a hibernation file for kernel during boot?","Turn on fast startup","Hibernate after 5 minutes","USB selective suspend","Hybrid sleep",1
+"Which setting suspends power to idle USB devices to save battery?","USB selective suspend","Hibernate","Sleep","Turn off display",1
+"Which applet enables screen reader, magnifier, and high contrast?","Ease of Access","Internet Options","Sound","System",1
+"Where do you update a device driver or disable a malfunctioning device?","Device Manager","System","Programs and Features","Administrative Tools",1
+"Where do you set a system restore point and configure protection?","System (System Protection)","Administrative Tools","Programs and Features","Indexing Options",1
+"You need to clear cached credentials for a remote file server. Use:","User Accounts Credential Manager","Mail","Internet Options","Sound",1
+"A website requires adding a trusted root certificate for legacy browser control. First open:","Internet Options Content tab Certificates","Windows Defender Firewall","Programs and Features","System",1
+"You need to change from Private to Public network profile. Start at:","Network and Sharing Center Change adapter options","Internet Options Connections","Windows Defender Firewall","System",1
+"You want to disable the built-in firewall temporarily for troubleshooting. Use:","Windows Defender Firewall","Administrative Tools","System","Programs and Features",1
+"You must uninstall a device and its driver package. Use:","Device Manager","Programs and Features","System","Indexing Options",1
+"You need to rebuild the search index after moving PST files. Use:","Indexing Options","Mail","File Explorer Options","Administrative Tools",1
+"To show file extensions like .txt in File Explorer, use:","File Explorer Options View tab","Internet Options Advanced","System","Ease of Access",1
+"A laptop should not sleep when the lid is closed while on AC power. Configure in:","Power Options Choose what closing the lid does","System","Device Manager","Ease of Access",1
+"You must allow an app through the firewall by program name. Use:","Windows Defender Firewall Allow an app or feature","Administrative Tools Services","Internet Options Programs","Network and Sharing Center",1
+"To change the broadcast SSID and IP of a NIC, where do you begin in Control Panel?","Network and Sharing Center Change adapter settings","Internet Options","System","Power Options",1
+"You must set speakers as Default Communications Device. Open:","Sound","Devices and Printers","Ease of Access","Mail",1
+"You need to remove a rarely used Windows component like Telnet Client. Use:","Programs and Features Turn Windows features on or off","Administrative Tools","Device Manager","System",1
+"You want Windows to index a new documents folder on D:. Use:","Indexing Options Modify","File Explorer Options","Administrative Tools","System",1
+"You need to change the computer description and verify processor and RAM. Use:","System","Device Manager","Programs and Features","Sound",1
+"You must disable the proxy that breaks web access for desktop apps. Use:","Internet Options Connections LAN settings","Network and Sharing Center","Windows Defender Firewall","Programs and Features",1
+"You want to change the default email profile for Outlook. Use:","Mail","User Accounts","Programs and Features","Devices and Printers",1
+"You want to calibrate a new printer and set it as default. Start at:","Devices and Printers","Programs and Features","Administrative Tools","Sound",1
+"Where do you uninstall a specific Windows Update patch in classic Control Panel?","Programs and Features (View installed updates)","Windows Update in Settings","Device Manager","Administrative Tools",1
+"Where can you turn on Network Discovery and File and Printer Sharing for the current profile?","Network and Sharing Center (Advanced sharing settings)","Internet Options Connections","Windows Defender Firewall","System",1
+"Where do you configure Remote settings (allow Remote Desktop) and Environment Variables?","System (Advanced system settings)","Administrative Tools","User Accounts","Programs and Features",1
+"Where do you include encrypted files in the Windows Search index and rebuild the index?","Indexing Options (Advanced)","File Explorer Options","Administrative Tools","Ease of Access",1

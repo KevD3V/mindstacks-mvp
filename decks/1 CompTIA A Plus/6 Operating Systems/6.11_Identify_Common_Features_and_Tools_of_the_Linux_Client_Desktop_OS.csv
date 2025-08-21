@@ -1,0 +1,30 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What does the ls command do?","Lists directory contents","Displays disk usage","Shows running processes","Edits a text file",1
+"What does the pwd command print?","The current working directory","The default shell","The user password file","The home directory size",1
+"Which command moves or renames files?","mv","cp","rm","cat",1
+"Which command copies files or directories?","cp","mv","rm","touch",1
+"Which command removes files?","rm","cp","mv","cat",1
+"What does chmod change?","File or directory permissions","File owner and group","Network interface settings","Process priority",1
+"What does chown change?","File owner and group","File permissions","Current directory","System runlevel",1
+"Which command runs a single command with elevated privileges without switching users?","sudo","su","passwd","whoami",1
+"Which command shows or configures network interfaces and routes on modern systems?","ip","ifconfig","route","iwconfig",1
+"Which command shows disk free space by filesystem?","df","du","lsblk","mount",1
+"Which command searches text using patterns?","grep","sed","awk","head",1
+"Which command lists running processes for the current shell by default?","ps","jobs","top","systemctl",1
+"What does the man command display?","Manual pages for commands","Network statistics","Mounted filesystems","System logs",1
+"Which command provides a real time view of processes and resource usage?","top","grep","ps","uptime",1
+"Which command searches for files and directories by name or criteria?","find","locate","tree","which",1
+"Which command queries Domain Name System records?","dig","hostapd","nsupdate","route",1
+"What does the cat command do?","Displays or concatenates file contents","Compiles source code","Creates a new directory","Shows process tree",1
+"Which command line text editor is commonly available on most distributions?","nano","code","gedit","leafpad",1
+"What is the primary purpose of the shell or terminal on Linux?","Execute commands and scripts via the command line","Provide a graphical desktop","Offer a package store","Run only administrative tools",1
+"What is Samba used for on Linux desktops?","File and printer sharing with systems using Server Message Block","Email delivery","Source code version control","Remote login via Secure Shell",1
+"Which is a Linux desktop best practice to protect data?","Regularly back up /home and key configuration files","Rely on the trash can for recovery","Disable permissions for easier sharing","Store all work in /tmp",1
+"Which statement best describes keeping a Linux desktop patched?","Apply regular updates from repositories using the package manager","Wait for annual upgrades only","Install random binaries from the web","Update only the kernel and ignore user space",1
+"Which package manager is native to Debian and Ubuntu based systems?","apt or apt-get","yum or dnf","zypper","pacman",1
+"Which package manager is native to Red Hat based systems such as CentOS or Fedora?","yum or dnf","apt or apt-get","zypper","emerge",1
+"Which command updates packages on Debian or Ubuntu systems?","sudo apt-get update && sudo apt-get upgrade","sudo yum update","sudo zypper patch","rpm --update",1
+"Which command updates packages on Red Hat based systems?","sudo yum update","sudo apt-get upgrade","sudo pacman -Syu","apt-cache upgrade",1
+"Which filename indicates a hidden file in Linux?","A leading dot, for example .bashrc","A trailing tilde, for example file~","Uppercase name","No extension",1
+"Which option removes a directory and its contents recursively?","rm -r directory","rm directory","rmdir directory -f","deltree directory",1
+"Which chmod setting gives the owner read and write, group read, others read?","644","755","700","600",1

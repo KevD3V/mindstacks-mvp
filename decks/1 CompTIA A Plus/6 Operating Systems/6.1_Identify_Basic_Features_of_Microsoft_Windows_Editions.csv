@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which Windows 10 edition is the entry edition designed for home use and lacks domain join and BitLocker?","Home","Pro","Pro for Workstations","Enterprise",1
+"Which Windows 10 edition adds business features such as domain join, BitLocker, Remote Desktop host, and Group Policy?","Home","Pro","Pro for Workstations","Enterprise",2
+"Which Windows 10 edition is optimized for high end hardware with ReFS support and higher CPU and memory ceilings?","Home","Pro for Workstations","Pro","Enterprise",2
+"Which Windows 10 edition targets large organizations with advanced deployment and security features plus full Group Policy control?","Enterprise","Home","Pro","Pro for Workstations",1
+"What is the key difference between domain access and a workgroup?","Domain uses centralized authentication and policy via Active Directory; workgroup uses local accounts with no central control","Both use centralized authentication","Workgroup requires a domain controller","Domain prevents single sign on",1
+"What does an in place upgrade do?","Reinstalls the OS and wipes files","Upgrades the OS while keeping user data, apps, and most settings","Only moves documents","Only patches security fixes",2
+"Which edition can join an Active Directory domain without third party tools?","Home","Pro","None can","Home and Enterprise",2
+"Which edition lacks the Local Group Policy Editor started with gpedit.msc?","Pro","Enterprise","Home","Pro for Workstations",3
+"Which statement about Remote Desktop host is correct?","All editions can host Remote Desktop sessions","Only Home can host Remote Desktop sessions","Pro and higher can host Remote Desktop sessions; Home can only use the client","No editions support Remote Desktop",3
+"Which feature provides full volume encryption to protect data at rest?","BitLocker","Storage Spaces","System Restore","Disk Cleanup",1
+"Random access memory support limitations refers to what?","Maximum memory the motherboard supports","Maximum memory and CPU sockets supported by the OS edition","Only the memory speed supported","Only the graphics memory supported",2
+"A small office uses local accounts on each PC with no central policy. This is an example of what?","Domain","Workgroup","Forest","Federation",2
+"Which scenario best matches Pro for Workstations?","Basic web browsing only","High end workstation with multiple CPUs, Non Volatile Memory Express storage, and heavy compute workloads","Thin client kiosk","Tablet for field use only",2
+"Where would you open the Local Group Policy Editor to manage advanced settings on Pro or Enterprise?","services.msc","gpedit.msc","devmgmt.msc","msinfo32",2
+"A company wants to keep apps and data while moving Home to Pro. What is the correct method?","Clean install","In place upgrade by changing the edition key to Pro","Image the drive to another PC","Delete user profiles then install drivers",2
+"Which edition is most appropriate for large scale centralized management, advanced app control, and long term servicing options?","Enterprise","Home","Pro","Pro for Workstations",1
+"Which statement is true about desktop styles and user interface across editions?","Different editions have completely different shells","Core desktop interface is the same; higher editions unlock business features","Pro has no Start menu","Enterprise uses a different file system",2
+"A technician must enable full disk encryption on laptops and manage policy centrally. Minimum Windows 10 edition that natively supports both?","Home","Pro","None of the editions","Home Single Language",2
+"During an upgrade you must preserve files and most apps while moving from Windows 10 Pro to Windows 10 Enterprise. Which upgrade type fits?","In place upgrade using an Enterprise license","Reset this PC - remove everything","Clean install only","Downgrade then upgrade",1
+"Which edition is least likely to support very large amounts of memory and multiple CPUs?","Pro for Workstations","Enterprise","Home","Pro",3

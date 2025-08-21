@@ -1,0 +1,26 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the purpose of Disk Utility in macOS?","Manage disks, partitions, and file systems","Store passwords and certificates","Show all open windows and desktops","Search files and apps",1
+"What does FileVault provide on macOS?","Full disk encryption","Firewall configuration","Spotlight indexing","Screen recording",1
+"What is Time Machine used for?","Automated system backups and restores","Managing printers and scanners","Creating user accounts","Erasing storage devices",1
+"What does Force Quit do in macOS?","Closes an unresponsive application","Uninstalls an application","Clears system caches","Logs the user out immediately",1
+"What is the primary purpose of Terminal on macOS?","Run command line utilities and scripts","Manage Apple ID settings","Configure Time Machine backups","Change Dock appearance",1
+"Which macOS file type mounts as a virtual disk to install software?",".dmg",".pkg",".app"," .zip",1
+"Which macOS installer type commonly runs a guided installation to system locations?",".pkg",".dmg",".app",".ipsw",1
+"Which item represents an installed application bundle you can drag to Applications?",".app",".pkg",".dmg",".iso",1
+"Where do you check for and install operating system updates on macOS?","Software Update in System Settings","Updates in Finder Preferences","Disk Utility First Aid","Keychain Access",1
+"Where do you update applications installed from the Apple App Store?","Updates tab in App Store","Software Update in System Settings","Finder Preferences","Disk Utility",1
+"Which macOS feature shows all open windows, Spaces, and allows multiple desktops?","Mission Control","Spotlight","Keychain Access","Activity Monitor",1
+"What is the purpose of Keychain Access?","Securely store passwords, certificates, and keys","Index files for search","Configure multiple displays","Encrypt entire disks",1
+"What does Spotlight do on macOS?","Search files, apps, settings, and information","Display all desktops","Manage wireless networks","Encrypt user folders",1
+"Where do you configure resolution and arrangement of monitors?","Displays in System Settings","Finder Preferences","Disk Utility","Dock settings",1
+"Where do you add or manage Wi Fi and Ethernet connections?","Network in System Settings","Sharing in System Settings","Keychain Access","Finder Preferences",1
+"Where do you add a new printer on macOS?","Printers and Scanners in System Settings","Disk Utility","Users and Groups","Keychain Access",1
+"Which area manages app permissions such as camera and microphone access?","Privacy in System Settings","General in System Settings","Mission Control","Spotlight",1
+"Which area contains assistive technologies like VoiceOver and Zoom?","Accessibility in System Settings","Displays in System Settings","Screen Time","Disk Utility",1
+"What is Finder in macOS?","The file manager used to browse files and volumes","The default web browser","The system update service","The package installer tool",1
+"What is Remote Disc in macOS?","Access an optical drive shared from another computer","Remote desktop connection","Mount a cloud storage drive","A feature to mirror displays remotely",1
+"What is the Dock primarily used for?","Quick launching and switching between apps","Managing user accounts","Scheduling backups","Configuring network services",1
+"In corporate macOS deployments, how are Apple ID changes typically restricted?","By mobile device management profiles and policies","By Disk Utility settings","By Keychain password rules","By Finder preferences",1
+"What was the previous name of macOS System Settings in older releases?","System Preferences","Control Center","Settings Manager","Configuration Panel",1
+"Which is a recommended macOS security best practice?","Install updates and maintain antivirus where appropriate","Disable automatic updates for stability","Use the guest account for administration","Turn off FileVault to improve performance",1
+"What is the usual method to remove most app bundles?","Drag the .app to Trash or use the vendor uninstaller","Erase the disk in Disk Utility","Delete from Launchpad only","Remove via Terminal rm -rf on the system folders",1

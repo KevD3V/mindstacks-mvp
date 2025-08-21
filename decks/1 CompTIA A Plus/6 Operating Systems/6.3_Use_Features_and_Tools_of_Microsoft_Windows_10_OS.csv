@@ -1,0 +1,39 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which tool shows per-process CPU, memory, disk, and network use in real time?","Task Manager","Performance Monitor","Resource Monitor","System Information",1
+"Which Task Manager tab is used to end a hung application?","Users","Startup","Services","Processes",4
+"Which Task Manager tab lets you disable apps that launch at logon?","Startup","Performance","Details","App history",1
+"Where can you view CPU utilization graphs for each logical processor?","Task Manager Performance tab","Resource Monitor CPU tab","Performance Monitor","All of these",4
+"Which tool shows wait chain analysis for a stuck process?","Task Manager","Resource Monitor","Event Viewer","msconfig",2
+"Which tool collects long-run counters and Data Collector Sets?","Resource Monitor","Performance Monitor","Task Manager","System Information",2
+"Which MMC snap-in is used to review Application, System, and Security logs?","Event Viewer (eventvwr.msc)","Device Manager (devmgmt.msc)","Disk Management (diskmgmt.msc)","Local Users and Groups (lusrmgr.msc)",1
+"Which MMC snap-in is used to view and update device drivers?","Disk Management","Device Manager","Certificate Manager","Group Policy Editor",2
+"Which MMC snap-in is used to create and format partitions?","Device Manager","Disk Management","Performance Monitor","Event Viewer",2
+"Which tool shows the PC hardware summary including BIOS and RAM info?","System Information (msinfo32.exe)","System Configuration (msconfig.exe)","Task Scheduler (taskschd.msc)","Registry Editor (regedit.exe)",1
+"Which tool edits the Windows registry hives?","System Configuration","Registry Editor","Certificate Manager","Disk Cleanup",2
+"Which tool schedules scripts or executables to run at a time or trigger?","Task Scheduler (taskschd.msc)","Event Viewer (eventvwr.msc)","Group Policy Editor (gpedit.msc)","Performance Monitor (perfmon.msc)",1
+"Which MMC snap-in manages local user and group accounts?","lusrmgr.msc","gpedit.msc","devmgmt.msc","diskmgmt.msc",1
+"Which tool manages local certificates for users and the computer?","certmgr.msc","regedit.exe","msinfo32.exe","cleanmgr.exe",1
+"Which tool tunes boot options such as Safe boot?","System Information","System Configuration (msconfig.exe)","Task Manager","Resource Monitor",2
+"Which tool removes temporary files such as old Windows Update files?","Disk Cleanup (cleanmgr.exe)","Disk Defragment and Optimize Drives (dfrgui.exe)","Registry Editor","Event Viewer",1
+"Which tool optimizes drives and issues TRIM for SSDs?","dfrgui.exe","cleanmgr.exe","msconfig.exe","perfmon.msc",1
+"Which tool edits local Group Policy?","Group Policy Editor (gpedit.msc)","Local Security Policy (secpol.msc)","Group Policy Management (gpmc.msc)","Device Manager",1
+"Which tool shows live CPU, disk, network, and memory with per-process breakdown?","Performance Monitor","Resource Monitor","System Information","Disk Management",2
+"Which MMC snap-in is best to verify a disk is GPT and Online before use?","Device Manager","Disk Management","Event Viewer","Task Scheduler",2
+"Where do you view which process opened a given TCP port quickly?","Resource Monitor Network tab","Event Viewer","msconfig Services tab","Task Manager Users tab",1
+"You need to see which service a process is hosting. What tool first?","Task Manager Details tab with Go to service","Event Viewer","Registry Editor","System Information",1
+"A PC is slow only at logon. Which tool best identifies high-impact autostarts?","Task Manager Startup tab","msconfig General tab","Event Viewer Applications","Performance Monitor",1
+"To confirm a specific driver version and roll back if needed, use:","Device Manager","Disk Management","msinfo32","perfmon.msc",1
+"To confirm RAM speed and installed slots without opening the case, use:","msconfig","msinfo32","regedit","dfrgui.exe",2
+"You need to build a baseline for CPU and disk over a week. Use:","Resource Monitor","Performance Monitor Data Collector Set","Task Manager Performance","Event Viewer",2
+"To view crash details and source drivers for a blue screen, first open:","Event Viewer System log","Disk Management","Registry Editor","Task Scheduler",1
+"To temporarily hide Microsoft services while troubleshooting startup, use:","msconfig Services tab Hide Microsoft services","Task Manager Startup tab","Resource Monitor","regedit",1
+"To create a new simple volume on unallocated space, use:","Disk Management","Device Manager","msinfo32","cleanmgr.exe",1
+"Which tool provides a single place to view OS version, BIOS, and hardware IDs?","msinfo32","winver","msconfig","perfmon",1
+"To track a counter like Processor Queue Length over time, use:","Performance Monitor","Resource Monitor","Task Manager","Disk Management",1
+"To check which users are currently signed in and log off a session, use:","Task Manager Users tab","lusrmgr.msc","Event Viewer","gpedit.msc",1
+"To analyze which file a process is reading heavily right now, use:","Resource Monitor Disk tab","Performance Monitor","Event Viewer","Disk Cleanup",1
+"Which tool quickly clears old temporary files to free space after a feature update?","cleanmgr.exe","dfrgui.exe","msconfig.exe","regedit.exe",1
+"To change a device driver back to a previous version, use:","Device Manager Driver Roll Back","Disk Management","Event Viewer","System Information",1
+"To enable auditing of a service start failure, which tool shows the entry after reboot?","Event Viewer","Resource Monitor","Disk Management","Task Manager",1
+"Where can you view and change which services start automatically when Windows boots?","System Configuration (msconfig.exe) Services tab","Task Scheduler (taskschd.msc)","Event Viewer (eventvwr.msc)","Registry Editor (regedit.exe)",1
+"A technician needs a single summary of OS version, BIOS, motherboard model, and installed RAM without drilling into multiple tools. Use:","System Information (msinfo32.exe)","Device Manager (devmgmt.msc)","Performance Monitor (perfmon.msc)","Disk Management (diskmgmt.msc)",1

@@ -1,0 +1,37 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which command displays the computer TCP/IP configuration?","ipconfig","netstat","nslookup","ping",1
+"Which ipconfig switch shows full adapter details including MAC and DNS?","/release","/all","/renew","/flushdns",2
+"Which command tests reachability and round-trip time to a host?","hostname","ping","tracert","pathping",2
+"Which command shows the computer name?","whoami","hostname","net use","winver",2
+"Which command lists current TCP and UDP sessions and listening ports?","netstat","ipconfig","nslookup","gpresult",1
+"Which command queries DNS records for a host?","ipconfig","nslookup","net use","xcopy",2
+"Which command checks a disk and can fix file system errors when run with switches?","format","diskpart","chkdsk","shutdown",3
+"Which command displays or sets local user accounts from the command line?","net user","net use","gpupdate","sfc",1
+"Which command maps or disconnects network shares from the command line?","net user","net use","copy","robocopy",2
+"Which command traces the Layer 3 path to a destination showing each hop?","tracert","pathping","ping","ipconfig",1
+"Which command combines traceroute with per-hop loss measurement?","tracert","pathping","ping","netstat",2
+"Which command writes files to a new file system on a volume?","format","chkdsk","diskpart clean","dir",1
+"Which interactive utility manages partitions and volumes?","diskpart","format","sfc","xcopy",1
+"Which command copies a single file by default and cannot mirror directories?","copy","xcopy","robocopy","move",1
+"Which command copies files and directories and supports options like /s and /e?","copy","xcopy","robocopy","md",2
+"Which command is designed for robust directory mirroring, retries, and resume?","copy","xcopy","robocopy","rmdir",3
+"Which command refreshes Group Policy on a client right now?","gpresult","gpupdate","winver","net user",2
+"Which command shows which Group Policy Objects applied to the computer and user?","gpresult","gpupdate","netstat","ipconfig",1
+"Which command verifies and repairs protected system files?","chkdsk","sfc","diskpart","gpupdate",2
+"Which switch shows built-in help for any command?","/all","/r","/?","/help-only",3
+"Which command shuts down or restarts a local or remote computer?","shutdown","winver","hostname","format",1
+"Which command displays the Windows version in a small dialog box?","ver","winver","msinfo32","systeminfo",2
+"Which command lists files and folders in the current directory?","dir","cd","md","rmdir",1
+"Which command changes the current directory?","dir","cd","md","del",2
+"Which command creates a new directory?","md","rmdir","copy","format",1
+"Which command removes a directory (and with /s removes a tree)?","md","rmdir","del","move",2
+"How do you switch from C: to D: at the command prompt?","cd D:","D:","cd /d","use net use D:",2
+"How do you change to D:\Tools in one step even if you are on C:?","cd D:\Tools","cd /d D:\Tools","D: then cd \Tools","dir D:\Tools",2
+"Which tool would you use first to confirm the gateway address on a client?","netstat -an","ipconfig","nslookup","gpresult /r",2
+"To diagnose DNS resolution failure to www.example.com, which tool is best?","ping www.example.com only","nslookup www.example.com","gpupdate /force","xcopy www.example.com",2
+"Which command-line pair is best to verify a path problem beyond the gateway?","ipconfig then copy","tracert then pathping","gpupdate then gpresult","md then rmdir",2
+"Which command and switch will fix file system errors on C: at next reboot?","chkdsk C:","chkdsk C: /f","format C: /q","diskpart fix C:",2
+"Which command mirrors C:\Data to E:\Data including subfolders and retries on errors?","copy C:\Data E:\Data","xcopy C:\Data E:\Data /e","robocopy C:\Data E:\Data /mir","move C:\Data E:\Data",3
+"Which command forces an immediate reboot in 0 seconds?","shutdown /s /t 0","shutdown /r /t 0","shutdown /l /t 0","shutdown /a",2
+"Which command shows both user and computer policy summaries in text?","gpupdate /force","gpresult /r","net user /domain","winver /r",2
+"Which tool would you use to remove a partition from a disk?","format","diskpart","chkdsk","dir",2

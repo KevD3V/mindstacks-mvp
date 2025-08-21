@@ -1,0 +1,16 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Which Windows Settings category controls time zone, region format, and keyboard layouts?","Time and Language","System","Accounts","Devices",1
+"Where do you trigger Windows Update, view update history, and access advanced update options?","Update and Security","System","Administrative Tools","Programs and Features",1
+"Which Settings page changes the desktop background, lock screen, and themes?","Personalization","Display in System","Apps","Ease of Access",1
+"Where do you uninstall, repair, or set defaults for installed applications from Settings?","Apps","Programs and Features","System","Devices",1
+"Which Settings area centralizes app permissions such as microphone, camera, and location access?","Privacy","Accounts","Network and Internet","Time and Language",1
+"Where would you rename the device, view device specifications, and access advanced system settings?","System","Devices","Accounts","Personalization",1
+"Which Settings category manages Bluetooth, printers, scanners, and connected peripherals?","Devices","System","Apps","Privacy",1
+"Where do you set Wi-Fi, Ethernet, proxy, VPN, and airplane mode options?","Network and Internet","Devices","System","Accounts",1
+"Which Settings page manages Xbox Game Bar, Captures, and Game Mode performance tweaks?","Gaming","Apps","System","Privacy",1
+"Where would you add a local user, connect a Microsoft account, or manage sign-in options like PIN?","Accounts","Privacy","Time and Language","Update and Security",1
+"You need to defer feature updates for several weeks on a laptop. Where should you look first?","Update and Security","System","Accounts","Devices",1
+"A user wants to change the default apps for opening web pages and email. Which Settings page is best?","Apps (Default apps)","System (Notifications)","Privacy (General)","Devices (Printers and scanners)",1
+"To switch input language hotkeys and install a new language pack, start in:","Time and Language","Devices","Accounts","System",1
+"You must configure a proxy server for all web traffic. Which Settings path is correct?","Network and Internet > Proxy","System > Clipboard","Apps > Default apps","Privacy > App permissions",1
+"A gamer wants to reduce background tasks during play. Which single feature helps most?","Gaming > Game Mode","System > Storage","Apps > Startup","Privacy > Diagnostics and feedback",1
