@@ -1,0 +1,13 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"A projector shows 'no signal'. First check?","Replace the lamp","Verify the input source and cabling are correct and firmly connected","Change wallpaper","Reinstall the operating system",2
+"Which cabling issue can cause intermittent video dropouts?","Using a surge protector","Damaged or loose display cable or adapter","Old wallpaper","Muted speakers",2
+"Projector is on but no image; 'lamp' indicator lit. Cause?","Wrong color profile","Burned-out lamp or failing light source","Muted audio","Wrong DNS",2
+"A fuzzy image on a flat panel often results from what setting?","Wrong native resolution or scaling","Incorrect time zone","Low CPU usage","High Wi-Fi signal",1
+"What is display burn-in (image retention)?","Temporary power save","Persistent ghost image from long-term static content","Screen resolution change","Speaker damage",2
+"What are dead vs. stuck pixels?","Rapidly changing pixels","Dead = unlit; stuck = single color","Healthy operation","Dust on panel",2
+"Why might a screen flash on and off?","Correct refresh rate","Loose cable, failing backlight/driver board, or refresh mismatch","Strong Wi-Fi","Old printer driver",2
+"Monitor shows incorrect color. First corrective step?","Replace motherboard","Check color settings, cable type (DisplayPort/HDMI), and calibration","Disable antivirus","Change desk",2
+"Projector image is very dim. Likely cause?","Wrong DNS","Aging lamp, clogged filters, or strong ambient light","CPU overheat","Wrong keyboard layout",2
+"Why would audio be missing on an HDMI display?","HDMI cannot carry audio","Output device not set to the display or adapter/cable does not support audio","CPU throttling","Wrong timezone",2
+"A projector shuts down intermittently during use. Common cause?","Printer offline","Overheating due to blocked filters or failing fan (thermal protection)","Wrong wallpaper","Slow network",2
+"Which step helps prevent burn-in on signage displays?","Disable screen saver","Use screen savers, rotate content, enable pixel shift, and lower brightness","Increase static logo size","Disable power saving",2

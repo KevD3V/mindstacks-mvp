@@ -1,0 +1,16 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"Grinding or clicking drive sounds suggest what?","Healthy operation","Impending mechanical failure - immediately back up and replace the drive","Loose HDMI cable","Normal calibration",2
+"What does a red or amber LED on a drive bay often mean?","Everything is OK","Drive fault or rebuild state - check array status","Network disconnect","Fan at full speed",2
+"'Bootable device not found' typically indicates what?","GPU driver error","Incorrect boot order, failed drive, or missing boot files","Bad monitor cable","Wrong printer port",2
+"Which situation describes data loss or corruption?","Files load faster","Files are unreadable or checksum checks fail - often due to failing media, power loss, or malware","Wallpaper is missing","User forgot the password",2
+"What is a RAID failure in a redundant array?","A single drive going idle","Loss of redundancy or array offline due to multiple drive faults or controller issues","Healthy state","Only S.M.A.R.T. warning",2
+"What does a S.M.A.R.T. failure indicate?","OK to ignore","Drive predicts failure based on internal metrics - back up and replace","Network outage","File system permissions error",2
+"Extended read/write times on a solid-state drive most often suggest what?","GPU overheating","Drive wear, near capacity, or thermal throttling - review health and firmware","Printer offline","Bad VGA cable",2
+"'Missing drives in the operating system' immediately after adding storage likely means what?","Wrong desktop theme","Disabled port in firmware, missing driver, or incorrect cable/power connection","Lack of antivirus","Monitor at 60 Hz",2
+"What should you do first when a RAID is degraded but still online?","Power it off","Replace the failed drive with a compatible drive and allow rebuild; verify backups first","Ignore and continue use","Reinstall the operating system",2
+"Which configuration mistake often causes a new SATA drive to be invisible?","Ethernet duplex mismatch","SATA port disabled in firmware or not set to the correct controller mode","Wrong projector input","Incorrect mouse driver",2
+"What diagnostic best validates an intermittent error on a hard drive?","Change wallpaper","Run vendor diagnostics and check event logs and S.M.A.R.T. attributes over time","Lower monitor brightness","Install a new GPU",2
+"Why should you avoid using a failing drive heavily during backup?","It speeds up failure and increases data loss risk; use minimal access and clone if possible","It repairs the drive","It defragments faster","It improves performance",1
+"After replacing a drive the system shows 'no boot device'. Best fix?","Reinstall printer","Correct boot order and ensure the system partition is active or the boot loader is installed","Replace keyboard","Lower resolution",2
+"Which symptom suggests incorrect or missing RAID drivers during operating system install?","Crisp audio","Installer cannot see the array - requires proper storage controller drivers","Blue screen only","Fast boot",2
+"In storage diagnostics, what does IOPS measure?","Network latency","Input/Output Operations Per Second, indicating how many read/write operations a device or array can perform","CPU instructions per second","Only sequential throughput",2

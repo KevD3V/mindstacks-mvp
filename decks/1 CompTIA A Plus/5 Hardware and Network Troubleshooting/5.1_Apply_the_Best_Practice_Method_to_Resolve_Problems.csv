@@ -1,0 +1,16 @@
+Q,Option1,Option2,Option3,Option4,Correct
+"What is the first step in the troubleshooting methodology?","Establish a plan of action","Identify the problem","Test the theory to determine the cause","Document findings",2
+"What should you always consider before making changes?","Corporate policies, procedures, and potential impacts","Only personal preferences","Vendor warranties only","Available desk space",1
+"During problem identification, what should you do first?","Replace the power supply","Gather information from the user and note recent changes","Run a firmware update immediately","Disable antivirus",2
+"Which action belongs to 'establish a theory of probable cause'?","Documenting outcomes","Questioning the obvious and researching based on symptoms","Verifying full system functionality","Purchasing replacement parts",2
+"If your initial theory is not confirmed, what is the correct next step?","Escalate or re-establish a new theory","Install random updates","Close the ticket","Replace the motherboard",1
+"What does 'test the theory to determine the cause' mean?","Swap every component","Perform safe tests that confirm or disprove the suspected cause","Call the ISP","Reimage the system first",2
+"What comes immediately after confirming the cause?","Document findings","Establish a plan of action, including potential effects","Identify the problem again","Order coffee",2
+"What does 'implement the solution' require in a business environment?","Bypass policies to move faster","Follow change-control processes and schedule downtime when needed","Ignore backups","Hide changes from users",2
+"Why do you 'verify full system functionality' after a fix?","To improve aesthetics","To ensure the fix solved the issue and did not create new problems; implement preventive measures if applicable","To reset warranties","To collect marketing data",2
+"What is the final step of the methodology?","Test the theory","Document findings, actions, outcomes, and lessons learned","Establish a plan of action","Identify the problem",2
+"Which example best matches 'question the obvious'?","Assuming the network card is bad","Checking that the monitor is powered on and input source is correct","Reinstalling the operating system","Replacing the motherboard",2
+"A user reports 'it was fine until yesterday when we moved desks.' Which step does this detail most support?","Verify full functionality","Identify environmental or infrastructure changes during problem identification","Document findings","Establish plan of action only",2
+"Why consult vendor documentation during planning?","It removes need for backups","It provides supported procedures and known issues to minimize risk during implementation","It voids warranties","It replaces testing",2
+"Which practice best prevents recurring incidents after a fix?","Disabling logs","Implementing preventive measures such as updates, training, or monitoring during verification","Skipping documentation","Ignoring root cause",2
+"Before implementing any change during troubleshooting, what should you do when possible?","Disable antivirus","Perform a verified backup or snapshot so you can roll back if needed","Replace hardware first","Clear the print queue",2
