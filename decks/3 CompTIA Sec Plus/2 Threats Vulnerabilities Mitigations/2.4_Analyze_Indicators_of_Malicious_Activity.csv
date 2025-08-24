@@ -1,0 +1,122 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is ransomware designed to do,Rename system files,Encrypt data and demand payment,Monitor system usage,Spread via Bluetooth,2
+What is a trojan in cybersecurity,Malware disguised as legitimate software,Malware that replicates across networks,An email phishing attempt,A data backup tool,1
+What defines a worm in malware behavior,Requires user interaction to spread,Only affects mobile devices,Replicates itself to spread independently,Encrypts files for ransom,3
+What is spyware primarily used for,Encrypt files,Delete system files,Monitor user activity and steal data,Exploit hardware,3
+What is bloatware,Software that adds security to systems,Unwanted software that slows down the device,Malware that steals credentials,A type of spyware targeting browsers,2
+Which malware modifies existing programs to replicate,Spyware,Ransomware,Worm,Virus,4
+What is a keylogger designed to do,Modify BIOS settings,Capture keystrokes,Encrypt files,Create fake login pages,2
+What is a logic bomb,Software that monitors user activity,Malware that activates under specific conditions,An application for penetration testing,Tool for load balancing,2
+What does a rootkit enable,Password cracking,Keystroke recording,Stealthy privilege access and control,Remote desktop sharing,3
+What is brute force in a security context,Cloning of a smart card,Guessing passwords using all combinations,Overheating hardware,Injecting fake DNS entries,2
+What is RFID cloning,Duplicating a wireless card signal,Injecting malicious JavaScript,Brute-forcing a login,Triggering a logic bomb,1
+What is considered an environmental physical attack,Firmware corruption,Heat damage to a server,Privilege escalation,SQL injection,2
+What defines a DDoS attack,Hardware failure,Excessive network traffic to overwhelm systems,Privilege abuse,Invalid DNS response injection,2
+What is an amplified DDoS attack,Attack using dictionary words,Large data volume from many clients,Magnified response from a third-party server,Weak encryption reuse,3
+What is a reflected DDoS attack,Direct command injection,Using spoofed requests to trigger server replies to a target,Brute-force of admin panels,Interrupting firewall logs,2
+What is a DNS attack,Poisoning or manipulating Domain Name System responses,Intercepting HTTPS traffic,Guessing email addresses,Launching ransomware via text message,1
+What is a wireless network attack,Exploiting certificate trust,Attacking radio-based communication protocols,Cloning firmware,Memory flooding,2
+What is an on-path attack,Scanning port ranges,Intercepting and altering data between parties,Using QR codes to steal data,Brute-forcing IP addresses,2
+What is credential replay,Reusing stolen login details for unauthorized access,Cloning hardware IDs,Redirecting domain names,Encrypting virtual machines,1
+What is malicious code,Any code intended to harm or exploit,Outdated drivers,A log analysis utility,Certificate validation tool,1
+What is an injection attack,Adding extra memory to applications,Injecting malicious code into input fields,Upgrading encryption,Running privilege checks,2
+What is a buffer overflow,A physical damage from overheating,Exceeding storage capacity with authorized apps,Writing outside allocated memory bounds,Encrypting unallocated memory,3
+What is a replay attack,Reusing captured communications to impersonate,Guessing encryption keys,Escalating privileges using zero-day,Running duplicate processes,1
+What is privilege escalation,Increasing access rights beyond intended level,Creating backup users,Deleting old logs,Triggering alarms via firmware,1
+What is forgery in application security,Creating authentic tokens,Tricking users into revealing passwords,Generating fake input or requests,Modifying encryption settings,3
+What is directory traversal,A method to increase signal range,Attacking certificate authorities,Accessing unauthorized files via path manipulation,Injecting SQL queries into logs,3
+What is a downgrade attack,Encrypting all outgoing data,Lowering system temperature,Forcing use of weaker cryptographic protocols,Replacing server logs,3
+What is a collision attack in cryptography,Flooding a network,Two inputs producing same hash,Man-in-the-middle attack,Privilege abuse using shell access,2
+What does the birthday attack exploit,OS patching weaknesses,Certificate expiration mismatch,Probability of hash collisions,Untrusted boot devices,3
+What is a password spraying attack,Testing one password across many accounts,Encrypting login forms,Injecting HTML into cookies,Logging admin sessions,1
+What causes an account lockout,Repeated failed login attempts,Database injection,Browser fingerprinting,USB drive corruption,1
+What does concurrent session usage indicate,Proper use of backup accounts,Malware-free browsing,Potential credential theft,Secure encryption configuration,3
+What is blocked content a sign of,Proper firewall configuration,Credential reuse,Malicious filtering or access prevention,Approved certificate rotation,3
+What is impossible travel in security logs,User connects faster than light,Multiple login attempts from far apart regions in a short time,Account disabled for too long,Admin reset of logs,2
+What is resource consumption in an attack context,Optimization of backup jobs,Overuse of system memory or CPU by malicious processes,Running system defragmentation,Enabling group policies,2
+What does resource inaccessibility often indicate,Strong security,Backup process,Encryption or attack preventing access,Firewall update,3
+What is out-of-cycle logging,Logging events outside normal schedules,Authorized debug mode,Firmware rollback,Certificate refreshes,1
+What does published or documented indicator mean,A hacker group is known publicly,An indicator of compromise has been disclosed,An internal tool is licensed,Third-party scan completed,2
+What does missing logs suggest,Complete security,Normal operations,Log tampering or deletion to hide activity,Valid alert suppression,3
+Q,Option1,Option2,Option3,Option4,Correct
+How does ransomware differ from a trojan,Ransomware hides inside software,Ransomware spreads on its own,Ransomware encrypts data for ransom,Trojan modifies memory directly,3
+What distinguishes a trojan from a worm,Trojans replicate across networks,Trojans appear as legitimate software,Trojans require no user action,Trojans are part of encryption,2
+What is a key difference between a worm and a virus,Worms hide inside documents,Worms are user-triggered,Worms self-replicate without user action,Worms target hardware,3
+How does spyware differ from bloatware,Spyware encrypts files,Bloatware is non-malicious but unwanted,Spyware uses less resources,Spyware is hardware based,2
+How is bloatware different from malware like ransomware,Bloatware slows performance but is not malicious,Bloatware encrypts data,Bloatware steals credentials,Bloatware copies network traffic,1
+How does a virus differ from a keylogger,Virus captures keystrokes,Virus encrypts login data,Virus modifies other programs to spread,Virus prevents log access,3
+How is a keylogger similar to spyware,Both cause system crashes,Both target cryptographic modules,Both monitor and collect user activity,Both act only during boot,3
+What makes a logic bomb different from a rootkit,Logic bomb activates under conditions,Logic bomb installs firmware,Logic bomb disables antivirus automatically,Logic bomb steals hashes,1
+How is a rootkit different from other malware,Rootkit hides presence by altering OS components,Rootkit creates popups,Rootkit encrypts logs,Rootkit disables hardware,1
+How does brute force compare to spraying attacks,Brute force tries common passwords,Brute force uses one password for many users,Brute force tries many passwords on one account,Brute force uses phishing,3
+How does RFID cloning differ from traditional password theft,RFID cloning uses magnetic strips,RFID cloning copies credentials from RFID-enabled devices,RFID cloning uses email attachments,RFID cloning uses DNS,2
+What distinguishes an environmental attack from a network attack,Environmental attacks target physical conditions,Environmental attacks use malware,Environmental attacks involve spoofing,Environmental attacks require login bypass,1
+How does a DDoS attack differ from a credential replay attack,DDoS attacks steal credentials,DDoS is physical in nature,DDoS overwhelms systems with traffic,DDoS manipulates access control lists,3
+How is an amplified DDoS attack different from a standard one,Amplified DDoS originates from one source,Amplified DDoS consumes less bandwidth,Amplified DDoS uses spoofed requests to magnify responses,Amplified DDoS uses phishing,3
+How does a reflected DDoS differ from an amplified DDoS,Reflected DDoS uses memory injections,Reflected DDoS floods DNS only,Reflected DDoS redirects traffic through a third party to the victim,Reflected DDoS is internal only,3
+How does a DNS attack relate to on-path attacks,DNS attack corrupts routing tables,DNS attack manipulates name resolution to redirect traffic like on-path,DNS attacks only target physical media,DNS attacks use buffer overflows,2
+How does a wireless attack compare to a wired network attack,Wireless attacks require physical access,Wireless attacks exploit radio signals,Wireless attacks use watermarks,Wireless attacks target HTTPS,2
+What makes an on-path attack different from DNS spoofing,On-path attack requires URL injection,On-path attack manipulates data between sender and receiver,DNS spoofing always targets TCP,On-path attack only works on HTTPS,2
+How does credential replay differ from privilege escalation,Credential replay uses stolen credentials directly,Privilege escalation uses hashing only,Both bypass encryption,Credential replay always uses malware,1
+How does malicious code differ from application vulnerabilities,Malicious code is intentionally harmful,Malicious code results from poor patching,Malicious code is only used in penetration testing,Malicious code always logs keystrokes,1
+How is injection different from directory traversal,Injection targets user input to manipulate execution,Directory traversal affects wireless signals,Injection is hardware specific,Injection prevents brute-force,1
+How does a buffer overflow relate to race conditions,Both use improper input validation,Both allow memory corruption via excess data,Both affect file traversal,Both require encryption bypass,2
+What is a key difference between replay and injection attacks,Replay reuses captured data to impersonate,Injection uses sniffed credentials,Replay uses buffer space,Injection affects hashing,1
+How does privilege escalation differ from forging tokens,Privilege escalation increases access level,Token forgery affects temperature sensors,Privilege escalation modifies encryption keys,Token forgery uses wireless beacons,1
+How does forgery differ from spoofing,Forgery fabricates valid-looking data internally,Spoofing only encrypts traffic,Forgery always targets mobile apps,Forgery uses outdated hardware,1
+How does directory traversal differ from normal file access,Directory traversal accesses unauthorized files using relative paths,Directory traversal encrypts logs,Directory traversal changes privileges,Directory traversal rewrites DNS,1
+How is a downgrade attack different from a collision attack,Downgrade forces use of weaker encryption,Collision affects physical firewalls,Downgrade uses malware delivery,Downgrade targets OS boot,1
+How do collision and birthday attacks relate,Both target password reuse,Both attempt to find two inputs that produce the same hash,Both clone RSA tokens,Both create buffer overflows,2
+How is password spraying different from brute force,Password spraying tries one password across many accounts,Password spraying injects rootkits,Password spraying modifies wireless settings,Password spraying decrypts RSA,1
+How does account lockout relate to brute force attacks,Account lockout often results from repeated failed brute force attempts,Brute force prevents lockouts,Lockout only applies to apps,Account lockout uses token injection,1
+What does concurrent session usage suggest compared to normal login,Concurrent sessions indicate possible credential theft,It shows proper password rotation,It only occurs on wired networks,It confirms secure file transfer,1
+How does blocked content relate to malware detection,Blocked content may indicate detection of unauthorized data by security systems,Blocked content always disables antivirus,Blocked content affects patching,Blocked content comes from DDoS,1
+How does impossible travel differ from normal multi-login,Impossible travel implies logins from distant regions in unrealistic timeframes,It only affects file systems,It uses firmware updates,It targets offline devices,1
+How is resource consumption different from resource inaccessibility,Resource consumption uses excessive CPU or memory,Resource inaccessibility creates logs,Both are part of cryptographic attacks,Consumption disables wireless,1
+How do resource inaccessibility and account lockout differ,Resource inaccessibility refers to blocked systems or data while account lockout targets users,Both result from spoofed domains,Both cause bloatware,Inaccessibility always disables DNS,1
+How is out-of-cycle logging related to threat detection,Out-of-cycle logs may suggest unusual or malicious activity,It increases hash collisions,It disables antivirus automatically,It allows access to TPM,1
+What is the importance of published indicators of compromise,They provide documented signs of known attacks,They encrypt data faster,They prevent DDoS,They exploit buffer overflows,1
+How do missing logs relate to rootkits,Missing logs may indicate tampering or hiding by rootkits,Rootkits increase password length,Missing logs decrypt DNS,Missing logs are normal in backups,1
+Q,Option1,Option2,Option3,Option4,Correct
+A user reports their files have been encrypted and a message demands payment in cryptocurrency. What type of malware is most likely involved,Spyware,Trojan,Ransomware,Worm,3
+An employee installs what appears to be a game but it secretly provides remote access to an attacker. What kind of malware is this,Rootkit,Trojan,Logic bomb,Bloatware,2
+A company notices unusual network traffic spreading to all machines rapidly without user interaction. What is the likely cause,Worm,Spyware,Keylogger,Ransomware,1
+A user complains their system is slowing down and sending data to unknown addresses. What type of malware might be responsible,Bloatware,Spyware,Trojan,Logic bomb,2
+Which of the following best describes software pre-installed by the manufacturer that slows down system performance but is not malicious,Rootkit,Bloatware,Spyware,Injection,2
+An attacker modifies legitimate code to perform unwanted actions. What is this an example of,Virus,Spyware,Bloatware,Phishing,1
+An attacker captures all keystrokes from a user's machine, including passwords and messages. Which threat is this,Keylogger,Worm,Spyware,Replay,1
+A malicious script is triggered only when a specific condition is met, such as a date or login. Which type of malware is this,Trojan,Logic bomb,Rootkit,Injection,2
+Which threat hides itself by modifying system-level processes to avoid detection from antivirus software,Spyware,Keylogger,Rootkit,Worm,3
+An attacker attempts every possible password combination until access is gained. What type of attack is this,Credential replay,Password spraying,Brute force,Privilege escalation,3
+An attacker copies a keycard’s radio frequency to gain unauthorized building access. What is this technique called,RFID cloning,Downgrade attack,Brute force,Directory traversal,1
+An attacker disables cooling systems in a server room, causing a shutdown. What type of attack is this,Environmental,On-path,DNS hijacking,Privilege escalation,1
+Multiple systems begin flooding a server with traffic, making it unavailable. What kind of attack is occurring,DNS poisoning,DDoS,Credential replay,Birthday attack,2
+An attacker sends requests that generate unusually large responses from servers to overload a target system. What type of DDoS is this,Reflected,Amplified,Worm-based,Collision,2
+Which type of DDoS attack uses spoofed requests that appear to come from the target,causing the response to flood the victim,Reflected,Amplified,Credential replay,DNS attack,1
+An attacker redirects users to malicious websites by altering DNS responses. What type of attack is this,DDoS spoofing,Wireless hijacking,DNS attack,Privilege escalation,3
+A user connects to a public hotspot and unknowingly shares sensitive data with an attacker nearby. What attack is this,Credential replay,Wireless attack,Downgrade,Injection,2
+Traffic is being intercepted between two parties without their knowledge. What attack does this describe,Directory traversal,DNS attack,On-path,Token forgery,3
+An attacker captures valid login credentials and reuses them later for unauthorized access. What is this,Credential replay,Brute force,DDoS,SQL injection,1
+An attacker modifies source code to insert hidden functions that activate under certain conditions. What best describes this,Rootkit,Malicious code,Downgrade,Birthday attack,2
+An attacker inputs special characters into a form field to execute unauthorized commands. What is this,Directory traversal,Replay,Injection,RFID cloning,3
+A vulnerable application crashes when receiving more data than expected, allowing code execution. What is this an example of,Brute force,Buffer overflow,Token injection,Collision attack,2
+An attacker captures network traffic and resends it later to gain unauthorized access. Which attack is this,Replay,Credential theft,Injection,On-path,1
+An attacker gains administrator access through a misconfigured script. What is this called,Rootkit,Privilege escalation,Logic bomb,Credential replay,2
+An attacker manipulates an authentication token to impersonate another user. What type of attack is this,Forgery,DNS spoofing,Password spraying,SQL injection,1
+An attacker uses ../ sequences in a URL to access restricted files. What is this called,SQL injection,Directory traversal,On-path attack,Bloatware,2
+During a TLS handshake, the attacker forces the server to downgrade to a less secure protocol. What kind of attack is this,Privilege escalation,Downgrade attack,Replay,SQL injection,2
+An attacker successfully generates two files with the same hash value. What attack is this,Buffer overflow,Collision attack,DNS replay,Directory traversal,2
+An attacker creates multiple inputs to increase chances of generating a hash match. What is this called,Replay,Credential stuffing,Birthday attack,3
+An attacker tries one common password across many accounts until one works. What is this called,Brute force,Password spraying,Token forgery,Replay attack,2
+A user is locked out of their account after several failed login attempts. What does this indicate,Credential reuse,Privilege escalation,Account lockout,Injection,3
+You notice two logins from different geographic regions only minutes apart. What indicator is this,Blocked content,Impossible travel,Out-of-cycle logging,Token replay,2
+A firewall prevents a malicious website from loading in the browser. What is this an example of,Malware download,Blocked content,Phishing attack,Replay attempt,2
+A user logs in from the US and then again from Europe five minutes later. What kind of alert would this trigger,Credential replay,Impossible travel,Blocked content,Hash mismatch,2
+System performance drops significantly during off-hours. Which indicator does this suggest,Resource consumption,Credential theft,Malicious update,Replay attempt,1
+You cannot access shared drives or tools needed for work, but your credentials are valid. What indicator is likely,Blocked content,Resource inaccessibility,Logic bomb,Replay attack,2
+An unusual log entry appears for a login outside standard work hours. What indicator is this,Token injection,Out-of-cycle logging,Replay,Resource lock,2
+Logs suddenly go missing from a critical system after a suspected breach. What might this indicate,Missing logs,Downgrade,Brute force,Legacy system failure,1
+You read published information on a newly discovered attack method affecting older firmware. What is this type of indicator,Missing logs,Documented indicator,Environmental risk,Bloatware,2
+A security team finds evidence of tampering but system logs do not show relevant activity. What may have occurred,Out-of-cycle access,Missing logs,Credential replay,Injection,2
+Which tool might you use in a lab to observe buffer overflow behavior,Wireshark,Metasploit,Group Policy Editor,Hashcat,2
+In a lab exercise, which method would simulate an on-path attack for analysis,ARP spoofing,Token replay,File hashing,SQL sandboxing,1

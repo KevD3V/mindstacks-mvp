@@ -1,0 +1,30 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is a common delivery method used in message-based attacks,Email,Worms,Trojans,Sniffers,1
+Which threat vector uses images to conceal malicious content,Image-based,Phishing,Rootkits,Keyloggers,1
+A threat delivered via Microsoft Word document is an example of what vector,File-based,Voice call,Backdoor,Botnet,1
+Which type of communication is most likely targeted in vishing,Voice call,Email,IM,USB drive,1
+What threat vector involves storage devices such as USBs,Removable device,Phishing,Social engineering,IM,1
+Which type of software threat typically exploits outdated user apps,Vulnerable software,Secure bootloaders,Firewalls,Biometrics,1
+How does a client-based vulnerability differ from agentless,Requires local software,Needs no update,Stronger password,No user input needed,1
+What is a risk of using outdated applications,Unsupported systems may lack security patches,They run faster,They block all malware,They log users out,1
+Which network type is commonly exploited due to weak encryption,Wireless,Wired,Bluetooth,Fiber,1
+Bluetooth vulnerabilities often rely on which issue,Unsecure protocol,Strong firewall,Hard drive failure,Patch mismatch,1
+Leaving TCP port 23 open can expose a system to what risk,Open service port,Encrypted traffic,Signed scripts,Redundancy loop,1
+Why are default credentials a major security risk,Easily guessed by attackers,Used only once,Randomized each session,No privileges allowed,1
+Which part of the supply chain might unknowingly introduce threats,Vendors,Firewalls,Clients,Log files,1
+What is the role of a managed service provider (MSP) in supply chain risk,Third-party with privileged access,Main antivirus,Internal data center,Patch rollback tool,1
+An attacker pretending to be tech support to steal data is engaging in,Impersonation,Phishing,Smishing,Vishing,1
+Phishing is primarily conducted through what channel,Email,SMS,Voice call,USB,1
+Smishing is a form of phishing over what medium,Short Message Service (SMS),Phone calls,Radio,Hard drives,1
+Vishing targets victims using what method,Voice call,Firewall,Browser,Physical access,1
+A site designed to look like a real bank page is an example of what threat,Brand impersonation,Man-in-the-middle,Backdoor,IP spoofing,1
+What attack involves tricking victims with a nearly identical domain name,Typosquatting,Watering hole,Honeypot,Keylogger,1
+Which attack sets traps on websites likely to be visited by a target group,Watering hole,Drive-by download,Phishing,Pretexting,1
+What does a business email compromise typically target,Executive credentials,LAN switches,USB policies,System cache,1
+What is pretexting in social engineering,Creating a believable lie to manipulate someone,Brute-forcing a login,Bypassing encryption,Changing BIOS,1
+What tactic spreads false or misleading info to manipulate perception,Misinformation/disinformation,Patch injection,MAC spoofing,Hash collision,1
+Which attack surface involves both technical and human weaknesses,Social engineering,Firewall rule sets,Data validation,Content filtering,1
+Which of the following would be a valid lab simulation for this topic,Simulating phishing email detection,Running BIOS checksum,Calculating subnet masks,Installing drivers,1
+How can an organization reduce threat exposure from open service ports,Close unused ports and audit regularly,Increase bandwidth,Add more DNS entries,Turn off updates,1
+What is a real-world risk of allowing unsupported systems in the network,Increased vulnerability to exploits,Improved performance,Reduced login failures,More stable apps,1
+Which of the following is an example of using default credentials,Username admin and password admin,Dynamic password with MFA,Encrypted token exchange,PKI-signed auth,1

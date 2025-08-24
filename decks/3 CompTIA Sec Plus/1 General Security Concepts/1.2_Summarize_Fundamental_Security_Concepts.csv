@@ -1,0 +1,33 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What does confidentiality in the CIA triad ensure,Data is accurate,Data is only available to authorized users,Systems are always online,Users are authenticated,2
+Which of the following best describes integrity in the CIA triad,Preventing unauthorized access,Ensuring uptime,Protecting against data tampering,Tracking user logins,3
+Availability in the CIA model refers to,Keeping data hidden,Maintaining system uptime,Auditing access logs,Encrypting communications,2
+What does non-repudiation guarantee,A user can’t deny sending a message,Data is encrypted end-to-end,Users are anonymous,Traffic is filtered by firewalls,1
+Which concept includes authentication, authorization, and accounting,Confidentiality,Integrity,Non-repudiation,AAA (Authentication Authorization and Accounting),4
+Authenticating a user with a fingerprint is an example of,Authenticating systems,Authorization model,Authenticating people,Threat scope reduction,3
+What is an example of authenticating a system,User password entry,Digital certificate validation,Retinal scan,Access badge,2
+What is the primary goal of authorization in AAA,Track user activity,Prevent unauthorized physical entry,Grant access based on policy,Encrypt sensitive data,3
+Which model grants access based on a user’s job function,Mandatory Access Control,Discretionary Access Control,Role-Based Access Control (RBAC),Attribute-Based Access Control (ABAC),3
+What is a gap analysis used for,Creating new vulnerabilities,Documenting physical access logs,Identifying security weaknesses,Encrypting network traffic,3
+Zero Trust architecture assumes,Users are always trusted,Networks are inherently secure,No implicit trust exists,Firewalls are optional,3
+Which Zero Trust component determines who gets access and when,Policy Enforcement Point,Policy Engine,Threat scope reduction,Policy Administrator,2
+What is the role of the Policy Administrator in Zero Trust,Applies policies to the network,Physically secures data,Authenticates users manually,Creates encryption keys,1
+Adaptive identity within the Zero Trust model means,Identity cannot change,Identity adapts to social engineering,Identity evaluation is dynamic,Identity is based on location,3
+What is threat scope reduction in Zero Trust,Adding more systems to increase scope,Limiting access to reduce exposure,Encrypting email traffic,Allowing only internal traffic,2
+Policy-driven access control ensures,Rules are manually adjusted,Access is based on predefined policies,Only admins can access systems,Users never share credentials,2
+Which best defines a Policy Enforcement Point in Zero Trust,Logs system activity,Executes access decisions from policy engine,Creates network policies,Monitors physical entry points,2
+What does the term subject/system refer to in the Zero Trust data plane,Hardware devices only,Users and devices interacting with resources,Firewalls and proxies,Routers and switches,2
+What is an implicit trust zone,Area where access is granted automatically,Encrypted zone of a file system,Trusted vendor network,Physical security room,1
+Which of the following is a physical security control,Bollard,Policy Engine,Policy-driven access control,Policy Enforcement Point,1
+Which device creates a secure area between two entry doors,Access control vestibule,Pressure sensor,Honeynet,Fencing,1
+Video surveillance is used for what type of control,Logical,Managerial,Technical,Physical,4
+Which physical control prevents unauthorized vehicle access,Bollards,Policy Engine,Honeyfile,Lighting,1
+How does lighting support physical security,Provides infrared detection,Prevents fire damage,Increases visibility and deters intrusion,Authenticates users,3
+Which sensor detects body heat,Microwave sensor,Ultrasonic sensor,Infrared sensor,Pressure sensor,3
+What is a honeypot designed to do,Backup important data,Attract attackers to a controlled environment,Authenticate users,Encrypt data at rest,2
+How does a honeynet differ from a honeypot,A honeynet uses single server traps,A honeynet contains multiple decoy systems,A honeynet is a type of sensor,A honeynet encrypts traffic,2
+What is a honeyfile used for,Encrypting backups,Detecting data exfiltration by serving as bait file,Authenticating users with fingerprint,Performing penetration testing,2
+What is the purpose of a honeytoken,Detect unauthorized use of fake credentials,Create physical barriers,Issue access badges,Encrypt traffic,1
+Which scenario best demonstrates use of deception technology,Firewall blocking access,IDS alerting on traffic,Fake data file triggering alert,Honeynet encrypting logs,3
+Which layered approach includes both physical and deception controls,Fencing and honeypot only,Lighting and AAA model,Bollards and honeynet,Authorization model and sensor logs,3
+A lab for this topic would most likely include,User credential management only,Simulation of Policy Engines and honeypots,Static access lists,MAC filtering tests,2

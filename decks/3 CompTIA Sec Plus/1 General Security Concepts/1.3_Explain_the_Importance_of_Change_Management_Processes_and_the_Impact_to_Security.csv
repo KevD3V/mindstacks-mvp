@@ -1,0 +1,28 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the primary purpose of a change approval process in security?,To reduce costs,To allow unrestricted access,To minimize risk and ensure proper oversight,To shorten development cycles,3
+In a secure change management process, who is typically responsible for authorizing changes?,Interns,Stakeholders,Customers,External vendors,2
+Which term best describes individuals or groups impacted by or involved in a security change?,Testers,Auditors,Stakeholders,Hackers,3
+Why is an impact analysis important before implementing a change?,It boosts server speed,It helps assess risk and downstream effects,It reduces insurance costs,It updates stakeholders automatically,2
+Test results in change management are most useful for what purpose?,Confirming network topology,Ensuring change won't break functionality,Auditing HR policies,Resetting user credentials,2
+What is the main purpose of a backout plan?,To keep servers cool,To allow a change to be reversed safely,To eliminate all legacy apps,To enforce firewall policies,2
+What does a maintenance window specify?,Budget deadlines,Stakeholder roles,Authorized time period for change,Security patch versions,3
+What is a Standard Operating Procedure (SOP)?,An executive’s agenda,A backup recovery plan,A documented and repeatable process,A policy manual for HR,3
+How do allow lists enhance application security?,They prevent all apps from installing,They allow all activities by default,They specify only approved apps/services,They bypass authentication,3
+What are deny lists used for?,Defining default usernames,Blocking unauthorized apps or services,Listing IPs for VPN,Assigning file permissions,2
+Restricted activities are part of which control process?,Software development,Security camera monitoring,Change management,Customer feedback,3
+Which of the following is a common security impact of unplanned downtime?,Better customer satisfaction,Increased monitoring efficiency,Disrupted services and increased attack surface,Improved latency,3
+What is the purpose of a service restart after applying a patch?,To refresh user data,To reinitialize configurations,To increase bandwidth,To delete logs,2
+Why might a legacy application pose a challenge during change management?,It’s easy to upgrade,It has built-in zero trust,It may not be compatible with modern controls,It supports all cloud platforms,3
+Why should dependencies be analyzed before a change?,To reduce budget,To find developer errors,To ensure related systems aren’t broken,To delete backup files,3
+When is it necessary to update security diagrams?,After a major HR update,After a successful social engineering test,After a network architecture change,Every time the CEO travels,3
+Why should policies and procedures be updated during change management?,To pass security audits,To record user birthdays,To publish press releases,To configure firewalls,1
+What does version control help manage during security-related changes?,User behavior analytics,Employee timesheets,Changes to documents and configurations,Marketing strategies,3
+Which is a benefit of having version control in security documentation?,Increased DDoS resistance,Detecting physical intrusion,Tracking and reversing unwanted edits,Boosting wireless speeds,3
+Which change control element best prevents negative impacts to operations?,Outdated backups,Standard Operating Procedure,Unscheduled updates,Manual installations,2
+How do allow lists and deny lists differ?,Both allow all access by default,Allow lists permit only approved entries, deny lists block known bad ones,They are the same thing,They’re used only in HR policy,2
+What would a layered scenario using test results and backout plans involve?,Pen testing only,Changing passwords monthly,Testing a change and rolling it back if it fails,Using AI for network scans,3
+What might a lab on version control test?,Password rotation,Document rollback and audit trail review,Firewall throughput,Spam filtering effectiveness,2
+A change requires restarting both application and service. What must be considered?,Data compression algorithms,Redundant system availability,Email storage quotas,Webcam permissions,2
+Which is a correct order of operations in change management?,Implement → Approve → Test,Approve → Analyze Impact → Test → Apply → Document,Test → Approve → Backup → Deploy,Skip Approval → Deploy → Document,2
+What role do stakeholders play in change management?,They perform vulnerability scans,They review and approve changes,They are external threat actors,They configure routers,2
+Why is documenting test results critical in a change management process?,To assign blame,To market security services,To verify success and inform future changes,To reset credentials,3

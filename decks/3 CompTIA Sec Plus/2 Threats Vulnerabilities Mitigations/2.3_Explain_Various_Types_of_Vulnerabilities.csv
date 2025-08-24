@@ -1,0 +1,27 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is a buffer overflow?,When input exceeds allocated memory,When software is outdated,When encryption fails,When input is too short,1
+What distinguishes memory injection from buffer overflow?,Memory injection targets code injection,Buffer overflow corrupts memory locations,Both target encryption routines,Memory injection impacts file permissions,2
+Which scenario best represents a buffer overflow?,Entering 500 characters in a 20-character input field,Unplugging a hard drive,Changing a firewall rule,Disabling antivirus temporarily,1
+What is a race condition vulnerability?,Improper input handling,Timing conflict between operations,Failure to encrypt data,Insider misuse,2
+Which best defines Time-of-check to Time-of-use (TOC/TOU) flaw?,When a system checks a condition but uses stale data,When encryption keys are reused,When patches fail to apply,When software has too many open ports,1
+Which attack uses legitimate-looking update to install malware?,Malicious update,Zero-day,Privilege escalation,Side loading,1
+Which is a key risk of outdated operating systems?,Lack of vendor support,Strong encryption,Automatic patching,Zero trust enforcement,1
+Structured Query Language injection (SQLi) targets what?,Databases,Firewalls,Antivirus,Printers,1
+How does cross-site scripting (XSS) differ from SQL injection?,XSS targets users via scripts,SQLi targets databases,XSS disables encryption,XSS only occurs on mobile,1
+What can help mitigate web-based injection attacks?,Input validation,More RAM,Longer passwords,Lower resolution images,1
+Firmware vulnerabilities often occur because of what?,Outdated embedded code,Too many antivirus updates,Overuse of Wi-Fi,Bad passwords,1
+What is a risk with end-of-life hardware?,No security updates,Too many USB ports,Too much memory,Low CPU speed,1
+What does VM escape allow an attacker to do?,Break out of a virtual environment,View log files,Update the host OS,Force a reboot,1
+Which vulnerability could result from improper virtual machine reuse?,Residual data access,Lack of BIOS,Phishing risk,Wrong permissions,1
+What is a unique cloud-specific vulnerability?,Insecure APIs,Physical server access,USB malware,Outdated graphics drivers,1
+Which supply chain vulnerability involves compromised software?,Software provider tampering,Zero trust bypass,Encryption downgrade,Printer spoofing,1
+What does jailbreaking a mobile device enable?,Removal of manufacturer restrictions,OS updates,Stronger firewall,Disabling browser cache,1
+Side loading a mobile app often bypasses what?,Official app store review,Wi-Fi encryption,Firewall rules,Device power limits,1
+Which vulnerability uses unknown flaws not yet patched?,Zero-day,SQL injection,Smishing,Data masking,1
+Why are cryptographic vulnerabilities dangerous?,They undermine data confidentiality and integrity,They boost performance,They block malware updates,They slow down apps,1
+What is a configuration error that exposes systems?,Misconfiguration,VPN setup,Proper authentication,Standard operating procedure,1
+Which is more vulnerable: legacy system or updated OS?,Legacy system,Updated OS,They are equal,Depends on the user,1
+What mitigation helps reduce supply chain risk?,Vendor vetting,Weak passwords,Open Wi-Fi,Side loading,1
+In a scenario where an employee installs unauthorized software, what type of vulnerability is present?,Misconfiguration,SQL injection,Cryptographic error,Proper encryption,1
+Which lab activity tests for SQL injection?,Submit crafted input in a web form,Connect to a VPN,Scan Wi-Fi channels,Open a PDF file,1
+Which lab could validate a virtual machine escape risk?,Create sandbox, attempt cross-VM access,Write a script to log out users,Install updates manually,Use encryption at rest,1

@@ -1,0 +1,62 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the practice of dividing a network into smaller parts to reduce attack surfaces called,Encryption,Segmentation,Monitoring,Hardening,2
+What defines who can access what resources in a network environment,Access control,Decommissioning,Isolation,Patching,1
+What is a rule-based filter that controls inbound and outbound traffic based on permissions,Monitoring,Access control list,Host-based firewall,Least privilege,2
+What refers to settings that determine what users or systems can do with a file or resource,Permissions,Hardening,Decommissioning,Segmentation,1
+What is a list of specifically approved software that may run on a system,Application allow list,Patch list,Monitoring policy,Credential list,1
+What involves running a system or application in a restricted environment to limit exposure,Isolation,Encryption,Access control,Patching,1
+What is the process of updating software to fix vulnerabilities or bugs,Patching,Encryption,Segmentation,Monitoring,1
+What is the process of transforming data to make it unreadable to unauthorized users,Encryption,Access control,Tokenization,Patching,1
+What involves continuously observing systems and networks for signs of malicious activity,Segmentation,Decommissioning,Monitoring,Isolation,3
+What principle limits user and process access to only what is necessary to perform tasks,Application allow list,Least privilege,Permissions,Hardening,2
+What ensures that systems being retired are securely removed from the network,Decommissioning,Patching,Segmentation,Monitoring,1
+What is the general term for actions taken to reduce vulnerabilities in a system,Encryption,Hardening,Patching,Monitoring,2
+What refers to applying encryption to protect data stored or transmitted,Encryption,Segmentation,Permissions,Isolation,1
+What security measure installs software that detects and blocks threats on a device,Host-based firewall,Hardening,Endpoint protection,Monitoring,3
+What filters traffic at the device level to block unauthorized access,Patch management,Encryption,Host-based firewall,Decommissioning,3
+What detects and blocks malicious behavior on the host before damage occurs,Host-based intrusion prevention system,Access control list,Patch management,Encryption,1
+What technique involves turning off unused ports or network protocols to reduce risks,Disabling ports and protocols,Access control,Encryption,Monitoring,1
+What is the process of changing factory-set login credentials to prevent unauthorized access,Default password changes,Patch management,Encryption,Isolation,1
+What is the removal of programs not necessary for the system’s function to reduce vulnerabilities,Removal of unnecessary software,Patching,Monitoring,Access control,1
+Q,Option1,Option2,Option3,Option4,Correct
+How does segmentation differ from isolation,Segmentation limits access by dividing networks while isolation completely separates systems,Isolation uses software while segmentation uses hardware,Segmentation encrypts data while isolation prevents access,Isolation is used only in virtual machines,1
+What is the key difference between access control and permissions,Permissions apply to specific resources while access control defines overall access policies,Access control encrypts traffic while permissions block users,Permissions are for external users while access control is for internal users,Both terms mean the same in practice,1
+How does an access control list differ from an application allow list,Access control list defines who can access what resources while application allow list limits which software can run,Application allow list controls ports while access control list blocks domains,Access control list uses encryption while allow list uses hashing,Both are part of configuration enforcement,1
+Why are permissions not sufficient without proper configuration enforcement,Permissions require enforcement mechanisms to be effective,Permissions encrypt data while enforcement blocks access,Enforcement is only used in mobile devices,Permissions automatically enforce least privilege,1
+How does an application allow list differ from a blacklist,Application allow list permits only approved software while a blacklist blocks specific known threats,Application allow list scans files while blacklist blocks traffic,Blacklist encrypts data while allow list hides it,Both perform identical roles,1
+Why is isolation considered stronger than segmentation in some cases,Isolation completely disconnects systems while segmentation still allows limited communication,Segmentation encrypts traffic while isolation does not,Isolation only applies to software,Segmentation applies only to physical networks,1
+How is patching different from hardening,Patching updates software to fix vulnerabilities while hardening configures systems to reduce attack surfaces,Patching blocks access while hardening applies firewall rules,Both are methods of access control,Patching applies only to firewalls,1
+What is the relationship between encryption and data confidentiality,Encryption ensures confidentiality by making data unreadable without the correct key,Encryption controls access permissions,Encryption isolates devices from networks,Encryption prevents application crashes,1
+How does monitoring differ from access control,Monitoring detects and logs activity while access control determines who can do what,Monitoring enforces user roles,Access control prevents encryption,Monitoring is only useful after a breach,1
+How does least privilege support overall security,It limits access rights to only what is needed which reduces the impact of a compromise,It grants full access to administrators,It disables ports by default,It only applies to encryption keys,1
+What distinguishes configuration enforcement from patch management,Configuration enforcement ensures settings stay compliant while patch management updates software,Patch management only applies to firewalls,Configuration enforcement is used only in testing,They serve the same function,1
+How is decommissioning different from disabling ports and protocols,Decommissioning removes a system entirely while disabling ports and protocols reduces its attack surface,Disabling ports replaces decommissioning,Decommissioning encrypts data before deletion,Disabling ports applies only to wireless networks,1
+What is the main purpose of hardening in enterprise environments,To reduce vulnerabilities through multiple defensive configurations,To replace access control policies,To ensure user credentials are reused,To isolate encrypted data from firewalls,1
+How does encryption as a hardening technique differ from general encryption,In hardening it is applied system-wide to protect critical data and functions,General encryption is more secure,Hardening encryption is only for mobile devices,There is no difference,1
+How does endpoint protection differ from host-based firewalls,Endpoint protection includes antivirus and malware defense while firewalls filter traffic,Firewalls monitor applications but endpoint protection blocks ports,Endpoint protection is only used in routers,Firewalls use encryption by default,1
+What sets host-based firewalls apart from network firewalls,Host-based firewalls protect individual systems while network firewalls guard traffic between systems,Host-based firewalls scan email attachments,Network firewalls encrypt data,They both block physical access,1
+Why is a host-based intrusion prevention system considered proactive,It can block threats before they execute based on behavior analysis,It only logs events,It encrypts passwords,It replaces all access control rules,1
+How does disabling ports and protocols enhance system security,It reduces the number of entry points for attackers by limiting unnecessary services,It patches outdated software,It enables logging automatically,It replaces endpoint protection,1
+Why is changing default passwords a crucial security step,Default credentials are widely known and often targeted by attackers,They cannot be changed once set,They interfere with firewalls,They are encrypted by default,1
+How does removal of unnecessary software contribute to system hardening,It reduces the attack surface by eliminating unneeded applications that may contain vulnerabilities,It disables all ports,It encrypts all data,It prevents monitoring alerts,1
+Q,Option1,Option2,Option3,Option4,Correct
+A company wants to limit access between departments such that the finance team cannot access engineering resources. What mitigation strategy should be used,Application allow list,Segmentation,Monitoring,Patching,2
+An administrator needs to define which users can access certain files and directories on a shared server. Which technique should be applied,Monitoring,Decommissioning,Access control,Encryption,3
+A security analyst is configuring a firewall to only allow users to run approved programs. What should they implement,Application allow list,Access control list,Endpoint protection,Patching,1
+A virtual machine is being separated from the host and other machines to reduce risk. Which method is being applied,Monitoring,Encryption,Isolation,Decommissioning,3
+A server has a known vulnerability. What is the most effective immediate mitigation technique,Patching,Segmentation,Least privilege,Monitoring,1
+A company wants to protect sensitive data as it moves between systems. Which technique should be implemented,Encryption,Access control,Permissions,Decommissioning,1
+Which technique would best help a team identify a brute-force attack in progress,Segmentation,Decommissioning,Monitoring,Least privilege,3
+To minimize the potential impact of a user account being compromised, what principle should be followed,Default password change,Encryption,Least privilege,Host-based firewall,3
+An administrator wants to prevent unauthorized changes to system configurations. Which method enforces this requirement,Access control,Decommissioning,Configuration enforcement,Isolation,3
+What is the most appropriate step when retiring a server containing customer data,Hardening,Monitoring,Decommissioning,Encryption,3
+Before deploying a new laptop to an executive, a technician installs antivirus software, disables unnecessary services, and removes unused programs. What is being performed,Application allow listing,Decommissioning,Hardening,Segmentation,3
+A system administrator enables encryption on a laptop to ensure that data remains secure even if the device is stolen. What hardening method is this,Least privilege,Encryption,Monitoring,Isolation,2
+Which of the following is a key component of endpoint protection software,Open service port scanning,Phishing detection and malware blocking,Decryption,System segmentation,2
+A user configures their workstation to only allow trusted applications to access the internet. What type of firewall configuration is this,Host-based firewall,Network firewall,Content filtering,Isolation proxy,1
+What is the main benefit of using a host-based intrusion prevention system on laptops in a remote workforce,It logs all software changes,It proactively blocks malicious activity on the host before it spreads,It enforces network segmentation,It disables all unneeded ports,2
+During system setup, an administrator disables Telnet and FTP on all servers. What technique is being used,Monitoring,Disabling ports and protocols,Encryption enforcement,Key management,2
+An audit reveals multiple accounts still use factory credentials. What step should be enforced to reduce risk,Isolation,Default password changes,Encryption,Monitoring,2
+To reduce attack surface, a technician uninstalls games and unneeded demo software from all employee laptops. What principle is being applied,Decommissioning,Application allow listing,Removal of unnecessary software,Monitoring,3
+You are tasked with setting up a lab to test the effectiveness of host-based intrusion prevention systems. Which activity best demonstrates a real-world use case,Running a simulated ransomware attack to see if HIPS blocks it,Configuring DNS forwarding,Creating a honeypot,Disabling physical USB ports,1
+Which lab task would best show the effect of removing unnecessary software on system performance and vulnerability,Running CPU benchmarks,Comparing pre and post-removal vulnerability scan results,Logging network traffic during peak hours,Testing screen resolution settings,2

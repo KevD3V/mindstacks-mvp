@@ -1,0 +1,21 @@
+Q,Option1,Option2,Option3,Option4,Correct
+Which threat actor is typically a government-sponsored attacker?,Unskilled attacker,Nation-state,Hacktivist,Shadow IT,2
+Which type of threat actor may include rogue employees?,Insider threat,Nation-state,Organized crime,Ethical hacker,1
+What distinguishes an unskilled attacker from other threat actors?,They use zero-day exploits,They rely on publicly available tools,They lead hacktivist campaigns,They fund large APTs,2
+What motivates most hacktivists?,Financial gain,Political or philosophical beliefs,Corporate loyalty,Espionage,2
+Which threat actor operates outside of official IT policies and can introduce unvetted hardware or software?,Nation-state,Shadow IT,Insider threat,Ethical hacker,2
+How does an insider threat differ from a shadow IT threat?,Shadow IT has authorized access,Insider threat is always unintentional,Insider threat has authorized access,Shadow IT is always state-sponsored,3
+What factor typically limits an unskilled attacker?,Access to targets,Funding,Technical knowledge,Intent,3
+How does the level of sophistication affect an actor's threat level?,More sophistication usually means less dangerous,Sophisticated actors are easier to detect,Higher sophistication enables more advanced attacks,Low sophistication guarantees insider status,3
+Which actor is most likely to engage in data exfiltration for espionage purposes?,Organized crime,Nation-state,Shadow IT,Hacktivist,2
+What is a common financial motivation for organized crime cyberattacks?,Access to classified data,Proving technical skill,Ransomware attacks for profit,Espionage,3
+Which actor is best described as ideologically driven and loosely organized?,Insider threat,Organized crime,Nation-state,Hacktivist,4
+What is one likely goal of a nation-state actor?,Ransomware,Corporate espionage,Denial of service for fun,Disruption of local businesses,2
+Which type of actor might unintentionally create security risks by bypassing IT controls?,Hacktivist,Nation-state,Shadow IT,Insider threat,3
+What attribute would distinguish an external threat actor from an internal one?,They attack from within the network,They lack sophistication,They have valid credentials,They operate outside the organization,4
+Which motivation is **least likely** for an ethical hacker?,Financial gain,Improving security,Training purposes,Compliance testing,1
+Which of the following is an example of a **layered threat** involving multiple motivations?,An insider exfiltrating data for ideological and financial reasons,A hacktivist attacking from an internal network due to revenge,A nation-state insider escalating privileges for fun,Shadow IT accidentally exposing data,1
+Which motivation best explains a threat actor who leaks private emails to damage a public figure's reputation?,Service disruption,Ethical concern,Revenge,Blackmail,3
+Which type of actor often relies on pre-made scripts and has limited knowledge of what they’re doing?,Organized crime,Shadow IT,Unskilled attacker,Nation-state,3
+How does shadow IT introduce risk into an organization?,By conducting penetration testing,By using tools outside of IT governance,By leaking insider information,By intercepting encrypted data,2
+What layered scenario might involve both insider threat and organized crime?,An employee installing unauthorized software,An unskilled attacker breaching a firewall,An employee paid by criminals to exfiltrate data,A nation-state actor disrupting services,3

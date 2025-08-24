@@ -1,0 +1,40 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the purpose of Public Key Infrastructure (PKI),To monitor network traffic,To manage encryption keys and digital certificates,To store passwords,To create VPN tunnels,2
+Which key in PKI is meant to be shared publicly,Private key,Shared key,Public key,Master key,3
+What is the role of a private key in asymmetric encryption,To be used by all users,To decrypt data encrypted with the public key,To create usernames,To generate passwords,2
+What is key escrow used for,To hide encryption keys,To store backup encryption keys with a trusted third party,To delete unused certificates,To authenticate users,2
+Which encryption level protects an entire storage device,Partition,Record,File,Full-disk,4
+Which level of encryption would most likely be used to secure individual rows in a database,File,Partition,Record,Transport,3
+Which encryption level is best suited for protecting in-transit data,Full-disk,Transport,File,Database,2
+How does symmetric encryption differ from asymmetric encryption,It uses a key pair,It uses a single shared key for both encryption and decryption,It is not reversible,It is only used for hashing,2
+What is the main benefit of asymmetric encryption over symmetric encryption,Faster processing,Uses shorter keys,No need to share a secret key,Better compression,3
+Which of the following is used to securely exchange encryption keys over an insecure network,Key stretching,Salting,Key exchange,Hashing,3
+Which of the following best describes a cryptographic algorithm,Mathematical procedure used to encrypt and decrypt data,Protocol for wireless access,Physical security method,Standard network model,1
+What impact does increasing key length have on encryption,It makes it easier to brute-force,It weakens encryption,It strengthens encryption,It makes encryption obsolete,3
+What does the Trusted Platform Module (TPM) do,Manages internet traffic,Performs cryptographic functions and secures hardware,Monitors employee behavior,Authenticates physical entry,2
+Which of the following is a dedicated hardware device for cryptographic operations,HSM,TPM,IDS,WAF,1
+Which tool is used to manage cryptographic keys across systems,Firewall,Key management system,Token vault,Certificate pinning,2
+What is a secure enclave,Secure facility used for physical security,Isolated part of a CPU that handles secure data processing,Encrypted email system,Obsolete cryptography tool,2
+What is the purpose of steganography,To encrypt network traffic,To hide data within other files,To hash passwords,To manage digital certificates,2
+Which obfuscation method replaces sensitive data with non-sensitive placeholders,Salting,Steganography,Tokenization,Key exchange,3
+Which method hides data by altering it but keeping its format,Data masking,Hashing,Tokenization,Digital signing,1
+What is the primary use of hashing,To encrypt and decrypt files,To create fixed-length representations of data,To generate passwords,To block viruses,2
+What is the purpose of salting,To store passwords in plain text,To add randomness to password hashes,To encrypt video streams,To manage VPNs,2
+How do digital signatures ensure data integrity,By compressing data,By verifying a sender's public key and ensuring data was not modified,By hiding data inside images,By storing passwords,2
+What does key stretching achieve,It makes brute-force attacks more difficult by strengthening weak keys,It shortens encryption time,It deletes unused keys,It simplifies hashing,1
+Which technology is often associated with decentralized records and cryptocurrency,Hashing,Firewall,Blockchain,Tokenization,3
+What is an open public ledger,An encrypted private database,Log of all failed logins,A transparent record accessible to all,Government security list,3
+What is the role of a certificate authority,To install antivirus,To issue and verify digital certificates,To encrypt hard drives,To manage employee records,2
+What is a Certificate Revocation List (CRL) used for,To store backup keys,To list untrusted or revoked certificates,To encrypt passwords,To manage VLANs,2
+What does the Online Certificate Status Protocol (OCSP) provide,Certificate encryption,Real-time certificate validation,Firewall updates,VPN tunneling,2
+What distinguishes a self-signed certificate from a third-party certificate,It is issued by a trusted authority,It is not verifiable by others,It comes with a warranty,It uses hashing,2
+What is the root of trust in a PKI,The longest certificate chain,The final encrypted file,The foundational trust anchor for all certificates,The user password,3
+What is the purpose of a Certificate Signing Request (CSR),To encrypt network traffic,To request a digital certificate from a certificate authority,To revoke a certificate,To test encryption speed,2
+What is the advantage of using a wildcard certificate,Secures multiple subdomains with a single certificate,Provides more encryption bits,Is self-renewing,Is used for hashing,1
+A system encrypts all database records individually. What level of encryption is used,File,Database,Record,Partition,3
+A company uses blockchain to verify transaction integrity. What core principle is supported,Confidentiality,Availability,Integrity,Obfuscation,3
+If you store encrypted keys in a trusted third-party facility for recovery, which mechanism is in place,Key escrow,Digital signature,PKI,Blockchain,1
+Which of these is most likely used in full-disk encryption,Key management system,Tokenization,TPM,Self-signed certificate,3
+You are setting up transport encryption for a secure website. What encryption type are you most likely using,Asymmetric,Symmetric,Tokenization,Hashing,1
+In a secure email system, what ensures that the message has not been altered,Digital signature,Data masking,Key length,File encryption,1
+A technician is testing OCSP responses. What is their likely goal,Validating real-time certificate status,Generating private keys,Hashing user passwords,Encrypting file systems,1
