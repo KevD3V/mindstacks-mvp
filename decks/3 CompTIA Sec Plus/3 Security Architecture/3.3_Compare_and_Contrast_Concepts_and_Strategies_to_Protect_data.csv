@@ -1,0 +1,68 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is regulated data,Data with no restrictions,Data managed by internal policy only,Data governed by laws or regulations,Data available to the public,3
+What is a trade secret,Public business information,Patent-protected design,Confidential business information with competitive value,Government-mandated disclosure,3
+What does intellectual property refer to,Tangible assets,Employee records,Creations of the mind with legal protections,Public infrastructure,3
+What is legal information in an organization,Marketing data,Technical specs,Contracts and compliance documents,Product reviews,3
+What is considered financial information,Bank accounts and payment data,Employee vacation days,Public press releases,Software updates,1
+What is human-readable data,Data only a computer can parse,Binary-only output,Data understandable by people,Encrypted values,3
+What is non-human-readable data,Plain text on a screen,Data displayed on a dashboard,Machine or binary data not meant for human reading,Handwritten notes,3
+What type of data is sensitive,Data freely shared,Data with minimal relevance,Data requiring protection due to risk impact,Public announcements,3
+What type of data is confidential,Non-restricted data,Open source code,Data meant to be kept secret and shared on a need-to-know basis,News articles,3
+What is public data,Data stored in the cloud,Information classified for internal use,Data openly available to anyone,Encrypted company secrets,3
+What is restricted data,Data with no access controls,Unverified information,Data with the highest level of access limitation,Open forum posts,3
+What does private data refer to,Data stored in an archive,Non-identifiable data,Information relating to an individual or entity not meant for public access,Publicly posted photos,3
+What is critical data,Disposable data,Data with limited use,Information essential to business operations,Obsolete backups,3
+What is data at rest,Data being transferred over the internet,Data actively processed in memory,Data stored on a physical or digital medium,Live video feed,3
+What is data in transit,Data deleted from a device,Data being stored long-term,Data actively moving across a network,Archived files,3
+What is data in use,Data that is encrypted,Data stored offline,Data actively being processed by a system,Data sent over email,3
+What is data sovereignty,User ownership of email,Policy on using strong passwords,Legal control over data based on location,Employee code of conduct,3
+What does geolocation refer to,Data integrity,Anonymizing user identity,Determining physical location of a device or user,Encrypting sensitive data,3
+What is a geographic restriction,Limiting access by language,Blocking services based on user role,Restricting data access or storage to specific regions,Disabling notifications,3
+What is encryption,Process of storing data in clear text,Converting data into a secure unreadable form,Viewing data through a dashboard,Deleting unwanted files,2
+What is hashing,Turning data into advertisements,Converting input into a fixed-length string,Sorting data alphabetically,Encrypting messages for decryption later,2
+What is masking in data security,Displaying all user details,Replacing sensitive data with fictitious yet realistic values,Hiding operating system features,Compressing files for storage,2
+What is tokenization,Replacing sensitive data with non-sensitive placeholders,Creating access keys for users,Removing files from a server,Digitally signing emails,1
+What is obfuscation,Encoding data for display purposes,Hiding the meaning of code or data without changing its function,Allowing full data access,Hiding folders in a filesystem,2
+What is segmentation in cybersecurity,Combining all data for easy access,Encrypting only part of a file,Dividing networks or systems into smaller isolated parts,Running a full system scan,3
+What are permission restrictions,Allowing all users full access,Assigning different access rights based on user roles,Sending alerts when data changes,Backing up files daily,2
+Q,Option1,Option2,Option3,Option4,Correct
+How does regulated data differ from trade secret data,Regulated data is always encrypted,Trade secret data is publicly disclosed,Regulated data must comply with laws while trade secrets are protected internally,Trade secrets are less important than regulated data,3
+Which best compares trade secrets and intellectual property,Both are legally registered ideas,Both can be freely shared,Trade secrets rely on confidentiality while intellectual property can include patents,Intellectual property is less secure than trade secrets,3
+How is intellectual property different from legal information,Intellectual property is informal knowledge,Legal information includes artistic designs,Legal information refers to contracts and laws while intellectual property includes creative works,They are always the same,3
+How does financial information compare to legal information,Legal information refers to user data,Financial information includes compliance policies,Legal information includes regulatory content while financial information includes budgets and accounts,They are unrelated,3
+How is human-readable data different from non-human-readable data,Human-readable data is encrypted,Non-human-readable data can be read by everyone,Human-readable data can be easily understood by people while non-human-readable requires processing,They are stored identically,3
+What distinguishes sensitive data from public data,Sensitive data is never stored,Public data is more secure,Sensitive data needs protection while public data can be shared openly,There is no difference,3
+How does confidential data differ from restricted data,Confidential data is more secure than restricted,Restricted data is meant for external use only,Restricted data may have stricter access than confidential data depending on policy,They are always the same,3
+Which best compares private and public data,Public data is protected by law,Private data is shared freely,Private data is associated with individuals while public data is open to anyone,Private data is stored in the cloud only,3
+How does critical data differ from non-critical data,Critical data is rarely used,Critical data is not backed up,Non-critical data requires the same protection,Critical data is essential to operations while non-critical is not,4
+How does data at rest differ from data in use,Data at rest is actively being modified,Data in use is stored long term,Data at rest is stored while data in use is actively processed,Data in use is archived,3
+What is the difference between data in transit and data at rest,Data in transit is not encrypted,Data at rest is always less secure,Data in transit is moving through networks while data at rest is stored,They are identical,3
+Which best compares data sovereignty and geolocation,Data sovereignty determines physical location only,Geolocation and sovereignty are unrelated,Data sovereignty governs legal ownership based on location while geolocation identifies position,3
+How do geographic restrictions relate to data sovereignty,Both block user access entirely,Geographic restrictions enforce storage rules,Geographic restrictions limit access based on location supporting sovereignty rules,They are for UI display only,3
+How does encryption differ from hashing,Hashing can be reversed,Encryption uses keys while hashing produces fixed output that cannot be reversed,Encryption is for display only,Hashing is used for hiding files,2
+How do masking and tokenization differ,Masking uses random placeholders while tokenization maps data to reference tokens,Tokenization removes all data,Masking replaces data with encrypted versions,They are identical,1
+How does obfuscation differ from encryption,Obfuscation secures through mathematical algorithms,Encryption is used only for display,Obfuscation hides intent but is reversible while encryption protects confidentiality,Obfuscation provides stronger confidentiality than encryption,3
+How does segmentation contribute to security compared to permission restrictions,Segmentation sets access rules per user,Permission restrictions divide network zones,Segmentation isolates systems while permission restrictions manage user access levels,Segmentation has no effect,3
+Q,Option1,Option2,Option3,Option4,Correct
+A financial company needs to comply with laws such as GDPR and HIPAA. What type of data are they most likely handling,Trade secret,Regulated,Confidential,Public,2
+An employee exports proprietary formula documents to a personal drive without approval. What type of data is at risk,Trade secret,Public,Restricted,Legal,1
+An organization applies for a patent to protect its unique software algorithm. What kind of data is involved,Legal information,Intellectual property,Confidential,Financial information,2
+During an audit, a law firm secures its contracts and case files. What type of data are they protecting,Financial,Trade secret,Legal information,Restricted,3
+Which scenario best describes the handling of financial information,Encrypting company credit card transactions,Storing legal case files in a database,Classifying a patent as intellectual property,Masking user names in training data,1
+A system processes machine-generated logs in binary format. What kind of data is this,Human-readable,Trade secret,Non-human-readable,Confidential,3
+Which classification should be applied to internal emails containing employee health details,Sensitive,Public,Critical,Obfuscation,1
+What classification would apply to product marketing brochures published on a website,Restricted,Confidential,Critical,Public,4
+An executive report contains infrastructure vulnerabilities and passwords. What is the best classification for this file,Public,Private,Confidential,Critical,4
+Why would a company label backup configurations of their power grid as critical,They are shared publicly,They are needed for system functionality,They can be reused easily,They reduce costs,2
+Which data state is most vulnerable to physical theft without encryption,Data in use,Data in transit,Data at rest,Data offsite,3
+Which scenario best describes data in use,Reading financial data from a database,Encrypting stored data,Transmitting data over VPN,Backing up data to the cloud,1
+Which activity best describes data in transit,Exporting logs to a cloud dashboard,Hashing a stored password,Encrypting an offline file,Running a script on a local file,1
+An organization is fined because data stored in Europe was copied to US servers. What concept does this violate,Geolocation,Data sovereignty,Segmentation,Obfuscation,2
+A system uses device GPS to enforce content access rules. What security measure is being applied,Obfuscation,Geographic restrictions,Data classification,Hashing,2
+Which lab could test if local storage is properly encrypted before shutdown,Masking test,Obfuscation check,Encryption validation at rest,VPN routing test,3
+Which tool is best for verifying that transmitted files have not been tampered with,Masking tool,Encryption algorithm,Hashing function,Token generator,3
+Which scenario best illustrates data masking,Replacing employee names in a test database with dummy values,Encrypting files with a passphrase,Tokenizing card numbers in logs,Hashing stored passwords,1
+How is tokenization used in a payment system,Encrypting a customer’s full name,Replacing card numbers with reference tokens,Obscuring address details with random values,Dividing network into secure zones,2
+Why might a company obfuscate source code before releasing software,To remove vulnerabilities,To reduce file size,To make reverse engineering more difficult,To optimize speed,3
+Which scenario demonstrates segmentation,Separating accounting and HR systems onto different network VLANs,Encrypting email messages,Tokenizing phone numbers in a database,Hashing passwords before storage,1
+In a file server environment, what restricts a user's ability to view specific documents,Segmentation,Permission restrictions,Hashing,Data masking,2

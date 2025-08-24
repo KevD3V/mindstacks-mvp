@@ -1,0 +1,93 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is a shared responsibility model commonly associated with cloud environments called,Responsibility matrix,Control plane,Service level agreement,Attack surface map,1
+What is a deployment model that combines public and private cloud resources,Hybrid,Community,Third-party,Containerized,1
+Which term refers to external companies that provide services integrated into your infrastructure,Patch suppliers,Legacy partners,Third-party vendors,Cold site vendors,3
+What is the practice of managing infrastructure using code and automation tools,Scripted provisioning,Infrastructure as code,DevOps scaling,Patch templating,2
+What computing model eliminates the need for managing servers directly,Client-server,Serverless,Virtualized,Containerized,2
+Which architecture breaks down applications into small independent services,Monolithic,Microservices,Centralized,Mesh networking,2
+What is the term for isolating systems physically with no network connectivity,Software-defined,Logical segmentation,Air-gapped,Redundant pairing,3
+What is the separation of systems based on logical or virtual boundaries within a network,Physical isolation,Logical segmentation,Firewall zoning,Patch gating,2
+Which approach uses software to control network traffic dynamically,Software-defined networking,Infrastructure as code,Microsegmentation,Legacy VLAN,1
+What is a model where resources and services are hosted within the organization,On-premises,Cloud-first,Hybrid edge,Third-party,1
+What architecture relies on a single control point to manage data and systems,Centralized,Distributed,Decentralized,Edge computing,1
+What infrastructure model distributes control and processing across nodes,Microservice,Decentralized,Containerized,Cloud-shared,2
+Which technology allows bundling applications with their dependencies for consistent deployment,Containerization,Microservices,Patch wrapping,Remote execution,1
+What approach involves creating virtual instances of hardware or software,Containerization,Serverless,Virtualization,Segmentation,3
+Which category includes devices like smart thermostats or connected cameras,Endpoint detection,Mobile systems,Internet of Things,Peripheral compute nodes,3
+What term describes systems used to control industrial processes like power grids or water treatment,IoT control boards,Distributed compute interfaces,Industrial control systems,Mesh controllers,3
+What is a system used to monitor and control industrial infrastructure,Data lake,Patch monitor,Supervisory control and data acquisition,System access controller,3
+What type of operating system processes data with strict timing constraints,Graphical interface system,Real-time operating system,Container OS,Patch-priority kernel,2
+What are computing devices designed to perform dedicated functions with limited resources called,Open platform systems,Embedded systems,Virtual appliances,Hot sites,2
+What term refers to systems that aim to remain functional despite component failures,High availability,Cold start,Patch aware,Risk transference,1
+What is the ability of a system to remain operational under stress or attack called,Cost optimization,Responsiveness,Resilience,Power draw,3
+What factor relates to the financial implications of an architectural choice,Resilience,Compute,Cost,Air-gapping,3
+What describes how quickly a system can respond to input or requests,Responsiveness,Patch availability,Availability,Recovery time,1
+What term defines a system's ability to grow with increased demand,High availability,Segmentation,Scalability,Legacy compatibility,3
+What refers to how easy it is to implement and begin using a solution,Ease of deployment,Responsiveness,Patch availability,Compute load,1
+What is the process of shifting risk to another party or service,Risk transference,Redundancy balancing,Patch rotation,Air-gap filtering,1
+Which factor relates to how fast a system can return to normal operations after failure,Ease of recovery,Compute efficiency,Patch granularity,Responsiveness,1
+What describes the current availability of updates to fix security flaws,Compute availability,Ease of deployment,Patch availability,Access control,3
+What term refers to the lack of available updates or fixes for a system,Inability to patch,Patch-aware,Low resilience,Compute delay,1
+What factor measures the electrical requirements or consumption of a system,Scalability,Power,Patch dependency,Deployment time,2
+What refers to the processing capability available in a given system,Responsiveness,Compute,Segmentation,Patch enforcement,2
+Q,Option1,Option2,Option3,Option4,Correct
+How does a responsibility matrix differ from a service level agreement,It outlines performance targets,It specifies legal consequences,It defines shared security duties,It lists user permissions,3
+What is a key difference between hybrid cloud and private cloud,Hybrid uses only internal resources,Hybrid combines multiple environments,Private cloud is hosted by third-party vendors,Private offers no scalability,2
+Which best distinguishes third-party vendors from internal infrastructure teams,They manage internal servers,They provide remote patches,They operate externally and are not part of the organization,They control on-premises firewalls,3
+What is the primary distinction between infrastructure as code and manual provisioning,Manual provisioning is automated,Infrastructure as code uses scripts and templates,Manual provisioning has better version control,Infrastructure as code requires GUI tools,2
+How does serverless architecture compare to virtual machines,Serverless requires manual resource allocation,Virtual machines are event-driven,Serverless scales automatically with demand,Virtual machines offer no isolation,3
+Which aspect distinguishes microservices from monolithic architectures,Microservices are tightly integrated,Monolithic systems have better fault tolerance,Microservices operate independently with defined interfaces,Microservices require centralized databases,3
+What distinguishes an air-gapped network from a logically segmented one,Air-gapped networks use VLANs,Logical segmentation requires physical disconnection,Air-gapped networks have no external connectivity,Logical segmentation relies on firewalls only,3
+How does logical segmentation differ from physical isolation,Physical isolation uses VLANs,Logical segmentation uses different switches,Logical segmentation separates traffic virtually,Physical isolation uses subnetting,3
+What distinguishes software-defined networking from traditional network routing,SDN is hardware-based,SDN uses centralized control and dynamic routing,Traditional routing uses virtualization,Traditional routing uses containerization,2
+What makes on-premises infrastructure different from cloud-based models,On-premises systems are subscription based,Cloud offers more legacy support,On-premises gives full physical control,Cloud systems run in the same rack,3
+How does centralized architecture differ from decentralized architecture,Centralized models distribute computing,Decentralized systems lack scalability,Centralized systems rely on a single control point,Decentralized systems require air gaps,3
+Which differentiates containerization from virtualization,Containers run full guest operating systems,Virtual machines share kernels,Containers are more lightweight and share OS kernels,Virtualization uses images without isolation,3
+What separates virtualization from containerization,Virtualization shares user-level resources,Containers use hypervisors,Virtualization runs full guest operating systems,Containers require more system resources,3
+Which differentiates Internet of Things from embedded systems,IoT requires strict real-time constraints,Embedded systems cannot connect to networks,IoT devices are network-enabled and often cloud-integrated,Embedded systems use virtualization,3
+What differentiates industrial control systems from standard IT systems,They use general-purpose OS,They are primarily used for end-user access,They control critical infrastructure processes,They operate in user-mode only,3
+What separates SCADA from standard enterprise network monitoring,SCADA uses GUI dashboards only,SCADA lacks remote capabilities,SCADA is designed for real-time control of industrial systems,SCADA is primarily a cloud tool,3
+What distinguishes a real-time operating system from a general-purpose OS,General-purpose OS supports embedded systems better,Real-time systems ensure deterministic timing,Real-time OS lacks I/O capabilities,General-purpose OS has stricter timing constraints,2
+What is a key difference between embedded systems and IoT devices,Embedded systems are always networked,IoT devices have no sensors,Embedded systems are purpose-built with limited networking,IoT lacks application logic,3
+What distinguishes high availability from standard redundancy,Redundancy ensures real-time failover,High availability minimizes downtime with failover systems,High availability increases cost without resilience,Redundancy uses application whitelisting,2
+How does availability relate to resilience,Availability is about resistance to threats,Resilience only applies to cloud systems,Availability focuses on uptime, resilience on recovery,Resilience reduces physical security risks,3
+What differentiates resilience from responsiveness,Responsiveness ensures faster patch deployment,Resilience focuses on recovery from disruptions,Responsiveness minimizes downtime,Resilience is a cloud-only concept,2
+How does cost impact architectural decision-making in security,High cost always equals higher security,Low cost systems are always resilient,Cost affects scalability and risk tolerance,Cost replaces need for backup,3
+What distinguishes responsiveness from scalability,Responsiveness is about time to react, scalability is about handling load,Scalability measures speed,Responsiveness is about monthly cost,Scalability ensures real-time logging,1
+What differentiates scalability from ease of deployment,Scalability refers to simplicity of setup,Scalability impacts how easily updates are deployed,Ease of deployment affects how quickly systems can be implemented,Scalability deals only with patching,3
+How does ease of deployment compare to ease of recovery,Ease of deployment is only for cloud tools,Ease of recovery applies only to virtual machines,Ease of deployment affects setup time, ease of recovery impacts post-incident response,3
+What defines risk transference in contrast to direct risk mitigation,Risk transference involves eliminating all risk,Risk transference shifts responsibility to a third party,Risk transference guarantees uptime,Risk transference is limited to data encryption,2
+How does patch availability affect overall system security,It reduces system power usage,It ensures user access control,It determines how quickly security flaws can be resolved,It prevents virtual machine escapes,3
+What differentiates inability to patch from delayed patching,Delayed patching is intentional, inability to patch stems from system constraints,Inability to patch happens due to configuration enforcement,Delayed patching is based on power issues,2
+How does power requirement differ from compute availability,Power refers to processing speed,Compute refers to energy cost,Power involves electrical capacity, compute relates to processing ability,3
+What is the distinction between compute and scalability,Compute involves available processing resources,Scalability describes OS patch compatibility,Compute controls firewall rules,Scalability restricts deployment size,1
+Q,Option1,Option2,Option3,Option4,Correct
+A company uses cloud services and wants to assign specific roles for data handling responsibilities between departments and vendors. Which document would be most appropriate,Service level agreement,Responsibility matrix,Change log,Encryption policy,2
+During an audit of a hybrid cloud system, the IT team identifies inconsistent access controls across on-premises and cloud components. What is the likely issue,Network loopback error,Lack of hybrid considerations,Improper subnetting,Excessive patching,2
+Your company uses a third-party vendor to manage backup services. What is the primary security concern with this setup,Lack of patching,Shared responsibility gaps,High compute costs,Environmental vulnerabilities,2
+Your organization deploys infrastructure as code using scripts to automate firewall rule configuration. What should be included in a lab to validate this setup,Manual firewall testing,Code editor installation,Version control testing and log validation,Security token deployment,3
+A development team moves to serverless architecture for an internal application. What must the security team adjust in their monitoring approach,User provisioning policies,Application container size,Event-driven execution and provider security models,Wireless network segmentation,3
+A team building a web application adopts microservices to allow independent deployment of features. What is a security implication,Single point of failure,Centralized error logging only,Each microservice must be independently secured,No need for segmentation,3
+An air-gapped system is deployed in a high-security facility. What is the main reason for choosing this architecture,Cloud elasticity,Encryption acceleration,No network connectivity for sensitive assets,Faster compute power,3
+An organization implements logical segmentation using VLANs and firewall rules. What should a lab simulate to verify this setup,Password policies,Access attempts between isolated segments,Firewall installation steps,Email spoofing,2
+A security engineer sets up software-defined networking and needs to enforce traffic flow policies. What role does the control plane serve,Encrypting database traffic,Handling local routing on physical switches,Centralizing traffic decision logic,Starting container workloads,3
+A company insists on hosting sensitive workloads within its own data center. What architectural model are they using,Cloud-based,Decentralized,On-premises,Serverless,3
+A business with global offices chooses decentralized architecture. What is a key benefit in case of a regional outage,Centralized patching,Improved power distribution,Continued operation in unaffected regions,Faster VLAN setup,3
+A DevSecOps team uses containers to deploy applications. What should a lab test in this environment,Container image scanning and runtime isolation,Access control list configuration,Email security protocols,Virtual machine escape detection,1
+An engineer compares resource usage of virtual machines and containers. What is a common advantage of virtualization,Lower latency,Full OS isolation for each guest,Better certificate management,Faster HTML rendering,2
+You are tasked with designing a secure Internet of Things deployment. What security concern should take top priority,SDN controller redundancy,Remote network isolation and firmware integrity,SMTP filtering,Patch rollback automation,2
+An energy facility uses industrial control systems to manage real-time equipment. What is a key security measure in this environment,SSL certificate renewal,Timely sensor calibration and strict access control,Software-defined routing,Cloud migration policy,2
+A SCADA system is being deployed in a water treatment facility. What control should be emphasized in the implementation,Frequent compute patching,Latency monitoring for real-time response,Public key transparency,IoT middleware deployment,2
+Your team is configuring a device that must respond to input with minimal delay and must not miss deadlines. What operating system is best suited for this use case,General-purpose OS,Real-time operating system,Embedded Linux,Virtualized host,2
+You are building an embedded system for a smart appliance. Which characteristic best aligns with its design,Frequent kernel updates,Network segmentation,Fixed-function lightweight operating environment,SDN-based firewall routing,3
+A company plans to increase availability of services during a maintenance event. Which strategy is most effective,Centralized firewall rules,Redundant systems with automatic failover,Container logs,Static DNS entries,2
+Your organization needs to ensure systems can recover from a natural disaster. Which combination of strategies addresses this need,VPN access and microservices,Availability zones and resilience planning,Port security and encryption,Firmware rollback and cost analysis,2
+A startup needs responsive systems that can handle customer traffic spikes. What architecture should be prioritized,Air-gapped devices,On-premises servers,Cloud-native and scalable design,Patchless firmware,3
+You are designing a cloud service that must scale for peak loads and then scale down. What is the primary benefit of scalability,Reduced patch frequency,Efficient use of compute resources during demand shifts,Increased firmware complexity,Fewer ACL rules,2
+A company wants to deploy a web application quickly across multiple regions. What should be a design consideration,Ease of deployment and orchestration,Use of static credentials only,Minimal log retention,Cloud vendor lock-in,1
+A legal department wants to reduce liability from handling customer data. What security architecture goal are they trying to achieve,Risk transference,Firmware encryption,IoT monitoring,Data declassification,1
+An IT team tests recovery plans by simulating server failure and restoring systems from backups. What is this testing scenario verifying,Ease of recovery,Encryption policy,Cost analysis,RAM usage,1
+An organization prioritizes patches but runs into issues with vendor delays. What is a consequence of limited patch availability,Improved performance,Increased resilience,Exposure to known vulnerabilities,Higher cost efficiency,3
+You are managing an environment with legacy systems that no longer receive updates. What mitigation should you prioritize,Patch automation,Default password reset,Network isolation and monitoring,Rapid containerization,3
+A data center experiences fluctuating power demands. What infrastructure factor should be evaluated,Compute overhead,Patch level,Power redundancy and supply management,Logical segmentation,3
+Your virtualization cluster runs high-performance analytics. What is the primary resource to monitor in this setup,Patch version,Compute capacity,Email throughput,Tokenization logs,2

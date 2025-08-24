@@ -1,0 +1,82 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What does device placement refer to in enterprise infrastructure,Choosing devices based on brand,Positioning devices to optimize performance and security,Assigning IP addresses to devices,Labeling devices with asset tags,2
+What is the purpose of security zones in a network,To separate power supplies,To classify data types,To isolate and protect different areas based on trust levels,To mark hardware warranty periods,3
+What does attack surface refer to in cybersecurity,The number of physical machines in a server room,The total points where unauthorized access can be attempted,The number of users with access,The amount of firewall rules used,2
+What does connectivity refer to in network infrastructure,The amount of stored data,The physical cable types used,The method and quality of device intercommunication,The operating system version,3
+What is a fail-open failure mode,Devices shut down when an error occurs,Access is denied by default,Security controls allow traffic in case of failure,Network ports lock automatically,3
+What is a fail-closed failure mode,Devices log errors but continue operation,Access is denied when a system fails,Security controls disable alarms,Traffic bypasses firewalls entirely,2
+What distinguishes active device attributes,They passively log traffic,They actively engage in traffic processing and enforcement,They only operate during the day,They require no configuration,2
+What does it mean when a device is passive,It processes packets in-line,It performs no traffic inspection,It monitors traffic without interfering,It initiates secure communication,3
+What does an inline device do,It logs events post-factum,It analyzes backups only,It intercepts and processes network traffic in real time,It powers off during updates,3
+What is a tap or monitor mode in networking,It blocks unwanted protocols,It captures and analyzes traffic without affecting flow,It replaces firewall filters,It scans for firmware versions,2
+What is a jump server used for,User authentication,Database replication,Secured access to isolated network zones,Email filtering,3
+What function does a proxy server perform,File system encryption,Blocking wireless connections,Acting as an intermediary between clients and servers,Restarting systems automatically,3
+What is the purpose of an intrusion detection system,To provide internet access,To detect and alert on suspicious network activity,To balance server traffic,To store backups,2
+What is the role of an intrusion prevention system,To prevent overheating,To detect and block malicious activity in real time,To control device power states,To sync directories,2
+What does a load balancer do,Detect viruses,Monitor login attempts,Distribute network traffic across multiple servers,Patch software automatically,3
+What is the role of network sensors,To install antivirus updates,To collect data and detect anomalies in traffic,To display network maps,To replace switches,2
+What does 802.1X refer to,WiFi frequency standard,Network port-based authentication mechanism,Storage encryption method,Cloud backup process,2
+What is Extensible Authentication Protocol used for,Routing packets,Wireless access point configuration,Framework for multiple authentication methods,Encrypting browser data,3
+What is a web application firewall designed to protect,Email messages,Database backups,Web applications from common attacks,Virtual machines,3
+What does unified threat management refer to,Manual patching of devices,Single solution integrating multiple security functions,Running only one operating system,Disabling external ports,2
+What is a next-generation firewall,Outdated firewall models,A firewall with minimal features,A security device with advanced inspection and application awareness,A device that only filters MAC addresses,3
+What is the function of a Layer 4 firewall,Filter based on user behavior,Inspect application content,Filter traffic based on IP address and port number,Encrypt HTTPS traffic,3
+What does a Layer 7 firewall inspect,IP addresses,Transport layer segments,Application layer content such as HTTP headers,Switch firmware versions,3
+What is a virtual private network used for,Transmitting unencrypted files,Gaming performance,Establishing secure encrypted communication over public networks,Speeding up processor tasks,3
+What is remote access in a security context,The ability to restart computers,The ability to access a network from a distant location securely,A type of data storage,A wireless protocol,2
+What is tunneling in networking,Sending emails in bulk,Encrypting and encapsulating traffic for secure transmission,Archiving log files,Running scripts on servers,2
+What does Transport Layer Security provide,File transfer protocol,Access control,Encryption and integrity for communications,Network segmentation,3
+What is Internet protocol security used for,Securing physical servers,Authenticating and encrypting IP packets for secure communication,Filtering spam messages,Overclocking processors,2
+What does software-defined wide area network enable,Virtual machine cloning,Dynamic and optimized routing over multiple connections,Changing screen resolutions,Email scanning,2
+What is Secure Access Service Edge designed for,Replacing user passwords,Combining network and security functions into a cloud-delivered service,Providing wireless access points,Updating mobile devices,2
+What does selection of effective controls refer to,Guessing the correct hardware,Choosing the cheapest vendor,Implementing the right mix of administrative, technical, and physical controls,Resetting all passwords,3
+Q,Option1,Option2,Option3,Option4,Correct
+How does proper device placement differ from random placement,It simplifies procurement,It improves asset tagging,It ensures security and performance by locating devices strategically,It boosts processor speed,3
+What is the difference between security zones and VLANs,Security zones segment based on function while VLANs segment by broadcast domain,They are identical terms,Security zones are slower,Security zones only apply to wireless networks,1
+How does reducing attack surface improve security compared to patching,It eliminates entry points proactively,It provides reactive fixes only,It increases system load,It delays updates,1
+Why is connectivity important in secure infrastructure,It determines email frequency,It impacts device temperature,It affects how securely and reliably systems communicate,It enables antivirus updates,3
+How do fail-open and fail-closed mechanisms differ,A fail-open denies all traffic while fail-closed allows it,A fail-closed ensures secure behavior by default,Fail-open uses encryption,Fail-closed turns off logging,2
+What distinguishes active from passive devices,Active devices monitor without altering traffic,Passive devices encrypt data,Active devices engage and enforce traffic control,Passive devices control bandwidth,3
+How does an inline device differ from one in monitor mode,Inline devices analyze backups,Inline devices actively process traffic while monitor mode only observes,Monitor mode blocks malware,Inline devices require no power,2
+How does a jump server differ from a proxy server,A jump server facilitates admin access to secure zones, while a proxy caches content,A proxy provides biometric scanning,Jump servers route wireless traffic,Proxy servers scan for encryption,1
+How do intrusion detection and prevention systems differ,Prevention systems can block traffic while detection systems only alert,Detection is for power control,Prevention uses USB filters,Detection updates firmware,1
+What makes a load balancer different from a proxy server,A proxy redirects requests for anonymity while load balancer distributes traffic evenly,A proxy only works on VLANs,A load balancer blocks malware,A load balancer encrypts traffic,1
+How do sensors and intrusion detection systems relate,Sensors collect input while intrusion detection systems analyze and alert,They are the same,Sensors enforce policies,IDS logs hardware temperature,1
+What distinguishes 802.1X from general port security,802.1X uses authentication for port access control while port security relies on static rules,802.1X disables USBs,Port security encrypts data,802.1X filters packets only,1
+How does Extensible Authentication Protocol relate to 802.1X,Extensible Authentication Protocol provides the framework used by 802.1X for authentication,Extensible Authentication Protocol blocks IP addresses,802.1X encrypts Extensible Authentication Protocol,They are unrelated,1
+How is a web application firewall different from a Layer 4 firewall,A web application firewall filters HTTP layer content, Layer 4 filters transport layer traffic,A Layer 4 firewall detects malware,A web application firewall operates offline,1
+How does unified threat management compare to traditional firewalls,Unified threat management combines multiple security features into one device, while traditional firewalls only filter traffic,Traditional firewalls manage IP addresses only,Unified threat management requires no updates,Unified threat management runs on switches only,1
+How does a next-generation firewall differ from a web application firewall,A next-generation firewall includes application awareness and intrusion prevention features, while web application firewall focuses on HTTP traffic only,Next-generation firewall filters spam,Web application firewall scans BIOS,Web application firewall encrypts hard drives,1
+What is the main difference between Layer 4 and Layer 7 firewalls,Layer 4 filters based on IP and port, Layer 7 filters based on application-level content,Layer 7 filters MAC addresses,Layer 4 blocks websites only,Layer 7 is for physical connections only,1
+How does a virtual private network differ from remote desktop,Virtual private network provides encrypted tunnels for network traffic, while remote desktop provides control over a machine interface,Remote desktop increases bandwidth,Virtual private network connects printers,Remote desktop encrypts databases,1
+What distinguishes remote access from local access,Remote access allows secure connections from outside the network,Local access is encrypted only,Local access is faster by default,Remote access disables firewall logs,1
+How do Transport Layer Security and Internet Protocol Security compare,Both provide encryption but Internet Protocol Security operates at the network layer, Transport Layer Security at the application layer,Transport Layer Security filters spam only,Internet Protocol Security replaces passwords,Transport Layer Security blocks malware,1
+What makes software-defined wide area network unique compared to traditional wide area network,It uses software-based controls for dynamic routing and management,Traditional wide area network is encrypted,Software-defined wide area network stores files locally,Traditional wide area network compresses images,1
+How does secure access service edge differ from software-defined wide area network,Secure access service edge combines networking and security in cloud delivery, while software-defined wide area network focuses on routing,Secure access service edge works only on VPN,Software-defined wide area network is an operating system,Secure access service edge blocks IP traffic only,1
+How does selection of effective controls compare to hardening techniques,Selection focuses on choosing proper safeguards, while hardening implements them,Hardening techniques reduce visibility only,Selection is for non-technical users,Hardening does not affect security,1
+Q,Option1,Option2,Option3,Option4,Correct
+A company places its firewall between the internet and the internal router. What principle is being applied,Proxy routing,Device placement,Patch scheduling,Port scanning,2
+An administrator segments a network to isolate the finance department from the rest of the company. What is this an example of,Attack surface expansion,Security zone implementation,Encryption enforcement,Centralized control,2
+An engineer reduces the number of exposed services on a server to minimize risk. What is this approach called,Connectivity tuning,Attack surface reduction,Remote access provisioning,Fail-open handling,2
+A remote office is unable to reach HQ due to a downed router. Which consideration is being evaluated,Patch status,Connectivity,Protocol type,User permissions,2
+A critical sensor fails and traffic continues to flow unrestricted. What failure mode is this,Fail-closed,Load balanced,Fail-open,Proxy bypass,3
+A sensor device captures data but never modifies traffic. What type of device is this,Passive,Inline,Active,Tunnel,1
+An administrator installs a packet filter that sits directly in the data path and blocks threats. What placement is this,Monitor mode,Inline,Side-loaded,Redundant,2
+A system admin uses a single secured system to connect into production servers. What type of appliance is this,Proxy server,Jump server,Load balancer,Intrusion prevention system,2
+Which appliance is used to anonymize internal user activity when browsing external sites,Jump server,Load balancer,Proxy server,Sensor,3
+A company deploys a tool that actively blocks suspicious traffic and alerts security staff. What is this device,Load balancer,Proxy server,Intrusion prevention system,Router,3
+To distribute traffic across multiple servers for improved availability, what device should be used,Sensor,Jump server,Proxy server,Load balancer,4
+A network device records activity for later analysis but does not influence traffic. What is this,Firewall,Sensor,Switch,Endpoint,2
+What technology requires user authentication before granting access to a network port,802.1X,Proxy server,Jump server,Access control list,1
+Which protocol supports flexible authentication mechanisms within network access control,Extensible Authentication Protocol,Transmission Control Protocol,Internet Protocol,Simple Mail Transfer Protocol,1
+Which firewall is best suited to prevent cross-site scripting attacks on a web application,Layer 4 firewall,Web application firewall,Next-generation firewall,Unified threat management,2
+Which security solution bundles firewall, antivirus, and content filtering into one appliance,Virtual private network,Unified threat management,Proxy server,Jump server,2
+An enterprise needs deep packet inspection and app-awareness in its firewall. What should they choose,Layer 4 firewall,Next-generation firewall,Simple packet filter,Proxy appliance,2
+Which firewall type operates by inspecting traffic at the transport layer based on port numbers,Layer 7 firewall,Application firewall,Layer 4 firewall,Host-based firewall,3
+A company wants to provide encrypted remote access to its internal systems. What technology enables this,Proxy server,Virtual private network,Sensor,Next-generation firewall,2
+An employee logs in to company systems from home using secure software. What is this an example of,Remote access,Tunneling,Decryption,Failover testing,1
+Which protocol is used to encrypt data in transit at the application layer,Tunneling Protocol,Internet Protocol Security,Transport Layer Security,Dynamic Host Configuration,3
+Which protocol suite provides security at the network layer including authentication and encryption,Hypertext Transfer Protocol,Internet Protocol Security,File Transfer Protocol,Simple Mail Transfer Protocol,2
+Which technology uses a centralized controller to manage routing across branch offices via software,Software-defined wide area network,Proxy gateway,VPN concentrator,Air-gapped network,1
+A company adopts a cloud-native solution combining networking and security for remote workers. What model is this,Jump server,Secure access service edge,Layer 4 firewall,Intrusion detection system,2
+What is the primary goal when choosing controls to mitigate risk while maintaining usability,Segmentation,Selection of effective controls,Protocol translation,Network monitoring,2

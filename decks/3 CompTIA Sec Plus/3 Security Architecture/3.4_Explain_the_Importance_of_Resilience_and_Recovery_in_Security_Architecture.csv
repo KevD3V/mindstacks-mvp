@@ -1,0 +1,69 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What does high availability ensure,Data is always encrypted,Authorized users can access resources without interruption,All systems run on the same platform,Backups are stored offsite,2
+What is the main function of load balancing,Storing backup copies of data,Distributing traffic across multiple servers,Encrypting communication channels,Running simulations,2
+What is the purpose of clustering in high availability,To limit access to private systems,To allow one system to take over if another fails,To isolate physical systems,To simulate real-world threats,2
+What is a hot site in disaster recovery,An empty room ready for use,A site with pre-installed hardware but no data,A fully operational site that mirrors the primary location,A test lab used for training,3
+What best describes a cold site,A fully functioning alternate location,A site with no equipment or data,A backup site with full real-time replication,A geographically dispersed live system,2
+What is a warm site,An active site with mirrored operations,A backup location with partial infrastructure and some data,A data center for training only,A cloud platform for testing,2
+What is the purpose of geographic dispersion in site planning,To group all systems in one region,To isolate legacy systems,To ensure operational redundancy across locations,To reduce licensing costs,3
+What does platform diversity refer to,Using the same operating system on all machines,Using multiple software platforms to reduce risk,Keeping all devices on a local area network,Encrypting all communications,2
+What is a multi-cloud system,Storing data on external drives,Using multiple cloud service providers for resilience,Backing up files to a local server,Encrypting files before uploading,2
+What is the goal of continuity of operations,Maximize profit for shareholders,Ensure nonessential staff are replaced,Maintain essential functions during disruption,Update device firmware regularly,3
+What does capacity planning evaluate,License renewal costs,Training program schedules,Current and future resource needs,Firewall traffic logs,3
+What is capacity planning for people concerned with,Power grid design,Employee vacation tracking,Ensuring enough staff for operations,Hard drive replacement,3
+What does technology planning in capacity focus on,Staff turnover rates,Equipment upgrade schedules,System redundancy and scalability,Customer satisfaction,3
+What is infrastructure planning in capacity used for,Legal compliance,Physical resource and facility readiness,Software patching,Employee evaluations,2
+What is a tabletop exercise,Live attack on infrastructure,A discussion-based simulation to review responses,Deployment of backup systems,A full power outage simulation,2
+What is the purpose of a fail over test,Review security policies,Measure login times,Verify automatic system switchover,Train new employees,3
+What does a simulation test involve,Theoretical discussion,Live response to real incidents,Simulated environment for response testing,Rewriting business plans,3
+What is parallel processing in testing,Encrypting data for cloud backups,Running backup systems alongside live systems,Transferring logs to an archive,Testing email filters,2
+What is the primary purpose of onsite backups,Store data off the premises,Ensure quick local recovery,Encrypt backup logs,Create duplicate hardware,2
+Why use offsite backups,To enable faster Wi-Fi,To meet hardware warranty guidelines,To protect data from local disasters,To allow unrestricted access,3
+Why is backup frequency important,It affects data transfer speeds,It controls encryption strength,It determines how much data may be lost,It helps reduce user errors,3
+What is backup encryption used for,Speeding up file transfers,Reducing file sizes,Securing stored backup data,Preventing software crashes,3
+What is a snapshot in backup systems,A network configuration setting,A real-time view of user activity,A read-only image of system state at a point in time,A password reset tool,3
+What is recovery in data protection,Building a new network,Accessing data from snapshots,Restoring data after disruption,Encrypting all outgoing emails,3
+What does replication ensure in backup planning,Duplicate passwords for testing,Data is mirrored across systems in real time,Logs are encrypted before archiving,User credentials are verified,2
+What is journaling in backup systems,A daily checklist for IT staff,A legal document for audits,A method to track data changes for restoration,An antivirus program for email,3
+What is the function of generators in power continuity,Managing network connections,Supplying backup electrical power,Encrypting system logs,Cooling servers,2
+What is an uninterruptible power supply used for,To replace all backup generators,To protect systems from sudden power loss,To encrypt network packets,To connect multiple printers,2
+Q,Option1,Option2,Option3,Option4,Correct
+How does load balancing differ from clustering in high availability,Load balancing increases power supply while clustering reduces it,Load balancing distributes traffic among servers while clustering allows failover,Load balancing encrypts data while clustering segments it,Load balancing is used in cold sites while clustering is for hot sites,2
+What is a key difference between hot and cold sites,A hot site requires on-demand setup while a cold site is always online,A hot site is cheaper to maintain than a cold site,A hot site is fully operational while a cold site has minimal infrastructure,Cold sites are used for real-time backups while hot sites are not,3
+How does a warm site compare to a cold site,A warm site is more complete and has quicker recovery capabilities,A warm site is less secure,A warm site is less costly than a cold site,A warm site requires manual updates,1
+How does geographic dispersion support resilience,By limiting access to remote locations,By centralizing all resources,By ensuring redundancy across locations,By isolating devices from each other,3
+How does platform diversity improve resilience compared to single-platform environments,It increases licensing cost,It introduces more management complexity,It reduces the risk of single-point failure,It limits backup compatibility,3
+What is a key advantage of multi-cloud systems over single-cloud deployments,Lower latency on local networks,Improved password policies,Greater vendor lock-in,Reduced reliance on a single provider,4
+How does continuity of operations relate to capacity planning,Continuity ensures policies are in place while capacity planning focuses on resource needs,Both focus on encrypting data,Both reduce power usage,Capacity planning replaces continuity planning,1
+What is the relationship between people and infrastructure in capacity planning,People manage the power systems while infrastructure sets up encryption,People refer to human resources needed and infrastructure to physical systems required,Infrastructure is a subset of people planning,People planning only involves training,2
+How does technology planning differ from people planning in capacity management,Technology planning focuses on hiring while people planning is about software,Technology planning addresses systems and tools while people planning focuses on staffing,Technology planning is about scheduling backups,People planning includes firewall tuning,2
+Why is tabletop testing different from simulation testing,Tabletop testing involves discussion while simulation testing involves actual systems,Tabletop tests are always automated,Simulation is cheaper than tabletop,Simulation requires less planning,1
+How does a fail over test relate to parallel processing in recovery planning,A fail over test checks if systems can switch during failure while parallel processing runs systems simultaneously,A fail over test focuses on encryption,Parallel processing is done before fail over testing,They are unrelated,1
+How do onsite and offsite backups complement each other,Onsite backups are permanent and offsite are temporary,Onsite provide fast recovery while offsite protect from local disasters,Offsite backups are less secure,Onsite backups are used only for encryption,2
+How does backup frequency affect data recovery,Frequent backups increase malware risk,Frequent backups reduce the chance of data loss,Frequent backups limit geographic redundancy,Backup frequency is unrelated to recovery,2
+How is encryption used differently in backups versus replication,Encryption ensures confidentiality while replication ensures availability,Encryption speeds up recovery while replication reduces latency,Both serve the same purpose,Replication is part of encryption,1
+What is the distinction between a snapshot and a full backup,A snapshot captures a full system image while full backups only record logs,A snapshot captures system state at a moment while a full backup stores all data,Snapshots are always encrypted,Full backups can't be scheduled,2
+How does journaling support backup recovery,It adds metadata to logs,It provides a log of changes for precise restoration,It replaces encryption,It only works with cold sites,2
+How does replication improve system availability during outages,By scheduling tests,Because it disables other systems,Because data is continuously mirrored in real time,Because it encrypts backup media,3
+How do generators compare to uninterruptible power supplies in power continuity,Generators are short-term solutions while UPS handles long-term outages,UPS systems are backup generators,Generators provide long-term power while UPS handles immediate short-term needs,UPS systems require fuel while generators do not,3
+Q,Option1,Option2,Option3,Option4,Correct
+A company wants to maintain uptime during routine maintenance. Which strategy would best ensure high availability,Implement fail-open firewalls,Use load balancing to distribute traffic across redundant servers,Schedule maintenance during business hours,Reduce backup frequency,2
+A financial firm requires a backup site that is fully operational within minutes of a disaster. Which site type is most appropriate,Cold site,Warm site,Hot site,Test site,3
+After a flood damages a data center, the company activates systems in a separate geographic location. What is this an example of,Air-gapping,Platform diversity,Geographic dispersion,Logical segmentation,3
+A company uses different operating systems and hardware for critical systems. What benefit does this strategy provide,Improved monitoring,Reduced complexity,Platform diversity for fault tolerance,Standardized patching,3
+Your company leverages both Amazon Web Services and Microsoft Azure for hosting. What risk does this reduce,Vendor lock-in,Data redundancy,Data loss prevention,Encryption overhead,1
+During a continuity of operations drill, the backup systems failed to launch. What should be the next step,Reboot the live servers,Document the incident and review failover procedures,Ignore the error and continue,Replace all power supplies,2
+Your security team is planning for future growth in network traffic and employees. What concept does this relate to,Disaster recovery,Configuration hardening,Capacity planning,Patch scheduling,3
+A backup generator fails during a power outage. What part of capacity planning might have been overlooked,People training,Infrastructure readiness,Technology upgrades,Data masking,2
+During a tabletop exercise, your team discovers a flaw in the recovery plan. What should be done next,Notify users immediately,Modify firewall rules,Update and retest the plan,Increase bandwidth,3
+An organization tests its ability to switch operations to a backup site using real equipment and live data. What kind of test is this,Tabletop,Fail over,Simulation,Parallel processing,2
+Which testing method involves running both the primary and backup systems at the same time,Tabletop exercise,Failover testing,Simulation,Parallel processing,4
+Which backup approach offers fast restoration and protection against onsite disasters,Frequent onsite backups,Offsite backups with encryption,Monthly cold backups,Unencrypted local storage,2
+An administrator wants to ensure backups are encrypted during transmission and at rest. Which protocol should they implement,Tunneling,Tokenization,Encryption,Segmentation,3
+Your organization needs point-in-time copies of data for rapid rollback after updates. What should be implemented,Replication,Journaling,Snapshots,Tokenization,3
+Which technique provides continuous real-time duplication of data to a secondary site,Snapshotting,Recovery logging,Replication,Access control,3
+What is a key benefit of journaling in a backup system,It stores compressed images,It logs changes for detailed restoration,It encrypts all endpoints,It replaces testing protocols,2
+Which lab exercise would best test understanding of backup recovery speed,Simulating an insider threat,Restoring from encrypted offsite backups,Configuring access permissions,Analyzing a phishing email,2
+A lab environment is set up to evaluate power loss scenarios. What component should be tested for immediate short-term backup,UPS,Generator,Failover script,Snapshot engine,1
+During a disaster, the backup power system activates immediately but only lasts a few minutes. What system was likely used,Failover router,Generator,UPS,Load balancer,3
+To maintain uptime while applying OS patches to web servers, what should be used,Cold site,Load balancer,Snapshot rollback,Tokenization,2
