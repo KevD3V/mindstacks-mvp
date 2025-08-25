@@ -1,0 +1,89 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the purpose of establishing a secure baseline,To eliminate all software vulnerabilities,To define a known secure configuration state,To test patch compatibility,To encrypt all system files,2
+What does it mean to deploy a secure baseline,Monitoring system logs,Installing antivirus software,Applying a predefined secure configuration,Rebooting after a software update,3
+Why is maintaining a secure baseline important,To allow users more freedom,To reduce system performance,To ensure consistency in security posture,To enable faster gaming performance,3
+What is the goal of hardening mobile devices,To increase battery life,To restrict malicious access and reduce vulnerabilities,To improve app launch speed,To enable multitasking features,2
+What does workstation hardening involve,Removing the operating system,Installing gaming applications,Securing configuration and disabling unnecessary services,Reducing hard drive space,3
+How is switch hardening typically achieved,By enabling port forwarding,By removing all VLANs,By disabling unused ports and securing management access,By adding more physical interfaces,3
+What is a key aspect of router hardening,Lowering bandwidth,Enabling guest access by default,Changing default credentials and disabling unused services,Blocking all traffic,3
+Why is hardening cloud infrastructure important,To prevent overbilling,To reduce bandwidth,To mitigate attacks on hosted resources,To increase local storage,3
+What does server hardening primarily focus on,Installing media players,Removing all software updates,Applying security patches and minimizing attack surfaces,Increasing fan speed,3
+What is a key concern when hardening industrial control systems or supervisory control and data acquisition systems,Supporting multiple users,Maximizing speed,Ensuring operational continuity and minimizing vulnerabilities,Streaming content efficiently,3
+Why is hardening embedded systems challenging,They always update automatically,They have limited interfaces,They often lack traditional security update mechanisms,They are built for speed not security,3
+What is a characteristic of real-time operating systems in security contexts,They require user logins,They prioritize predictable timing over traditional security layers,They automatically encrypt all data,They are used only in mobile phones,2
+Why must Internet of Things devices be hardened,They consume too much bandwidth,They are used only in homes,They often lack built-in security and are widely connected,They are immune to attacks,3
+What is the purpose of a site survey before wireless deployment,To measure humidity,To locate employees,To evaluate signal coverage and interference,To assess employee satisfaction,3
+How is a heat map used during wireless setup,To determine file access,To visualize and optimize wireless signal strength across an area,To test operating systems,To schedule user training,2
+What is the function of mobile device management,To create social media accounts,To configure and secure mobile devices remotely,To play games more efficiently,To delete all apps,2
+What does the Bring Your Own Device model involve,Employees using company phones at home,Companies issuing identical phones,Employees using personal devices for work,Vendors managing all devices,3
+What is a feature of the Corporate-Owned Personally Enabled model,Employees buy the company phones,All personal apps are banned,Company provides devices but allows limited personal use,Only contractors use it,3
+What does Choose Your Own Device allow,Only one phone per user,No company access to devices,Employees select from pre-approved device list,Unlimited device use without policies,3
+Which connection method uses cellular towers for data transmission,Wi-Fi,Bluetooth,Cellular,NFC,3
+Which wireless method is commonly used for short-range device pairing,Bluetooth,Satellite,Infrared,Cellular,1
+What is a key function of Wi-Fi Protected Access 3,Wired connection control,Media playback security,Secure wireless communication with strong encryption,Preventing email spam,3
+What role does Remote Authentication Dial-In User Service play in wireless security,Stores images,Authenticates and authorizes network access,Boosts signal strength,Changes passwords remotely,2
+Which of the following is a cryptographic protocol used to secure data,Wired Equivalent Privacy,Hypertext Transfer Protocol,Secure Sockets Layer,Dynamic Host Configuration Protocol,3
+What is the purpose of authentication protocols,To manage user interface themes,To verify user identity before granting access,To encrypt backups,To stream video content,2
+Why is input validation important in application security,To improve design layout,To prevent unauthorized user input and attacks,To increase image quality,To delete old data,2
+What is the role of secure cookies in application security,To reduce sugar intake,To store encrypted session data securely on client devices,To update web pages faster,To display advertisements,2
+What is the purpose of static code analysis,To find visual bugs in the app,To analyze code behavior at runtime,To detect vulnerabilities in source code without executing it,To encrypt the database,3
+Why is code signing important,To format source code,To compile applications,To verify integrity and authenticity of code,To enable screen sharing,3
+What is the function of sandboxing,To store backup files,To isolate programs in a restricted environment for security,To compress application data,To run apps in fullscreen,2
+What does monitoring help detect in computing environments,Unauthorized activity or anomalies,User happiness,Color scheme preferences,Storage temperature,1
+Q,Option1,Option2,Option3,Option4,Correct
+How does establishing a secure baseline differ from maintaining it,Establishing removes software while maintaining adds hardware,Establishing defines the secure state while maintaining ensures it persists,Establishing applies patches while maintaining disables accounts,Establishing encrypts data while maintaining backs it up,2
+What is a key difference between deploying and maintaining a secure baseline,Deploying is a one-time action while maintaining is ongoing,Maintaining is for mobile devices only,Deploying always requires remote access,Maintaining never involves updates,1
+How does hardening a workstation differ from hardening a mobile device,Workstations require encryption while mobile devices do not,Mobile device hardening involves wireless settings more often,Workstations are always on the cloud,Mobile devices use antivirus instead of patching,2
+Why is switch hardening different from router hardening,Switches encrypt traffic by default,Router hardening often focuses on WAN security while switch hardening targets internal LAN threats,Routers do not support access control lists,Switches cannot be updated,2
+How does cloud infrastructure hardening differ from on-premises server hardening,Cloud hardening includes vendor-shared responsibilities,Server hardening does not require patching,Cloud environments are not vulnerable,Servers are always protected by default,1
+How do ICS SCADA systems differ from typical servers in hardening needs,They use graphical interfaces,They are immune to remote attacks,They often lack frequent updates and require operational continuity,Servers cannot be hardened,3
+How does embedded systems hardening differ from workstation hardening,Embedded systems run antivirus,Embedded systems rarely receive updates and have limited interfaces,Workstations do not require encryption,Embedded systems use wireless isolation,2
+How does RTOS security differ from standard operating systems,RTOS uses graphical controls,RTOS prioritizes predictable timing and limited overhead over layered security,Standard OS are less prone to attack,RTOS includes built-in antivirus,2
+How does hardening an IoT device differ from hardening a router,IoT devices require complex firewalls,IoT devices often lack user interfaces and patch support,Routers are immune to attacks,IoT devices never connect to the internet,2
+How does a site survey support a secure wireless deployment compared to a heat map,A site survey is performed after deployment,Heat maps help visualize signal strength while site surveys identify physical and interference factors,Heat maps show user traffic,Site surveys determine lighting quality,2
+How do heat maps complement wireless installation site surveys,They confirm DNS configurations,They replace the need for encryption,They visually show signal strength for optimal placement,They improve wireless password strength,3
+What is the primary difference between mobile device management and deployment models,Deployment models enforce passwords,Mobile device management centrally enforces security policies,Deployment models manage encryption keys,Mobile device management improves battery life,2
+How does the Bring Your Own Device model differ from Corporate-Owned Personally Enabled,Bring Your Own Device allows employee-owned devices while Corporate-Owned Personally Enabled uses company devices with limited personal use,Bring Your Own Device is more secure,Corporate-Owned Personally Enabled requires no policies,Bring Your Own Device blocks all apps,1
+How does Choose Your Own Device balance policy and flexibility,It enforces remote wipe,It provides strict isolation of apps,It allows employees to select from approved devices,It installs multiple antivirus apps,3
+How does cellular connectivity differ from Wi-Fi in mobile security,Wi-Fi uses public towers,Cellular is more vulnerable than Wi-Fi,Cellular is less likely to rely on third-party routers,Wi-Fi always encrypts traffic,3
+What is a key difference between Wi-Fi and Bluetooth for mobile device connections,Bluetooth requires internet access,Bluetooth is used for long-range signals,Wi-Fi connects to networks while Bluetooth connects devices directly over short range,Bluetooth uses fiber optics,3
+How does Wi-Fi Protected Access 3 enhance security compared to older protocols,It eliminates encryption entirely,It uses weaker keys,It provides stronger encryption and protection against brute force attacks,It disables all wireless access,3
+What is a key distinction between authentication protocols and authorization mechanisms,Authentication verifies identity while authorization defines access,Authorization comes first,Authentication encrypts data,Authorization sets encryption keys,1
+How do authentication protocols differ from cryptographic protocols,Authentication verifies identity while cryptographic protocols protect data confidentiality and integrity,They both do the same task,Authentication uses encryption keys only,Cryptographic protocols grant access,1
+How does input validation reduce risk compared to code signing,Code signing verifies integrity while input validation prevents user-submitted code exploits,Code signing blocks all input,Input validation adds encryption,Code signing speeds up applications,1
+How are secure cookies different from input validation,Input validation checks user input while secure cookies store encrypted session information,Secure cookies filter input,Secure cookies increase app speed,Input validation replaces cookies,1
+What is a difference between static code analysis and sandboxing,Static code analysis reviews source code without running it, while sandboxing runs code in isolated environments,Static code analysis only works for mobile apps,Sandboxing compiles code,Static code analysis runs the app,1
+How does code signing relate to authentication protocols,Both encrypt files,Code signing proves authenticity and integrity of software, while authentication protocols verify user identity,Both verify software only,Authentication protocols sign apps,2
+How is sandboxing different from traditional monitoring,Sandboxing isolates code for testing while monitoring observes real-time behavior,Sandboxing sends alerts,Monitoring encrypts logs,Sandboxing runs live code on production,1
+How does monitoring enhance hardening techniques,Monitoring identifies abnormal activity to complement prevention methods,Monitoring disables services,Monitoring replaces firewalls,Monitoring upgrades devices automatically,1
+Q,Option1,Option2,Option3,Option4,Correct
+A company wants to ensure all laptops are configured with encryption and antivirus before distribution. What phase of secure baseline does this represent,Deploy,Establish,Maintain,Audit,2
+You are assigned to verify monthly that systems meet security settings like password length and patch level. What secure baseline phase is this,Deploy,Test,Maintain,Patch,3
+A technician uses an approved gold image to roll out new devices. What phase of securing the baseline is this,Maintain,Deploy,Scan,Remove,2
+A security analyst needs to lock down a newly issued tablet to prevent unapproved apps from being installed. What type of device is being hardened,Router,Mobile device,Cloud appliance,Server,2
+An IT admin applies security policies to all office workstations to disable unused ports and enforce screen locks. What is this an example of,Mobile device hardening,Workstation hardening,Cloud infrastructure policy,Router security,2
+A technician disables unused ports and changes default credentials on a new switch. What kind of hardening is being applied,Server,Router,Switch,Workstation,3
+Which device would most likely be hardened by updating firmware and disabling unused management protocols,Router,Mobile phone,Server,Desktop,1
+A cloud architect sets up a shared responsibility model and enforces multi-factor authentication for admin access. What is this securing,Workstation,Cloud infrastructure,Switch,IoT device,2
+You need to apply patch management and antivirus settings to a system running email services. What kind of target is this,Mobile device,ICS SCADA,Server,Router,3
+A technician must apply security updates to industrial control systems without disrupting factory operations. What hardening target is this,Server,Mobile phone,ICS SCADA,Router,3
+You are securing a smart thermostat used in a remote office. Which device type is being hardened,RTOS,IoT device,Router,Firewall,2
+An engineer needs to disable vulnerable services on a system that controls robotic arms in a manufacturing plant. What is the best description of the target,Embedded system,Switch,VPN,Proxy,1
+A device is used for real-time automation and cannot tolerate delays. What operating system is likely in use,Embedded Linux,SCADA,RTOS,BYOD,3
+You must apply security patches to a large number of smart lighting devices. Which target are you hardening,RTOS,IoT devices,Mobile phones,Firewalls,2
+A network technician walks the office with a tablet measuring signal overlap and interference before deploying wireless access points. What is this process,Heat mapping,Site survey,Authentication check,Channel scan,2
+You are using a tool to generate a visual display of wireless coverage to optimize access point placement. What are you performing,Signal scanning,RF isolation,Heat map analysis,Device enumeration,3
+You are configuring policy enforcement and app control on all mobile phones issued to staff. What technology are you using,Remote desktop,Mobile device management,Proxy routing,Content filter,2
+A company provides phones to employees but allows limited personal use. What deployment model is in place,BYOD,CYOD,COPE,Guest,3
+Employees select from a list of pre-approved phones that the company then configures and manages. What model is this,COPE,BYOD,CYOD,Hybrid,3
+An employee connects to a mobile hotspot while traveling. What connection method is being used,Bluetooth,Wi-Fi,Cellular,Satellite,3
+A smartwatch syncs with a smartphone nearby to display notifications. What connection method is used,Bluetooth,Wi-Fi,NFC,Satellite,1
+A network administrator configures a new wireless network with enhanced protection against brute force attacks and forward secrecy. Which wireless security setting is most relevant,WPA2,WPA3,WEP,VPN,2
+A company wants to enforce centralized authentication for wireless users. Which protocol setup is most appropriate,RADIUS,SNMP,TCP,SMTP,1
+A team is securing data in transit between mobile devices and internal servers. Which cryptographic mechanism supports confidentiality and integrity,MAC,Hashing,Encryption,Tokenization,3
+A web application validates that all user input is properly formatted and does not contain executable content. What principle is being applied,Input validation,Cookies,Encryption,Obfuscation,1
+To ensure sessions are not hijacked, a developer stores session tokens with the secure flag enabled in the browser. What technique is this,Static analysis,Tokenization,Secure cookies,Obfuscation,3
+A security team runs an analysis tool to detect flaws in the source code without executing the application. What technique is this,Sandboxing,Code signing,Static code analysis,Encryption,3
+A software vendor signs their application to prove it was not modified. What method is being used,Tokenization,Obfuscation,Code signing,Monitoring,3
+A developer executes a new application in a restricted environment to observe its behavior before deployment. What is this called,Sandboxing,Encryption,Hashing,Deployment,1
+A system administrator sets up alerts and logging for unauthorized access attempts across servers. What is this process,Patch management,Decommissioning,Monitoring,3

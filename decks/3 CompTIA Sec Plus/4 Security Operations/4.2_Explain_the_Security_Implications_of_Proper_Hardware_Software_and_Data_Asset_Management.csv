@@ -1,0 +1,33 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the process of selecting and purchasing hardware or software that meets organizational security standards,Assignment,Procurement,Monitoring,Classification,2
+What term describes the formal assignment of responsibility for a particular asset to an individual or team,Enumeration,Ownership,Procurement,Certification,2
+What process is used to categorize assets based on their sensitivity and importance,Classification,Enumeration,Tracking,Monitoring,1
+Which process involves keeping records of where assets are located and who is responsible for them,Accounting,Destruction,Procurement,Sanitization,1
+What is the ongoing process of observing assets to ensure they are functioning securely and as intended,Monitoring,Classification,Disposal,Sanitization,1
+Which method involves keeping a complete list of all hardware and software assets owned by an organization,Certification,Inventory,Enumeration,Ownership,2
+What is the process of identifying all connected devices and software instances within a network,Enumeration,Procurement,Monitoring,Retention,1
+What is the final stage in the lifecycle of an asset where it is removed from use,Monitoring,Decommissioning,Classification,Tracking,2
+Which process removes all data from a device to ensure it cannot be recovered,Sanitization,Destruction,Retention,Certification,1
+What term refers to physically damaging media so data cannot be reconstructed,Destruction,Enumeration,Sanitization,Tracking,1
+What is the formal validation that data has been securely erased and the device is safe for disposal,Classification,Enumeration,Certification,Retention,3
+What policy defines how long data must be stored before being archived or deleted,Retention,Sanitization,Ownership,Tracking,1
+Q,Option1,Option2,Option3,Option4,Correct
+How does the procurement process differ from asset enumeration,Procurement involves funding while enumeration involves deletion,Procurement selects and purchases assets while enumeration identifies existing ones,Procurement encrypts devices while enumeration assigns them,Procurement is optional while enumeration is required,2
+What distinguishes ownership from classification in asset management,Ownership defines sensitivity level while classification defines access rights,Ownership tracks physical location while classification tracks vendor,Ownership assigns responsibility while classification labels sensitivity,Ownership encrypts data while classification monitors users,3
+What is the main difference between asset inventory and enumeration,Inventory focuses on physical count while enumeration focuses on identifying system components,Inventory encrypts data while enumeration destroys it,Inventory involves retention while enumeration involves classification,Inventory is used for destruction while enumeration is used for decryption,1
+How does decommissioning differ from sanitization in device disposal,Decommissioning is a software update while sanitization is network mapping,Decommissioning retains the device while sanitization removes data,Decommissioning removes data while sanitization stores it,Decommissioning removes the device from use while sanitization ensures data is unrecoverable,4
+Which best compares destruction and sanitization,Destruction physically damages media while sanitization securely erases data,Destruction tracks assets while sanitization classifies them,Destruction involves encryption while sanitization involves auditing,Destruction stores logs while sanitization shares credentials,1
+How does certification relate to sanitization and destruction,Certification is optional while sanitization and destruction are required,Certification confirms that sanitization and destruction were completed properly,Certification encrypts data while sanitization decrypts it,Certification is unrelated to data management,2
+What distinguishes data retention from certification,Data retention destroys hardware while certification confirms encryption,Data retention ensures long-term storage while certification verifies secure deletion,Data retention anonymizes files while certification labels them,Data retention tracks owners while certification applies patches,2
+Q,Option1,Option2,Option3,Option4,Correct
+Your company is evaluating new laptops from multiple vendors to meet updated compliance standards. Which process ensures devices meet regulatory and security requirements before purchase,Enumeration,Assignment,Acquisition,Destruction,3
+A new server was installed but no team member is listed as its maintainer. What aspect of asset management was likely missed,Ownership,Sanitization,Geolocation,Failover,1
+A classified document is stored on a public network drive accessible by interns. Which control failure is most likely responsible,Enumeration,Classification,Destruction,Procurement,2
+An IT technician scans a subnet to identify all devices connected to the internal network. What process are they performing,Procurement,Sanitization,Inventory,Enumeration,4
+You are conducting a quarterly audit and comparing your IT asset list with what is physically on hand. What control is being used,Ownership,Inventory,Classification,Fail-closed,2
+A set of old hard drives was wiped using a secure erase tool. What process has just been completed,Certification,Enumeration,Sanitization,Replication,3
+You send a batch of retired servers to a shredding facility to prevent data recovery. What action have you taken,Masking,Destruction,Classification,Ownership,2
+After securely destroying all storage media, the company creates an official record confirming the actions. What is this step called,Enumeration,Certification,Asset tagging,Availability testing,2
+A company has data stored on tape backups that must be retained for seven years due to regulatory requirements. What policy governs this,Data retention,Sanitization,Inventory,Decommissioning,1
+During a cybersecurity lab, students are given a list of devices and tasked with assigning classification labels and owners. What are they practicing,Acquisition and sanitization,Enumeration and masking,Ownership and classification,Encryption and replication,3
+You are testing an automated asset tracking system. Devices are scanned on arrival and logged in a dashboard. What is this lab scenario designed to reinforce,Decommissioning,Inventory,Retention,Simulation,2
