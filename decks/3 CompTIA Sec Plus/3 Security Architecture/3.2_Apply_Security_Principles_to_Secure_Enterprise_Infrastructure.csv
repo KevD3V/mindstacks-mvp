@@ -30,7 +30,6 @@ What is Internet protocol security used for,Securing physical servers,Authentica
 What does software-defined wide area network enable,Virtual machine cloning,Dynamic and optimized routing over multiple connections,Changing screen resolutions,Email scanning,2
 What is Secure Access Service Edge designed for,Replacing user passwords,Combining network and security functions into a cloud-delivered service,Providing wireless access points,Updating mobile devices,2
 What does selection of effective controls refer to,Guessing the correct hardware,Choosing the cheapest vendor,Implementing the right mix of administrative, technical, and physical controls,Resetting all passwords,3
-Q,Option1,Option2,Option3,Option4,Correct
 How does proper device placement differ from random placement,It simplifies procurement,It improves asset tagging,It ensures security and performance by locating devices strategically,It boosts processor speed,3
 What is the difference between security zones and VLANs,Security zones segment based on function while VLANs segment by broadcast domain,They are identical terms,Security zones are slower,Security zones only apply to wireless networks,1
 How does reducing attack surface improve security compared to patching,It eliminates entry points proactively,It provides reactive fixes only,It increases system load,It delays updates,1
@@ -54,7 +53,6 @@ How do Transport Layer Security and Internet Protocol Security compare,Both prov
 What makes software-defined wide area network unique compared to traditional wide area network,It uses software-based controls for dynamic routing and management,Traditional wide area network is encrypted,Software-defined wide area network stores files locally,Traditional wide area network compresses images,1
 How does secure access service edge differ from software-defined wide area network,Secure access service edge combines networking and security in cloud delivery, while software-defined wide area network focuses on routing,Secure access service edge works only on VPN,Software-defined wide area network is an operating system,Secure access service edge blocks IP traffic only,1
 How does selection of effective controls compare to hardening techniques,Selection focuses on choosing proper safeguards, while hardening implements them,Hardening techniques reduce visibility only,Selection is for non-technical users,Hardening does not affect security,1
-Q,Option1,Option2,Option3,Option4,Correct
 A company places its firewall between the internet and the internal router. What principle is being applied,Proxy routing,Device placement,Patch scheduling,Port scanning,2
 An administrator segments a network to isolate the finance department from the rest of the company. What is this an example of,Attack surface expansion,Security zone implementation,Encryption enforcement,Centralized control,2
 An engineer reduces the number of exposed services on a server to minimize risk. What is this approach called,Connectivity tuning,Attack surface reduction,Remote access provisioning,Fail-open handling,2

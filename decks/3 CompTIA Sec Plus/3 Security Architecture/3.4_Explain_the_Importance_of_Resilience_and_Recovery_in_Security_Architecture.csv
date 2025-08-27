@@ -27,7 +27,6 @@ What does replication ensure in backup planning,Duplicate passwords for testing,
 What is journaling in backup systems,A daily checklist for IT staff,A legal document for audits,A method to track data changes for restoration,An antivirus program for email,3
 What is the function of generators in power continuity,Managing network connections,Supplying backup electrical power,Encrypting system logs,Cooling servers,2
 What is an uninterruptible power supply used for,To replace all backup generators,To protect systems from sudden power loss,To encrypt network packets,To connect multiple printers,2
-Q,Option1,Option2,Option3,Option4,Correct
 How does load balancing differ from clustering in high availability,Load balancing increases power supply while clustering reduces it,Load balancing distributes traffic among servers while clustering allows failover,Load balancing encrypts data while clustering segments it,Load balancing is used in cold sites while clustering is for hot sites,2
 What is a key difference between hot and cold sites,A hot site requires on-demand setup while a cold site is always online,A hot site is cheaper to maintain than a cold site,A hot site is fully operational while a cold site has minimal infrastructure,Cold sites are used for real-time backups while hot sites are not,3
 How does a warm site compare to a cold site,A warm site is more complete and has quicker recovery capabilities,A warm site is less secure,A warm site is less costly than a cold site,A warm site requires manual updates,1
@@ -46,7 +45,6 @@ What is the distinction between a snapshot and a full backup,A snapshot captures
 How does journaling support backup recovery,It adds metadata to logs,It provides a log of changes for precise restoration,It replaces encryption,It only works with cold sites,2
 How does replication improve system availability during outages,By scheduling tests,Because it disables other systems,Because data is continuously mirrored in real time,Because it encrypts backup media,3
 How do generators compare to uninterruptible power supplies in power continuity,Generators are short-term solutions while UPS handles long-term outages,UPS systems are backup generators,Generators provide long-term power while UPS handles immediate short-term needs,UPS systems require fuel while generators do not,3
-Q,Option1,Option2,Option3,Option4,Correct
 A company wants to maintain uptime during routine maintenance. Which strategy would best ensure high availability,Implement fail-open firewalls,Use load balancing to distribute traffic across redundant servers,Schedule maintenance during business hours,Reduce backup frequency,2
 A financial firm requires a backup site that is fully operational within minutes of a disaster. Which site type is most appropriate,Cold site,Warm site,Hot site,Test site,3
 After a flood damages a data center, the company activates systems in a separate geographic location. What is this an example of,Air-gapping,Platform diversity,Geographic dispersion,Logical segmentation,3

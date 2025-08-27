@@ -30,7 +30,6 @@ What is the purpose of static code analysis,To find visual bugs in the app,To an
 Why is code signing important,To format source code,To compile applications,To verify integrity and authenticity of code,To enable screen sharing,3
 What is the function of sandboxing,To store backup files,To isolate programs in a restricted environment for security,To compress application data,To run apps in fullscreen,2
 What does monitoring help detect in computing environments,Unauthorized activity or anomalies,User happiness,Color scheme preferences,Storage temperature,1
-Q,Option1,Option2,Option3,Option4,Correct
 How does establishing a secure baseline differ from maintaining it,Establishing removes software while maintaining adds hardware,Establishing defines the secure state while maintaining ensures it persists,Establishing applies patches while maintaining disables accounts,Establishing encrypts data while maintaining backs it up,2
 What is a key difference between deploying and maintaining a secure baseline,Deploying is a one-time action while maintaining is ongoing,Maintaining is for mobile devices only,Deploying always requires remote access,Maintaining never involves updates,1
 How does hardening a workstation differ from hardening a mobile device,Workstations require encryption while mobile devices do not,Mobile device hardening involves wireless settings more often,Workstations are always on the cloud,Mobile devices use antivirus instead of patching,2
@@ -56,7 +55,6 @@ What is a difference between static code analysis and sandboxing,Static code ana
 How does code signing relate to authentication protocols,Both encrypt files,Code signing proves authenticity and integrity of software, while authentication protocols verify user identity,Both verify software only,Authentication protocols sign apps,2
 How is sandboxing different from traditional monitoring,Sandboxing isolates code for testing while monitoring observes real-time behavior,Sandboxing sends alerts,Monitoring encrypts logs,Sandboxing runs live code on production,1
 How does monitoring enhance hardening techniques,Monitoring identifies abnormal activity to complement prevention methods,Monitoring disables services,Monitoring replaces firewalls,Monitoring upgrades devices automatically,1
-Q,Option1,Option2,Option3,Option4,Correct
 A company wants to ensure all laptops are configured with encryption and antivirus before distribution. What phase of secure baseline does this represent,Deploy,Establish,Maintain,Audit,2
 You are assigned to verify monthly that systems meet security settings like password length and patch level. What secure baseline phase is this,Deploy,Test,Maintain,Patch,3
 A technician uses an approved gold image to roll out new devices. What phase of securing the baseline is this,Maintain,Deploy,Scan,Remove,2

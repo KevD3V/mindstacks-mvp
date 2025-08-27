@@ -38,7 +38,6 @@ What does resource inaccessibility often indicate,Strong security,Backup process
 What is out-of-cycle logging,Logging events outside normal schedules,Authorized debug mode,Firmware rollback,Certificate refreshes,1
 What does published or documented indicator mean,A hacker group is known publicly,An indicator of compromise has been disclosed,An internal tool is licensed,Third-party scan completed,2
 What does missing logs suggest,Complete security,Normal operations,Log tampering or deletion to hide activity,Valid alert suppression,3
-Q,Option1,Option2,Option3,Option4,Correct
 How does ransomware differ from a trojan,Ransomware hides inside software,Ransomware spreads on its own,Ransomware encrypts data for ransom,Trojan modifies memory directly,3
 What distinguishes a trojan from a worm,Trojans replicate across networks,Trojans appear as legitimate software,Trojans require no user action,Trojans are part of encryption,2
 What is a key difference between a worm and a virus,Worms hide inside documents,Worms are user-triggered,Worms self-replicate without user action,Worms target hardware,3
@@ -77,7 +76,6 @@ How do resource inaccessibility and account lockout differ,Resource inaccessibil
 How is out-of-cycle logging related to threat detection,Out-of-cycle logs may suggest unusual or malicious activity,It increases hash collisions,It disables antivirus automatically,It allows access to TPM,1
 What is the importance of published indicators of compromise,They provide documented signs of known attacks,They encrypt data faster,They prevent DDoS,They exploit buffer overflows,1
 How do missing logs relate to rootkits,Missing logs may indicate tampering or hiding by rootkits,Rootkits increase password length,Missing logs decrypt DNS,Missing logs are normal in backups,1
-Q,Option1,Option2,Option3,Option4,Correct
 A user reports their files have been encrypted and a message demands payment in cryptocurrency. What type of malware is most likely involved,Spyware,Trojan,Ransomware,Worm,3
 An employee installs what appears to be a game but it secretly provides remote access to an attacker. What kind of malware is this,Rootkit,Trojan,Logic bomb,Bloatware,2
 A company notices unusual network traffic spreading to all machines rapidly without user interaction. What is the likely cause,Worm,Spyware,Keylogger,Ransomware,1

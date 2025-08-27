@@ -30,7 +30,6 @@ What describes the current availability of updates to fix security flaws,Compute
 What term refers to the lack of available updates or fixes for a system,Inability to patch,Patch-aware,Low resilience,Compute delay,1
 What factor measures the electrical requirements or consumption of a system,Scalability,Power,Patch dependency,Deployment time,2
 What refers to the processing capability available in a given system,Responsiveness,Compute,Segmentation,Patch enforcement,2
-Q,Option1,Option2,Option3,Option4,Correct
 How does a responsibility matrix differ from a service level agreement,It outlines performance targets,It specifies legal consequences,It defines shared security duties,It lists user permissions,3
 What is a key difference between hybrid cloud and private cloud,Hybrid uses only internal resources,Hybrid combines multiple environments,Private cloud is hosted by third-party vendors,Private offers no scalability,2
 Which best distinguishes third-party vendors from internal infrastructure teams,They manage internal servers,They provide remote patches,They operate externally and are not part of the organization,They control on-premises firewalls,3
@@ -61,7 +60,6 @@ How does patch availability affect overall system security,It reduces system pow
 What differentiates inability to patch from delayed patching,Delayed patching is intentional, inability to patch stems from system constraints,Inability to patch happens due to configuration enforcement,Delayed patching is based on power issues,2
 How does power requirement differ from compute availability,Power refers to processing speed,Compute refers to energy cost,Power involves electrical capacity, compute relates to processing ability,3
 What is the distinction between compute and scalability,Compute involves available processing resources,Scalability describes OS patch compatibility,Compute controls firewall rules,Scalability restricts deployment size,1
-Q,Option1,Option2,Option3,Option4,Correct
 A company uses cloud services and wants to assign specific roles for data handling responsibilities between departments and vendors. Which document would be most appropriate,Service level agreement,Responsibility matrix,Change log,Encryption policy,2
 During an audit of a hybrid cloud system, the IT team identifies inconsistent access controls across on-premises and cloud components. What is the likely issue,Network loopback error,Lack of hybrid considerations,Improper subnetting,Excessive patching,2
 Your company uses a third-party vendor to manage backup services. What is the primary security concern with this setup,Lack of patching,Shared responsibility gaps,High compute costs,Environmental vulnerabilities,2

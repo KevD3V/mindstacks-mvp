@@ -18,7 +18,6 @@ What detects and blocks malicious behavior on the host before damage occurs,Host
 What technique involves turning off unused ports or network protocols to reduce risks,Disabling ports and protocols,Access control,Encryption,Monitoring,1
 What is the process of changing factory-set login credentials to prevent unauthorized access,Default password changes,Patch management,Encryption,Isolation,1
 What is the removal of programs not necessary for the system’s function to reduce vulnerabilities,Removal of unnecessary software,Patching,Monitoring,Access control,1
-Q,Option1,Option2,Option3,Option4,Correct
 How does segmentation differ from isolation,Segmentation limits access by dividing networks while isolation completely separates systems,Isolation uses software while segmentation uses hardware,Segmentation encrypts data while isolation prevents access,Isolation is used only in virtual machines,1
 What is the key difference between access control and permissions,Permissions apply to specific resources while access control defines overall access policies,Access control encrypts traffic while permissions block users,Permissions are for external users while access control is for internal users,Both terms mean the same in practice,1
 How does an access control list differ from an application allow list,Access control list defines who can access what resources while application allow list limits which software can run,Application allow list controls ports while access control list blocks domains,Access control list uses encryption while allow list uses hashing,Both are part of configuration enforcement,1
@@ -39,7 +38,6 @@ Why is a host-based intrusion prevention system considered proactive,It can bloc
 How does disabling ports and protocols enhance system security,It reduces the number of entry points for attackers by limiting unnecessary services,It patches outdated software,It enables logging automatically,It replaces endpoint protection,1
 Why is changing default passwords a crucial security step,Default credentials are widely known and often targeted by attackers,They cannot be changed once set,They interfere with firewalls,They are encrypted by default,1
 How does removal of unnecessary software contribute to system hardening,It reduces the attack surface by eliminating unneeded applications that may contain vulnerabilities,It disables all ports,It encrypts all data,It prevents monitoring alerts,1
-Q,Option1,Option2,Option3,Option4,Correct
 A company wants to limit access between departments such that the finance team cannot access engineering resources. What mitigation strategy should be used,Application allow list,Segmentation,Monitoring,Patching,2
 An administrator needs to define which users can access certain files and directories on a shared server. Which technique should be applied,Monitoring,Decommissioning,Access control,Encryption,3
 A security analyst is configuring a firewall to only allow users to run approved programs. What should they implement,Application allow list,Access control list,Endpoint protection,Patching,1

@@ -25,7 +25,6 @@ What is tokenization,Replacing sensitive data with non-sensitive placeholders,Cr
 What is obfuscation,Encoding data for display purposes,Hiding the meaning of code or data without changing its function,Allowing full data access,Hiding folders in a filesystem,2
 What is segmentation in cybersecurity,Combining all data for easy access,Encrypting only part of a file,Dividing networks or systems into smaller isolated parts,Running a full system scan,3
 What are permission restrictions,Allowing all users full access,Assigning different access rights based on user roles,Sending alerts when data changes,Backing up files daily,2
-Q,Option1,Option2,Option3,Option4,Correct
 How does regulated data differ from trade secret data,Regulated data is always encrypted,Trade secret data is publicly disclosed,Regulated data must comply with laws while trade secrets are protected internally,Trade secrets are less important than regulated data,3
 Which best compares trade secrets and intellectual property,Both are legally registered ideas,Both can be freely shared,Trade secrets rely on confidentiality while intellectual property can include patents,Intellectual property is less secure than trade secrets,3
 How is intellectual property different from legal information,Intellectual property is informal knowledge,Legal information includes artistic designs,Legal information refers to contracts and laws while intellectual property includes creative works,They are always the same,3
@@ -43,7 +42,6 @@ How does encryption differ from hashing,Hashing can be reversed,Encryption uses 
 How do masking and tokenization differ,Masking uses random placeholders while tokenization maps data to reference tokens,Tokenization removes all data,Masking replaces data with encrypted versions,They are identical,1
 How does obfuscation differ from encryption,Obfuscation secures through mathematical algorithms,Encryption is used only for display,Obfuscation hides intent but is reversible while encryption protects confidentiality,Obfuscation provides stronger confidentiality than encryption,3
 How does segmentation contribute to security compared to permission restrictions,Segmentation sets access rules per user,Permission restrictions divide network zones,Segmentation isolates systems while permission restrictions manage user access levels,Segmentation has no effect,3
-Q,Option1,Option2,Option3,Option4,Correct
 A financial company needs to comply with laws such as GDPR and HIPAA. What type of data are they most likely handling,Trade secret,Regulated,Confidential,Public,2
 An employee exports proprietary formula documents to a personal drive without approval. What type of data is at risk,Trade secret,Public,Restricted,Legal,1
 An organization applies for a patent to protect its unique software algorithm. What kind of data is involved,Legal information,Intellectual property,Confidential,Financial information,2
