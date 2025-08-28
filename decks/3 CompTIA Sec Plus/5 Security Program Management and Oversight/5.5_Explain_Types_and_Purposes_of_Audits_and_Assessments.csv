@@ -1,0 +1,54 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the process of formally affirming that a system meets security requirements,Attestation,Assessment,Evaluation,Validation,1
+What type of audit is conducted by employees within the organization,External,Regulatory,Internal,Independent,3
+Which internal review ensures that business processes meet company security standards,Compliance,Examination,Validation,Reconnaissance,1
+What group oversees audit activities and ensures ethical reporting within a company,Security team,Audit committee,IT department,Compliance officers,2
+Which type of review allows staff to evaluate their own department's adherence to policies,Third-party audit,Self-assessment,Penetration test,Legal hold,2
+What audit is conducted by an outside entity to ensure policy or legal compliance,Internal,Self-check,External,Committee-led,3
+What is a formal inspection carried out by a government or regulatory body,Self-review,Internal audit,Regulatory examination,Policy validation,3
+Which review process evaluates security controls against specific standards,Physical review,Assessment,Incident response,Development audit,2
+What is a detailed review of an organization conducted by an independent company,Reconnaissance,Self-check,Internal scan,Independent thirdparty audit,4
+Which testing method simulates an attacker attempting to breach systems,Backup analysis,Penetration testing,Password rotation,Audit trail,2
+What type of penetration test focuses on bypassing physical barriers to gain access,Network probe,Social engineering,Physical,Remote injection,3
+What form of penetration testing emulates adversary actions to uncover weaknesses,Monitoring,Offensive,Red team,Governance,2
+Which type of testing validates detection and response capabilities to attacks,Offensive,Forensic,Defensive,Incident report,3
+What penetration test type evaluates both offensive and defensive readiness,Forensic,Integrated,Passive,Ad hoc,2
+What environment gives the tester full knowledge of the system being evaluated,Partially known environment,Blind environment,Known environment,Unknown environment,3
+Which testing environment provides limited details to the penetration tester,Integrated testing,Partially known environment,Red team environment,Uncontrolled test,2
+Which environment requires the tester to evaluate the system with no prior knowledge,Known environment,Controlled scan,Recon environment,Unknown environment,4
+What is the process of gathering information about a target system without interaction,Passive reconnaissance,Active scan,Direct probing,Exploit testing,1
+Which reconnaissance technique involves direct interaction with the target,Passive reconnaissance,Active reconnaissance,Indirect probing,Covert scanning,2
+How does attestation differ from assessment,Attestation verifies user credentials,Attestation affirms compliance while assessment evaluates controls,Assessment is legal and attestation is not,Assessment is verbal while attestation is written,2
+What distinguishes internal from external audits,Internal audits focus on public disclosures,External audits are performed by internal staff,Internal audits are conducted within the organization,External audits are for internal use only,3
+How does a compliance review differ from a self-assessment,A self-assessment is always external,Compliance reviews are opinion-based,Compliance reviews compare against defined requirements,Self-assessments involve third parties,3
+What is the main function of an audit committee compared to a compliance team,Compliance team ensures laws are met,Audit committee enforces access policies,Audit committee governs audit processes,Compliance team handles vendor relations,3
+How does a self-assessment differ from an independent audit,Self-assessments are legally binding,Independent audits are done internally,Self-assessments are performed by the same organization,Independent audits use internal staff only,3
+How do regulatory reviews differ from independent audits,Regulatory reviews follow government mandates,Independent audits are required by law,Independent audits are casual reviews,Regulatory reviews are internal-only processes,1
+How does an examination compare to an assessment,Examinations validate personal certifications,Assessments test knowledge,Examinations are more formal regulatory reviews,Assessments occur during hiring,3
+How does an assessment differ from attestation,Assessment confirms control effectiveness,Attestation verifies log integrity,Assessment is done before attestation,Attestation detects malware,1
+What distinguishes an independent thirdparty audit from internal audit processes,Internal audits rely on external consultants,Thirdparty audits are casual and unstructured,Independent thirdparty audits are performed by unaffiliated entities,Internal audits occur yearly by vendors,3
+What is the key difference between physical and offensive penetration testing,Physical testing uses scripts,Offensive testing targets staff,Physical testing attempts real-world access,Offensive testing is done without tools,3
+How does offensive testing differ from defensive testing,Offensive testing builds firewalls,Defensive testing tests user behavior,Offensive testing simulates attacker behavior,Defensive testing compromises data,3
+How do defensive and integrated testing approaches differ,Defensive tests find vulnerabilities,Integrated tests combine both attacker and defender perspectives,Defensive tests are required by compliance,Integrated tests are used during hiring,2
+What is a defining feature of a known environment compared to unknown,Known environment hides network maps,Unknown environment uses full disclosure,Known environment provides prior knowledge to the tester,Unknown environment allows remote access only,3
+How does a partially known environment differ from unknown environment testing,Partially known tests allow interaction with users,Unknown tests are always faster,Partially known testing provides limited internal information,Unknown tests simulate insider threats,3
+What separates unknown from known testing environments,Unknown tests provide credentials,Unknown tests are fully informed,Unknown testing occurs without prior system knowledge,Unknown testing is performed by internal staff,3
+How does passive reconnaissance differ from active reconnaissance,Passive observes without interaction,Passive involves port scanning,Active never uses any tools,Passive performs brute force attacks,1
+What is the difference between active and passive reconnaissance,Active uses visible probing while passive collects data quietly,Passive is more disruptive,Active avoids detection,Active only monitors logs,1
+An organization requires a third party to confirm that a control environment meets regulatory standards. What process should be requested,Penetration testing,Attestation,Internal audit,Self-assessment,2
+A company wants to verify its financial controls and policies internally. Which type of audit should be conducted,Regulatory audit,External examination,Internal audit,Independent thirdparty audit,3
+To ensure employees follow company policies and are ready for external review, which internal process should be prioritized,Penetration testing,Compliance review,Contract review,Outsourced attestation,2
+A board forms a specialized group to oversee financial integrity and internal controls. What is the group likely called,Risk committee,Audit committee,Security task force,Compliance review board,2
+You are tasked with reviewing your own department's adherence to security procedures. What process are you performing,Self-assessment,Independent audit,External examination,Attestation,1
+A government agency arrives to evaluate your organization's compliance with legal requirements. What is this type of audit called,Internal review,Independent audit,Regulatory audit,Informal attestation,3
+A finance organization is evaluated by an outside party for its reporting accuracy and adherence to policies. What is the evaluator performing,Assessment,Tabletop simulation,Legal attestation,Self-assessment,1
+An independent consulting firm is hired to evaluate your company without bias. What type of review is this,External examination,Internal audit,Independent thirdparty audit,Audit committee evaluation,3
+A red team is hired to test your physical entry controls and badge bypass systems. What is the test type,Defensive simulation,Physical penetration test,Network audit,Compliance test,2
+A consultant is asked to simulate attacker behavior to test detection and response. What best describes this testing approach,Defensive penetration,Offensive penetration,Policy audit,Control attestation,2
+A cybersecurity team is validating defensive controls in an existing system. What type of test is this,Defensive testing,Offensive simulation,Physical audit,Policy assessment,1
+A company wants a holistic security test that evaluates both offensive and defensive layers. What type of testing is most appropriate,Partial testing,Integrated testing,Internal audit,Known environment test,2
+A penetration test is conducted with full system knowledge provided to the testers. What type of test is this,Partially known,Known environment,Unknown environment,Defensive simulation,2
+An organization gives a pentest team only limited credentials to test system defenses. What environment is this,Partially known environment,Unknown environment,Full audit,Internal assessment,1
+A testing team is hired without access to any system details or credentials. What type of environment is this,Known environment,Partially known environment,Integrated testing,Unknown environment,4
+During initial testing, a team collects DNS and open port data from public sources. What type of reconnaissance is this,Active reconnaissance,Passive reconnaissance,External audit,Thirdparty testing,2
+A penetration tester uses a vulnerability scanner that interacts with network systems in real time. What type of reconnaissance is being performed,Audit analysis,Passive discovery,Active reconnaissance,Policy review,3

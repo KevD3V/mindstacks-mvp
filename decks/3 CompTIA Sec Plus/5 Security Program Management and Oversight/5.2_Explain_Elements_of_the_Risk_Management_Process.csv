@@ -1,0 +1,78 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is the process of discovering potential events that could negatively affect assets,Risk register,Risk identification,Risk mitigation,Risk threshold,2
+Which type of risk assessment is performed as needed without a regular schedule,Recurring,Continuous,Ad hoc,One-time,3
+Which type of risk assessment occurs on a regular basis,Ad hoc,One-time,Recurring,Mitigated,3
+What is a risk assessment conducted a single time to evaluate a specific situation,Continuous,Ad hoc,Recurring,One-time,4
+What type of risk assessment is ongoing and embedded into system monitoring,Recurring,Continuous,One-time,Ad hoc,2
+Which method of risk analysis uses descriptive categories to estimate impact,Quantitative,Probability-based,Impact-focused,Qualitative,4
+Which method of risk analysis uses numbers to calculate potential losses,Qualitative,Quantitative,Exposure-based,Impact estimation,2
+What is the expected cost of a single loss event,Annualized rate of occurrence,Annualized loss expectancy,Single loss expectancy,Risk tolerance,3
+What is the yearly expected monetary loss from a risk,Single loss expectancy,Annualized rate of occurrence,Risk register,Annualized loss expectancy,4
+What is the frequency a loss event is expected to occur in one year,Annualized loss expectancy,Annualized rate of occurrence,Single loss expectancy,Impact factor,2
+What is the measure of how likely a specific threat is to occur,Exposure factor,Mitigation,Impact,Probability,4
+What is the estimated chance that a risk will occur,Response,Tolerance,Likelihood,Owner,3
+What percentage of an asset is lost due to a specific threat event,Single loss expectancy,Impact,Exposure factor,Risk appetite,3
+What is the measure of damage that a risk can cause,Exposure factor,Likelihood,Impact,Risk owner,3
+What is a centralized document that records and tracks organizational risks,Risk register,Risk threshold,Risk analysis,Risk indicator,1
+What is a metric that signals increasing risk before it becomes critical,Risk register,Impact score,Key risk indicator,Mean time to repair,3
+Who is the person responsible for managing a specific risk,Risk mitigator,Risk indicator,Risk owner,Risk analyst,3
+What is the maximum level of risk an organization is willing to bear before action is required,Risk threshold,Risk appetite,Risk indicator,Risk factor,1
+What is the general amount of risk an organization is willing to accept,Risk register,Risk analysis,Risk appetite,Risk control,3
+Which type of risk appetite favors taking more risk for potential growth,Conservative,Expansionary,Neutral,Preventative,2
+Which type of risk appetite aims to avoid unnecessary risk and protect assets,Expansionary,Neutral,Conservative,Impact-focused,3
+What type of risk appetite balances risk and caution depending on context,Neutral,Expansionary,Conservative,Absolute,1
+Which strategy shifts risk responsibility to a third party,Risk avoidance,Risk acceptance,Risk transfer,Risk mitigation,3
+What is the strategy of acknowledging a risk without taking action,Mitigate,Avoid,Transfer,Accept,4
+What is a formal allowance to accept a specific risk under defined conditions,Exception,Exemption,Mitigation,Avoidance,2
+What is a temporary allowance to bypass a risk control,Exception,Transfer,Exemption,Mitigation,1
+What is the strategy of eliminating the source of a risk to prevent impact,Avoid,Accept,Transfer,Defer,1
+What is the strategy of reducing the likelihood or impact of a risk,Accept,Mitigate,Avoid,Transfer,2
+What is the process of formally communicating risk data to stakeholders,Risk reporting,Threat analysis,Impact documentation,Risk transfer,1
+What process identifies essential functions and their dependencies in case of disruption,Business continuity plan,Disaster recovery,Business impact analysis,Risk register,3
+What defines the maximum acceptable time to restore a function after disruption,Recovery time objective,Recovery point objective,Mean time to repair,Service window,1
+What defines the maximum acceptable amount of data loss after a failure,Mean time to failure,Service level agreement,Recovery point objective,Recovery time objective,3
+What is the average time it takes to fix a failed component,Recovery point objective,Mean time between failures,Mean time to repair,Response objective,3
+What is the expected time between inherent failures of a system,Mean time to repair,Recovery point objective,Recovery time objective,Mean time between failures,4
+How does risk identification differ from risk analysis,Risk analysis identifies potential threats,Risk identification determines business impact,Risk identification logs the risk,Risk analysis evaluates probability and impact,4
+What is a key difference between ad hoc and recurring risk assessments,Recurring assessments are one-time events,Ad hoc assessments are scheduled regularly,Ad hoc assessments are unscheduled and event-driven,Recurring assessments are triggered by anomalies,3
+Which assessment type provides the most consistent data over time,One-time,Continuous,Ad hoc,Exemption,2
+How does a one-time assessment differ from a recurring one,One-time assessments provide continuous updates,Recurring assessments happen once during onboarding,One-time assessments are isolated events,Recurring assessments are performed after incidents,3
+Which risk analysis method uses numbers rather than categories,Qualitative,Subjective,Quantitative,Impact-based,3
+Which metric is calculated by multiplying annualized rate of occurrence and single loss expectancy,Probability,Annualized loss expectancy,Exposure factor,Risk appetite,2
+Which term represents how often a loss event is expected to occur annually,Impact,Single loss expectancy,Annualized rate of occurrence,Risk tolerance,3
+How does exposure factor relate to single loss expectancy,Exposure factor multiplies probability,Exposure factor is used to calculate ALE,Exposure factor is a component of risk register,Exposure factor determines how much of an asset is lost,4
+What is the relationship between likelihood and probability,Both represent how severe the impact is,Likelihood is based on subjective judgment,Probability is always lower than likelihood,Likelihood equals recovery time divided by impact,2
+Which component of the risk register shows a predefined action point for risk,Risk owner,Risk threshold,Key risk indicator,Exposure factor,2
+What distinguishes risk tolerance from risk appetite,Risk tolerance is broader than appetite,Risk appetite is stricter than tolerance,Risk tolerance defines acceptable variation,Risk appetite is based on past losses,3
+What defines an expansionary risk appetite compared to a conservative one,Expansionary favors avoiding risk,Conservative promotes innovation,Expansionary seeks opportunity through higher risk,Conservative involves higher probability acceptance,3
+What does a neutral risk appetite aim to do,Balances between risk avoidance and acceptance,Maximizes returns regardless of risk,Avoids all risk entirely,Accepts all risks without mitigation,1
+How does risk transfer differ from risk mitigation,Mitigation avoids the risk entirely,Transfer reduces risk probability,Transfer shifts responsibility to another party,Mitigation outsources the risk,3
+What is the primary difference between exemption and exception in risk acceptance,Exemption applies temporarily,Exception is used for full risk avoidance,Exemption is a broad category,Exception allows bypassing controls under conditions,4
+What is the goal of risk avoidance compared to risk mitigation,Risk avoidance accepts some level of risk,Risk mitigation transfers the risk,Risk avoidance eliminates risk source,Risk mitigation ignores risk metrics,3
+What is a key reason to use risk reporting in the management process,To delay incident response,To replace impact assessments,To communicate risk posture to stakeholders,To avoid documenting decisions,3
+How does business impact analysis support disaster planning,It calculates revenue projections,BIA defines financial objectives,BIA identifies critical functions and recovery needs,BIA replaces risk register creation,3
+How does recovery time objective differ from recovery point objective,RTO measures data loss tolerance,RPO tracks failure intervals,RTO defines how quickly systems must recover,RPO identifies required recovery team,3
+Which metric focuses on how much data can be lost before harm occurs,Recovery time objective,Mean time to repair,Recovery point objective,Annualized rate of occurrence,3
+How is mean time to repair used differently from mean time between failures,MTTR estimates system uptime,MTBF measures recovery quality,MTTR focuses on downtime length,MTBF defines acceptable data loss,3
+Which metric indicates how reliable a system is over time,Mean time between failures,Recovery time objective,Exposure factor,Risk threshold,1
+During a security audit, your team maps out all known threats and potential vulnerabilities in the network. What process are you performing,Risk analysis,Risk identification,Risk mitigation,Risk thresholding,2
+A company performs a special assessment after a major breach but does not plan to repeat it. What type of risk assessment is this,Recurring,Continuous,Ad hoc,One-time,4
+Your organization schedules monthly assessments to monitor evolving threats. What type of assessment is this,Ad hoc,Continuous,One-time,Recurring,4
+A security team receives real-time alerts and performs risk assessments dynamically. What kind of process is this,One-time,Continuous,Exception-based,Recovery-based,2
+An analyst uses a numerical score to estimate potential financial damage from a threat. What type of analysis is this,Qualitative,Quantitative,Behavioral,Impact-driven,2
+You are asked to calculate financial impact for a threat using a formula that includes yearly frequency and cost. What are you calculating,Annualized loss expectancy,Single loss expectancy,Probability rating,Exposure factor,1
+An administrator calculates that a certain ransomware incident is likely to happen three times a year. What metric does this represent,Impact,Probability,Annualized rate of occurrence,Risk threshold,3
+A company estimates that 30 percent of a server's value would be lost during a data breach. Which metric does this represent,Annualized loss expectancy,Exposure factor,Risk register,Risk tolerance,2
+You are evaluating the possibility that a backup system may fail if not tested monthly. What aspect are you measuring,Impact,Likelihood,Risk reporting,Risk threshold,2
+A manager reviews a chart showing acceptable limits for various threats. What is being used,Risk register,Risk threshold,Recovery point objective,Risk mitigation table,2
+A company accepts minor risks to promote innovation and faster growth. What best describes this,Risk tolerance,Risk register,Expansionary risk appetite,Risk transfer strategy,3
+An enterprise security team must avoid any actions that pose even moderate risk. Which risk appetite model are they likely following,Expansionary,Neutral,Conservative,Transfer,3
+A business defines risk limits based on stability without favoring risk or avoidance. What is this,Risk tolerance,Risk appetite neutral,Risk acceptance,Impact thresholding,2
+A company outsources its payment processing to reduce liability. What risk strategy is this,Risk avoidance,Risk transfer,Risk exemption,Risk analysis,2
+A project lead formally requests permission to ignore a minor security policy for a specific system. What is this an example of,Risk thresholding,Risk tolerance,Risk exemption,Risk avoidance,3
+An IT manager disables an insecure protocol rather than trying to fix its flaws. What strategy is this,Risk acceptance,Risk mitigation,Risk avoidance,Risk thresholding,3
+An engineer deploys a patch and logs results to inform leadership of security posture. What process is being followed,Risk acceptance,Risk analysis,Risk reporting,Risk control,3
+Your team is calculating how long critical services can remain offline without severe impact. What are you determining,Recovery time objective,Mean time between failures,Annualized loss expectancy,Risk exemption,1
+A data center defines that no more than 30 minutes of data loss is tolerable. What metric does this reflect,Annualized rate of occurrence,Mean time to repair,Recovery point objective,Risk appetite,3
+A technician is replacing a failed firewall module and tracks how long it takes to restore service. Which metric is this,Mean time between failures,Exposure factor,Recovery time objective,Mean time to repair,4
+A network administrator monitors the average time between system crashes. What is being measured,Recovery time objective,Mean time between failures,Annualized rate of occurrence,Exposure factor,2

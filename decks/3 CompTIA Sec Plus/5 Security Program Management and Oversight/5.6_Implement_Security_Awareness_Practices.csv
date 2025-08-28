@@ -1,0 +1,48 @@
+Q,Option1,Option2,Option3,Option4,Correct
+What is a coordinated effort to send deceptive messages to a group of users,Phishing campaign,Password attack,Denial of service,Data mining,1
+What is the act of identifying a message designed to trick the recipient,Recognizing a phishing attempt,Launching a brute force attack,Running a sandbox test,Configuring an email rule,1
+What is the correct response when a user suspects a phishing message,Report it to the security team,Click the link to investigate,Delete it without telling anyone,Forward it to coworkers,1
+What type of behavior is flagged when a user accesses resources outside their role,Risky behavior,Normal usage,Authorized action,Archived access,1
+What describes activity that does not align with expected patterns,Unexpected behavior,Standard routine,Scheduled task,Policy compliance,1
+What is a term for mistakes that can introduce security risks,Unintentional behavior,Planned configuration,Routine action,Accepted procedure,1
+What is a document used to define acceptable employee conduct,Policy or handbook,Threat intelligence report,Firewall log,Patch summary,1
+What skill involves understanding one’s surroundings and potential threats,Situational awareness,Information classification,Patch management,Software testing,1
+What term describes a person within an organization who poses a security risk,Insider threat,External hacker,Third party vendor,Application error,1
+What is the practice of creating and storing secure user authentication credentials,Password management,Log monitoring,Hardware repair,Service routing,1
+What refers to devices like USB drives that can introduce threats if misused,Removable media,Access logs,Patch files,Update scripts,1
+What can be exploited if left unguarded and plugged into a workstation,Cables,Passwords,Keyboard shortcuts,Backup images,1
+What attack involves manipulating people into giving up confidential information,Social engineering,IP spoofing,Packet injection,Code execution,1
+What term refers to protecting critical processes and information from exposure,Operational security,System reboot,Port mirroring,Remote login,1
+What work model introduces unique security challenges due to off-site access,Hybrid or remote work environment,Office-only policy,Mainframe network,Data center-only access,1
+What is the first report submitted when a security concern is raised,Initial report,Follow-up survey,Annual summary,Backup log,1
+What type of report is submitted on a routine basis to maintain awareness,Recurring report,Emergency alert,Temporary note,One-time submission,1
+What phase involves planning security awareness content and materials,Development,Execution,Mitigation,Correction,1
+What phase involves delivering training and applying planned materials,Execution,Development,Discovery,Retention,1
+How does a phishing campaign differ from a one-time phishing attempt,It targets a large group over time,It uses encrypted messages,It focuses on physical theft,It only uses social media,1
+What distinguishes recognizing a phishing attempt from responding to one,Recognition involves identifying the threat while response involves reporting it,Recognition involves deleting emails while response involves reading them,Recognition includes investigating links while response ignores them,Both are part of the same task with no clear separation,1
+Why is responding to suspicious messages different from recognizing them,It requires action to escalate the issue,It means clicking the link to see more,It stops the attack completely,It always results in data loss,1
+What best describes the difference between risky and unexpected behavior,Risky behavior has higher potential for harm even if it is expected,Unexpected behavior is always harmful,Risky behavior never violates policy,Risky behavior is always intentional,1
+How is unintentional behavior different from risky behavior,Unintentional behavior may not pose an immediate threat,Risky behavior is always unintentional,Risky behavior involves physical devices only,Unintentional behavior is always authorized,1
+How do policy handbooks differ from situational awareness training,Policies provide written guidance while situational awareness trains response to surroundings,Situational awareness includes compliance laws while handbooks do not,Policies are updated annually while awareness is once per year,There is no difference between them,1
+How does insider threat differ from social engineering,Insider threat originates internally while social engineering is external manipulation,Social engineering uses malware while insider threats do not,Insider threats always involve theft,They are the same concept with different names,1
+What is the primary distinction between password management and removable media practices,Password management protects access while removable media practices protect data storage,Password management deals only with routers,Removable media is limited to cables,There is no security risk in either,1
+How does social engineering differ from operational security,Social engineering exploits people while operational security protects processes and information,Operational security is not used in digital systems,Social engineering is a physical-only threat,They are interchangeable terms,1
+What unique challenge does hybrid work introduce compared to on-site work,Increased attack surface due to remote access,Reduced internet speed,More social interaction,Stronger firewall requirements,1
+Why are initial reports different from recurring reports in security awareness,Initial reports identify first-time events while recurring reports monitor trends,Recurring reports replace initial ones,Initial reports are only for high-level staff,There is no meaningful difference,1
+What is the key difference between development and execution phases in training,Development involves creating content while execution delivers it to users,Execution happens before development,They occur at the same time,Execution includes legal review,1
+An employee receives multiple emails asking them to verify credentials via a link with urgent wording. What best describes this situation,A spear phishing campaign,A malware infection,A password rotation policy,A phishing campaign,4
+A help desk technician notices an email with mismatched sender address and unusual grammar. What should they do first,Click the link to verify,Report the message as suspicious,Forward the email to a colleague,Ignore and delete it,2
+After reporting a suspicious email, which response step is most appropriate for the security team,Reboot the user workstation,Disable the network connection,Analyze the message and alert other users,Delete the user account,3
+A system admin notices a sales employee logging in at 3 AM from an overseas IP address. What type of behavior is this,Unintentional,Expected,Risky,Approved,3
+A support agent accidentally emails internal credentials to a customer. What kind of behavior does this represent,Intentional,Risky,Unexpected,Unintentional,4
+An organization distributes a handbook and trains staff to recognize email threats. What are these examples of,Reporting strategy and vulnerability scanning,Policy guidance and user training,Change management and documentation,Access control and incident response,2
+A department fails to notice an internal employee slowly exfiltrating sensitive data. Which training topic would help prevent this,Social engineering,Password policies,Insider threat awareness,Physical security,3
+Employees are instructed to create strong passphrases and use a password manager. What area of security awareness does this improve,Operational security,Insider threat,Password management,Physical access,3
+Which user behavior should raise concern when inspecting USB devices during a lab exercise,User runs antivirus before connecting the device,User asks IT to inspect media,User brings unknown removable media from home,User scans the barcode on packaging,3
+During an awareness workshop, employees practice recognizing baiting and impersonation tactics. What is this training focused on,Social engineering,Malware injection,Credential brute force,Firewall rules,1
+A technician configures a workstation to minimize network broadcast visibility and restrict public cloud access. What principle is being enforced,Social engineering,Operational security,Access provisioning,Physical hardening,2
+Remote employees are trained to avoid public WiFi and use company-issued VPNs. What topic does this training address,Password management,Removable media control,Hybrid work environment risks,Access control lists,3
+A new hire receives a mandatory quiz on phishing after orientation. What type of reporting does this support,Recurring monitoring,Initial reporting,Ad hoc compliance,External compliance,2
+A dashboard sends daily summaries of user training progress and risk alerts. What type of reporting is this,Initial monitoring,Physical inspection,Recurring monitoring,Post-incident analysis,3
+During a training design session, the lead decides to tailor modules for each department. What stage of the training cycle is this,Execution,Development,Monitoring,Evaluation,2
+A training facilitator schedules a week of instructor-led sessions followed by an online quiz. What does this describe,Planning,Procurement,Execution,Enrollment,3
