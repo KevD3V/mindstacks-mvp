@@ -1,33 +1,83 @@
 Q,Option1,Option2,Option3,Option4,Correct
-What does confidentiality in the CIA triad ensure,Data is accurate,Data is only available to authorized users,Systems are always online,Users are authenticated,2
-Which of the following best describes integrity in the CIA triad,Preventing unauthorized access,Ensuring uptime,Protecting against data tampering,Tracking user logins,3
-Availability in the CIA model refers to,Keeping data hidden,Maintaining system uptime,Auditing access logs,Encrypting communications,2
-What does non-repudiation guarantee,A user can’t deny sending a message,Data is encrypted end-to-end,Users are anonymous,Traffic is filtered by firewalls,1
-Which concept includes authentication, authorization, and accounting,Confidentiality,Integrity,Non-repudiation,AAA (Authentication Authorization and Accounting),4
-Authenticating a user with a fingerprint is an example of,Authenticating systems,Authorization model,Authenticating people,Threat scope reduction,3
-What is an example of authenticating a system,User password entry,Digital certificate validation,Retinal scan,Access badge,2
-What is the primary goal of authorization in AAA,Track user activity,Prevent unauthorized physical entry,Grant access based on policy,Encrypt sensitive data,3
-Which model grants access based on a user’s job function,Mandatory Access Control,Discretionary Access Control,Role-Based Access Control (RBAC),Attribute-Based Access Control (ABAC),3
-What is a gap analysis used for,Creating new vulnerabilities,Documenting physical access logs,Identifying security weaknesses,Encrypting network traffic,3
-Zero Trust architecture assumes,Users are always trusted,Networks are inherently secure,No implicit trust exists,Firewalls are optional,3
-Which Zero Trust component determines who gets access and when,Policy Enforcement Point,Policy Engine,Threat scope reduction,Policy Administrator,2
-What is the role of the Policy Administrator in Zero Trust,Applies policies to the network,Physically secures data,Authenticates users manually,Creates encryption keys,1
-Adaptive identity within the Zero Trust model means,Identity cannot change,Identity adapts to social engineering,Identity evaluation is dynamic,Identity is based on location,3
-What is threat scope reduction in Zero Trust,Adding more systems to increase scope,Limiting access to reduce exposure,Encrypting email traffic,Allowing only internal traffic,2
-Policy-driven access control ensures,Rules are manually adjusted,Access is based on predefined policies,Only admins can access systems,Users never share credentials,2
-Which best defines a Policy Enforcement Point in Zero Trust,Logs system activity,Executes access decisions from policy engine,Creates network policies,Monitors physical entry points,2
-What does the term subject/system refer to in the Zero Trust data plane,Hardware devices only,Users and devices interacting with resources,Firewalls and proxies,Routers and switches,2
-What is an implicit trust zone,Area where access is granted automatically,Encrypted zone of a file system,Trusted vendor network,Physical security room,1
-Which of the following is a physical security control,Bollard,Policy Engine,Policy-driven access control,Policy Enforcement Point,1
-Which device creates a secure area between two entry doors,Access control vestibule,Pressure sensor,Honeynet,Fencing,1
-Video surveillance is used for what type of control,Logical,Managerial,Technical,Physical,4
-Which physical control prevents unauthorized vehicle access,Bollards,Policy Engine,Honeyfile,Lighting,1
-How does lighting support physical security,Provides infrared detection,Prevents fire damage,Increases visibility and deters intrusion,Authenticates users,3
-Which sensor detects body heat,Microwave sensor,Ultrasonic sensor,Infrared sensor,Pressure sensor,3
-What is a honeypot designed to do,Backup important data,Attract attackers to a controlled environment,Authenticate users,Encrypt data at rest,2
-How does a honeynet differ from a honeypot,A honeynet uses single server traps,A honeynet contains multiple decoy systems,A honeynet is a type of sensor,A honeynet encrypts traffic,2
-What is a honeyfile used for,Encrypting backups,Detecting data exfiltration by serving as bait file,Authenticating users with fingerprint,Performing penetration testing,2
-What is the purpose of a honeytoken,Detect unauthorized use of fake credentials,Create physical barriers,Issue access badges,Encrypt traffic,1
-Which scenario best demonstrates use of deception technology,Firewall blocking access,IDS alerting on traffic,Fake data file triggering alert,Honeynet encrypting logs,3
-Which layered approach includes both physical and deception controls,Fencing and honeypot only,Lighting and AAA model,Bollards and honeynet,Authorization model and sensor logs,3
-A lab for this topic would most likely include,User credential management only,Simulation of Policy Engines and honeypots,Static access lists,MAC filtering tests,2
+What does the principle of confidentiality ensure in information security,Data is available when needed,Only authorized users can access data,Data is accurate and unchanged,Users are held accountable for actions,2
+What is the goal of integrity in the CIA triad,Prevent unauthorized data access,Ensure data is accurate and unaltered,Maintain system uptime,Track user actions,2
+Which aspect of the CIA triad focuses on ensuring timely access to resources,Confidentiality,Integrity,Availability,Authorization,3
+What does non-repudiation guarantee in a security context,A user can deny performing an action,Only system administrators access logs,Actions cannot be denied by the originator,All communications are encrypted,3
+What is the purpose of authentication in security,Prevent unauthorized physical entry,Identify and verify users or systems,Ensure data accuracy,Monitor system logs,2
+What is authorization responsible for in access control,Verifying credentials,Assigning privileges and permissions,Encrypting user sessions,Logging user activity,2
+What does accounting refer to in AAA,Identifying users,Granting permissions,Tracking and recording user actions,Validating input data,3
+What is gap analysis used for in cybersecurity,Encrypting data,Identifying missing controls or compliance gaps,Resetting user passwords,Logging physical access,2
+What is the main idea of the Zero Trust model,Trust all internal systems,Use single-layer authentication,Assume no implicit trust and verify all access,Allow external traffic by default,3
+What does adaptive identity involve in Zero Trust control plane,Static password rules,User identification that adjusts to context,Assigning fixed roles,Trusting all internal users,2
+How does threat scope reduction help security,Expands access rights,Limits access to only necessary resources,Allows anonymous access,Reduces logging and monitoring,2
+What is the function of policy-driven access control in Zero Trust,Provides default open access,Allows access based on dynamic rules and conditions,Uses only usernames for control,Disables access logs,2
+What is the role of the policy administrator in a Zero Trust architecture,Blocks all access requests,Evaluates requests and enforces access decisions,Physically guards servers,Develops user training material,2
+What does the policy engine do in Zero Trust,Stores login credentials,Generates and evaluates access decisions based on policy,Encrypts data at rest,Disables system updates,2
+What are implicit trust zones in the data plane,Areas assumed safe without verification,Zones protected by firewalls,Segments requiring two-factor authentication,Encrypted backup zones,1
+What is the subject or system in Zero Trust,The resource being requested,The user or entity requesting access,The log of previous access attempts,The physical network,2
+What is the function of the policy enforcement point,Detect anomalies in the network,Apply decisions made by the policy engine,Perform software updates,Send alerts to administrators,2
+What is the purpose of a bollard in physical security,Illuminate dark areas,Prevent vehicle-based attacks,Authenticate users,Detect network intrusions,2
+What is an access control vestibule designed to do,Allow multiple people to enter quickly,Control one person at a time for access verification,Enable emergency exits,Store visitor logs,2
+How does fencing enhance security,Detects motion,Restricts physical entry to a perimeter,Grants digital access,Authenticates user credentials,2
+What is the function of video surveillance in physical security,Encrypt data transmissions,Verify network configuration,Monitor and record physical activity,Manage system logs,3
+What role does a security guard play in physical security,Automatically unlock doors,Monitor systems remotely,Provide human oversight and response,Encrypt file systems,3
+What is an access badge used for,Triggering fire alarms,Tracking user behavior online,Granting or denying physical access,Scanning for malware,3
+How does lighting support physical security,Helps identify users,Reduces shadows and deters intrusions,Stores backup data,Controls ventilation,2
+What does an infrared sensor detect,Sound changes,Light levels,Heat signatures,Magnetic fields,3
+What is the function of a pressure sensor in physical security,Detect vibrations in audio,Measure ambient light,Identify force or weight applied,Detect unauthorized wireless signals,3
+What does a microwave sensor detect in security applications,Heat levels,Motion through radio waves,Humidity changes,Light reflection,2
+How does an ultrasonic sensor work in security,Detects changes in air pressure,Uses high-frequency sound waves to detect movement,Uses magnetic fields to identify threats,Scans optical barcodes,2
+What is a honeypot in cybersecurity,A backup server,A system designed to attract and study attackers,A system that blocks all incoming traffic,An encrypted database,2
+What is a honeynet,An encrypted cloud service,A real production network,A group of honeypot systems,A set of firewall rules,3
+What is the purpose of a honeyfile,A decoy document used to detect unauthorized access,A backup configuration file,A hidden log file,A user profile cache,1
+What is a honeytoken used for in deception technology,Real credential used for admin access,A script that installs malware,A decoy item like fake credentials used to detect breaches,A patch management tool,3
+Which part of the CIA triad ensures data is not modified by unauthorized users,Confidentiality,Availability,Integrity,Non-repudiation,3
+How does non-repudiation differ from authentication,It verifies the source of data,It prevents data loss,It ensures availability,It checks access permissions,1
+Which component of AAA grants permission to perform specific actions,Authentication,Authorization,Accounting,Validation,2
+What is a key distinction between authenticating people and authenticating systems,People use biometrics, systems cannot be authenticated,People require authorization first,Only systems use multifactor,People use credentials, systems use certificates,3
+How does authorization differ from authentication,Authentication confirms identity, authorization grants permissions,Authorization precedes authentication,Authentication grants data access,Authentication validates transactions,1
+What is the primary purpose of gap analysis,To identify risks,To compare current state to desired state,To conduct vulnerability scans,To measure access violations,2
+How does adaptive identity differ from policy-driven access control,Adaptive identity uses context for decisions,Policy-driven access control uses predefined rules,Adaptive identity is manual,Policy-driven is random,Adaptive uses encryption,Policy-driven uses ports,1
+Which Zero Trust component is responsible for enforcing decisions,Policy Engine,Subject,Policy Enforcement Point,Implicit Trust Zone,3
+What distinguishes a Policy Administrator from a Policy Engine,Administrator applies rules, Engine creates rules,Engine enforces access,Administrator blocks traffic,Engine monitors packets,Administrator encrypts data,1
+How does a subject differ from a system in the Zero Trust Data Plane,A subject is a user or process, a system is a host device,A subject is a policy, a system is a file,A subject is hardware, a system is identity,A subject is a sensor, a system is a camera,1
+What makes implicit trust zones incompatible with Zero Trust,They assume trust by default,They require passwords,They use multiple factors,They rely on encryption,1
+How does fencing differ from bollards as physical security,One creates a barrier around areas, the other blocks vehicle entry,Fencing is digital, bollards are physical,Fencing deters phishing, bollards stop threats,Fencing is more expensive than lighting,1
+What is a key difference between infrared and microwave sensors,Infrared detects heat, microwave detects movement,Microwave detects light, infrared detects pressure,Both detect temperature,Microwave is used for lighting,1
+Which sensor technology is best for detecting pressure changes,Ultrasonic,Infrared,Microwave,Pressure,4
+How does a honeyfile differ from a honeypot,A honeyfile is a decoy document, a honeypot is a decoy system,A honeypot is a password list, honeyfile is a script,Both are network firewalls,Honeyfile is a physical barrier,1
+What distinguishes a honeynet from a honeypot,A honeynet is a collection of honeypots,A honeynet is used only in physical security,Honeypot is a document trap,Honeynet blocks IPs,1
+How do honeytokens function differently from honeyfiles,Honeytokens are embedded decoys, honeyfiles are visible decoy docs,Honeytokens are for encryption,Honeytokens log login attempts,Honeyfiles control access,1
+How does video surveillance differ from access badges in physical security,Surveillance observes, badges grant entry,Surveillance requires training,Badges are wireless only,Both use firewalls,1
+What is the role of access control vestibules in physical security,They isolate and verify users before entry,They log computer access,They encrypt communications,They store biometric data,1
+Which distinguishes ultrasonic from infrared sensors,Ultrasonic uses sound waves, infrared detects heat,Ultrasonic detects light,Infrared senses sound,Ultrasonic is for cameras,1
+What separates lighting from sensors in physical security,Lighting deters visually, sensors detect movement or changes,Sensors are always passive,Lighting detects heat,Both require pressure plates,1
+How do authentication and authorization work together in AAA,Authentication confirms identity before authorization grants access,Authorization is for tracking only,Authentication stores passwords,Authorization confirms identity before access,1
+A hospital encrypts patient records and implements strict access control. Which principle of the triad is this primarily protecting,Availability,Integrity,Confidentiality,Non-repudiation,3
+A company uses digital signatures to ensure senders cannot deny sending emails. What is this an example of,Authentication,Non-repudiation,Authorization,Integrity,2
+A user logs in with a password, gets access to files based on role, and actions are logged. What concept is demonstrated,Authentication,Authorization and Accounting,Accounting only,Confidentiality,2
+A company uses fingerprint scanners for employees. What is this an example of,Authenticating systems,Authorization model,Authenticating people,Non-repudiation control,3
+A system verifies certificates from devices before allowing access. What is this an example of,Authenticating people,Authenticating systems,Non-repudiation,Encryption,2
+An auditor identifies a mismatch between expected security controls and actual configurations. What process is being performed,Vulnerability scanning,Patch management,Gap analysis,Risk register update,3
+A company uses context-based policies to allow or deny access depending on user behavior. Which Zero Trust component is this,Policy-driven access control,Policy Enforcement Point,Policy Administrator,Implicit trust zone,1
+A policy engine decides whether a user should be allowed access. What enforces the final decision,Policy Administrator,Subject,System,Policy Enforcement Point,4
+In a Zero Trust environment, who or what is the entity requesting access to a resource,Policy Engine,Subject,Policy Enforcement Point,Implicit trust zone,2
+A cloud provider separates internal networks and avoids auto-trusting users. What concept are they applying,Adaptive identity,Implicit trust zone,Authorization model,Encryption tunnel,2
+A user walks through a series of locked doors before entering a server room. Which security measure is in use,Access control vestibule,Bollard,Fencing,Lighting,1
+Guards are stationed at entry points to verify identification. What type of physical control is this,Lighting,Bollards,Security guard,Sensors,3
+A warehouse uses metal fencing to keep intruders from accessing inventory areas. Which type of physical security is this,Bollards,Video surveillance,Fencing,Ultrasonic sensors,3
+A parking lot has concrete posts installed to stop vehicle access to the building. What are these called,Access badges,Fencing,Lighting,Bollards,4
+A company installs cameras that store footage locally for 90 days. What security control is this,Video surveillance,Infrared detection,Lighting,Access control vestibule,1
+During a security lab, a technician configures infrared sensors to trigger alerts when body heat is detected. What is the sensor type,Microwave,Pressure,Infrared,Ultrasonic,3
+In a lab, a technician sets up a sensor to detect movement using high-frequency sound waves. What sensor is being tested,Microwave,Pressure,Ultrasonic,Infrared,3
+You are assigned to test a pressure-sensitive mat for triggering door locks. What sensor type are you working with,Microwave,Pressure,Infrared,Ultrasonic,2
+Which sensor would most likely be used to detect motion through walls using wave reflection,Infrared,Pressure,Microwave,Ultrasonic,3
+A data center uses badge scanners to allow entry only to authorized personnel. What is being used,Access badge,Lighting,Bollard,Fencing,1
+A company deploys fake files with embedded tracking to detect unauthorized access attempts. What are these files called,Honeynet,Honeyfile,Honeytoken,Honeypot,2
+An attacker accesses a decoy server filled with fake data. What kind of deceptive system has been triggered,Honeyfile,Honeypot,Honeytoken,Honeynet,2
+A red team engages with a simulated network designed to mimic real infrastructure. What is this setup called,Honeypot,Honeyfile,Honeytoken,Honeynet,4
+An organization embeds unique identifiers in their customer database to trace leaks. What is this an example of,Honeyfile,Honeytoken,Honeypot,Non-repudiation,2
+What element of Zero Trust limits access dynamically based on risk and context,Threat scope reduction,Policy-driven access,Adaptive identity,Policy Engine,3
+Which Zero Trust layer focuses on routing and enforcement rather than decision-making,Data Plane,Control Plane,Policy Engine,Policy Administrator,1
+Which component updates policies and pushes configurations to enforcers in a Zero Trust model,Policy Enforcement Point,Policy Engine,Policy Administrator,3
+Which control method defines who can access what, based on organizational rules,Authorization model,Authentication method,Policy Enforcement,Gap analysis,1
