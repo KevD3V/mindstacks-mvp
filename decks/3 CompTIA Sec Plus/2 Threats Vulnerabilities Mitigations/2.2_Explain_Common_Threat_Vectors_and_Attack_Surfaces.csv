@@ -1,30 +1,84 @@
 Q,Option1,Option2,Option3,Option4,Correct
-What is a common delivery method used in message-based attacks,Email,Worms,Trojans,Sniffers,1
-Which threat vector uses images to conceal malicious content,Image-based,Phishing,Rootkits,Keyloggers,1
-A threat delivered via Microsoft Word document is an example of what vector,File-based,Voice call,Backdoor,Botnet,1
-Which type of communication is most likely targeted in vishing,Voice call,Email,IM,USB drive,1
-What threat vector involves storage devices such as USBs,Removable device,Phishing,Social engineering,IM,1
-Which type of software threat typically exploits outdated user apps,Vulnerable software,Secure bootloaders,Firewalls,Biometrics,1
-How does a client-based vulnerability differ from agentless,Requires local software,Needs no update,Stronger password,No user input needed,1
-What is a risk of using outdated applications,Unsupported systems may lack security patches,They run faster,They block all malware,They log users out,1
-Which network type is commonly exploited due to weak encryption,Wireless,Wired,Bluetooth,Fiber,1
-Bluetooth vulnerabilities often rely on which issue,Unsecure protocol,Strong firewall,Hard drive failure,Patch mismatch,1
-Leaving TCP port 23 open can expose a system to what risk,Open service port,Encrypted traffic,Signed scripts,Redundancy loop,1
-Why are default credentials a major security risk,Easily guessed by attackers,Used only once,Randomized each session,No privileges allowed,1
-Which part of the supply chain might unknowingly introduce threats,Vendors,Firewalls,Clients,Log files,1
-What is the role of a managed service provider (MSP) in supply chain risk,Third-party with privileged access,Main antivirus,Internal data center,Patch rollback tool,1
-An attacker pretending to be tech support to steal data is engaging in,Impersonation,Phishing,Smishing,Vishing,1
-Phishing is primarily conducted through what channel,Email,SMS,Voice call,USB,1
-Smishing is a form of phishing over what medium,Short Message Service (SMS),Phone calls,Radio,Hard drives,1
-Vishing targets victims using what method,Voice call,Firewall,Browser,Physical access,1
-A site designed to look like a real bank page is an example of what threat,Brand impersonation,Man-in-the-middle,Backdoor,IP spoofing,1
-What attack involves tricking victims with a nearly identical domain name,Typosquatting,Watering hole,Honeypot,Keylogger,1
-Which attack sets traps on websites likely to be visited by a target group,Watering hole,Drive-by download,Phishing,Pretexting,1
-What does a business email compromise typically target,Executive credentials,LAN switches,USB policies,System cache,1
-What is pretexting in social engineering,Creating a believable lie to manipulate someone,Brute-forcing a login,Bypassing encryption,Changing BIOS,1
-What tactic spreads false or misleading info to manipulate perception,Misinformation/disinformation,Patch injection,MAC spoofing,Hash collision,1
-Which attack surface involves both technical and human weaknesses,Social engineering,Firewall rule sets,Data validation,Content filtering,1
-Which of the following would be a valid lab simulation for this topic,Simulating phishing email detection,Running BIOS checksum,Calculating subnet masks,Installing drivers,1
-How can an organization reduce threat exposure from open service ports,Close unused ports and audit regularly,Increase bandwidth,Add more DNS entries,Turn off updates,1
-What is a real-world risk of allowing unsupported systems in the network,Increased vulnerability to exploits,Improved performance,Reduced login failures,More stable apps,1
-Which of the following is an example of using default credentials,Username admin and password admin,Dynamic password with MFA,Encrypted token exchange,PKI-signed auth,1
+What is a common threat vector that uses fraudulent emails to trick users into revealing information,Email,Voice call,Removable device,Open ports,1
+Which method of attack involves malicious messages sent over Short Message Service,Short Message Service,Image-based,Typosquatting,Vishing,1
+Which threat vector uses chat platforms to deliver malicious links or attachments,Instant messaging,Watering hole,Bluetooth,Supply chain,1
+What is an attack method where harmful content is hidden in pictures,Image-based,File-based,Voice call,Misinformation,1
+Which attack involves delivering malware through document attachments or executables,File-based,Open service ports,Wireless,Social engineering,1
+What attack vector uses phone calls to deceive individuals into giving up sensitive information,Voice call,Email,Smishing,Removable device,1
+Which device can be physically connected to a system and used to introduce malware,Removable device,Client-based software,Bluetooth,Certificate,1
+Which type of software requires installation on the client machine,Client-based,Agentless,Browser-based,Virtualized,1
+What kind of solution operates without installing agents on endpoints,Agentless,Client-based,Host-based,Portable,1
+What refers to software or systems that no longer receive security updates or support,Unsupported systems,Updated patches,Active directories,Secure protocols,1
+Which type of network is at risk due to open access and weak encryption,Wireless,Wired,Tokenized,Hashed,1
+Which network type, when improperly secured, can allow unauthorized access via physical connection,Wired,Wireless,Bluetooth,Voice,1
+Which short-range communication technology can be exploited if not properly managed,Bluetooth,WiFi,Short Message Service,File transfer,1
+What are network entry points that remain accessible and may be exploited if not managed,Open service ports,Encrypted tunnels,Firewall rules,MAC filters,1
+What are login details provided by manufacturers that attackers often exploit if unchanged,Default credentials,Multifactor authentication,Public keys,Group policies,1
+Which supply chain entity provides outsourced IT support and services,Managed service providers,Vendors,Typosquatters,Phishers,1
+What term describes a company that sells products used by an organization,Vendor,Supplier,Hacktivist,Technician,1
+Who delivers raw materials or components used in creating end products for a company,Supplier,Vendor,Service provider,Threat actor,1
+What is the general term for manipulating people into revealing confidential information,Social engineering,Watering hole,Malware,Supply chain,1
+What is the social engineering technique that uses email to trick victims into taking harmful actions,Phishing,Vishing,Impersonation,Smishing,1
+What is the name for a voice-based scam where attackers pretend to be legitimate authorities,Vishing,Phishing,Brand impersonation,Watering hole,1
+What attack vector uses text messages to deceive users into clicking malicious links,Smishing,Pretexting,Misinformation,Tokenization,1
+What is the spread of false or misleading information to influence opinion or decision-making,Misinformation,Phishing,File injection,Malware,1
+What involves pretending to be someone else to gain unauthorized access to systems,Impersonation,Typosquatting,Blackmail,Honeypotting,1
+What is a targeted email attack where a criminal pretends to be an executive requesting sensitive actions,Business email compromise,Vishing,Phishing,Disruption,1
+What is the practice of creating a fabricated scenario to manipulate a victim into disclosing information,Pretexting,Smishing,File sharing,Physical breach,1
+What is an attack method where websites known to be visited by a target group are compromised,Watering hole,Phishing,Agentless spoofing,Secure tunneling,1
+What is the act of mimicking a trusted company or service to trick users into sharing credentials,Brand impersonation,Watering hole,Authorization,Encryption,1
+What is a technique where attackers register misspelled domains to catch users who mistype URLs,Typosquatting,Credential stuffing,Fake logins,Port scanning,1
+How does email differ from instant messaging as a message-based threat vector,Email is often scanned and delayed while IM is real-time and less filtered,IM is encrypted and email is not,IM uses images more than email,Email cannot deliver malware,1
+Which message-based vector commonly uses text over mobile networks compared to the internet,Short Message Service,Email,Instant messaging,Voice call,1
+Which message method is more likely to be used in corporate real-time collaboration platforms,Instant messaging,Email,Short Message Service,Phishing,1
+How do image-based and file-based threat vectors differ,Image-based hides malicious code inside media while file-based embeds it in executables,File-based uses steganography more,Image-based requires admin privileges,File-based relies on typosquatting,1
+Which vector is more likely to exploit file extensions to trick users,File-based,Image-based,Smishing,Voice call,1
+How does voice call phishing differ from email phishing,Voice calls involve real-time manipulation while email is static,Email requires more bandwidth,Voice call attacks are not considered social engineering,Email attacks are always encrypted,1
+Why are removable devices a higher physical threat than other vectors,They bypass network security controls,They encrypt traffic,They require two-factor authentication,They rely on web filters,1
+What is a key difference between client-based and agentless vulnerable software,Client-based requires installation while agentless does not,Agentless runs faster,Client-based is cloud-only,Agentless offers stronger encryption,1
+How does using agentless software reduce threat surface compared to client-based,It avoids endpoint installation reducing entry points,It blocks all ports,It requires default credentials,It increases insider threats,1
+Why are unsupported systems a greater risk than legacy systems still maintained,They no longer receive patches or updates,They are more modern,They use more power,They support encryption natively,1
+How is a wireless network generally more vulnerable than a wired one,Wireless transmissions can be intercepted over the air,Wired uses default credentials,Wireless cannot use firewalls,Wired requires patching,1
+What distinguishes wired networks from wireless in terms of threat exposure,Physical access is needed to exploit wired while wireless can be attacked remotely,Wired networks use encryption more,Wireless blocks file-based attacks,Wired uses Bluetooth by default,1
+What makes Bluetooth threats different from typical network-based attacks,Bluetooth operates over short range making it ideal for proximity attacks,Bluetooth is wired,Bluetooth is not supported by operating systems,Bluetooth cannot be scanned,1
+Why are open service ports a significant risk compared to closed ports,They allow unsolicited network connections,They are encrypted,They disable updates,They require wireless access,1
+How do default credentials increase the attack surface,They provide easy unauthorized access if unchanged,They encrypt login attempts,They are used only for backups,They slow down systems,1
+What makes a managed service provider a unique supply chain risk,They have privileged access to customer infrastructure,They operate only during business hours,They use outdated software,They avoid internet access,1
+How does a vendor differ from a supplier in a supply chain threat model,Vendors provide software or hardware while suppliers provide components or materials,Suppliers work directly with clients,Vendors create viruses,Suppliers configure firewalls,1
+What is the role of a supplier in expanding a threat vector in a supply chain,Suppliers may introduce vulnerabilities via physical components or software,Suppliers encrypt user credentials,Suppliers detect malware,Suppliers reduce traffic,1
+How is phishing different from impersonation,Phishing uses deceptive communication while impersonation involves assuming an identity,Impersonation requires encryption,Phishing occurs only on mobile,Impersonation blocks users,1
+What distinguishes phishing from vishing,Phishing is done via email while vishing uses voice calls,Vishing is safer,Phishing uses steganography,Vishing uses hashing,1
+How does smishing differ from phishing in attack delivery,Smishing uses mobile text messages while phishing uses email,Phishing uses voice calls,Smishing is encrypted by default,Phishing never uses SMS,1
+What is the difference between misinformation and pretexting,Misinformation spreads false content while pretexting involves creating fake scenarios,Misinformation uses malware,Misinformation is encrypted,Pretexting blocks content,1
+What is a key difference between impersonation and business email compromise,Impersonation often happens in person or over calls while business email compromise targets email channels,Business email compromise is encrypted,Impersonation uses tokens,Email compromise uses USBs,1
+What separates pretexting from other social engineering techniques,Pretexting builds a fabricated context to gain trust,Pretexting requires two-factor authentication,Pretexting always uses malware,Pretexting uses encryption tunnels,1
+How is a watering hole attack different from a phishing attack,Watering hole compromises websites frequently visited by the target group while phishing targets individuals directly,Phishing uses email servers,Watering hole encrypts systems,Phishing disables firewalls,1
+How is brand impersonation different from typosquatting,Brand impersonation replicates the look of a trusted source while typosquatting relies on misspelled URLs,Typosquatting encrypts emails,Brand impersonation changes hardware,Typosquatting uses steganography,1
+What distinguishes typosquatting from phishing,Typosquatting targets mistyped URLs while phishing uses misleading messages,Phishing uses hashes,Typosquatting disables services,Phishing works offline,1
+A user receives an unexpected link in their work email claiming to be from IT support requesting login credentials,Phishing,Smishing,Vishing,Impersonation,1
+An attacker sends text messages pretending to be the CEO asking for gift cards,Smishing,Vishing,Pretexting,Typosquatting,1
+A technician is tricked into clicking a malicious IM link during a support chat session,Instant messaging,Voice call,Watering hole,Business email compromise,1
+A malware payload is hidden inside a JPEG attached to a social media post,Image-based,File-based,Phishing,Misinformation,1
+A user downloads a spreadsheet from a file share which launches macros to install spyware,File-based,Image-based,Voice call attack,Impersonation,1
+An attacker leaves a voicemail using fear tactics to trick a user into revealing login information,Vishing,Phishing,Smishing,Pretexting,1
+An attacker drops USB drives labeled confidential outside an office hoping employees plug them in,Removable device,Bluetooth exploit,Watering hole,Brand impersonation,1
+You are assessing a platform that relies heavily on client-installed tools for access, increasing the attack surface,Client-based,Agentless,Unsupported,File-based,1
+Your network audit reveals a lack of antivirus and no update policy on an old workstation,Unsupported systems,Secure enclave,Removable device,Trusted platform module,1
+Your company uses a public wireless network for guests without encryption or user isolation,Wireless threat,Wired threat,Bluetooth beaconing,Smishing risk,1
+Employees plug laptops into open wall jacks bypassing firewall rules,Wired threat,Voice call threat,Open port scanning,Watering hole,1
+An attacker stands near an employee to intercept data via a wireless headset,Bluetooth threat,Voice call exploit,Wired risk,Typosquatting,1
+A network scan reveals ports 21, 23, and 3389 open on an exposed server,Open service ports,Client-based issue,Phishing vector,MSP leak,1
+A new router is deployed using admin and password for login,Default credentials,Supplier backdoor,Wired misconfiguration,Volume encryption,1
+An attacker breaches a third-party IT vendor to gain access to a client's data center,Managed service provider threat,Wireless sniffing,Pretexting attempt,Steganography,1
+A component from a hardware vendor introduces insecure firmware,Supplier threat,Phishing attack,Business email compromise,Data masking,1
+A software vendor update introduces a backdoor that is later exploited,Vendor supply chain risk,Legacy device exploit,File-based phish,Ultrasonic beaconing,1
+A user receives a fake login link that mimics their banking website,Phishing,Business email compromise,Brand impersonation,Watering hole,1
+A voice message directs a user to install fake antivirus software,Vishing,Phishing,Supply chain spoof,Hash collision,1
+A fake order confirmation text message tricks a user into clicking a link,Smishing,Impersonation,Blockchain phish,Sensor exploit,1
+An attacker spreads false security alerts on social media to cause panic,Misinformation,Smishing,Brand impersonation,Hashing,1
+An employee receives a call from someone pretending to be IT requesting credentials,Impersonation,Key escrow attack,Wildcard phishing,Pretexting,1
+A fraudulent email appears to be from the CFO requesting funds transfer,Business email compromise,Typosquatting,Volume encryption,Watering hole,1
+An attacker pretends to be a job recruiter to get a victim to click a malicious link,Pretexting,Smishing,Secure enclave bait,Certificate spoofing,1
+Attackers compromise a popular forum and inject malware that loads when visited,Watering hole,Business email compromise,Data exfiltration,Microwave spoofing,1
+A malicious site mimics a real brand but has a domain spelled slightly wrong,Typosquatting,Smishing,Secure enclave clone,Honeytoken trap,1
+A fake Microsoft website collects user credentials by copying their official branding,Brand impersonation,Certificate spoofing,Honeynet gateway,Hash flood,1
