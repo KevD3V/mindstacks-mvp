@@ -1,40 +1,105 @@
 Q,Option1,Option2,Option3,Option4,Correct
-What is the purpose of Public Key Infrastructure (PKI),To monitor network traffic,To manage encryption keys and digital certificates,To store passwords,To create VPN tunnels,2
-Which key in PKI is meant to be shared publicly,Private key,Shared key,Public key,Master key,3
-What is the role of a private key in asymmetric encryption,To be used by all users,To decrypt data encrypted with the public key,To create usernames,To generate passwords,2
-What is key escrow used for,To hide encryption keys,To store backup encryption keys with a trusted third party,To delete unused certificates,To authenticate users,2
-Which encryption level protects an entire storage device,Partition,Record,File,Full-disk,4
-Which level of encryption would most likely be used to secure individual rows in a database,File,Partition,Record,Transport,3
-Which encryption level is best suited for protecting in-transit data,Full-disk,Transport,File,Database,2
-How does symmetric encryption differ from asymmetric encryption,It uses a key pair,It uses a single shared key for both encryption and decryption,It is not reversible,It is only used for hashing,2
-What is the main benefit of asymmetric encryption over symmetric encryption,Faster processing,Uses shorter keys,No need to share a secret key,Better compression,3
-Which of the following is used to securely exchange encryption keys over an insecure network,Key stretching,Salting,Key exchange,Hashing,3
-Which of the following best describes a cryptographic algorithm,Mathematical procedure used to encrypt and decrypt data,Protocol for wireless access,Physical security method,Standard network model,1
-What impact does increasing key length have on encryption,It makes it easier to brute-force,It weakens encryption,It strengthens encryption,It makes encryption obsolete,3
-What does the Trusted Platform Module (TPM) do,Manages internet traffic,Performs cryptographic functions and secures hardware,Monitors employee behavior,Authenticates physical entry,2
-Which of the following is a dedicated hardware device for cryptographic operations,HSM,TPM,IDS,WAF,1
-Which tool is used to manage cryptographic keys across systems,Firewall,Key management system,Token vault,Certificate pinning,2
-What is a secure enclave,Secure facility used for physical security,Isolated part of a CPU that handles secure data processing,Encrypted email system,Obsolete cryptography tool,2
-What is the purpose of steganography,To encrypt network traffic,To hide data within other files,To hash passwords,To manage digital certificates,2
-Which obfuscation method replaces sensitive data with non-sensitive placeholders,Salting,Steganography,Tokenization,Key exchange,3
-Which method hides data by altering it but keeping its format,Data masking,Hashing,Tokenization,Digital signing,1
-What is the primary use of hashing,To encrypt and decrypt files,To create fixed-length representations of data,To generate passwords,To block viruses,2
-What is the purpose of salting,To store passwords in plain text,To add randomness to password hashes,To encrypt video streams,To manage VPNs,2
-How do digital signatures ensure data integrity,By compressing data,By verifying a sender's public key and ensuring data was not modified,By hiding data inside images,By storing passwords,2
-What does key stretching achieve,It makes brute-force attacks more difficult by strengthening weak keys,It shortens encryption time,It deletes unused keys,It simplifies hashing,1
-Which technology is often associated with decentralized records and cryptocurrency,Hashing,Firewall,Blockchain,Tokenization,3
-What is an open public ledger,An encrypted private database,Log of all failed logins,A transparent record accessible to all,Government security list,3
-What is the role of a certificate authority,To install antivirus,To issue and verify digital certificates,To encrypt hard drives,To manage employee records,2
-What is a Certificate Revocation List (CRL) used for,To store backup keys,To list untrusted or revoked certificates,To encrypt passwords,To manage VLANs,2
-What does the Online Certificate Status Protocol (OCSP) provide,Certificate encryption,Real-time certificate validation,Firewall updates,VPN tunneling,2
-What distinguishes a self-signed certificate from a third-party certificate,It is issued by a trusted authority,It is not verifiable by others,It comes with a warranty,It uses hashing,2
-What is the root of trust in a PKI,The longest certificate chain,The final encrypted file,The foundational trust anchor for all certificates,The user password,3
-What is the purpose of a Certificate Signing Request (CSR),To encrypt network traffic,To request a digital certificate from a certificate authority,To revoke a certificate,To test encryption speed,2
-What is the advantage of using a wildcard certificate,Secures multiple subdomains with a single certificate,Provides more encryption bits,Is self-renewing,Is used for hashing,1
-A system encrypts all database records individually. What level of encryption is used,File,Database,Record,Partition,3
-A company uses blockchain to verify transaction integrity. What core principle is supported,Confidentiality,Availability,Integrity,Obfuscation,3
-If you store encrypted keys in a trusted third-party facility for recovery, which mechanism is in place,Key escrow,Digital signature,PKI,Blockchain,1
-Which of these is most likely used in full-disk encryption,Key management system,Tokenization,TPM,Self-signed certificate,3
-You are setting up transport encryption for a secure website. What encryption type are you most likely using,Asymmetric,Symmetric,Tokenization,Hashing,1
-In a secure email system, what ensures that the message has not been altered,Digital signature,Data masking,Key length,File encryption,1
-A technician is testing OCSP responses. What is their likely goal,Validating real-time certificate status,Generating private keys,Hashing user passwords,Encrypting file systems,1
+What is the purpose of a public key in cryptography,To generate random numbers,To decrypt data,To encrypt data for a specific recipient,To create a digital certificate,3
+What is a private key primarily used for,Encrypting public messages,Signing and decrypting secure data,Sharing between users,Creating hash values,2
+What is key escrow used for,To store revoked certificates,To hide data in images,To securely store encryption keys for recovery,To generate random encryption keys,3
+What does full-disk encryption protect,Only certain folders,Only boot sector data,All data on the drive including system files,Only encrypted volumes,3
+Which encryption level targets specific portions of storage,File encryption,Full-disk encryption,Partition encryption,Database encryption,3
+What does file-level encryption secure,Only the operating system,Entire partitions,Individual files regardless of location,Entire database records,3
+What does volume encryption apply to,Specific records in a table,A group of files,An entire logical storage volume,Encrypted email messages,3
+Which encryption method protects entire databases at once,Record encryption,Partition encryption,Database encryption,3
+What does record-level encryption secure,All drives,Specific database entries,Entire tables,Encrypted passwords,2
+What does transport encryption secure,Data stored on hard drives,Data transmitted between systems,Encrypted backups,Access control rules,2
+Which encryption type uses a different key for encryption and decryption,Symmetric,Hash-based,Asymmetric,Token-based,3
+Which encryption type uses the same key for both encryption and decryption,Asymmetric,Symmetric,Steganography,Public ledger,2
+What is the purpose of a key exchange protocol,To create random tokens,To share public keys only,To securely share encryption keys between parties,To encrypt files with digital signatures,3
+What is the role of cryptographic algorithms,To hide metadata,To define rules for secure encryption and decryption,To revoke digital certificates,To shorten long passwords,2
+What does key length affect in cryptography,Key expiration time,Encryption strength and resistance to brute force,Password visibility,Hashing algorithm type,2
+What is a Trusted Platform Module used for,Generating random MAC addresses,Managing access badges,Securely storing encryption keys on hardware,Encrypting network traffic,3
+What does a hardware security module provide,A secure vault for hardware assets,A tool for database indexing,Hardware-based secure key generation and storage,A backup for biometric data,3
+What is the function of a key management system,To manage login attempts,To secure endpoint devices,To handle generation, distribution, and rotation of encryption keys,To replace hashing algorithms,3
+What does a secure enclave provide,A cloud backup system,A trusted execution environment for sensitive data,A hardware firewall,A public encryption key list,2
+What is steganography used for,Hiding data within other non-secret files,Encrypting files with passwords,Generating random hashes,Masking public keys,1
+What is tokenization in data security,Replacing sensitive data with non-sensitive equivalents,Encrypting with public keys,Generating password hashes,Securing digital certificates,1
+What is the purpose of data masking,To hide data within a certificate,To obscure specific data values with realistic-looking content,To stretch cryptographic keys,To identify ownership of encryption keys,2
+What is hashing used for in cybersecurity,Encrypting data with passwords,Storing plaintext securely,Creating unique fixed-length representations of data,Replacing public keys,3
+What is the purpose of salting a hash,To make it shorter,To make it easier to decrypt,To add randomness and prevent precomputed attacks,To replace encryption entirely,3
+What does a digital signature provide,Randomized encryption,Verification of data origin and integrity,Physical key storage,Device authentication,2
+What is key stretching used for,Shortening encryption keys,Speeding up encryption,Enhancing weak passwords through multiple hashing rounds,Encrypting data without public keys,3
+What is blockchain best known for,Creating digital certificates,Storing hashed records in a tamper-resistant distributed ledger,Encrypting hard drives,Managing firewalls,2
+What is an open public ledger used for,Storing internal audits,Encrypting private keys,Recording transactions in a transparent and immutable format,Restricting software access,3
+What is the function of a certificate in cybersecurity,To encrypt files,To identify and authenticate entities in a secure communication,To hash messages,To start a key escrow,2
+What is the role of certificate authorities,To encrypt passwords,To verify and issue digital certificates,To manage password length,To monitor internal logs,2
+What is a certificate revocation list used for,Encrypting revoked passwords,Identifying expired login attempts,Listing certificates that should no longer be trusted,Assigning token values to keys,3
+What does Online Certificate Status Protocol provide,Encryption for wireless devices,A way to validate certificate status in real time,A replacement for certificate authorities,A key generation protocol,2
+What is a self-signed certificate,One signed by a third party,One signed by the certificate owner itself,One issued for wireless devices only,One used in password reset tools,2
+What is a third-party certificate,One signed by a user,One verified by an external trusted authority,One that contains encrypted passwords,One generated by a secure enclave,2
+What does the root of trust refer to in a certificate chain,The lowest level of access,The original trusted source that anchors the trust model,A backup key location,The user with signing rights,2
+What is a certificate signing request used for,To create access control policies,To revoke user tokens,To request a digital certificate from a certificate authority,To change root keys,3
+What is a wildcard certificate used for,Encrypting passwords,Securing all subdomains under a primary domain,Replacing expired root certificates,Allowing encryption without a key,2
+How does a public key differ from a private key,It is kept secret by the owner,It is used to decrypt data,It is shared to allow encryption,It generates certificate requests,3
+What distinguishes a private key from a public key,It is published in a certificate,It can be used by anyone,It is used to validate public keys,It is kept secret and used to decrypt or sign,4
+How does key escrow differ from direct key storage,It allows password recovery only,It stores keys in plaintext,It provides a backup copy of encryption keys for authorized access,It bypasses encryption policies,3
+Which encryption level offers broader coverage than file-level encryption,Record encryption,Volume encryption,Partition encryption,Full-disk encryption,4
+How does partition encryption differ from volume encryption,It secures cloud backups,It encrypts logical groupings within a drive,It encrypts entire databases,It applies only to text files,2
+Which level of encryption focuses specifically on individual files,Full-disk encryption,Database encryption,File-level encryption,Volume-level encryption,3
+How does volume encryption compare to file encryption,It is slower and used for backups,It applies to an entire logical unit rather than individual files,It is used for text files only,It replaces hashing completely,2
+What distinguishes database encryption from record encryption,It encrypts cloud infrastructure,It encrypts the full database structure,It applies encryption to individual records only,It stores all data unencrypted,2
+How is record-level encryption different from full-database encryption,It encrypts the operating system,It targets specific database entries,It stores keys publicly,It changes password length,2
+What distinguishes transport encryption from file encryption,It encrypts data at rest,It hides file names,It protects data in transit,It prevents deletion,3
+What distinguishes asymmetric encryption from symmetric encryption,It uses the same key for both actions,It is faster for bulk data,It uses two different keys,It stores data on hardware,3
+What is a key difference between symmetric and asymmetric encryption,Symmetric uses separate keys,Asymmetric is used for storage only,Symmetric uses a single shared key,Symmetric is slower than hashing,3
+What is the purpose of key exchange in relation to encryption,To hash the data,To store passwords securely,To enable both parties to securely share encryption keys,To distribute tokens to all users,3
+What role do algorithms play in encryption,They control access badges,They define cryptographic processes and logic,They handle key recovery,They manage login attempts,2
+How does key length affect encryption security,Shorter keys are more secure,Longer keys increase complexity and resistance to brute-force attacks,Short keys save memory,Longer keys reduce compatibility,2
+How does a Trusted Platform Module differ from a secure enclave,It protects certificate chains,It operates in software,It securely stores keys and supports hardware-based encryption,It encrypts MAC addresses,3
+What distinguishes a hardware security module from software-based tools,It is used for video encoding,It requires no user authentication,It provides tamper-resistant key storage,It monitors server logs,3
+What is the role of a key management system compared to manual storage,It hashes passwords automatically,It distributes, manages, and rotates encryption keys centrally,It controls video surveillance,It stores biometric data,2
+What makes a secure enclave distinct from standard memory storage,It is shared across networks,It processes data in the cloud,It isolates sensitive operations in a secure hardware-based area,It stores revoked certificates,3
+How does steganography differ from encryption,It encodes entire volumes,It is visible to firewalls,It hides data within non-secret content,It uses symmetric keys only,3
+What is the key difference between tokenization and data masking,Tokenization hides data with hashes,Data masking provides realistic but fake values while tokenization substitutes placeholder tokens,Data masking replaces keys,Tokenization encrypts the hash values,2
+How does data masking differ from encryption,It uses asymmetric methods,It provides encrypted output,It obfuscates data with no decryption path,It generates digital signatures,3
+What is the difference between hashing and encryption,Encryption transforms data reversibly,Hashing uses two keys,Hashing is irreversible and generates a fixed output,Hashing uses volume-level keys,3
+How does salting enhance the security of hashing,It adds symmetric keys,It reduces the key length,It adds randomness to prevent hash collisions and precomputed attacks,It replaces the hash entirely,3
+How does a digital signature provide security benefits,It authenticates identity and validates data integrity,It hides data within certificates,It encrypts backup files,It scrambles passwords,1
+What makes key stretching effective against brute force attacks,It reduces entropy,It slows the hashing process deliberately to increase computation time for attackers,It changes the hash function,It uses digital signatures,2
+How does blockchain differ from a traditional database,It stores data in encrypted partitions,It creates symmetric keychains,It stores cryptographically linked blocks in a decentralized ledger,It masks passwords,3
+What distinguishes an open public ledger from private logs,It encrypts network traffic,It allows multiple key formats,It is transparent and available for public verification,It only supports digital signatures,3
+How do certificates relate to public key infrastructure,They store hashed passwords,They are tokens generated for internal use,They validate identity and bind keys within a trusted system,They hide data within tokens,3
+What distinguishes a certificate authority from a self-signed certificate,It is issued by an untrusted source,It uses biometric validation,It is issued and validated by a trusted external entity,It is tied to a root key only,3
+What is the function of a certificate revocation list,To encrypt self-signed certs,To validate OCSP,To list untrusted or invalid certificates,To monitor video surveillance,3
+What is the key benefit of using Online Certificate Status Protocol compared to certificate revocation lists,It stores certificate authorities,It is a manual update method,It provides near real-time certificate validation,It hides certificate tokens,3
+What distinguishes a self-signed certificate from a third-party certificate,It is validated by a certificate authority,It contains multiple keys,It is signed by the issuing entity itself,It requires OCSP by default,3
+How does a third-party certificate differ from a self-signed certificate,It is always free,It is signed by a trusted external authority,It replaces symmetric keys,It stores salting functions,2
+What is the root of trust in a certificate chain,The most recent user key,The foundational trusted authority that validates the entire chain,The wildcard signature,The OCSP responder,2
+What is the purpose of a certificate signing request,To sign hashes manually,To monitor key escrow,To request a certificate from a certificate authority using identifying information,To revoke a digital signature,3
+What does a wildcard certificate enable,Encryption of pressure sensors,Coverage of all subdomains under a single domain,Creation of self-signed tokens,Certificate revocation,2
+A company encrypts all email communications with a solution that uses a publicly shared key for encryption and a privately held key for decryption,Which technology is being used,Hashing,Symmetric encryption,Asymmetric encryption,Key stretching,3
+An organization wants to ensure that encrypted data can be decrypted later even if an employee leaves the company with their private key lost,What solution supports this need,Digital signature,Key escrow,Data masking,Blockchain,2
+You are configuring a backup system and want each drive to be unreadable unless decrypted all at once,Which encryption level is most appropriate,File,Partition,Full-disk,Record,3
+You are securing access to a web application over HTTPS using SSL TLS,Which type of encryption is being used for the initial key exchange,Symmetric,Hashing,Obfuscation,Asymmetric,4
+An administrator wants to encrypt individual records within a database table that includes personal data,What is the correct encryption level,Partition,File,Volume,Record,4
+A developer is implementing a secure messaging app where both parties use a shared secret key for speed,Which encryption method is used here,Symmetric,Asymmetric,Hashing,Tokenization,1
+An attacker intercepted encrypted data but could not decode it due to the key not being shared,What was likely used to prevent interception issues,Symmetric encryption,Key exchange,Salting,Obfuscation,2
+A cryptographer is selecting between AES and RSA for speed and key distribution tradeoffs,Which term refers to this decision,Encryption level,Algorithm,Certificate,Hashing,2
+A system administrator must choose between 128-bit and 256-bit keys,What aspect is being considered,Obfuscation,Key length,Salting,Authorization,2
+You are setting up a device that securely stores encryption keys in hardware for added protection,Which tool are you likely using,Secure enclave,Trusted Platform Module,Online Certificate Status Protocol,Self-signed certificate,2
+An enterprise uses a high-performance external device to offload cryptographic operations for performance and isolation,Which tool is this,Key escrow,Hardware security module,Digital signature generator,Token service,2
+An administrator wants to centralize generation, distribution, and revocation of encryption keys,What system fits this purpose,Blockchain ledger,Certificate revocation list,Key management system,Token vault,3
+A mobile device vendor adds a tamper-resistant secure area in a chip to isolate sensitive code and data,What is this technology called,Secure enclave,Certificate authority,Open public ledger,Deterrent control,1
+A file is hidden within an image using image manipulation,Which technique was used,Salting,Tokenization,Steganography,Symmetric encryption,3
+A payment processor replaces a credit card number with a random placeholder value,What is this technique,Key escrow,Data masking,Tokenization,Honeyfile,3
+A hospital hides portions of patient IDs in a system used for training new staff,Which obfuscation method is this,Hashing,Data masking,Tokenization,Digital signature,2
+A login system stores a password that has been converted into a fixed-size value with no reverse function,Which method is used,Digital signature,Encryption,Hashing,Salting,3
+A system adds random characters to user passwords before hashing them to reduce collision risk,What process is this,Stretching,Salting,Encoding,Authorization,2
+An email is sent with proof of origin and integrity using cryptographic validation,What is this an example of,Certificate signing,Digital signature,Tokenization,Key escrow,2
+A password manager is configured to repeatedly hash passwords thousands of times to slow down brute-force attacks,What is this process,Key exchange,Key stretching,Data masking,Certificate chaining,2
+A distributed financial ledger requires consensus and immutability for each new transaction block,What technology is being used,Hashing,Database indexing,Blockchain,Token vault,3
+A cryptocurrency wallet uses a global system that tracks transactions and is visible to all participants,What is this system,Public key escrow,Open public ledger,Symmetric key vault,Certificate chain,2
+Your web server uses a third party to validate and issue the certificate for HTTPS traffic,What role does that third party serve,Certificate authority,Certificate signing request,Online status responder,Hardware security module,1
+A browser checks if a certificate has been revoked by downloading a full list of invalid certificates,What protocol or method is used,Online Certificate Status Protocol,Certificate authority,Certificate revocation list,Hash verification,3
+Instead of downloading a full list, a browser checks directly with the server to see if a certificate is revoked,Which protocol does it use,Certificate revocation list,Key escrow,Online Certificate Status Protocol,OCSP stapling,3
+A developer signs a certificate with their own private key and distributes it without third-party validation,What type of certificate is this,Third-party,Root,Wildcard,Self-signed,4
+An enterprise uses a certificate issued by a trusted external provider for public websites,What type of certificate is this,Self-signed,Wildcard,Third-party,Intermediate,3
+A certificate chain starts from a highly trusted certificate stored in most operating systems by default,What is this top-level certificate called,Key escrow,Wildcard certificate,Root of trust,OCSP responder,3
+An administrator is generating a certificate for internal use and starts by submitting key details to a certificate authority,What is this process called,Hashing,Certificate signing request generation,Key stretching,Encryption level configuration,2
+A certificate issued to cover multiple subdomains under a single domain is what type,Wildcard,Self-signed,Intermediate,Root,1
