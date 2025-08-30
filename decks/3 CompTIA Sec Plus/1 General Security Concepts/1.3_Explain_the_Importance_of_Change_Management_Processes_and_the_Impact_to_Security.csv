@@ -1,28 +1,55 @@
 Q,Option1,Option2,Option3,Option4,Correct
-What is the primary purpose of a change approval process in security?,To reduce costs,To allow unrestricted access,To minimize risk and ensure proper oversight,To shorten development cycles,3
-In a secure change management process, who is typically responsible for authorizing changes?,Interns,Stakeholders,Customers,External vendors,2
-Which term best describes individuals or groups impacted by or involved in a security change?,Testers,Auditors,Stakeholders,Hackers,3
-Why is an impact analysis important before implementing a change?,It boosts server speed,It helps assess risk and downstream effects,It reduces insurance costs,It updates stakeholders automatically,2
-Test results in change management are most useful for what purpose?,Confirming network topology,Ensuring change won't break functionality,Auditing HR policies,Resetting user credentials,2
-What is the main purpose of a backout plan?,To keep servers cool,To allow a change to be reversed safely,To eliminate all legacy apps,To enforce firewall policies,2
-What does a maintenance window specify?,Budget deadlines,Stakeholder roles,Authorized time period for change,Security patch versions,3
-What is a Standard Operating Procedure (SOP)?,An executive’s agenda,A backup recovery plan,A documented and repeatable process,A policy manual for HR,3
-How do allow lists enhance application security?,They prevent all apps from installing,They allow all activities by default,They specify only approved apps/services,They bypass authentication,3
-What are deny lists used for?,Defining default usernames,Blocking unauthorized apps or services,Listing IPs for VPN,Assigning file permissions,2
-Restricted activities are part of which control process?,Software development,Security camera monitoring,Change management,Customer feedback,3
-Which of the following is a common security impact of unplanned downtime?,Better customer satisfaction,Increased monitoring efficiency,Disrupted services and increased attack surface,Improved latency,3
-What is the purpose of a service restart after applying a patch?,To refresh user data,To reinitialize configurations,To increase bandwidth,To delete logs,2
-Why might a legacy application pose a challenge during change management?,It’s easy to upgrade,It has built-in zero trust,It may not be compatible with modern controls,It supports all cloud platforms,3
-Why should dependencies be analyzed before a change?,To reduce budget,To find developer errors,To ensure related systems aren’t broken,To delete backup files,3
-When is it necessary to update security diagrams?,After a major HR update,After a successful social engineering test,After a network architecture change,Every time the CEO travels,3
-Why should policies and procedures be updated during change management?,To pass security audits,To record user birthdays,To publish press releases,To configure firewalls,1
-What does version control help manage during security-related changes?,User behavior analytics,Employee timesheets,Changes to documents and configurations,Marketing strategies,3
-Which is a benefit of having version control in security documentation?,Increased DDoS resistance,Detecting physical intrusion,Tracking and reversing unwanted edits,Boosting wireless speeds,3
-Which change control element best prevents negative impacts to operations?,Outdated backups,Standard Operating Procedure,Unscheduled updates,Manual installations,2
-How do allow lists and deny lists differ?,Both allow all access by default,Allow lists permit only approved entries, deny lists block known bad ones,They are the same thing,They’re used only in HR policy,2
-What would a layered scenario using test results and backout plans involve?,Pen testing only,Changing passwords monthly,Testing a change and rolling it back if it fails,Using AI for network scans,3
-What might a lab on version control test?,Password rotation,Document rollback and audit trail review,Firewall throughput,Spam filtering effectiveness,2
-A change requires restarting both application and service. What must be considered?,Data compression algorithms,Redundant system availability,Email storage quotas,Webcam permissions,2
-Which is a correct order of operations in change management?,Implement → Approve → Test,Approve → Analyze Impact → Test → Apply → Document,Test → Approve → Backup → Deploy,Skip Approval → Deploy → Document,2
-What role do stakeholders play in change management?,They perform vulnerability scans,They review and approve changes,They are external threat actors,They configure routers,2
-Why is documenting test results critical in a change management process?,To assign blame,To market security services,To verify success and inform future changes,To reset credentials,3
+What is the process of formally granting permission before implementing a change,Impact analysis,Approval process,Version control,Backout plan,2
+Who is responsible for overseeing and managing a specific change or system,Stakeholders,Administrator,Ownership,Supervisor,3
+Who are individuals or groups affected by or involved in a business process change,Users,Stakeholders,Technicians,Auditors,2
+What evaluates how a proposed change could affect systems, operations, or security,Test results,Impact analysis,Backout plan,Maintenance window,2
+What are the documented outcomes of evaluating a change in a controlled environment,Test results,Impact analysis,Version logs,Audit records,1
+What plan outlines how to revert a change if it causes issues,Recovery time objective,Test plan,Backout plan,Failover strategy,3
+What is a pre-scheduled time frame used to perform system updates or changes,Standard operating procedure,Maintenance window,Service downtime,Impact analysis,2
+What is a predefined, repeatable method for performing a routine task,Impact assessment,Stakeholder briefing,Standard operating procedure,Test results,3
+What defines the applications, IP addresses, or services that are explicitly allowed,Allow list,Deny list,Firewall rule,Access group,1
+What lists programs or activities that are blocked from running or accessing resources,Allow list,Restriction notice,Deny list,Security token,3
+What refers to the intentional unavailability of a system for maintenance or updates,Uptime,Downtime,Delay,Throttling,2
+What refers to restarting a program to apply updates or recover from failure,Application rollback,Application restart,Service termination,System reboot,2
+What refers to restarting a background service without rebooting the whole system,System reboot,Application restart,Service restart,Session close,3
+What are outdated programs that may lack modern security support called,Obsolete packages,Legacy applications,Deprecated files,Inactive modules,2
+What are components or systems that rely on one another to function correctly,Resources,Integrations,Dependencies,Subroutines,3
+What is the process of updating network or system maps to reflect changes,Diagram refresh,Topology design,Updating diagrams,Schema build,3
+What is the process of reviewing and adjusting written rules and guidelines to match new changes,Policy reset,Configuration management,Updating policies and procedures,Documentation lifecycle,3
+What ensures that each change to code or documentation is tracked and recorded,Audit logging,Version control,Commit policy,Change log,2
+Which process comes after impact analysis but before implementation,Approval process,Backout plan,Ownership,Test results,1
+How does ownership differ from stakeholder involvement,Ownership requires funding decisions,Ownership assigns responsibility,Stakeholders approve changes,Stakeholders write procedures,2
+What best distinguishes stakeholders from test result reviewers,Stakeholders evaluate business needs,Reviewers update diagrams,Stakeholders write logs,Reviewers approve changes,1
+How is impact analysis different from test results,Impact analysis evaluates risks in advance,Test results determine stakeholder approval,Impact analysis is based on logs,Test results are performed before analysis,1
+Which step provides confirmation of expected outcomes before final approval,Impact analysis,Approval process,Test results,Version control,3
+How does a backout plan relate to test results,A backout plan is required before test results,Test results confirm the need for a backout plan,A backout plan provides rollback if results fail,A backout plan eliminates the need for testing,3
+What distinguishes a maintenance window from normal downtime,A maintenance window is scheduled and approved,Downtime is always during work hours,Maintenance windows prevent all errors,Downtime is initiated by stakeholders,1
+What is the difference between a standard operating procedure and a policy,A procedure gives steps for tasks,A policy enforces laws,A procedure is advisory only,A policy defines backout plans,1
+How does an allow list differ from a deny list,An allow list permits only listed items,A deny list allows everything except listed items,A deny list includes test results,A deny list always requires ownership,1
+What best describes restricted activities compared to deny lists,Restricted activities are tied to user roles,Deny lists are always physical,Restricted activities are for legacy systems only,Deny lists are maintained by stakeholders,1
+Which aspect is common between downtime and service restart,Both involve scheduled maintenance,Downtime requires restart,Downtime is after restart,Downtime does not affect services,1
+What distinguishes a service restart from an application restart,Service restart affects background processes,Application restart reboots the host,Service restart requires stakeholder approval,Application restart never impacts users,1
+Why might application restart be needed instead of full reboot,It resets one program without affecting others,It tests ownership rights,It creates a maintenance window,It initiates a deny list,1
+How are legacy applications a risk during changes,They may lack compatibility with new systems,They require updated diagrams,They are always included in allow lists,They eliminate the need for version control,1
+How do dependencies impact the change process,They require careful analysis to avoid disruption,They replace need for test results,They simplify service restarts,They support unrestricted activity,1
+What is the relationship between updating diagrams and dependencies,Diagrams must reflect changes to dependent systems,Dependencies determine test results,Diagrams are based on backout plans,Dependencies replace documentation,1
+Why is updating policies and procedures important after changes,To align documents with current operations,To list stakeholders involved,To replace version control,To remove allow lists,1
+What role does version control play in managing changes,It tracks changes across documents and configurations,It assigns stakeholder ownership,It defines test results for legacy apps,It monitors backout plans,1
+A company plans to upgrade its authentication server and requires written approval before starting,Ownership,Impact analysis,Approval process,Backout plan,3
+During a system migration, who is responsible for accepting risk and allocating resources for the change,Stakeholders,Ownership,Test results,Policy creators,2
+You are coordinating with department heads to gather input on a planned change, which role are they fulfilling,Approval reviewers,Owners,Stakeholders,Auditors,3
+Before applying a new patch, a team evaluates potential effects on services and users, what step is this,Maintenance window,Backout plan,Impact analysis,Version control,3
+After applying a patch in staging, the team documents how it performed under load. What is this step,Test results,Impact analysis,Ownership review,Approval process,1
+A software update caused a major outage. The team reverts to the last working state. What plan did they follow,Standard operating procedure,Maintenance window,Backout plan,3
+You are scheduling a firewall upgrade during a weekend slot when few users are online. What is this window called,Restricted activity,Downtime,Maintenance window,3
+A technician follows a checklist while applying a configuration change to ensure consistency. What document are they using,Version control log,Standard operating procedure,Policy guide,Change request form,2
+To prevent unknown software from running on company systems, which control should be enforced,Deny list,Allow list,Restricted policy,Legacy blocker,2
+Your company disables all webmail access except for one internal tool. What is this restriction type,Downtime control,Restricted activity,Allow list,Application restart,2
+A critical application update requires a temporary outage for installation. What is this called,Service restart,Downtime,Application restart,Backout window,2
+Your organization needs to restart the DNS service after modifying zone records. What action is this,Application restart,Downtime,Service restart,Restricted access,3
+To apply new configurations without rebooting the entire system, which step is preferred,Backout plan,Application restart,Version control,Allow list,2
+You must upgrade a program built in 2006 that lacks modern support libraries. What risk factor is involved,Restricted activity,Legacy application,Dependency cycle,Impact reviewer,2
+A new patch requires the logging system to be updated before deployment. What must be considered,Ownership rights,Dependencies,Policies,Stakeholder input,2
+After moving a server to a new data center, you must reflect updated IP ranges in the network diagram. What action is this,Diagram update,Backout plan,Dependency removal,Legacy log,1
+You just changed firewall rules. What must be updated to reflect those changes in written policy,Approval documentation,Version control,Policies and procedures,Backout log,3
+You track edits to a configuration file to ensure rollback is possible. What tool or process is most useful,Policy engine,Ownership registry,Version control,Maintenance scheduler,3
