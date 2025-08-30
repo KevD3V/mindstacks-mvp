@@ -1,21 +1,56 @@
 Q,Option1,Option2,Option3,Option4,Correct
-Which threat actor is typically a government-sponsored attacker?,Unskilled attacker,Nation-state,Hacktivist,Shadow IT,2
-Which type of threat actor may include rogue employees?,Insider threat,Nation-state,Organized crime,Ethical hacker,1
-What distinguishes an unskilled attacker from other threat actors?,They use zero-day exploits,They rely on publicly available tools,They lead hacktivist campaigns,They fund large APTs,2
-What motivates most hacktivists?,Financial gain,Political or philosophical beliefs,Corporate loyalty,Espionage,2
-Which threat actor operates outside of official IT policies and can introduce unvetted hardware or software?,Nation-state,Shadow IT,Insider threat,Ethical hacker,2
-How does an insider threat differ from a shadow IT threat?,Shadow IT has authorized access,Insider threat is always unintentional,Insider threat has authorized access,Shadow IT is always state-sponsored,3
-What factor typically limits an unskilled attacker?,Access to targets,Funding,Technical knowledge,Intent,3
-How does the level of sophistication affect an actor's threat level?,More sophistication usually means less dangerous,Sophisticated actors are easier to detect,Higher sophistication enables more advanced attacks,Low sophistication guarantees insider status,3
-Which actor is most likely to engage in data exfiltration for espionage purposes?,Organized crime,Nation-state,Shadow IT,Hacktivist,2
-What is a common financial motivation for organized crime cyberattacks?,Access to classified data,Proving technical skill,Ransomware attacks for profit,Espionage,3
-Which actor is best described as ideologically driven and loosely organized?,Insider threat,Organized crime,Nation-state,Hacktivist,4
-What is one likely goal of a nation-state actor?,Ransomware,Corporate espionage,Denial of service for fun,Disruption of local businesses,2
-Which type of actor might unintentionally create security risks by bypassing IT controls?,Hacktivist,Nation-state,Shadow IT,Insider threat,3
-What attribute would distinguish an external threat actor from an internal one?,They attack from within the network,They lack sophistication,They have valid credentials,They operate outside the organization,4
-Which motivation is **least likely** for an ethical hacker?,Financial gain,Improving security,Training purposes,Compliance testing,1
-Which of the following is an example of a **layered threat** involving multiple motivations?,An insider exfiltrating data for ideological and financial reasons,A hacktivist attacking from an internal network due to revenge,A nation-state insider escalating privileges for fun,Shadow IT accidentally exposing data,1
-Which motivation best explains a threat actor who leaks private emails to damage a public figure's reputation?,Service disruption,Ethical concern,Revenge,Blackmail,3
-Which type of actor often relies on pre-made scripts and has limited knowledge of what they’re doing?,Organized crime,Shadow IT,Unskilled attacker,Nation-state,3
-How does shadow IT introduce risk into an organization?,By conducting penetration testing,By using tools outside of IT governance,By leaking insider information,By intercepting encrypted data,2
-What layered scenario might involve both insider threat and organized crime?,An employee installing unauthorized software,An unskilled attacker breaching a firewall,An employee paid by criminals to exfiltrate data,A nation-state actor disrupting services,3
+What is a threat actor sponsored by a government to carry out cyber operations for intelligence or warfare purposes called,Unskilled attacker,Insider threat,Nation-state,Organized crime,3
+Which type of threat actor typically lacks formal training and may use readily available tools without fully understanding them,Hacktivist,Unskilled attacker,Shadow IT,Nation-state,2
+Which threat actor is primarily driven by ideological or social causes and may deface websites or leak data to promote their message,Insider threat,Hacktivist,Nation-state,Shadow IT,2
+What is a threat that originates from individuals within an organization who misuse their access for malicious purposes called,Nation-state,Unskilled attacker,Insider threat,Hacktivist,3
+What group of cybercriminals is typically highly organized, well-funded, and motivated by financial profit,Hacktivist,Organized crime,Nation-state,Unskilled attacker,2
+Which term refers to unauthorized information systems or applications deployed by employees without organizational approval,Insider threat,Shadow IT,Organized crime,Hacktivist,2
+What attribute of a threat actor refers to whether they are located within the organization or coming from the outside,Resources,Internal external,Level of sophistication,Motivation,2
+Which attribute of a threat actor refers to the financial or technological support they have available,Resources and funding,Internal access,Political motive,Blackmail,1
+What term describes a threat actor's ability to execute advanced techniques and evade detection,Sophistication,Internality,Funding,Disruption,1
+What motivation involves stealing information such as intellectual property or personal data,Data exfiltration,Blackmail,Espionage,War,1
+Which motivation focuses on obtaining confidential information for strategic or competitive advantage,Service disruption,Financial gain,Espionage,Revenge,3
+What motivation is aimed at making a system or network temporarily or permanently unavailable,Data exfiltration,Service disruption,Philosophical belief,Ethical motive,2
+Which threat motivation involves coercing a person or organization by threatening to release sensitive data,Blackmail,Espionage,Revenge,Ethical concern,1
+What is a common motivation where cyberattacks are launched to steal money or commit fraud,Financial gain,Disruption,Espionage,War,1
+Which motivation refers to hacking based on strong beliefs about politics, religion, or ideology,Philosophical or political beliefs,Blackmail,Service disruption,Ethical,1
+What type of motivation is based on doing what the attacker believes is morally right even if unauthorized,Espionage,Financial gain,Ethical,Revenge,3
+Which motivation involves a personal vendetta and aims to cause harm to a specific individual or group,Ethical,Financial gain,Revenge,Data theft,3
+What motivation involves launching attacks to cause widespread disorder without a clear purpose,Disruption or chaos,Blackmail,Financial gain,War,1
+What motivation is aligned with state-sponsored cyber operations to support military or geopolitical objectives,War,Revenge,Service disruption,Token theft,1
+How does a nation-state threat actor differ from an organized crime group in terms of intent,Organized crime seeks fame while nation-states seek money,Nation-states act for strategic interests while organized crime acts for profit,Nation-states are always internal while organized crime is external,Nation-states use low skill tools while organized crime uses advanced methods,2
+What sets an unskilled attacker apart from an insider threat,Unskilled attackers have limited access while insiders often have authorized access,Unskilled attackers always work for governments,Insiders only attack from outside the network,Unskilled attackers are usually well-funded,1
+Which attribute distinguishes a hacktivist from a nation-state actor,Hacktivists work for profit while nation-states operate ethically,Nation-states act on emotion while hacktivists act for power,Hacktivists are motivated by ideology while nation-states are driven by national interest,Hacktivists use advanced tools while nation-states rely on social media,3
+How is shadow IT different from an insider threat,Shadow IT involves rogue hardware while insider threat always means data theft,Shadow IT is unapproved technology use while insider threat is misuse of legitimate access,Insider threat is external while shadow IT is always government-sponsored,Shadow IT includes attacks from law enforcement,2
+How can internal and external threat actors be best contrasted,Internal actors lack access while external actors do not,Internal actors operate legally while external actors do not,Internal actors have authorized access while external actors breach systems,External actors always use physical methods while internal actors do not,3
+Which actor attribute most directly influences the use of advanced persistent threats,Internal access,Resources and funding,Philosophical motive,Ethical behavior,2
+How does a high level of sophistication affect a threat actor’s capabilities,It reduces stealth but improves speed,It limits use of custom tools,It enables stealthy and persistent attacks,It makes detection easier,3
+How does data exfiltration compare to espionage as a motivation,Espionage involves disruption while data exfiltration does not,Espionage involves strategic intelligence while data exfiltration may target any sensitive data,Data exfiltration is ethical while espionage is not,Data exfiltration always includes financial gain,2
+Which motivation typically focuses more on gathering information than causing harm,Disruption,Service disruption,Espionage,Revenge,3
+How does blackmail differ from financial gain in terms of intent,Blackmail always involves legal threats,Financial gain is a secondary outcome of blackmail,Blackmail uses coercion while financial gain focuses on direct theft,Blackmail involves more advanced tools,3
+What separates political motivation from ethical motivation,Ethical motivation supports revenge while political beliefs aim for profit,Political beliefs drive ideological attacks while ethical motives focus on perceived moral duties,Ethical motivations are illegal while political ones are not,Political motivation always involves insiders,2
+How does revenge differ from disruption or chaos as a motivation,Revenge targets specific individuals or entities while disruption or chaos targets systems broadly,Disruption is always internal while revenge is external,Revenge is legally protected while disruption is criminal,Revenge uses more funding,1
+Which motivation most often aligns with state-sponsored actors,Blackmail,Espionage,Revenge,Service disruption,2
+How do philosophical beliefs contrast with financial motivations,Philosophical motivations involve internal threats only,Financial motivations are indirect while philosophical beliefs are always covert,Philosophical motivations are ideology-driven while financial motivations aim at profit,Financial motives are based in revenge,3
+Which motivation is most likely to result in prolonged psychological pressure tactics,War,Disruption,Espionage,Blackmail,4
+A foreign government is believed to be behind a breach that accessed classified data without causing obvious damage. What type of actor is most likely involved,Nation-state,Hacktivist,Shadow IT,Organized crime,1
+A student with limited technical skill downloads a public exploit script and accidentally crashes a website while testing it. What type of actor does this describe,Unskilled attacker,Insider threat,Nation-state,Hacktivist,1
+A group takes down a financial website to protest unethical banking practices and releases a manifesto online. What best describes the group,Hacktivist,Organized crime,Shadow IT,Nation-state,1
+A disgruntled employee with access to sensitive files exfiltrates data after receiving a poor performance review. What is the threat actor category,Insider threat,Unskilled attacker,Nation-state,Hacktivist,1
+Multiple ransomware attacks are traced back to a large cybercrime group demanding payment in cryptocurrency. What type of actor is responsible,Organized crime,Nation-state,Hacktivist,Insider threat,1
+An employee installs unauthorized file sharing software on a work laptop, exposing the internal network. What best describes this risk,Shadow IT,Insider threat,Unskilled attacker,Organized crime,1
+An external actor gains access to a system through a phishing campaign. What attribute best describes their origin,External,Internal,Insider,Unskilled,1
+A well-funded actor bypasses multiple layers of security using zero-day exploits and custom malware. What attribute is being demonstrated,High sophistication,Low funding,Minimal training,Insider access,1
+Which scenario best reflects how funding affects actor behavior,A nation-state with high funding builds custom tools while a low-funded attacker reuses public scripts,All actors act the same regardless of budget,Insiders always have more funding than outsiders,Funding only applies to physical attacks,1
+An attacker targets sensitive customer information and exports it for resale. What is the most likely motivation,Data exfiltration,War,Espionage,Philosophy,1
+A spy infiltrates a government system to collect intelligence on defense strategies. What motivation is demonstrated,Espionage,Financial gain,Chaos,Revenge,1
+A hacktivist launches a denial of service attack against a news site to disrupt access during a major event. What motivation applies,Service disruption,Financial gain,Blackmail,War,1
+An attacker threatens to release confidential photos unless a ransom is paid. What is the primary motivation,Blackmail,Espionage,Disruption,Ethical belief,1
+A cybercriminal steals credit card data from an e-commerce site to sell on the black market. What is the most likely motivation,Financial gain,Philosophy,Ethical,Revenge,1
+A group defaces websites to promote their anti-government ideology. What is the motivation behind their attack,Philosophical belief,Espionage,Blackmail,Revenge,1
+A white-hat hacker reports a vulnerability to a company without demanding compensation. What motivation is shown,Ethical,Blackmail,Espionage,Chaos,1
+A fired employee deletes critical files from a shared drive out of spite. What is the primary motivation,Revenge,Espionage,Financial gain,War,1
+An attacker crashes systems across multiple companies with no demand or communication. What is the likely motivation,Disruption and chaos,Ethical belief,Blackmail,Revenge,1
+State-sponsored actors target another country's infrastructure during a political conflict. What is the most likely motivation,War,Data exfiltration,Ethics,Blackmail,1
+During a lab exercise, students are instructed to simulate unauthorized file transfers using dummy data. What motivation is being practiced,Data exfiltration,Revenge,Financial gain,Ethics,1
+As part of a red team simulation, participants create profiles to emulate hacktivist behaviors and launch defacement attacks. What is this lab demonstrating,Hacktivist tactics,Blackmail attempts,Insider threats,Organized crime,1
